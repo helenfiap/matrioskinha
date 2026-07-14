@@ -1,0 +1,38 @@
+{
+  "sidebar": {
+    "brandTagline": "Бразилия × Россия",
+    "groups": {
+      "aprender": "Обучение",
+      "conteudo": "Содержание",
+      "praticar": "Практика",
+      "progresso": "Прогресс",
+      "config": "Настройки"
+    },
+    "items": {
+      "visaoGeral": "Обзор",
+      "minhaTrilha": "Мой путь",
+      "aulaAtual": "Текущий урок",
+      "conjugador": "Спряжение глаголов",
+      "tuVoce": "Tu × você",
+      "brasilReal": "Настоящая Бразилия",
+      "bancoExercicios": "Банк упражнений",
+      "pictogramas": "Пиктограммы",
+      "cenarios": "Сцены",
+      "audioPronuncia": "Аудио и произношение",
+      "desempenho": "Показатели",
+      "revisao": "Повторение",
+      "preferencias": "Параметры"
+    },
+    "noteTitle": "Слой за слоем",
+    "noteBody": "структура, чтобы направлять, контекст, чтобы понимать, повторение, чтобы автоматизировать."
+  },
+  "topbar": {
+    "menuAria": "Открыть меню",
+    "searchPlaceholder": "Найти глагол, тему или ситуацию...",
+    "searchEmpty": "Ничего не найдено.",
+    "langLabel": "Русский",
+    "continueBtn": "Продолжить урок 3.2",
+    "avatarAlt": "Аватар Деметрио"
+  },
+  "footer": "matrioskinha · концептуальная демоверсия по бренд-гайду · авторский контент на основе лингвистических и культурных источников"
+}

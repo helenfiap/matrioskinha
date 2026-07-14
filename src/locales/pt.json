@@ -1,0 +1,38 @@
+{
+  "sidebar": {
+    "brandTagline": "Brasil × Rússia",
+    "groups": {
+      "aprender": "Aprender",
+      "conteudo": "Conteúdo",
+      "praticar": "Praticar",
+      "progresso": "Progresso",
+      "config": "Configurações"
+    },
+    "items": {
+      "visaoGeral": "Visão geral",
+      "minhaTrilha": "Minha trilha",
+      "aulaAtual": "Aula atual",
+      "conjugador": "Conjugador de verbos",
+      "tuVoce": "Tu × você",
+      "brasilReal": "Brasil real",
+      "bancoExercicios": "Banco de exercícios",
+      "pictogramas": "Pictogramas",
+      "cenarios": "Cenários",
+      "audioPronuncia": "Áudio e pronúncia",
+      "desempenho": "Desempenho",
+      "revisao": "Revisão",
+      "preferencias": "Preferências"
+    },
+    "noteTitle": "Camada por camada",
+    "noteBody": "estrutura para orientar, contexto para compreender, repetição para automatizar."
+  },
+  "topbar": {
+    "menuAria": "Abrir menu",
+    "searchPlaceholder": "Buscar verbo, tema ou situação...",
+    "searchEmpty": "Nada encontrado.",
+    "langLabel": "Português",
+    "continueBtn": "Continuar lição 3.2",
+    "avatarAlt": "Avatar de Demetrio"
+  },
+  "footer": "matrioskinha · demo conceitual alinhada ao guia de branding · conteúdo autoral, inspirado em referências linguísticas e culturais"
+}
