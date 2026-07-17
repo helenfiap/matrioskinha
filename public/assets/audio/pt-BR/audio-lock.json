@@ -1339,6 +1339,870 @@
       "voice": "pt-BR-AntonioNeural",
       "relativePath": "scene-phrases/transporte--phrase--2.mp3",
       "generatedAt": "2026-07-17T01:32:34.090Z"
+    },
+    "emotion:female:feliz-1ng812j": {
+      "hash": "caefb9b0872ba175e466e8f788b3e3aa4af85eb45bd7bac64fb88e2c3186a96f",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/feliz-1ng812j.mp3",
+      "generatedAt": "2026-07-17T03:23:47.716Z"
+    },
+    "emotion:male:feliz-1ng812j": {
+      "hash": "20fa8d878fa254bae653db963302dec0b540bdab3ca20d58cdc5bd70567dc6fd",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/feliz-1ng812j.mp3",
+      "generatedAt": "2026-07-17T03:23:50.304Z"
+    },
+    "emotion:female:ela-esta-feliz-porque-encontrou-uma-amiga-0qbleg7": {
+      "hash": "7d4de80767710d44b5494d29359e62351fbb6ab68792fd364f0e5fe2af69059e",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/ela-esta-feliz-porque-encontrou-uma-amiga-0qbleg7.mp3",
+      "generatedAt": "2026-07-17T03:23:53.234Z"
+    },
+    "emotion:male:ele-esta-feliz-porque-recebeu-uma-boa-noti-1k0lji7": {
+      "hash": "908596448b7911e467225e5b65291009a592df95088578e2000d404808a91cf1",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/ele-esta-feliz-porque-recebeu-uma-boa-noti-1k0lji7.mp3",
+      "generatedAt": "2026-07-17T03:23:56.106Z"
+    },
+    "emotion:female:eu-me-sinto-feliz-hoje-0e8bg9e": {
+      "hash": "771e2efe6281757700bf8c64cf6065094f24c41545f51dae8383cc7f333e4779",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/eu-me-sinto-feliz-hoje-0e8bg9e.mp3",
+      "generatedAt": "2026-07-17T03:23:59.126Z"
+    },
+    "emotion:male:eu-me-sinto-feliz-hoje-0e8bg9e": {
+      "hash": "68b15f0c8737bf7e49651653048b0c883b35dca639cb8db62268d3eff74694dc",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/eu-me-sinto-feliz-hoje-0e8bg9e.mp3",
+      "generatedAt": "2026-07-17T03:24:02.137Z"
+    },
+    "emotion:female:conte-uma-coisa-simples-que-deixou-voce-fe-1pk4w6w": {
+      "hash": "fba1febee3999c6fe0be5ec8d5af5cc363fa5bbf55953557551bc9142a347694",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/conte-uma-coisa-simples-que-deixou-voce-fe-1pk4w6w.mp3",
+      "generatedAt": "2026-07-17T03:24:04.926Z"
+    },
+    "emotion:male:feliz-nao-muda-no-feminino-e-no-masculino-1ah7ymo": {
+      "hash": "27651027b0a08d0eab881a8bcd44ed91cf99e8f1ade4706524316539e9f94e7d",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/feliz-nao-muda-no-feminino-e-no-masculino-1ah7ymo.mp3",
+      "generatedAt": "2026-07-17T03:24:07.854Z"
+    },
+    "emotion:female:no-brasil-que-bom-e-uma-reacao-muito-comum-1d1zytx": {
+      "hash": "53a769f77b9b471af7d0cb7af9495d542a7f76905728c2bf87869c75789db834",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/no-brasil-que-bom-e-uma-reacao-muito-comum-1d1zytx.mp3",
+      "generatedAt": "2026-07-17T03:24:11.007Z"
+    },
+    "emotion:female:triste-0psh6b8": {
+      "hash": "a1d559592eea91dd203183a7f26c3de94be2e816f2639c9827b8848c54dc423d",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/triste-0psh6b8.mp3",
+      "generatedAt": "2026-07-17T03:24:13.541Z"
+    },
+    "emotion:male:triste-0psh6b8": {
+      "hash": "94497a73951e40342f4dcf7d967c6f04b603d6a1411038dc3ae58e196b5a6c0c",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/triste-0psh6b8.mp3",
+      "generatedAt": "2026-07-17T03:24:16.246Z"
+    },
+    "emotion:female:ela-esta-triste-porque-sente-saudade-da-fa-17t24jf": {
+      "hash": "74a89887fb02a2b15b136de4d1cbedb8e09ef7a34545dd314d9acc86a19cf4b6",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/ela-esta-triste-porque-sente-saudade-da-fa-17t24jf.mp3",
+      "generatedAt": "2026-07-17T03:24:18.966Z"
+    },
+    "emotion:male:ele-ficou-triste-com-a-despedida-0lss053": {
+      "hash": "3ae0bf1e8d96ecc800dff580477c5f65a6ffad93ee09113013249d1545bc6d54",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/ele-ficou-triste-com-a-despedida-0lss053.mp3",
+      "generatedAt": "2026-07-17T03:24:21.881Z"
+    },
+    "emotion:female:hoje-eu-estou-um-pouco-triste-0oaoz66": {
+      "hash": "f81d447fc0ddc63edc17e417ac624307e2d264f13ed78be4b0876c3d016190c5",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/hoje-eu-estou-um-pouco-triste-0oaoz66.mp3",
+      "generatedAt": "2026-07-17T03:24:24.648Z"
+    },
+    "emotion:male:hoje-eu-estou-um-pouco-triste-0oaoz66": {
+      "hash": "56ebca04594a9ac40716032e7e6aa670ac2fbe45ddd64d4dea20570e98252586",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/hoje-eu-estou-um-pouco-triste-0oaoz66.mp3",
+      "generatedAt": "2026-07-17T03:24:27.959Z"
+    },
+    "emotion:female:como-voce-acolheria-uma-pessoa-que-esta-tr-1xgdvdf": {
+      "hash": "a66dadac49216757938d145acc15af3192e67d8a2a162e228d10318cd5a9ca27",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/como-voce-acolheria-uma-pessoa-que-esta-tr-1xgdvdf.mp3",
+      "generatedAt": "2026-07-17T03:24:31.142Z"
+    },
+    "emotion:male:estar-triste-descreve-o-estado-ficar-trist-0vzq7uf": {
+      "hash": "dd82477184e1771b85e9b27d2b1133924e1409ca406fc310d40651198b56f25e",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/estar-triste-descreve-o-estado-ficar-trist-0vzq7uf.mp3",
+      "generatedAt": "2026-07-17T03:24:34.498Z"
+    },
+    "emotion:female:saudade-pode-misturar-tristeza-e-afeto-nem-18kuyoo": {
+      "hash": "72c5199f48702d93f2525f48a2d8629e7fa804ee9c55fcf15879e394747e7d6e",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/saudade-pode-misturar-tristeza-e-afeto-nem-18kuyoo.mp3",
+      "generatedAt": "2026-07-17T03:24:37.649Z"
+    },
+    "emotion:female:apaixonada-0lazubt": {
+      "hash": "2bcf9f107ee12107ab534bf7d7fd1c24bf4eb9ee55883b3f692df0988fd3a43a",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/apaixonada-0lazubt.mp3",
+      "generatedAt": "2026-07-17T03:24:40.526Z"
+    },
+    "emotion:male:apaixonado-0o2vv9j": {
+      "hash": "a3d2ecdb1f49d073e93b77c776efa6cc8637740eb0917a4c53a64ffacfb9b70c",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/apaixonado-0o2vv9j.mp3",
+      "generatedAt": "2026-07-17T03:24:43.268Z"
+    },
+    "emotion:female:ela-esta-apaixonada-por-uma-colega-da-facu-1to0hld": {
+      "hash": "c631503c6a93907e5d58befcf7b3a9286376e41140a213842a5f347d732f98fa",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/ela-esta-apaixonada-por-uma-colega-da-facu-1to0hld.mp3",
+      "generatedAt": "2026-07-17T03:24:46.134Z"
+    },
+    "emotion:male:ele-esta-apaixonado-e-nao-para-de-sorrir-1lkvr0b": {
+      "hash": "61258200b4d5f9162b4864ae79a8aa91bf07532f640e7167c98e2fe15e5d9f5c",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/ele-esta-apaixonado-e-nao-para-de-sorrir-1lkvr0b.mp3",
+      "generatedAt": "2026-07-17T03:24:48.986Z"
+    },
+    "emotion:female:eu-estou-apaixonada-04qcan1": {
+      "hash": "a3c7156a512e8593742407c567df6656c78f6c900e4367b50ca69c01961e4bd5",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/eu-estou-apaixonada-04qcan1.mp3",
+      "generatedAt": "2026-07-17T03:24:51.801Z"
+    },
+    "emotion:male:eu-estou-apaixonado-04pr61f": {
+      "hash": "266d51ad6fe7315a1447ababeb64c79196736141371c62c0b62be1e16486c0fc",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/eu-estou-apaixonado-04pr61f.mp3",
+      "generatedAt": "2026-07-17T03:24:54.477Z"
+    },
+    "emotion:female:que-sinais-mostram-que-alguem-esta-apaixon-0oorlhe": {
+      "hash": "101c648d48fdb571a03231d85dc90f3f4c82ec42d3888bcf238fc280fa515c6e",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/que-sinais-mostram-que-alguem-esta-apaixon-0oorlhe.mp3",
+      "generatedAt": "2026-07-17T03:24:57.218Z"
+    },
+    "emotion:male:em-portugues-usamos-apaixonado-por-alguem-13pi3vr": {
+      "hash": "42753bae235df78804205c16f81ff429e5906c5353b991da3c6402b6fb82842a",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/em-portugues-usamos-apaixonado-por-alguem-13pi3vr.mp3",
+      "generatedAt": "2026-07-17T03:25:00.276Z"
+    },
+    "emotion:female:gostar-de-pode-expressar-afeto-de-modo-mai-1h5hgft": {
+      "hash": "06a9e1463074cc85b0f3b42f415533323a5e284e8b6885f7b0b03a41eac33a34",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/gostar-de-pode-expressar-afeto-de-modo-mai-1h5hgft.mp3",
+      "generatedAt": "2026-07-17T03:25:02.680Z"
+    },
+    "emotion:female:preocupada-021dp7f": {
+      "hash": "f36fad6465ea303f34dea50c123f12f4788b527ae5989dc72d981d2c1e8a3b01",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/preocupada-021dp7f.mp3",
+      "generatedAt": "2026-07-17T03:25:04.723Z"
+    },
+    "emotion:male:preocupado-01hehth": {
+      "hash": "2c47a6a1b413b7279caeed4729c85649b764c9ecfb7dc6d756b437dd9bf976a0",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/preocupado-01hehth.mp3",
+      "generatedAt": "2026-07-17T03:25:06.743Z"
+    },
+    "emotion:female:ela-esta-preocupada-com-a-prova-de-amanha-11bob01": {
+      "hash": "248dc3b0d2363f213b37eed8f9f89e6e9f89f67f27666a6f727dd38a76f2436e",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/ela-esta-preocupada-com-a-prova-de-amanha-11bob01.mp3",
+      "generatedAt": "2026-07-17T03:25:08.976Z"
+    },
+    "emotion:male:ele-ficou-preocupado-quando-o-onibus-atras-17y0e06": {
+      "hash": "f143a66d7affc8552c1ff9fea98c507b4975169bc5f21bd76078949053749a76",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/ele-ficou-preocupado-quando-o-onibus-atras-17y0e06.mp3",
+      "generatedAt": "2026-07-17T03:25:11.397Z"
+    },
+    "emotion:female:eu-estou-preocupada-com-isso-13stjxa": {
+      "hash": "c07dcd71c05d6b8125a383bc83bf4db4edd672fa41ec92f8e029964d28ce3815",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/eu-estou-preocupada-com-isso-13stjxa.mp3",
+      "generatedAt": "2026-07-17T03:25:13.625Z"
+    },
+    "emotion:male:eu-estou-preocupado-com-isso-14etfnc": {
+      "hash": "c266ea12df928dc5476cbde3607973bae582c809ec97b193d4d5b9687250d31d",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/eu-estou-preocupado-com-isso-14etfnc.mp3",
+      "generatedAt": "2026-07-17T03:25:15.914Z"
+    },
+    "emotion:female:o-que-ajuda-voce-quando-esta-preocupado-0kn7kz2": {
+      "hash": "c7afc28c190aa71a9ed8ca993ba788300f9a419be589ffa63c6eb95191d75e23",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/o-que-ajuda-voce-quando-esta-preocupado-0kn7kz2.mp3",
+      "generatedAt": "2026-07-17T03:25:18.093Z"
+    },
+    "emotion:male:a-construcao-mais-comum-e-preocupado-com-a-0zv4gwf": {
+      "hash": "e637f1da743450d4c4916a2cdaba00862edf24ab26e10c9a154e60447cf92073",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/a-construcao-mais-comum-e-preocupado-com-a-0zv4gwf.mp3",
+      "generatedAt": "2026-07-17T03:25:20.247Z"
+    },
+    "emotion:female:perguntar-esta-tudo-bem-e-uma-forma-brasil-0n5q2qb": {
+      "hash": "a2a0a4399643f2b439282632ebf119c5a162bc9389ef31298fdc9e23a9f30622",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/perguntar-esta-tudo-bem-e-uma-forma-brasil-0n5q2qb.mp3",
+      "generatedAt": "2026-07-17T03:25:23.347Z"
+    },
+    "emotion:female:assustada-076607u": {
+      "hash": "eaf9f4be55616e565220afd4a8764e924a9032f9897ea06e12948eadcb6025d0",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/assustada-076607u.mp3",
+      "generatedAt": "2026-07-17T03:25:25.662Z"
+    },
+    "emotion:male:assustado-03abki8": {
+      "hash": "aaf58a8887d689ee48c7adc36fad9792ecddcbbcf8990ca211ddddaf92b89562",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/assustado-03abki8.mp3",
+      "generatedAt": "2026-07-17T03:25:27.906Z"
+    },
+    "emotion:female:ela-ficou-assustada-com-o-barulho-da-porta-0xbqauo": {
+      "hash": "67aa027dc84e0db981bab4da1f064f6ac1e88a6ef5096ac9910fe35417fa1ff9",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/ela-ficou-assustada-com-o-barulho-da-porta-0xbqauo.mp3",
+      "generatedAt": "2026-07-17T03:25:30.404Z"
+    },
+    "emotion:male:ele-esta-assustado-mas-ja-esta-seguro-1t5g14r": {
+      "hash": "65fb74665ef75ef7ec7fd6b89daccf1df81378e45e233194b90372527d548de2",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/ele-esta-assustado-mas-ja-esta-seguro-1t5g14r.mp3",
+      "generatedAt": "2026-07-17T03:25:33.224Z"
+    },
+    "emotion:female:eu-levei-um-susto-1qblszb": {
+      "hash": "3ba00cf4627a177b7c684f4ecc9dcaaa9f6c49d13e671b34eec83f69614e1335",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/eu-levei-um-susto-1qblszb.mp3",
+      "generatedAt": "2026-07-17T03:25:35.492Z"
+    },
+    "emotion:male:eu-levei-um-susto-1qblszb": {
+      "hash": "518edf9780d818cc2b22637e3b44e1955375106a2e39d84dc99e979f56c3f7f0",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/eu-levei-um-susto-1qblszb.mp3",
+      "generatedAt": "2026-07-17T03:25:37.696Z"
+    },
+    "emotion:female:o-que-voce-diria-para-tranquilizar-alguem--1vx8m3r": {
+      "hash": "2809d26635353da54a5e71608c502ae212c2b90fceea633e5e444dc8098426a1",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/o-que-voce-diria-para-tranquilizar-alguem--1vx8m3r.mp3",
+      "generatedAt": "2026-07-17T03:25:40.460Z"
+    },
+    "emotion:male:levar-um-susto-e-uma-expressao-muito-comum-13tu547": {
+      "hash": "51ca0e5f6b3f4cbb784ea98124c5e76f509682e94214d8145171c147c151f7ae",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/levar-um-susto-e-uma-expressao-muito-comum-13tu547.mp3",
+      "generatedAt": "2026-07-17T03:25:42.910Z"
+    },
+    "emotion:female:nossa-pode-expressar-susto-surpresa-ou-adm-0m1ysfd": {
+      "hash": "96f3778cd0e1579188e7174dd903529ee51f53c3cd39b012746690984b04c1cb",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/nossa-pode-expressar-susto-surpresa-ou-adm-0m1ysfd.mp3",
+      "generatedAt": "2026-07-17T03:25:45.442Z"
+    },
+    "emotion:female:calma-0bfhis5": {
+      "hash": "26badee29256c7db71955ef973191616587a1dbb85bd89ecc275ff9acdacd089",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/calma-0bfhis5.mp3",
+      "generatedAt": "2026-07-17T03:25:47.377Z"
+    },
+    "emotion:male:calmo-0bzgq63": {
+      "hash": "0947a3292fee1361c39c98e0c77156794cfd6e8eab407f59f60588495bb19ed2",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/calmo-0bzgq63.mp3",
+      "generatedAt": "2026-07-17T03:25:49.506Z"
+    },
+    "emotion:female:ela-esta-calma-antes-da-apresentacao-1sxidea": {
+      "hash": "69312e663baa93d8e20f7cab5c9bcae6457a21e6962e35f58da7082ba5b4b143",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/ela-esta-calma-antes-da-apresentacao-1sxidea.mp3",
+      "generatedAt": "2026-07-17T03:25:51.874Z"
+    },
+    "emotion:male:ele-ficou-calmo-depois-de-respirar-fundo-01ouozg": {
+      "hash": "514f8f4e0a8cc7d326dbb5b9f479d6ead8d4dd95f2654c4a516cba020de14d4c",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/ele-ficou-calmo-depois-de-respirar-fundo-01ouozg.mp3",
+      "generatedAt": "2026-07-17T03:25:54.311Z"
+    },
+    "emotion:female:agora-eu-me-sinto-calma-00kf054": {
+      "hash": "595712d58ef3f42ecf601c6c9fdb8aff70c015064cb9ea9b258f091a8b371467",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/agora-eu-me-sinto-calma-00kf054.mp3",
+      "generatedAt": "2026-07-17T03:25:56.601Z"
+    },
+    "emotion:male:agora-eu-me-sinto-calmo-103xvj2": {
+      "hash": "3700e50cb92ee55bd97fb62a9d79fb810c39f4867652f902ec387f4d71ef4f15",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/agora-eu-me-sinto-calmo-103xvj2.mp3",
+      "generatedAt": "2026-07-17T03:25:58.722Z"
+    },
+    "emotion:female:qual-habito-ajuda-voce-a-recuperar-a-calma-1k40dco": {
+      "hash": "cb40a6b5d8fc23d2baaad745d1b25cf58c365357897b2bff88563763a9b9665e",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/qual-habito-ajuda-voce-a-recuperar-a-calma-1k40dco.mp3",
+      "generatedAt": "2026-07-17T03:26:01.638Z"
+    },
+    "emotion:male:estar-calmo-e-um-estado-ficar-calmo-indica-0zsx5u7": {
+      "hash": "9bdc79578c6a9a3f8ef805b99da8f2b27693b20084777aa18d0177112d7e38e3",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/estar-calmo-e-um-estado-ficar-calmo-indica-0zsx5u7.mp3",
+      "generatedAt": "2026-07-17T03:26:04.575Z"
+    },
+    "emotion:female:fica-tranquilo-pode-significar-tanto-acalm-12t5xby": {
+      "hash": "02c1dc6d0d1ff4903b51341b7259c6a7e5c9a9a6818e70892d21b919ecfa8108",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/fica-tranquilo-pode-significar-tanto-acalm-12t5xby.mp3",
+      "generatedAt": "2026-07-17T03:26:07.229Z"
+    },
+    "emotion:female:irritada-0a38jgj": {
+      "hash": "be894453146be1f334544541f3f691a183319b2cef3e70594da48aa4dc782d94",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/irritada-0a38jgj.mp3",
+      "generatedAt": "2026-07-17T03:26:09.292Z"
+    },
+    "emotion:male:irritado-0dz2z65": {
+      "hash": "34978e05e008f347fb0e247e2fbf6d8eb33d67a939b693a68c7db80a246935a9",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/irritado-0dz2z65.mp3",
+      "generatedAt": "2026-07-17T03:26:11.543Z"
+    },
+    "emotion:female:ela-esta-irritada-com-o-barulho-constante-1p86ffw": {
+      "hash": "791c65dd1a55a8dc90db0b727a1bf7f583d21e4f86c4e4d693abe2ae00c6f57c",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/ela-esta-irritada-com-o-barulho-constante-1p86ffw.mp3",
+      "generatedAt": "2026-07-17T03:26:13.824Z"
+    },
+    "emotion:male:ele-ficou-irritado-porque-ninguem-responde-1sybmtv": {
+      "hash": "1179d05af32c8046455ef99aff115eaade6b4e65c5639f7461d2de757ef1f4b0",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/ele-ficou-irritado-porque-ninguem-responde-1sybmtv.mp3",
+      "generatedAt": "2026-07-17T03:26:16.159Z"
+    },
+    "emotion:female:eu-estou-irritada-preciso-de-um-minuto-0dhq901": {
+      "hash": "f4d981b0d089c0c402807ff7d4f2f95d7b201b499a32ef1f368080347a4f1184",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/eu-estou-irritada-preciso-de-um-minuto-0dhq901.mp3",
+      "generatedAt": "2026-07-17T03:26:18.342Z"
+    },
+    "emotion:male:eu-estou-irritado-preciso-de-um-minuto-07oeisj": {
+      "hash": "9324d23c1d9b8fa9747f4c33d129f99b34ee086e4068bed0ee29bf94f2c51f7d",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/eu-estou-irritado-preciso-de-um-minuto-07oeisj.mp3",
+      "generatedAt": "2026-07-17T03:26:20.891Z"
+    },
+    "emotion:female:como-expressar-irritacao-sem-desrespeitar--1cqyq4q": {
+      "hash": "835d47098ad770ad5ea8b0c4889f02e5bfbb19b6573273d44b1316ecdb01e4fb",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/como-expressar-irritacao-sem-desrespeitar--1cqyq4q.mp3",
+      "generatedAt": "2026-07-17T03:26:23.568Z"
+    },
+    "emotion:male:podemos-estar-irritados-com-alguem-ou-irri-14m9wyh": {
+      "hash": "6da189d9859ac09f76d93d577036f5d2ddddb221484775d1d71608fb313652cc",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/podemos-estar-irritados-com-alguem-ou-irri-14m9wyh.mp3",
+      "generatedAt": "2026-07-17T03:26:25.883Z"
+    },
+    "emotion:female:preciso-de-um-minuto-ajuda-a-estabelecer-u-0c0rxtv": {
+      "hash": "69a6f35b58dccabe1546f4c934af96bcf58df9629c5357aeeb6391a5cd6b33b3",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/preciso-de-um-minuto-ajuda-a-estabelecer-u-0c0rxtv.mp3",
+      "generatedAt": "2026-07-17T03:26:28.508Z"
+    },
+    "emotion:female:surpresa-168dwei": {
+      "hash": "4f7cf8fcd63b58f3a676fb8f4655248316febeb0d27d6920efd763e843e9ea45",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/surpresa-168dwei.mp3",
+      "generatedAt": "2026-07-17T03:26:30.805Z"
+    },
+    "emotion:male:surpreso-12cjgow": {
+      "hash": "2e8386c1eb37dc287f00b2f633407e8c39f1e912dd2f8389f497bf37bc1f562f",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/surpreso-12cjgow.mp3",
+      "generatedAt": "2026-07-17T03:26:32.836Z"
+    },
+    "emotion:female:ela-ficou-surpresa-com-a-festa-0jzqlff": {
+      "hash": "cff230ce12864fe2afffa3d8a1cc670e411da8cf5bddb4572fddedead7e18c82",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/ela-ficou-surpresa-com-a-festa-0jzqlff.mp3",
+      "generatedAt": "2026-07-17T03:26:35.089Z"
+    },
+    "emotion:male:ele-esta-surpreso-com-o-resultado-0u19u3c": {
+      "hash": "e4e0af4e8fa8d65d6ac671eeeca5222bf697af6a39ac4d7227ee4456e315f67d",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/ele-esta-surpreso-com-o-resultado-0u19u3c.mp3",
+      "generatedAt": "2026-07-17T03:26:37.319Z"
+    },
+    "emotion:female:eu-nao-esperava-por-isso-1bd1pgm": {
+      "hash": "ad95709a67bee07a8360899190ba7b8a0e6f9d50b5e5e51ce947fa5f71dad2c8",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/eu-nao-esperava-por-isso-1bd1pgm.mp3",
+      "generatedAt": "2026-07-17T03:26:39.547Z"
+    },
+    "emotion:male:eu-nao-esperava-por-isso-1bd1pgm": {
+      "hash": "b0ef62329b285dd9c91a6a27a1e1c245a2ee280526120e25c790e6f624d62862",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/eu-nao-esperava-por-isso-1bd1pgm.mp3",
+      "generatedAt": "2026-07-17T03:26:42.015Z"
+    },
+    "emotion:female:conte-uma-surpresa-positiva-que-voce-receb-0v1qm17": {
+      "hash": "a65fbb613370dfbf3e170daee8c5ee9ad9d5fb4f1c393e059387685d4a0b85df",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/conte-uma-surpresa-positiva-que-voce-receb-0v1qm17.mp3",
+      "generatedAt": "2026-07-17T03:26:44.558Z"
+    },
+    "emotion:male:ficar-surpreso-destaca-o-momento-em-que-a--1gojv50": {
+      "hash": "d516bad9a3e5a45f2f5d2f7acba815b2c2f5dc81ff1cdac93e74b486b059b06b",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/ficar-surpreso-destaca-o-momento-em-que-a--1gojv50.mp3",
+      "generatedAt": "2026-07-17T03:26:47.244Z"
+    },
+    "emotion:female:nossa-e-serio-sao-reacoes-comuns-em-russo--1bfpywy": {
+      "hash": "f7bc0589cef0994cbb5a5ad4a5865f7611bf9aa41d5d4c10518d95b6c87e7606",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/nossa-e-serio-sao-reacoes-comuns-em-russo--1bfpywy.mp3",
+      "generatedAt": "2026-07-17T03:26:49.678Z"
+    },
+    "emotion:female:cansada-1mnkx82": {
+      "hash": "b5d22ae395404dc5fbe8ee01eea6d7f01bd13789cb7481680ba796a0d0e1582e",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/cansada-1mnkx82.mp3",
+      "generatedAt": "2026-07-17T03:26:51.960Z"
+    },
+    "emotion:male:cansado-1n7k4m0": {
+      "hash": "7f21044051ab1305c5eed784ead2a4b6b003c6d207d3c9b59e34ef15d1e38187",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/cansado-1n7k4m0.mp3",
+      "generatedAt": "2026-07-17T03:26:53.951Z"
+    },
+    "emotion:female:ela-esta-cansada-depois-de-trabalhar-o-dia-0idrxwc": {
+      "hash": "4db684a9e7c946c19ae1ab4a2f965461d0845e4d08fc903fe0a8bb350953c30f",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/ela-esta-cansada-depois-de-trabalhar-o-dia-0idrxwc.mp3",
+      "generatedAt": "2026-07-17T03:26:56.524Z"
+    },
+    "emotion:male:ele-ficou-cansado-depois-da-viagem-002lq7s": {
+      "hash": "6856af5974a727cb43a1fe1fd058f77231f065c9badffa354253c08939f7b94b",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/ele-ficou-cansado-depois-da-viagem-002lq7s.mp3",
+      "generatedAt": "2026-07-17T03:26:58.819Z"
+    },
+    "emotion:female:eu-estou-cansada-e-preciso-descansar-1ihciqw": {
+      "hash": "baa985a400f95a83aec716b94e2441ccbc60e5e3b1092e61cc4e67933cf89a70",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/eu-estou-cansada-e-preciso-descansar-1ihciqw.mp3",
+      "generatedAt": "2026-07-17T03:27:01.121Z"
+    },
+    "emotion:male:eu-estou-cansado-e-preciso-descansar-0eaxvc2": {
+      "hash": "8a547cd7a75647f91408839bc55c9ec78414d69e4c78c64860de3a84b77c0b2e",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/eu-estou-cansado-e-preciso-descansar-0eaxvc2.mp3",
+      "generatedAt": "2026-07-17T03:27:03.798Z"
+    },
+    "emotion:female:como-voce-percebe-que-precisa-descansar-0h1z9si": {
+      "hash": "c65b41af80bfad78dd6d090b7f2740e361c0d9c14594d680f9d8a194753ed90a",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/como-voce-percebe-que-precisa-descansar-0h1z9si.mp3",
+      "generatedAt": "2026-07-17T03:27:06.043Z"
+    },
+    "emotion:male:cansado-e-falta-de-energia-com-sono-e-vont-1sf1zpc": {
+      "hash": "b4912a35e0ee01f676ef83c8b92d3474c7e411563a2791f0025b6ea62fdfcea5",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/cansado-e-falta-de-energia-com-sono-e-vont-1sf1zpc.mp3",
+      "generatedAt": "2026-07-17T03:27:08.549Z"
+    },
+    "emotion:female:estou-so-o-po-e-uma-expressao-brasileira-i-0ag1hbo": {
+      "hash": "c52b603e2c3cb9ff6821842500d72bde2473af5567a97d0737642a12d3719814",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/estou-so-o-po-e-uma-expressao-brasileira-i-0ag1hbo.mp3",
+      "generatedAt": "2026-07-17T03:27:11.015Z"
+    },
+    "emotion:female:animada-1kga5nw": {
+      "hash": "8f9f1f91f7cc25f0fa823f445b3adb46126ce11e4bd28007cd20d33a91e872d1",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/animada-1kga5nw.mp3",
+      "generatedAt": "2026-07-17T03:27:13.352Z"
+    },
+    "emotion:male:animado-1m47rtq": {
+      "hash": "15a0a9b5608f0b6c90ae32b208af98ec6bf031a9c7248af35c82e7891fce355a",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/animado-1m47rtq.mp3",
+      "generatedAt": "2026-07-17T03:27:15.554Z"
+    },
+    "emotion:female:ela-esta-animada-para-comecar-o-curso-0dkmwkk": {
+      "hash": "8979a9355401e15a5c30ef62d9d6dabb0c81f05d4158436ba6f5871c9ccb2758",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/ela-esta-animada-para-comecar-o-curso-0dkmwkk.mp3",
+      "generatedAt": "2026-07-17T03:27:17.965Z"
+    },
+    "emotion:male:ele-ficou-animado-com-a-ideia-da-viagem-0j0yw2c": {
+      "hash": "819079bb7eed91cdc05c4a27aa36fb2fe4b37c6fa510303adb4cbc9bfaf30f00",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/ele-ficou-animado-com-a-ideia-da-viagem-0j0yw2c.mp3",
+      "generatedAt": "2026-07-17T03:27:20.265Z"
+    },
+    "emotion:female:eu-estou-animada-com-o-projeto-1cncze7": {
+      "hash": "61b2f225fb7a6ba09d0f4c7dd12bc83753b22e272ac3a253a00f85cde8e6e111",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/eu-estou-animada-com-o-projeto-1cncze7.mp3",
+      "generatedAt": "2026-07-17T03:27:22.598Z"
+    },
+    "emotion:male:eu-estou-animado-com-o-projeto-0kn852l": {
+      "hash": "076537659c5bcc723d6a2c889153f0e6f619353c3864865e33a64b197ef8b40b",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/eu-estou-animado-com-o-projeto-0kn852l.mp3",
+      "generatedAt": "2026-07-17T03:27:24.749Z"
+    },
+    "emotion:female:que-atividade-deixa-voce-animado-para-come-0kfoo7c": {
+      "hash": "7f53f057a5bc7e4b3da44dd74252d51a6f6e37d10421312114f5d0cc4904a537",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/que-atividade-deixa-voce-animado-para-come-0kfoo7c.mp3",
+      "generatedAt": "2026-07-17T03:27:27.263Z"
+    },
+    "emotion:male:animado-aqui-significa-entusiasmado-nao-de-105bwlj": {
+      "hash": "224277c4c41bbcf11e31f57934a34ca8ecf34cbf13f5a2a262296a1518383562",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/animado-aqui-significa-entusiasmado-nao-de-105bwlj.mp3",
+      "generatedAt": "2026-07-17T03:27:29.780Z"
+    },
+    "emotion:female:bora-e-um-convite-informal-brasileiro-que--1rufgnj": {
+      "hash": "f10e4b9bc70093b966b378c36f6c385a6c33531e75ef8fd0e24f5b367cc0a783",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/bora-e-um-convite-informal-brasileiro-que--1rufgnj.mp3",
+      "generatedAt": "2026-07-17T03:27:32.468Z"
+    },
+    "emotion:female:timida-01xt5tf": {
+      "hash": "82e8e811e412cea54ec8c6dc2275dfa003464a1a01dd4f9a61be3aaaf3a5a192",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/timida-01xt5tf.mp3",
+      "generatedAt": "2026-07-17T03:27:34.611Z"
+    },
+    "emotion:male:timido-05tnlj1": {
+      "hash": "e0b902db7b1106d1b11755bf61a803e93d06a940e44c05b89941507831cec560",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/timido-05tnlj1.mp3",
+      "generatedAt": "2026-07-17T03:27:36.980Z"
+    },
+    "emotion:female:ela-e-timida-quando-conhece-pessoas-novas-04iq4zq": {
+      "hash": "df20d49572d5846b2d013a30d436685c1f4872c0ff4588493dbf64555eebb25b",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/ela-e-timida-quando-conhece-pessoas-novas-04iq4zq.mp3",
+      "generatedAt": "2026-07-17T03:27:39.539Z"
+    },
+    "emotion:male:ele-ficou-timido-quando-recebeu-o-elogio-039n3bo": {
+      "hash": "437bca927d039ecbf1334ec360065733872a0bd36a66a453e8aa6b02922b7a74",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/ele-ficou-timido-quando-recebeu-o-elogio-039n3bo.mp3",
+      "generatedAt": "2026-07-17T03:27:42.220Z"
+    },
+    "emotion:female:eu-sou-timida-em-grupos-grandes-01c6luo": {
+      "hash": "1606efba00ac6c707b4b4331f24695d9c65a482f0dbaf83bd2c6fc8b486276ce",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/eu-sou-timida-em-grupos-grandes-01c6luo.mp3",
+      "generatedAt": "2026-07-17T03:27:44.426Z"
+    },
+    "emotion:male:eu-sou-timido-em-grupos-grandes-0k14udu": {
+      "hash": "87c1fce964e92019807c911ebe44a400ed3a300a8f4710433af7d7e5472c3f2c",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/eu-sou-timido-em-grupos-grandes-0k14udu.mp3",
+      "generatedAt": "2026-07-17T03:27:46.775Z"
+    },
+    "emotion:female:em-qual-situacao-voce-costuma-ficar-timido-14xbfq9": {
+      "hash": "19c370482a8e0afc27877a70942f0b0cbfbe3e96e4ac7a209f5dcdad4d4ff754",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/em-qual-situacao-voce-costuma-ficar-timido-14xbfq9.mp3",
+      "generatedAt": "2026-07-17T03:27:49.117Z"
+    },
+    "emotion:male:ser-timido-descreve-uma-caracteristica-fic-1jzxp6f": {
+      "hash": "48a60af213aec241ba1ac5b6437dcff37041f29b16ac8ce74bcde68874ee75d4",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/ser-timido-descreve-uma-caracteristica-fic-1jzxp6f.mp3",
+      "generatedAt": "2026-07-17T03:27:51.849Z"
+    },
+    "emotion:female:no-uso-cotidiano-sem-graca-tambem-pode-des-0gm2r8i": {
+      "hash": "4a781d5713e8e8391c7cabae4250d5df13e468fb11af9aa8b6e7f8b0c8c25547",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/no-uso-cotidiano-sem-graca-tambem-pode-des-0gm2r8i.mp3",
+      "generatedAt": "2026-07-17T03:27:54.737Z"
+    },
+    "emotion:female:confiante-00au3vu": {
+      "hash": "6cc6ee9ae61a5282c8d859fdc6d47488bc3f9e900e8cdb345131813e989dd02f",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/confiante-00au3vu.mp3",
+      "generatedAt": "2026-07-17T03:27:56.965Z"
+    },
+    "emotion:male:confiante-00au3vu": {
+      "hash": "372ecbed152d82abc1ef7a5f62fd3b969ae36c599c2442598636efdf3b57a328",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/confiante-00au3vu.mp3",
+      "generatedAt": "2026-07-17T03:27:59.182Z"
+    },
+    "emotion:female:ela-esta-confiante-antes-da-entrevista-1bqmqj4": {
+      "hash": "a53364995fcc275b94baa46465b36956389efdca10bb7935638264d6542a6d1e",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/ela-esta-confiante-antes-da-entrevista-1bqmqj4.mp3",
+      "generatedAt": "2026-07-17T03:28:01.518Z"
+    },
+    "emotion:male:ele-parece-confiante-ao-apresentar-a-ideia-1a1f9rk": {
+      "hash": "c7de3ae33d2e6f25bfc13f07966d07b323c1761a68ee5914116d670b6ce648de",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/ele-parece-confiante-ao-apresentar-a-ideia-1a1f9rk.mp3",
+      "generatedAt": "2026-07-17T03:28:04.584Z"
+    },
+    "emotion:female:eu-me-sinto-confiante-para-tentar-0h0n44t": {
+      "hash": "5606d9d7c3382b5068c6a5bcdb18a9b7eb8e297011c82f5fe5c1149a6dea8ebf",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/eu-me-sinto-confiante-para-tentar-0h0n44t.mp3",
+      "generatedAt": "2026-07-17T03:28:07.410Z"
+    },
+    "emotion:male:eu-me-sinto-confiante-para-tentar-0h0n44t": {
+      "hash": "d66a36cf124f417f121462380ed191bf0fc5bb03c8d15de1dd70da75f46e523b",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/eu-me-sinto-confiante-para-tentar-0h0n44t.mp3",
+      "generatedAt": "2026-07-17T03:28:10.406Z"
+    },
+    "emotion:female:o-que-faz-voce-se-sentir-mais-confiante-15c0jr1": {
+      "hash": "9601cbffcd86daedeb5deae684a6e3d3568bb6fcb5e95dc3f8afe8828ef283ca",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/o-que-faz-voce-se-sentir-mais-confiante-15c0jr1.mp3",
+      "generatedAt": "2026-07-17T03:28:13.372Z"
+    },
+    "emotion:male:confiante-nao-muda-por-genero-em-portugues-0sjsbhj": {
+      "hash": "c19f1458c3671c110daede390ae91511eeb515ea04cdab235c3945a286dad83b",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/confiante-nao-muda-por-genero-em-portugues-0sjsbhj.mp3",
+      "generatedAt": "2026-07-17T03:28:16.607Z"
+    },
+    "emotion:female:vai-dar-certo-e-uma-frase-brasileira-frequ-0kro4tz": {
+      "hash": "f5ffcb90d731cf7073f89261d861fe9d8ee539e68965e0b2231d683c98396bc4",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/vai-dar-certo-e-uma-frase-brasileira-frequ-0kro4tz.mp3",
+      "generatedAt": "2026-07-17T03:28:19.879Z"
+    },
+    "emotion:female:orgulhosa-1dkbroh": {
+      "hash": "ba3c253dcfb00e4b22c9271ddd262deb7074037841e1ecf14af6b5cdc0382137",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/orgulhosa-1dkbroh.mp3",
+      "generatedAt": "2026-07-17T03:28:22.550Z"
+    },
+    "emotion:male:orgulhoso-1bwe5in": {
+      "hash": "347804b69131f4f7124dc05bcfd9f86c7fac115929a627d0e4a729e7a2b42d19",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/orgulhoso-1bwe5in.mp3",
+      "generatedAt": "2026-07-17T03:28:25.266Z"
+    },
+    "emotion:female:ela-esta-orgulhosa-do-proprio-progresso-1i0ajua": {
+      "hash": "f3800de9fade8c830bd963e3030eb1788e998b0fcec4edba7ce2a0be12600014",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/ela-esta-orgulhosa-do-proprio-progresso-1i0ajua.mp3",
+      "generatedAt": "2026-07-17T03:28:28.136Z"
+    },
+    "emotion:male:ele-ficou-orgulhoso-do-trabalho-da-equipe-0bt9e0h": {
+      "hash": "308d44e3623d8afb4eee0748ee56b3045c67869d7ab31cb57f8f29f44bdb281d",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/ele-ficou-orgulhoso-do-trabalho-da-equipe-0bt9e0h.mp3",
+      "generatedAt": "2026-07-17T03:28:31.234Z"
+    },
+    "emotion:female:eu-tenho-orgulho-do-que-aprendi-0bvv2va": {
+      "hash": "15622b075d57c2a5d18749d231138e03b9a1abe9df6f2e03484a05b140767094",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/eu-tenho-orgulho-do-que-aprendi-0bvv2va.mp3",
+      "generatedAt": "2026-07-17T03:28:34.311Z"
+    },
+    "emotion:male:eu-tenho-orgulho-do-que-aprendi-0bvv2va": {
+      "hash": "9fe5566a0d476e783d01abde419d8d570f5eecb121eb4ac549c4447fc7e40780",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/eu-tenho-orgulho-do-que-aprendi-0bvv2va.mp3",
+      "generatedAt": "2026-07-17T03:28:37.370Z"
+    },
+    "emotion:female:qual-conquista-recente-deixou-voce-orgulho-19awiam": {
+      "hash": "8496818ab91ad90d341f8edbee7b640a03c7a449a4a4b88d00c95394901968b6",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/qual-conquista-recente-deixou-voce-orgulho-19awiam.mp3",
+      "generatedAt": "2026-07-17T03:28:40.376Z"
+    },
+    "emotion:male:em-portugues-sentimos-orgulho-de-alguem-ou-0sr3fxw": {
+      "hash": "c5d9dc6bc7b3b25aba9672e497354d819bb9fdd26acc7424f65d5e44b91cae66",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/em-portugues-sentimos-orgulho-de-alguem-ou-0sr3fxw.mp3",
+      "generatedAt": "2026-07-17T03:28:43.209Z"
+    },
+    "emotion:female:tenho-orgulho-de-voce-costuma-celebrar-esf-1d6x9f2": {
+      "hash": "f1083071d20e42ee0033f03ed9dc515721520c64c25993917b6359d210164a3c",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/tenho-orgulho-de-voce-costuma-celebrar-esf-1d6x9f2.mp3",
+      "generatedAt": "2026-07-17T03:28:46.113Z"
+    },
+    "emotion:female:envergonhada-0s2u8ih": {
+      "hash": "096da0f8815060bb9a4740f61c0c987067d5e41b3ddff2a0e3dc23cc9fe6bea4",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/envergonhada-0s2u8ih.mp3",
+      "generatedAt": "2026-07-17T03:28:48.812Z"
+    },
+    "emotion:male:envergonhado-0uuq9g7": {
+      "hash": "5408b7ad34ad0ae49acbd5c5918dd93618e8387e7d8bb9936a1698e20cd23170",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/envergonhado-0uuq9g7.mp3",
+      "generatedAt": "2026-07-17T03:28:51.649Z"
+    },
+    "emotion:female:ela-ficou-envergonhada-depois-de-esquecer--1ogcjlj": {
+      "hash": "c2aa2c424d667df61534daf830974715efc1a6cd9ce56bb4f6a59a2837a943da",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/ela-ficou-envergonhada-depois-de-esquecer--1ogcjlj.mp3",
+      "generatedAt": "2026-07-17T03:28:54.663Z"
+    },
+    "emotion:male:ele-esta-envergonhado-com-o-engano-1o9cqwm": {
+      "hash": "c2f34e1a648f922f030a9498d4c60a7e184c38d241980a812f5587f60b98dc7b",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/ele-esta-envergonhado-com-o-engano-1o9cqwm.mp3",
+      "generatedAt": "2026-07-17T03:28:57.377Z"
+    },
+    "emotion:female:eu-fiquei-com-vergonha-naquela-hora-0ys73v4": {
+      "hash": "2343acb44c4d96851e5c7cb0076a20bb485db5c4e868c286073c346dd280622a",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/eu-fiquei-com-vergonha-naquela-hora-0ys73v4.mp3",
+      "generatedAt": "2026-07-17T03:29:00.455Z"
+    },
+    "emotion:male:eu-fiquei-com-vergonha-naquela-hora-0ys73v4": {
+      "hash": "4d6c0e0153cc0e91fce1521925f562e5d41883cdfa48f18e0b423bfb916ebf42",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/eu-fiquei-com-vergonha-naquela-hora-0ys73v4.mp3",
+      "generatedAt": "2026-07-17T03:29:03.556Z"
+    },
+    "emotion:female:o-que-ajuda-a-acolher-alguem-que-cometeu-u-146574c": {
+      "hash": "3256c54cd54cc8bd7d9f686d23ac6a6028c57ff36dfd2820394b4deef9f85a6c",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/o-que-ajuda-a-acolher-alguem-que-cometeu-u-146574c.mp3",
+      "generatedAt": "2026-07-17T03:29:06.874Z"
+    },
+    "emotion:male:ficar-com-vergonha-e-muito-frequente-na-fa-1u14uup": {
+      "hash": "5626252bb395a5822ba955f59e524d619ba0c0917917cea4e2e0fa73ed8d01cb",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/ficar-com-vergonha-e-muito-frequente-na-fa-1u14uup.mp3",
+      "generatedAt": "2026-07-17T03:29:10.122Z"
+    },
+    "emotion:female:em-russo-e-constrangido-expressa-vergonha--03kqnwf": {
+      "hash": "0257c34cbeb8d9c7f7491ca68a5aec306075db0461cfd7319726047a62f82265",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/em-russo-e-constrangido-expressa-vergonha--03kqnwf.mp3",
+      "generatedAt": "2026-07-17T03:29:12.871Z"
+    },
+    "emotion:female:confusa-0xa2d3e": {
+      "hash": "c34d7ab4b5b4066dd8bb012992b4820d324e63437cea99ad2a8222af6e8bca5d",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/confusa-0xa2d3e.mp3",
+      "generatedAt": "2026-07-17T03:29:15.553Z"
+    },
+    "emotion:male:confuso-0te7xds": {
+      "hash": "96bed36d1c133f375cd677228c82f1c72d9a61438caead9b07917d685a081e6f",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/confuso-0te7xds.mp3",
+      "generatedAt": "2026-07-17T03:29:18.329Z"
+    },
+    "emotion:female:ela-esta-confusa-com-tantas-instrucoes-0nyq6ce": {
+      "hash": "5016bcc6a685effd23d51b05d36f9b45f7eed0f69e9be03b228bf9c10304eb77",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/ela-esta-confusa-com-tantas-instrucoes-0nyq6ce.mp3",
+      "generatedAt": "2026-07-17T03:29:21.315Z"
+    },
+    "emotion:male:ele-ficou-confuso-durante-a-explicacao-0368e6x": {
+      "hash": "0c44b0c3804b0cb8714c63e1c9eb5d12e05e233ab6fea4ab3b7f8ab9c85090f5",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/ele-ficou-confuso-durante-a-explicacao-0368e6x.mp3",
+      "generatedAt": "2026-07-17T03:29:23.993Z"
+    },
+    "emotion:female:eu-nao-entendi-estou-confusa-1b48fss": {
+      "hash": "da5a9f1e6b572c635aca20b36035a3e255c7482e7a7750b7b470b45b55e153a7",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/eu-nao-entendi-estou-confusa-1b48fss.mp3",
+      "generatedAt": "2026-07-17T03:29:27.146Z"
+    },
+    "emotion:male:eu-nao-entendi-estou-confuso-1b2vvlm": {
+      "hash": "aab9f74e5f219d4d2d23be93a87eea74dd9f9e70d46cab705c8df42ce9859afe",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/eu-nao-entendi-estou-confuso-1b2vvlm.mp3",
+      "generatedAt": "2026-07-17T03:29:29.981Z"
+    },
+    "emotion:female:que-pergunta-voce-pode-fazer-quando-esta-c-03jymo1": {
+      "hash": "1b67c810fb9262f27e623105864c714e278f263be1c1eefd386c11bb11e444ae",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/que-pergunta-voce-pode-fazer-quando-esta-c-03jymo1.mp3",
+      "generatedAt": "2026-07-17T03:29:33.155Z"
+    },
+    "emotion:male:uma-pessoa-fica-confusa-uma-explicacao-tam-0nnjpdl": {
+      "hash": "3c8250532f6e8e5ceb05eb51cb3342b7708eb9a4002349714a7617cff7634fc4",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/uma-pessoa-fica-confusa-uma-explicacao-tam-0nnjpdl.mp3",
+      "generatedAt": "2026-07-17T03:29:36.150Z"
+    },
+    "emotion:female:pode-explicar-de-outro-jeito-e-uma-estrate-1tq7h0w": {
+      "hash": "9b3be85b74a0de79b0e033ea21f99eec04d3fe819f87063eed10c9053e55db30",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/pode-explicar-de-outro-jeito-e-uma-estrate-1tq7h0w.mp3",
+      "generatedAt": "2026-07-17T03:29:39.083Z"
+    },
+    "emotion:female:aliviada-1gvgccq": {
+      "hash": "10e45628ab6eccac7f45324d3dfe5e37fbda51fa67e4287d431bee0df4ae5ee7",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/aliviada-1gvgccq.mp3",
+      "generatedAt": "2026-07-17T03:29:41.825Z"
+    },
+    "emotion:male:aliviado-1czlwn4": {
+      "hash": "02efbe301eeb1461f79659bc70b98eba99339668e670d84150f1d05be4b29c27",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/aliviado-1czlwn4.mp3",
+      "generatedAt": "2026-07-17T03:29:44.764Z"
+    },
+    "emotion:female:ela-ficou-aliviada-quando-recebeu-a-mensag-1m35ww7": {
+      "hash": "e23a09a7000e8498bf6e9633442d77685d231667b6402835c8222c2db92d8eb5",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/ela-ficou-aliviada-quando-recebeu-a-mensag-1m35ww7.mp3",
+      "generatedAt": "2026-07-17T03:29:47.602Z"
+    },
+    "emotion:male:ele-esta-aliviado-porque-tudo-terminou-bem-124wtbu": {
+      "hash": "84bd6f48122ff4458b97eb6d773f28043924e82ee58c62cead5eac2db69942df",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/ele-esta-aliviado-porque-tudo-terminou-bem-124wtbu.mp3",
+      "generatedAt": "2026-07-17T03:29:50.284Z"
+    },
+    "emotion:female:que-alivio-agora-estou-tranquila-074xa9g": {
+      "hash": "246e2f4416fd5e6b26e2efacd478ad9dcad173e586d13d7b8ec4d70280738c84",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/que-alivio-agora-estou-tranquila-074xa9g.mp3",
+      "generatedAt": "2026-07-17T03:29:53.192Z"
+    },
+    "emotion:male:que-alivio-agora-estou-tranquilo-0753l9e": {
+      "hash": "ca1232c00b722a087e953759ae205e0d675b6dd6e47f7ea21c3b2bc8f024a82a",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/que-alivio-agora-estou-tranquilo-0753l9e.mp3",
+      "generatedAt": "2026-07-17T03:29:56.071Z"
+    },
+    "emotion:female:conte-uma-situacao-em-que-voce-sentiu-aliv-1qm1m2b": {
+      "hash": "ab3ed2b330a9cf7025205778c28773b758def45cf01327deaeb8a70fccba4f22",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/conte-uma-situacao-em-que-voce-sentiu-aliv-1qm1m2b.mp3",
+      "generatedAt": "2026-07-17T03:29:59.085Z"
+    },
+    "emotion:male:ficar-aliviado-e-a-exclamacao-que-alivio-s-0akl6ux": {
+      "hash": "dbf3be7dcfb455626179943ddca3000b96be0b92bf7a11523b947277ed5de5ec",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/ficar-aliviado-e-a-exclamacao-que-alivio-s-0akl6ux.mp3",
+      "generatedAt": "2026-07-17T03:30:01.585Z"
+    },
+    "emotion:female:em-russo-e-comum-expressar-a-ideia-com-lit-0cock6z": {
+      "hash": "02c14755ac0056c492386f2ee1d61f45e7f0990ba93187df7ede54a36c1b2f98",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/em-russo-e-comum-expressar-a-ideia-com-lit-0cock6z.mp3",
+      "generatedAt": "2026-07-17T03:30:04.328Z"
     }
   }
 }

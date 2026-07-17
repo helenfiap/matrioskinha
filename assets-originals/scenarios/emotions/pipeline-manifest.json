@@ -29,6 +29,28 @@
       "publicPath": "public/assets/scenarios/emotions/matrioskinha/apaixonada.webp",
       "processedAt": "2026-07-17T03:06:42.538Z"
     },
+    "matrioskinha/assustada": {
+      "character": "matrioskinha",
+      "mood": "assustada",
+      "sourceSha256": "c88b466126539e687e77b88d8341d854533cccac69538316d84b26e33cce220f",
+      "outputSha256": "85f5f2d54b37d363866067c2ce716be651b762d643f182cf5a8f2f9620dcc588",
+      "sourceBytes": 2237486,
+      "outputBytes": 85956,
+      "savedPercent": 96.16,
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "outputDimensions": {
+        "width": 768,
+        "height": 1152
+      },
+      "sourceWasOversized": true,
+      "aspectRatio": 0.6667,
+      "archivePath": "assets-originals/scenarios/emotions/matrioskinha/assustada/c88b466126539e68.png",
+      "publicPath": "public/assets/scenarios/emotions/matrioskinha/assustada.webp",
+      "processedAt": "2026-07-17T03:26:03.738Z"
+    },
     "matrioskinha/feliz": {
       "character": "matrioskinha",
       "mood": "feliz",
@@ -72,6 +94,50 @@
       "archivePath": "assets-originals/scenarios/emotions/matrioskinha/triste/9090d2fcc14cd7b2.png",
       "publicPath": "public/assets/scenarios/emotions/matrioskinha/triste.webp",
       "processedAt": "2026-07-17T03:06:42.869Z"
+    },
+    "misha/apaixonada": {
+      "character": "misha",
+      "mood": "apaixonada",
+      "sourceSha256": "364450f1dbb33f7e9ec79c164005ffead10f0f4fa254814d48a4f4a72866d19f",
+      "outputSha256": "77e156116f85db8d0c3faca7945adf07c5c16940c5b5a668fa7d17f071a7b3ab",
+      "sourceBytes": 2329198,
+      "outputBytes": 96842,
+      "savedPercent": 95.84,
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "outputDimensions": {
+        "width": 768,
+        "height": 1152
+      },
+      "sourceWasOversized": true,
+      "aspectRatio": 0.6667,
+      "archivePath": "assets-originals/scenarios/emotions/misha/apaixonada/364450f1dbb33f7e.png",
+      "publicPath": "public/assets/scenarios/emotions/misha/apaixonada.webp",
+      "processedAt": "2026-07-17T03:26:03.908Z"
+    },
+    "misha/assustada": {
+      "character": "misha",
+      "mood": "assustada",
+      "sourceSha256": "c1a96937b1f67361c380947b619173f9b34801cf03a130ffb75a99f19f72e881",
+      "outputSha256": "76ed5cfd33b01224111ac376cbe600636b059682905da015070337c193b6ea52",
+      "sourceBytes": 2275365,
+      "outputBytes": 101662,
+      "savedPercent": 95.53,
+      "sourceDimensions": {
+        "width": 1023,
+        "height": 1537
+      },
+      "outputDimensions": {
+        "width": 767,
+        "height": 1152
+      },
+      "sourceWasOversized": true,
+      "aspectRatio": 0.6656,
+      "archivePath": "assets-originals/scenarios/emotions/misha/assustada/c1a96937b1f67361.png",
+      "publicPath": "public/assets/scenarios/emotions/misha/assustada.webp",
+      "processedAt": "2026-07-17T03:30:57.929Z"
     },
     "misha/feliz": {
       "character": "misha",

@@ -117,7 +117,6 @@ export function AtelieEmocoes() {
     });
   };
 
-  const genderLabelPt = gender === 'feminine' ? 'Ela está' : 'Ele está';
   const voiceRole: AudioVoiceRole = gender === 'feminine' ? 'female' : 'male';
   const example = gender === 'feminine' ? selectedContent.feminineExample : selectedContent.masculineExample;
   const selfExpressionPt = selectGenderedAudioText(selectedContent.selfExpression.pt, voiceRole);
@@ -196,8 +195,8 @@ export function AtelieEmocoes() {
           <div className="emotion-detail-title">
             <span>{selectedMood.emoji}</span>
             <div>
-              <h3 lang={lang === 'ru' ? 'ru' : 'pt-BR'}>{lang === 'ru' ? selectedMood.ru[gender] : `${genderLabelPt} ${selectedMood.pt[gender]}`}</h3>
-              <p lang={lang === 'ru' ? 'pt-BR' : 'ru'}>{lang === 'ru' ? `${genderLabelPt} ${selectedMood.pt[gender]}` : selectedMood.ru[gender]}</p>
+              <h3 lang={lang === 'ru' ? 'ru' : 'pt-BR'}>{lang === 'ru' ? selectedMood.ru[gender] : selectedMood.pt[gender]}</h3>
+              <p lang={lang === 'ru' ? 'pt-BR' : 'ru'}>{lang === 'ru' ? selectedMood.pt[gender] : selectedMood.ru[gender]}</p>
             </div>
             <AudioButton src={audioAssets.emotion(selectedMood.pt[gender], voiceRole)} label={selectedMood.pt[gender]} />
             <span className={`emotion-stage-badge stage-${selectedStage}`}>

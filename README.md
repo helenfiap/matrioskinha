@@ -47,7 +47,7 @@ cd C:\Users\helen\Documents\matrioskinha
 uv pip install --python ".\.venv\Scripts\python.exe" --upgrade edge-tts
 cd .\matrioskinha-app2
 npm run audio:plan
-npm run audio:generate
+npm run audio:generate -- --batch emotions  # gera somente o incremento do Ateliê
 npm run audio:verify
 ```
 

@@ -21,6 +21,7 @@ type AudioBatch =
   | 'emotion-self-f' | 'emotion-self-m'
   | 'emotion-context' | 'emotion-usage' | 'emotion-culture';
 type Command = 'plan' | 'generate' | 'verify';
+type BatchSelection = AudioBatch | 'emotions';
 type LexicalItem = { id: string; lemmaPt: string; displayPt?: string | null };
 type Phrase = { id: string; kind: 'example' | 'scene-verb' | 'scene-phrase'; pt: string };
 type AudioItem = {
@@ -183,16 +184,19 @@ function hasFlag(name: string): boolean {
   return process.argv.includes(`--${name}`);
 }
 
-function selectedBatch(): AudioBatch | undefined {
+function selectedBatch(): BatchSelection | undefined {
   const batch = getOption('batch');
   if (!batch || batch === 'all') return undefined;
+  if (batch === 'emotions') return batch;
   if (!validBatches.includes(batch as AudioBatch)) throw new Error(`Lote inválido: ${batch}. Use ${validBatches.join(', ')} ou all.`);
   return batch as AudioBatch;
 }
 
 function selectedItems(items: AudioItem[]): AudioItem[] {
   const batch = selectedBatch();
-  const filtered = batch ? items.filter((item) => item.batches.includes(batch)) : items;
+  const filtered = batch === 'emotions'
+    ? items.filter((item) => item.batches.some((candidate) => candidate.startsWith('emotion-')))
+    : batch ? items.filter((item) => item.batches.includes(batch)) : items;
   const limitText = getOption('limit');
   if (!limitText) return filtered;
   const limit = Number.parseInt(limitText, 10);
@@ -351,7 +355,7 @@ function verify(items: AudioItem[], voiceOverride: string | undefined, lock: Aud
 }
 
 function printHelp(): void {
-  console.log(`\nUso:\n  npm run audio:plan\n  npm run audio:generate -- [--batch <lote>|all]\n  npm run audio:verify\n\nLotes:\n  ${validBatches.join('\n  ')}\n  all\n\nOpções:\n  --voice <nome>       Força uma única voz em todos os lotes\n  --batch <lote>       Processa apenas um lote\n  --limit <n>          Limita para teste\n  --force              Regenera itens atuais\n  --delay <ms>         Intervalo entre chamadas (padrão: 400)\n  --retries <n>        Tentativas adicionais (padrão: 3)\n\nPadrão de vozes:\n  Matrioskinha/female: ${defaultFemaleVoice}\n  Misha/male:          ${defaultMaleVoice}\n`);
+  console.log(`\nUso:\n  npm run audio:plan\n  npm run audio:generate -- [--batch <lote>|emotions|all]\n  npm run audio:verify\n\nLotes:\n  ${validBatches.join('\n  ')}\n  emotions (todos os nove lotes do Ateliê)\n  all\n\nOpções:\n  --voice <nome>       Força uma única voz em todos os lotes\n  --batch <lote>       Processa apenas um lote ou grupo\n  --limit <n>          Limita para teste\n  --force              Regenera itens atuais\n  --delay <ms>         Intervalo entre chamadas (padrão: 400)\n  --retries <n>        Tentativas adicionais (padrão: 3)\n\nPadrão de vozes:\n  Matrioskinha/female: ${defaultFemaleVoice}\n  Misha/male:          ${defaultMaleVoice}\n`);
 }
 
 async function main(): Promise<void> {

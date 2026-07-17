@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provider": "edge-tts",
   "locale": "pt-BR",
   "voices": {
@@ -10,6 +10,9 @@
     {
       "id": "lex-alcool-em-gel",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o álcool em gel",
       "relativePath": "words/lex-alcool-em-gel.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -18,6 +21,9 @@
     {
       "id": "lex-almofada",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a almofada",
       "relativePath": "words/lex-almofada.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -26,6 +32,9 @@
     {
       "id": "lex-armario",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o armário",
       "relativePath": "words/lex-armario.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -34,6 +43,9 @@
     {
       "id": "lex-armario-de-produtos-de-limpeza",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o armário de produtos de limpeza",
       "relativePath": "words/lex-armario-de-produtos-de-limpeza.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -42,6 +54,9 @@
     {
       "id": "lex-aviao",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o avião",
       "relativePath": "words/lex-aviao.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -50,6 +65,9 @@
     {
       "id": "lex-balanca",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a balança",
       "relativePath": "words/lex-balanca.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -58,6 +76,9 @@
     {
       "id": "lex-balcao",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o balcão",
       "relativePath": "words/lex-balcao.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -66,6 +87,9 @@
     {
       "id": "lex-balde",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o balde",
       "relativePath": "words/lex-balde.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -74,6 +98,9 @@
     {
       "id": "lex-banco",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o banco",
       "relativePath": "words/lex-banco.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -82,6 +109,9 @@
     {
       "id": "lex-banco-de-espera",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o banco de espera",
       "relativePath": "words/lex-banco-de-espera.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -90,6 +120,9 @@
     {
       "id": "lex-banheira",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a banheira",
       "relativePath": "words/lex-banheira.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -98,6 +131,9 @@
     {
       "id": "lex-cachorro",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o cachorro",
       "relativePath": "words/lex-cachorro.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -106,6 +142,9 @@
     {
       "id": "lex-cadeira",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a cadeira",
       "relativePath": "words/lex-cadeira.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -114,6 +153,9 @@
     {
       "id": "lex-cafe",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o café",
       "relativePath": "words/lex-cafe.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -122,6 +164,9 @@
     {
       "id": "lex-caixa",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o caixa",
       "relativePath": "words/lex-caixa.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -130,6 +175,9 @@
     {
       "id": "lex-caixa-de-papelao",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a caixa de papelão",
       "relativePath": "words/lex-caixa-de-papelao.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -138,6 +186,9 @@
     {
       "id": "lex-cama",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a cama",
       "relativePath": "words/lex-cama.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -146,6 +197,9 @@
     {
       "id": "lex-caminho",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o caminho",
       "relativePath": "words/lex-caminho.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -154,6 +208,9 @@
     {
       "id": "lex-camiseta",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a camiseta",
       "relativePath": "words/lex-camiseta.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -162,6 +219,9 @@
     {
       "id": "lex-carrinho-de-compras",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o carrinho de compras",
       "relativePath": "words/lex-carrinho-de-compras.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -170,6 +230,9 @@
     {
       "id": "lex-carro",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o carro",
       "relativePath": "words/lex-carro.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -178,6 +241,9 @@
     {
       "id": "lex-casa",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a casa",
       "relativePath": "words/lex-casa.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -186,6 +252,9 @@
     {
       "id": "lex-celular",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o celular",
       "relativePath": "words/lex-celular.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -194,6 +263,9 @@
     {
       "id": "lex-cesta-de-compras",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a cesta de compras",
       "relativePath": "words/lex-cesta-de-compras.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -202,6 +274,9 @@
     {
       "id": "lex-cesto",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o cesto",
       "relativePath": "words/lex-cesto.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -210,6 +285,9 @@
     {
       "id": "lex-cesto-de-roupa-suja",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o cesto de roupa suja",
       "relativePath": "words/lex-cesto-de-roupa-suja.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -218,6 +296,9 @@
     {
       "id": "lex-chuva",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a chuva",
       "relativePath": "words/lex-chuva.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -226,6 +307,9 @@
     {
       "id": "lex-chuveiro",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o chuveiro",
       "relativePath": "words/lex-chuveiro.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -234,6 +318,9 @@
     {
       "id": "lex-ciclovia",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a ciclovia",
       "relativePath": "words/lex-ciclovia.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -242,6 +329,9 @@
     {
       "id": "lex-comoda",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a cômoda",
       "relativePath": "words/lex-comoda.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -250,6 +340,9 @@
     {
       "id": "lex-computador-do-caixa",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o computador do caixa",
       "relativePath": "words/lex-computador-do-caixa.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -258,6 +351,9 @@
     {
       "id": "lex-cortina",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a cortina",
       "relativePath": "words/lex-cortina.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -266,6 +362,9 @@
     {
       "id": "lex-criado-mudo",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o criado-mudo",
       "relativePath": "words/lex-criado-mudo.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -274,6 +373,9 @@
     {
       "id": "lex-cruz-da-farmacia",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a cruz da farmácia",
       "relativePath": "words/lex-cruz-da-farmacia.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -282,6 +384,9 @@
     {
       "id": "lex-entrada",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a entrada",
       "relativePath": "words/lex-entrada.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -290,6 +395,9 @@
     {
       "id": "lex-entrada-do-metro",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a entrada do metrô",
       "relativePath": "words/lex-entrada-do-metro.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -298,6 +406,9 @@
     {
       "id": "lex-espelho",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o espelho",
       "relativePath": "words/lex-espelho.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -306,6 +417,9 @@
     {
       "id": "lex-estante",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a estante",
       "relativePath": "words/lex-estante.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -314,6 +428,9 @@
     {
       "id": "lex-exaustor",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o exaustor",
       "relativePath": "words/lex-exaustor.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -322,6 +439,9 @@
     {
       "id": "lex-faixa-de-pedestre",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a faixa de pedestre",
       "relativePath": "words/lex-faixa-de-pedestre.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -330,6 +450,9 @@
     {
       "id": "lex-farmacia",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a farmácia",
       "relativePath": "words/lex-farmacia.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -338,6 +461,9 @@
     {
       "id": "lex-ferro-de-passar",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o ferro de passar",
       "relativePath": "words/lex-ferro-de-passar.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -346,6 +472,9 @@
     {
       "id": "lex-fogao",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o fogão",
       "relativePath": "words/lex-fogao.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -354,6 +483,9 @@
     {
       "id": "lex-geladeira",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a geladeira",
       "relativePath": "words/lex-geladeira.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -362,6 +494,9 @@
     {
       "id": "lex-gondola-central",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a gôndola central",
       "relativePath": "words/lex-gondola-central.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -370,6 +505,9 @@
     {
       "id": "lex-guarda-roupa",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o guarda-roupa",
       "relativePath": "words/lex-guarda-roupa.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -378,6 +516,9 @@
     {
       "id": "lex-laranja",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a laranja",
       "relativePath": "words/lex-laranja.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -386,6 +527,9 @@
     {
       "id": "lex-lixeira",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a lixeira",
       "relativePath": "words/lex-lixeira.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -394,6 +538,9 @@
     {
       "id": "lex-luminaria",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a luminária",
       "relativePath": "words/lex-luminaria.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -402,6 +549,9 @@
     {
       "id": "lex-luminaria-de-mesa",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a luminária de mesa",
       "relativePath": "words/lex-luminaria-de-mesa.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -410,6 +560,9 @@
     {
       "id": "lex-luminaria-pendente",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a luminária pendente",
       "relativePath": "words/lex-luminaria-pendente.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -418,6 +571,9 @@
     {
       "id": "lex-manta",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a manta",
       "relativePath": "words/lex-manta.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -426,6 +582,9 @@
     {
       "id": "lex-maquina-de-lavar",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a máquina de lavar",
       "relativePath": "words/lex-maquina-de-lavar.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -434,6 +593,9 @@
     {
       "id": "lex-mercado",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o mercado",
       "relativePath": "words/lex-mercado.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -442,6 +604,9 @@
     {
       "id": "lex-mesa-de-centro",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a mesa de centro",
       "relativePath": "words/lex-mesa-de-centro.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -450,6 +615,9 @@
     {
       "id": "lex-mesa-de-jantar",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a mesa de jantar",
       "relativePath": "words/lex-mesa-de-jantar.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -458,6 +626,9 @@
     {
       "id": "lex-metro",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o metrô",
       "relativePath": "words/lex-metro.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -466,6 +637,9 @@
     {
       "id": "lex-micro-ondas",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o micro-ondas",
       "relativePath": "words/lex-micro-ondas.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -474,6 +648,9 @@
     {
       "id": "lex-onibus",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o ônibus",
       "relativePath": "words/lex-onibus.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -482,6 +659,9 @@
     {
       "id": "lex-panela",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a panela",
       "relativePath": "words/lex-panela.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -490,6 +670,9 @@
     {
       "id": "lex-pao",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o pão",
       "relativePath": "words/lex-pao.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -498,6 +681,9 @@
     {
       "id": "lex-pia",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a pia",
       "relativePath": "words/lex-pia.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -506,6 +692,9 @@
     {
       "id": "lex-planta",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a planta",
       "relativePath": "words/lex-planta.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -514,6 +703,9 @@
     {
       "id": "lex-planta-decorativa",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a planta decorativa",
       "relativePath": "words/lex-planta-decorativa.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -522,6 +714,9 @@
     {
       "id": "lex-poltrona",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a poltrona",
       "relativePath": "words/lex-poltrona.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -530,6 +725,9 @@
     {
       "id": "lex-ponto-de-onibus",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o ponto de ônibus",
       "relativePath": "words/lex-ponto-de-onibus.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -538,6 +736,9 @@
     {
       "id": "lex-porta-de-entrada",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a porta de entrada",
       "relativePath": "words/lex-porta-de-entrada.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -546,6 +747,9 @@
     {
       "id": "lex-pote-de-conserva",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o pote de conserva",
       "relativePath": "words/lex-pote-de-conserva.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -554,6 +758,9 @@
     {
       "id": "lex-praia",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a praia",
       "relativePath": "words/lex-praia.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -562,6 +769,9 @@
     {
       "id": "lex-prateleira-de-frutas-e-verduras",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a prateleira de frutas e verduras",
       "relativePath": "words/lex-prateleira-de-frutas-e-verduras.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -570,6 +780,9 @@
     {
       "id": "lex-prateleira-de-higiene",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a prateleira de higiene",
       "relativePath": "words/lex-prateleira-de-higiene.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -578,6 +791,9 @@
     {
       "id": "lex-prateleira-de-mercearia",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a prateleira de mercearia",
       "relativePath": "words/lex-prateleira-de-mercearia.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -586,6 +802,9 @@
     {
       "id": "lex-prateleira-de-remedios",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a prateleira de remédios",
       "relativePath": "words/lex-prateleira-de-remedios.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -594,6 +813,9 @@
     {
       "id": "lex-quadro",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o quadro",
       "relativePath": "words/lex-quadro.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -602,6 +824,9 @@
     {
       "id": "lex-restaurante",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o restaurante",
       "relativePath": "words/lex-restaurante.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -610,6 +835,9 @@
     {
       "id": "lex-semaforo",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o semáforo",
       "relativePath": "words/lex-semaforo.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -618,6 +846,9 @@
     {
       "id": "lex-sofa",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o sofá",
       "relativePath": "words/lex-sofa.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -626,6 +857,9 @@
     {
       "id": "lex-tabua-de-passar",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a tábua de passar",
       "relativePath": "words/lex-tabua-de-passar.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -634,6 +868,9 @@
     {
       "id": "lex-tanque",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o tanque",
       "relativePath": "words/lex-tanque.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -642,6 +879,9 @@
     {
       "id": "lex-tapete",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o tapete",
       "relativePath": "words/lex-tapete.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -650,6 +890,9 @@
     {
       "id": "lex-televisao",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a televisão",
       "relativePath": "words/lex-televisao.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -658,6 +901,9 @@
     {
       "id": "lex-toalha",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a toalha",
       "relativePath": "words/lex-toalha.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -666,6 +912,9 @@
     {
       "id": "lex-tomate",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o tomate",
       "relativePath": "words/lex-tomate.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -674,6 +923,9 @@
     {
       "id": "lex-torneira",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a torneira",
       "relativePath": "words/lex-torneira.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -682,6 +934,9 @@
     {
       "id": "lex-travesseiro",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o travesseiro",
       "relativePath": "words/lex-travesseiro.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -690,6 +945,9 @@
     {
       "id": "lex-varal",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o varal",
       "relativePath": "words/lex-varal.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -698,6 +956,9 @@
     {
       "id": "lex-vaso",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o vaso",
       "relativePath": "words/lex-vaso.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -706,6 +967,9 @@
     {
       "id": "lex-vaso-sanitario",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "o vaso sanitário",
       "relativePath": "words/lex-vaso-sanitario.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -714,6 +978,9 @@
     {
       "id": "lex-vassoura",
       "batch": "words",
+      "batches": [
+        "words"
+      ],
       "text": "a vassoura",
       "relativePath": "words/lex-vassoura.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -722,6 +989,9 @@
     {
       "id": "sala:sofa:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Eu durmo no sofá quando assisto TV.",
       "relativePath": "examples/sala--sofa--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -730,6 +1000,9 @@
     {
       "id": "sala:almofada:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "As almofadas verdes combinam com o sofá.",
       "relativePath": "examples/sala--almofada--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -738,6 +1011,9 @@
     {
       "id": "sala:manta:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "A manta fica jogada no sofá.",
       "relativePath": "examples/sala--manta--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -746,6 +1022,9 @@
     {
       "id": "sala:mesa-centro:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "O livro está em cima da mesa de centro.",
       "relativePath": "examples/sala--mesa-centro--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -754,6 +1033,9 @@
     {
       "id": "sala:tapete-sala:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "O tapete é de fibra natural.",
       "relativePath": "examples/sala--tapete-sala--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -762,6 +1044,9 @@
     {
       "id": "sala:poltrona:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Eu leio sentado na poltrona verde.",
       "relativePath": "examples/sala--poltrona--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -770,6 +1055,9 @@
     {
       "id": "sala:tv:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "A televisão fica de frente pro sofá.",
       "relativePath": "examples/sala--tv--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -778,6 +1066,9 @@
     {
       "id": "sala:estante:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Os livros ficam na estante.",
       "relativePath": "examples/sala--estante--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -786,6 +1077,9 @@
     {
       "id": "sala:luminaria-sala:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "A luminária deixa a sala mais aconchegante.",
       "relativePath": "examples/sala--luminaria-sala--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -794,6 +1088,9 @@
     {
       "id": "sala:planta-sala:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Essa planta precisa de sol.",
       "relativePath": "examples/sala--planta-sala--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -802,6 +1099,9 @@
     {
       "id": "sala:cortina-sala:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "A cortina deixa entrar luz da tarde.",
       "relativePath": "examples/sala--cortina-sala--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -810,6 +1110,9 @@
     {
       "id": "sala:vaso-sala:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "O vaso tem flores do jardim.",
       "relativePath": "examples/sala--vaso-sala--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -818,6 +1121,9 @@
     {
       "id": "cozinha:geladeira:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "O leite está na geladeira.",
       "relativePath": "examples/cozinha--geladeira--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -826,6 +1132,9 @@
     {
       "id": "cozinha:fogao:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Eu cozinho arroz no fogão.",
       "relativePath": "examples/cozinha--fogao--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -834,6 +1143,9 @@
     {
       "id": "cozinha:exaustor:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Liga o exaustor quando for fritar.",
       "relativePath": "examples/cozinha--exaustor--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -842,6 +1154,9 @@
     {
       "id": "cozinha:microondas:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Esquenta a comida no micro-ondas.",
       "relativePath": "examples/cozinha--microondas--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -850,6 +1165,9 @@
     {
       "id": "cozinha:pia-cozinha:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Lava a louça na pia.",
       "relativePath": "examples/cozinha--pia-cozinha--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -858,6 +1176,9 @@
     {
       "id": "cozinha:torneira-cozinha:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Fecha bem a torneira.",
       "relativePath": "examples/cozinha--torneira-cozinha--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -866,6 +1187,9 @@
     {
       "id": "cozinha:armario-cozinha:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Os pratos ficam no armário.",
       "relativePath": "examples/cozinha--armario-cozinha--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -874,6 +1198,9 @@
     {
       "id": "cozinha:mesa-jantar:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "A família janta na mesa de jantar.",
       "relativePath": "examples/cozinha--mesa-jantar--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -882,6 +1209,9 @@
     {
       "id": "cozinha:cadeira-cozinha:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Senta na cadeira pra comer.",
       "relativePath": "examples/cozinha--cadeira-cozinha--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -890,6 +1220,9 @@
     {
       "id": "cozinha:panela:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "A panela verde está no fogo.",
       "relativePath": "examples/cozinha--panela--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -898,6 +1231,9 @@
     {
       "id": "cozinha:luminaria-pendente:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "A luminária ilumina a mesa de jantar.",
       "relativePath": "examples/cozinha--luminaria-pendente--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -906,6 +1242,9 @@
     {
       "id": "quarto:cama:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Eu arrumo a cama todo dia.",
       "relativePath": "examples/quarto--cama--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -914,6 +1253,9 @@
     {
       "id": "quarto:travesseiro:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Prefiro dois travesseiros pra dormir.",
       "relativePath": "examples/quarto--travesseiro--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -922,6 +1264,9 @@
     {
       "id": "quarto:guarda-roupa:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "As roupas ficam no guarda-roupa.",
       "relativePath": "examples/quarto--guarda-roupa--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -930,6 +1275,9 @@
     {
       "id": "quarto:espelho-quarto:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Eu me olho no espelho antes de sair.",
       "relativePath": "examples/quarto--espelho-quarto--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -938,6 +1286,9 @@
     {
       "id": "quarto:comoda:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "As meias ficam na cômoda.",
       "relativePath": "examples/quarto--comoda--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -946,6 +1297,9 @@
     {
       "id": "quarto:criado-mudo:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "O celular está no criado-mudo.",
       "relativePath": "examples/quarto--criado-mudo--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -954,6 +1308,9 @@
     {
       "id": "quarto:luminaria-mesa:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Apago a luminária antes de dormir.",
       "relativePath": "examples/quarto--luminaria-mesa--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -962,6 +1319,9 @@
     {
       "id": "quarto:cortina-quarto:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "A cortina bloqueia a luz do sol.",
       "relativePath": "examples/quarto--cortina-quarto--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -970,6 +1330,9 @@
     {
       "id": "quarto:quadro:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Esse quadro foi um presente.",
       "relativePath": "examples/quarto--quadro--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -978,6 +1341,9 @@
     {
       "id": "quarto:tapete-quarto:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Piso descalço no tapete.",
       "relativePath": "examples/quarto--tapete-quarto--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -986,6 +1352,9 @@
     {
       "id": "quarto:manta-quarto:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "A manta verde é bem quentinha.",
       "relativePath": "examples/quarto--manta-quarto--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -994,6 +1363,9 @@
     {
       "id": "banheiro:banheira:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Eu tomo banho de banheira aos domingos.",
       "relativePath": "examples/banheiro--banheira--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1002,6 +1374,9 @@
     {
       "id": "banheiro:chuveiro:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Eu tomo banho de chuveiro toda manhã.",
       "relativePath": "examples/banheiro--chuveiro--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1010,6 +1385,9 @@
     {
       "id": "banheiro:vaso-sanitario:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Preciso trocar o papel do vaso sanitário.",
       "relativePath": "examples/banheiro--vaso-sanitario--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1018,6 +1396,9 @@
     {
       "id": "banheiro:pia-banheiro:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Escovo os dentes na pia.",
       "relativePath": "examples/banheiro--pia-banheiro--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1026,6 +1407,9 @@
     {
       "id": "banheiro:espelho-banheiro:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "O espelho embaçou com o vapor.",
       "relativePath": "examples/banheiro--espelho-banheiro--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1034,6 +1418,9 @@
     {
       "id": "banheiro:torneira-banheiro:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "A torneira dourada é bem bonita.",
       "relativePath": "examples/banheiro--torneira-banheiro--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1042,6 +1429,9 @@
     {
       "id": "banheiro:toalha:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Pega uma toalha limpa pra mim.",
       "relativePath": "examples/banheiro--toalha--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1050,6 +1440,9 @@
     {
       "id": "banheiro:tapete-banheiro:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "O tapete de banheiro evita escorregões.",
       "relativePath": "examples/banheiro--tapete-banheiro--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1058,6 +1451,9 @@
     {
       "id": "banheiro:planta-banheiro:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Essa planta gosta de umidade.",
       "relativePath": "examples/banheiro--planta-banheiro--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1066,6 +1462,9 @@
     {
       "id": "banheiro:quadro-banheiro:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "O quadro de folhas combina com o banheiro.",
       "relativePath": "examples/banheiro--quadro-banheiro--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1074,6 +1473,9 @@
     {
       "id": "banheiro:cesto:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "As toalhas limpas ficam no cesto.",
       "relativePath": "examples/banheiro--cesto--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1082,6 +1484,9 @@
     {
       "id": "lavanderia:maquina-lavar:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Você liga a máquina de lavar todos os dias?",
       "relativePath": "examples/lavanderia--maquina-lavar--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1090,6 +1495,9 @@
     {
       "id": "lavanderia:tanque:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Ele lava as roupas mais sujas no tanque.",
       "relativePath": "examples/lavanderia--tanque--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1098,6 +1506,9 @@
     {
       "id": "lavanderia:torneira-lavanderia:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Fecha a torneira, por favor!",
       "relativePath": "examples/lavanderia--torneira-lavanderia--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1106,6 +1517,9 @@
     {
       "id": "lavanderia:armario-limpeza:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Os produtos de limpeza ficam no armário.",
       "relativePath": "examples/lavanderia--armario-limpeza--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1114,6 +1528,9 @@
     {
       "id": "lavanderia:varal:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "A roupa está secando no varal.",
       "relativePath": "examples/lavanderia--varal--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1122,6 +1539,9 @@
     {
       "id": "lavanderia:camiseta-varal:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Essa camiseta verde é sua?",
       "relativePath": "examples/lavanderia--camiseta-varal--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1130,6 +1550,9 @@
     {
       "id": "lavanderia:toalha-varal:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Pendura a toalha no varal.",
       "relativePath": "examples/lavanderia--toalha-varal--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1138,6 +1561,9 @@
     {
       "id": "lavanderia:cesto-roupa:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Coloca a roupa suja no cesto.",
       "relativePath": "examples/lavanderia--cesto-roupa--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1146,6 +1572,9 @@
     {
       "id": "lavanderia:tabua-passar:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "A tábua de passar está na área de serviço.",
       "relativePath": "examples/lavanderia--tabua-passar--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1154,6 +1583,9 @@
     {
       "id": "lavanderia:ferro-passar:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Cuidado, o ferro de passar está quente!",
       "relativePath": "examples/lavanderia--ferro-passar--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1162,6 +1594,9 @@
     {
       "id": "lavanderia:balde-lavanderia:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Enche o balde com água.",
       "relativePath": "examples/lavanderia--balde-lavanderia--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1170,6 +1605,9 @@
     {
       "id": "lavanderia:vassoura:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Varre o chão com a vassoura.",
       "relativePath": "examples/lavanderia--vassoura--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1178,6 +1616,9 @@
     {
       "id": "supermercado:carrinho-compras:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Você pega um carrinho de compras ou uma cesta?",
       "relativePath": "examples/supermercado--carrinho-compras--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1186,6 +1627,9 @@
     {
       "id": "supermercado:cesta-compras:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Prefiro levar a cesta, é mais rápido.",
       "relativePath": "examples/supermercado--cesta-compras--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1194,6 +1638,9 @@
     {
       "id": "supermercado:caixa-mercado:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "A fila no caixa está grande hoje.",
       "relativePath": "examples/supermercado--caixa-mercado--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1202,6 +1649,9 @@
     {
       "id": "supermercado:prateleira-hortifruti:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "As verduras frescas ficam nessa prateleira.",
       "relativePath": "examples/supermercado--prateleira-hortifruti--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1210,6 +1660,9 @@
     {
       "id": "supermercado:tomate-mercado:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Você pode pesar esses tomates, por favor?",
       "relativePath": "examples/supermercado--tomate-mercado--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1218,6 +1671,9 @@
     {
       "id": "supermercado:laranja-mercado:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Essas laranjas estão bem doces.",
       "relativePath": "examples/supermercado--laranja-mercado--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1226,6 +1682,9 @@
     {
       "id": "supermercado:prateleira-mercearia:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "O macarrão fica na prateleira de mercearia.",
       "relativePath": "examples/supermercado--prateleira-mercearia--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1234,6 +1693,9 @@
     {
       "id": "supermercado:pote-conserva:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Pega um pote de conserva de picles para mim.",
       "relativePath": "examples/supermercado--pote-conserva--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1242,6 +1704,9 @@
     {
       "id": "supermercado:caixas-papelao:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Essas caixas de papelão acabaram de chegar.",
       "relativePath": "examples/supermercado--caixas-papelao--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1250,6 +1715,9 @@
     {
       "id": "supermercado:planta-mercado:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "A planta na entrada deixa o mercado mais bonito.",
       "relativePath": "examples/supermercado--planta-mercado--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1258,6 +1726,9 @@
     {
       "id": "supermercado:entrada-mercado:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "A entrada do mercado fica perto do estacionamento.",
       "relativePath": "examples/supermercado--entrada-mercado--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1266,6 +1737,9 @@
     {
       "id": "farmacia:cruz-farmacia:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "A cruz verde indica onde fica a farmácia.",
       "relativePath": "examples/farmacia--cruz-farmacia--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1274,6 +1748,9 @@
     {
       "id": "farmacia:prateleira-remedios:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Os remédios ficam guardados atrás do balcão.",
       "relativePath": "examples/farmacia--prateleira-remedios--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1282,6 +1759,9 @@
     {
       "id": "farmacia:balcao-farmacia:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Você pode deixar a receita no balcão?",
       "relativePath": "examples/farmacia--balcao-farmacia--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1290,6 +1770,9 @@
     {
       "id": "farmacia:computador-caixa:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "O atendente digita o preço no computador.",
       "relativePath": "examples/farmacia--computador-caixa--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1298,6 +1781,9 @@
     {
       "id": "farmacia:balanca:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Ele pesa o produto na balança.",
       "relativePath": "examples/farmacia--balanca--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1306,6 +1792,9 @@
     {
       "id": "farmacia:alcool-gel:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Passa álcool em gel antes de sair.",
       "relativePath": "examples/farmacia--alcool-gel--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1314,6 +1803,9 @@
     {
       "id": "farmacia:planta-farmacia:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Essa planta deixa a farmácia mais agradável.",
       "relativePath": "examples/farmacia--planta-farmacia--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1322,6 +1814,9 @@
     {
       "id": "farmacia:prateleira-higiene:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "O sabonete líquido está nessa prateleira.",
       "relativePath": "examples/farmacia--prateleira-higiene--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1330,6 +1825,9 @@
     {
       "id": "farmacia:gondola-central:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "A gôndola central tem produtos em promoção.",
       "relativePath": "examples/farmacia--gondola-central--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1338,6 +1836,9 @@
     {
       "id": "farmacia:banco-espera:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Senta no banco enquanto espera a receita.",
       "relativePath": "examples/farmacia--banco-espera--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1346,6 +1847,9 @@
     {
       "id": "farmacia:porta-farmacia:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "A porta da farmácia fica sempre aberta.",
       "relativePath": "examples/farmacia--porta-farmacia--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1354,6 +1858,9 @@
     {
       "id": "transporte:onibus:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Você pega o ônibus ou o metrô?",
       "relativePath": "examples/transporte--onibus--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1362,6 +1869,9 @@
     {
       "id": "transporte:carro:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "O carro parou no sinal vermelho.",
       "relativePath": "examples/transporte--carro--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1370,6 +1880,9 @@
     {
       "id": "transporte:aviao:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "O avião está pousando agora.",
       "relativePath": "examples/transporte--aviao--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1378,6 +1891,9 @@
     {
       "id": "transporte:metro-trem:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "O metrô passa de cinco em cinco minutos.",
       "relativePath": "examples/transporte--metro-trem--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1386,6 +1902,9 @@
     {
       "id": "transporte:ponto-onibus:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Encontro você no ponto de ônibus às oito.",
       "relativePath": "examples/transporte--ponto-onibus--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1394,6 +1913,9 @@
     {
       "id": "transporte:banco-ponto:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Senta no banco enquanto espera o ônibus.",
       "relativePath": "examples/transporte--banco-ponto--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1402,6 +1924,9 @@
     {
       "id": "transporte:lixeira:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Joga o papel na lixeira, por favor.",
       "relativePath": "examples/transporte--lixeira--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1410,6 +1935,9 @@
     {
       "id": "transporte:semaforo:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Espera o semáforo abrir para atravessar.",
       "relativePath": "examples/transporte--semaforo--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1418,6 +1946,9 @@
     {
       "id": "transporte:faixa-pedestre:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Atravessa sempre na faixa de pedestre.",
       "relativePath": "examples/transporte--faixa-pedestre--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1426,6 +1957,9 @@
     {
       "id": "transporte:ciclovia:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "Ele vai pro trabalho de bicicleta pela ciclovia.",
       "relativePath": "examples/transporte--ciclovia--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1434,6 +1968,9 @@
     {
       "id": "transporte:entrada-metro:example",
       "batch": "examples",
+      "batches": [
+        "examples"
+      ],
       "text": "A entrada do metrô fica logo ali.",
       "relativePath": "examples/transporte--entrada-metro--example.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1442,6 +1979,9 @@
     {
       "id": "scene-verb:assistir",
       "batch": "scene-verbs",
+      "batches": [
+        "scene-verbs"
+      ],
       "text": "assistir",
       "relativePath": "scene-verbs/assistir.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -1450,6 +1990,9 @@
     {
       "id": "scene-verb:sentar",
       "batch": "scene-verbs",
+      "batches": [
+        "scene-verbs"
+      ],
       "text": "sentar",
       "relativePath": "scene-verbs/sentar.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -1458,6 +2001,9 @@
     {
       "id": "scene-verb:relaxar",
       "batch": "scene-verbs",
+      "batches": [
+        "scene-verbs"
+      ],
       "text": "relaxar",
       "relativePath": "scene-verbs/relaxar.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -1466,6 +2012,9 @@
     {
       "id": "scene-verb:conversar",
       "batch": "scene-verbs",
+      "batches": [
+        "scene-verbs"
+      ],
       "text": "conversar",
       "relativePath": "scene-verbs/conversar.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -1474,6 +2023,9 @@
     {
       "id": "scene-verb:cozinhar",
       "batch": "scene-verbs",
+      "batches": [
+        "scene-verbs"
+      ],
       "text": "cozinhar",
       "relativePath": "scene-verbs/cozinhar.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -1482,6 +2034,9 @@
     {
       "id": "scene-verb:lavar",
       "batch": "scene-verbs",
+      "batches": [
+        "scene-verbs"
+      ],
       "text": "lavar",
       "relativePath": "scene-verbs/lavar.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -1490,6 +2045,9 @@
     {
       "id": "scene-verb:esquentar",
       "batch": "scene-verbs",
+      "batches": [
+        "scene-verbs"
+      ],
       "text": "esquentar",
       "relativePath": "scene-verbs/esquentar.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -1498,6 +2056,9 @@
     {
       "id": "scene-verb:temperar",
       "batch": "scene-verbs",
+      "batches": [
+        "scene-verbs"
+      ],
       "text": "temperar",
       "relativePath": "scene-verbs/temperar.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -1506,6 +2067,9 @@
     {
       "id": "scene-verb:dormir",
       "batch": "scene-verbs",
+      "batches": [
+        "scene-verbs"
+      ],
       "text": "dormir",
       "relativePath": "scene-verbs/dormir.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -1514,6 +2078,9 @@
     {
       "id": "scene-verb:acordar",
       "batch": "scene-verbs",
+      "batches": [
+        "scene-verbs"
+      ],
       "text": "acordar",
       "relativePath": "scene-verbs/acordar.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -1522,6 +2089,9 @@
     {
       "id": "scene-verb:arrumar",
       "batch": "scene-verbs",
+      "batches": [
+        "scene-verbs"
+      ],
       "text": "arrumar",
       "relativePath": "scene-verbs/arrumar.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -1530,6 +2100,9 @@
     {
       "id": "scene-verb:descansar",
       "batch": "scene-verbs",
+      "batches": [
+        "scene-verbs"
+      ],
       "text": "descansar",
       "relativePath": "scene-verbs/descansar.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -1538,6 +2111,9 @@
     {
       "id": "scene-verb:tomar-banho",
       "batch": "scene-verbs",
+      "batches": [
+        "scene-verbs"
+      ],
       "text": "tomar banho",
       "relativePath": "scene-verbs/tomar-banho.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -1546,6 +2122,9 @@
     {
       "id": "scene-verb:escovar",
       "batch": "scene-verbs",
+      "batches": [
+        "scene-verbs"
+      ],
       "text": "escovar",
       "relativePath": "scene-verbs/escovar.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -1554,6 +2133,9 @@
     {
       "id": "scene-verb:secar",
       "batch": "scene-verbs",
+      "batches": [
+        "scene-verbs"
+      ],
       "text": "secar",
       "relativePath": "scene-verbs/secar.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -1562,6 +2144,9 @@
     {
       "id": "scene-verb:passar",
       "batch": "scene-verbs",
+      "batches": [
+        "scene-verbs"
+      ],
       "text": "passar",
       "relativePath": "scene-verbs/passar.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -1570,6 +2155,9 @@
     {
       "id": "scene-verb:pendurar",
       "batch": "scene-verbs",
+      "batches": [
+        "scene-verbs"
+      ],
       "text": "pendurar",
       "relativePath": "scene-verbs/pendurar.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -1578,6 +2166,9 @@
     {
       "id": "scene-verb:comprar",
       "batch": "scene-verbs",
+      "batches": [
+        "scene-verbs"
+      ],
       "text": "comprar",
       "relativePath": "scene-verbs/comprar.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -1586,6 +2177,9 @@
     {
       "id": "scene-verb:pagar",
       "batch": "scene-verbs",
+      "batches": [
+        "scene-verbs"
+      ],
       "text": "pagar",
       "relativePath": "scene-verbs/pagar.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -1594,6 +2188,9 @@
     {
       "id": "scene-verb:escolher",
       "batch": "scene-verbs",
+      "batches": [
+        "scene-verbs"
+      ],
       "text": "escolher",
       "relativePath": "scene-verbs/escolher.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -1602,6 +2199,9 @@
     {
       "id": "scene-verb:pesar",
       "batch": "scene-verbs",
+      "batches": [
+        "scene-verbs"
+      ],
       "text": "pesar",
       "relativePath": "scene-verbs/pesar.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -1610,6 +2210,9 @@
     {
       "id": "scene-verb:indicar",
       "batch": "scene-verbs",
+      "batches": [
+        "scene-verbs"
+      ],
       "text": "indicar",
       "relativePath": "scene-verbs/indicar.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -1618,6 +2221,9 @@
     {
       "id": "scene-verb:receitar",
       "batch": "scene-verbs",
+      "batches": [
+        "scene-verbs"
+      ],
       "text": "receitar",
       "relativePath": "scene-verbs/receitar.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -1626,6 +2232,9 @@
     {
       "id": "scene-verb:pegar-o-onibus",
       "batch": "scene-verbs",
+      "batches": [
+        "scene-verbs"
+      ],
       "text": "pegar (o ônibus)",
       "relativePath": "scene-verbs/pegar-o-onibus.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -1634,6 +2243,9 @@
     {
       "id": "scene-verb:descer",
       "batch": "scene-verbs",
+      "batches": [
+        "scene-verbs"
+      ],
       "text": "descer",
       "relativePath": "scene-verbs/descer.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -1642,6 +2254,9 @@
     {
       "id": "scene-verb:atravessar",
       "batch": "scene-verbs",
+      "batches": [
+        "scene-verbs"
+      ],
       "text": "atravessar",
       "relativePath": "scene-verbs/atravessar.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -1650,6 +2265,9 @@
     {
       "id": "scene-verb:esperar",
       "batch": "scene-verbs",
+      "batches": [
+        "scene-verbs"
+      ],
       "text": "esperar",
       "relativePath": "scene-verbs/esperar.mp3",
       "voice": "pt-BR-FranciscaNeural",
@@ -1658,6 +2276,9 @@
     {
       "id": "sala:phrase:1",
       "batch": "scene-phrases",
+      "batches": [
+        "scene-phrases"
+      ],
       "text": "Senta aí, fica à vontade.",
       "relativePath": "scene-phrases/sala--phrase--1.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1666,6 +2287,9 @@
     {
       "id": "sala:phrase:2",
       "batch": "scene-phrases",
+      "batches": [
+        "scene-phrases"
+      ],
       "text": "Quer assistir um filme?",
       "relativePath": "scene-phrases/sala--phrase--2.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1674,6 +2298,9 @@
     {
       "id": "cozinha:phrase:1",
       "batch": "scene-phrases",
+      "batches": [
+        "scene-phrases"
+      ],
       "text": "Já esquentei o almoço.",
       "relativePath": "scene-phrases/cozinha--phrase--1.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1682,6 +2309,9 @@
     {
       "id": "cozinha:phrase:2",
       "batch": "scene-phrases",
+      "batches": [
+        "scene-phrases"
+      ],
       "text": "Você lava ou eu lavo?",
       "relativePath": "scene-phrases/cozinha--phrase--2.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1690,6 +2320,9 @@
     {
       "id": "quarto:phrase:1",
       "batch": "scene-phrases",
+      "batches": [
+        "scene-phrases"
+      ],
       "text": "Já vou dormir.",
       "relativePath": "scene-phrases/quarto--phrase--1.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1698,6 +2331,9 @@
     {
       "id": "quarto:phrase:2",
       "batch": "scene-phrases",
+      "batches": [
+        "scene-phrases"
+      ],
       "text": "Você arruma a cama todo dia?",
       "relativePath": "scene-phrases/quarto--phrase--2.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1706,6 +2342,9 @@
     {
       "id": "banheiro:phrase:1",
       "batch": "scene-phrases",
+      "batches": [
+        "scene-phrases"
+      ],
       "text": "Vou tomar banho rapidinho.",
       "relativePath": "scene-phrases/banheiro--phrase--1.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1714,6 +2353,9 @@
     {
       "id": "banheiro:phrase:2",
       "batch": "scene-phrases",
+      "batches": [
+        "scene-phrases"
+      ],
       "text": "Cadê a toalha limpa?",
       "relativePath": "scene-phrases/banheiro--phrase--2.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1722,6 +2364,9 @@
     {
       "id": "lavanderia:phrase:1",
       "batch": "scene-phrases",
+      "batches": [
+        "scene-phrases"
+      ],
       "text": "Já lavei a roupa, falta passar.",
       "relativePath": "scene-phrases/lavanderia--phrase--1.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1730,6 +2375,9 @@
     {
       "id": "lavanderia:phrase:2",
       "batch": "scene-phrases",
+      "batches": [
+        "scene-phrases"
+      ],
       "text": "Pendura isso no varal pra mim?",
       "relativePath": "scene-phrases/lavanderia--phrase--2.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1738,6 +2386,9 @@
     {
       "id": "supermercado:phrase:1",
       "batch": "scene-phrases",
+      "batches": [
+        "scene-phrases"
+      ],
       "text": "Quanto custa?",
       "relativePath": "scene-phrases/supermercado--phrase--1.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1746,6 +2397,9 @@
     {
       "id": "supermercado:phrase:2",
       "batch": "scene-phrases",
+      "batches": [
+        "scene-phrases"
+      ],
       "text": "Aceita cartão?",
       "relativePath": "scene-phrases/supermercado--phrase--2.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1754,6 +2408,9 @@
     {
       "id": "supermercado:phrase:3",
       "batch": "scene-phrases",
+      "batches": [
+        "scene-phrases"
+      ],
       "text": "Onde fica o leite?",
       "relativePath": "scene-phrases/supermercado--phrase--3.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1762,6 +2419,9 @@
     {
       "id": "farmacia:phrase:1",
       "batch": "scene-phrases",
+      "batches": [
+        "scene-phrases"
+      ],
       "text": "Você tem algo pra dor de cabeça?",
       "relativePath": "scene-phrases/farmacia--phrase--1.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1770,6 +2430,9 @@
     {
       "id": "farmacia:phrase:2",
       "batch": "scene-phrases",
+      "batches": [
+        "scene-phrases"
+      ],
       "text": "Precisa de receita pra esse remédio?",
       "relativePath": "scene-phrases/farmacia--phrase--2.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1778,6 +2441,9 @@
     {
       "id": "transporte:phrase:1",
       "batch": "scene-phrases",
+      "batches": [
+        "scene-phrases"
+      ],
       "text": "Esse ônibus passa no centro?",
       "relativePath": "scene-phrases/transporte--phrase--1.mp3",
       "voice": "pt-BR-AntonioNeural",
@@ -1786,10 +2452,2173 @@
     {
       "id": "transporte:phrase:2",
       "batch": "scene-phrases",
+      "batches": [
+        "scene-phrases"
+      ],
       "text": "Onde eu desço pra ir à praça?",
       "relativePath": "scene-phrases/transporte--phrase--2.mp3",
       "voice": "pt-BR-AntonioNeural",
       "src": "/assets/audio/pt-BR/scene-phrases/transporte--phrase--2.mp3"
+    },
+    {
+      "id": "emotion:female:feliz-1ng812j",
+      "batch": "emotion-lexicon-f",
+      "batches": [
+        "emotion-lexicon-f"
+      ],
+      "text": "feliz",
+      "relativePath": "emotions/female/feliz-1ng812j.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:feliz:lexicon:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/feliz-1ng812j.mp3"
+    },
+    {
+      "id": "emotion:male:feliz-1ng812j",
+      "batch": "emotion-lexicon-m",
+      "batches": [
+        "emotion-lexicon-m"
+      ],
+      "text": "feliz",
+      "relativePath": "emotions/male/feliz-1ng812j.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:feliz:lexicon:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/feliz-1ng812j.mp3"
+    },
+    {
+      "id": "emotion:female:ela-esta-feliz-porque-encontrou-uma-amiga-0qbleg7",
+      "batch": "emotion-examples-f",
+      "batches": [
+        "emotion-examples-f"
+      ],
+      "text": "Ela está feliz porque encontrou uma amiga.",
+      "relativePath": "emotions/female/ela-esta-feliz-porque-encontrou-uma-amiga-0qbleg7.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:feliz:example:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/ela-esta-feliz-porque-encontrou-uma-amiga-0qbleg7.mp3"
+    },
+    {
+      "id": "emotion:male:ele-esta-feliz-porque-recebeu-uma-boa-noti-1k0lji7",
+      "batch": "emotion-examples-m",
+      "batches": [
+        "emotion-examples-m"
+      ],
+      "text": "Ele está feliz porque recebeu uma boa notícia.",
+      "relativePath": "emotions/male/ele-esta-feliz-porque-recebeu-uma-boa-noti-1k0lji7.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:feliz:example:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/ele-esta-feliz-porque-recebeu-uma-boa-noti-1k0lji7.mp3"
+    },
+    {
+      "id": "emotion:female:eu-me-sinto-feliz-hoje-0e8bg9e",
+      "batch": "emotion-self-f",
+      "batches": [
+        "emotion-self-f"
+      ],
+      "text": "Eu me sinto feliz hoje.",
+      "relativePath": "emotions/female/eu-me-sinto-feliz-hoje-0e8bg9e.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:feliz:self:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/eu-me-sinto-feliz-hoje-0e8bg9e.mp3"
+    },
+    {
+      "id": "emotion:male:eu-me-sinto-feliz-hoje-0e8bg9e",
+      "batch": "emotion-self-m",
+      "batches": [
+        "emotion-self-m"
+      ],
+      "text": "Eu me sinto feliz hoje.",
+      "relativePath": "emotions/male/eu-me-sinto-feliz-hoje-0e8bg9e.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:feliz:self:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/eu-me-sinto-feliz-hoje-0e8bg9e.mp3"
+    },
+    {
+      "id": "emotion:female:conte-uma-coisa-simples-que-deixou-voce-fe-1pk4w6w",
+      "batch": "emotion-context",
+      "batches": [
+        "emotion-context"
+      ],
+      "text": "Conte uma coisa simples que deixou você feliz hoje.",
+      "relativePath": "emotions/female/conte-uma-coisa-simples-que-deixou-voce-fe-1pk4w6w.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:feliz:context"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/conte-uma-coisa-simples-que-deixou-voce-fe-1pk4w6w.mp3"
+    },
+    {
+      "id": "emotion:male:feliz-nao-muda-no-feminino-e-no-masculino-1ah7ymo",
+      "batch": "emotion-usage",
+      "batches": [
+        "emotion-usage"
+      ],
+      "text": "“Feliz” não muda no feminino e no masculino.",
+      "relativePath": "emotions/male/feliz-nao-muda-no-feminino-e-no-masculino-1ah7ymo.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:feliz:usage"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/feliz-nao-muda-no-feminino-e-no-masculino-1ah7ymo.mp3"
+    },
+    {
+      "id": "emotion:female:no-brasil-que-bom-e-uma-reacao-muito-comum-1d1zytx",
+      "batch": "emotion-culture",
+      "batches": [
+        "emotion-culture"
+      ],
+      "text": "No Brasil, “Que bom!” é uma reação muito comum ao compartilhar a felicidade de alguém.",
+      "relativePath": "emotions/female/no-brasil-que-bom-e-uma-reacao-muito-comum-1d1zytx.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:feliz:culture"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/no-brasil-que-bom-e-uma-reacao-muito-comum-1d1zytx.mp3"
+    },
+    {
+      "id": "emotion:female:triste-0psh6b8",
+      "batch": "emotion-lexicon-f",
+      "batches": [
+        "emotion-lexicon-f"
+      ],
+      "text": "triste",
+      "relativePath": "emotions/female/triste-0psh6b8.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:triste:lexicon:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/triste-0psh6b8.mp3"
+    },
+    {
+      "id": "emotion:male:triste-0psh6b8",
+      "batch": "emotion-lexicon-m",
+      "batches": [
+        "emotion-lexicon-m"
+      ],
+      "text": "triste",
+      "relativePath": "emotions/male/triste-0psh6b8.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:triste:lexicon:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/triste-0psh6b8.mp3"
+    },
+    {
+      "id": "emotion:female:ela-esta-triste-porque-sente-saudade-da-fa-17t24jf",
+      "batch": "emotion-examples-f",
+      "batches": [
+        "emotion-examples-f"
+      ],
+      "text": "Ela está triste porque sente saudade da família.",
+      "relativePath": "emotions/female/ela-esta-triste-porque-sente-saudade-da-fa-17t24jf.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:triste:example:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/ela-esta-triste-porque-sente-saudade-da-fa-17t24jf.mp3"
+    },
+    {
+      "id": "emotion:male:ele-ficou-triste-com-a-despedida-0lss053",
+      "batch": "emotion-examples-m",
+      "batches": [
+        "emotion-examples-m"
+      ],
+      "text": "Ele ficou triste com a despedida.",
+      "relativePath": "emotions/male/ele-ficou-triste-com-a-despedida-0lss053.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:triste:example:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/ele-ficou-triste-com-a-despedida-0lss053.mp3"
+    },
+    {
+      "id": "emotion:female:hoje-eu-estou-um-pouco-triste-0oaoz66",
+      "batch": "emotion-self-f",
+      "batches": [
+        "emotion-self-f"
+      ],
+      "text": "Hoje eu estou um pouco triste.",
+      "relativePath": "emotions/female/hoje-eu-estou-um-pouco-triste-0oaoz66.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:triste:self:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/hoje-eu-estou-um-pouco-triste-0oaoz66.mp3"
+    },
+    {
+      "id": "emotion:male:hoje-eu-estou-um-pouco-triste-0oaoz66",
+      "batch": "emotion-self-m",
+      "batches": [
+        "emotion-self-m"
+      ],
+      "text": "Hoje eu estou um pouco triste.",
+      "relativePath": "emotions/male/hoje-eu-estou-um-pouco-triste-0oaoz66.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:triste:self:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/hoje-eu-estou-um-pouco-triste-0oaoz66.mp3"
+    },
+    {
+      "id": "emotion:female:como-voce-acolheria-uma-pessoa-que-esta-tr-1xgdvdf",
+      "batch": "emotion-context",
+      "batches": [
+        "emotion-context"
+      ],
+      "text": "Como você acolheria uma pessoa que está triste?",
+      "relativePath": "emotions/female/como-voce-acolheria-uma-pessoa-que-esta-tr-1xgdvdf.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:triste:context"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/como-voce-acolheria-uma-pessoa-que-esta-tr-1xgdvdf.mp3"
+    },
+    {
+      "id": "emotion:male:estar-triste-descreve-o-estado-ficar-trist-0vzq7uf",
+      "batch": "emotion-usage",
+      "batches": [
+        "emotion-usage"
+      ],
+      "text": "“Estar triste” descreve o estado; “ficar triste” destaca a mudança.",
+      "relativePath": "emotions/male/estar-triste-descreve-o-estado-ficar-trist-0vzq7uf.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:triste:usage"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/estar-triste-descreve-o-estado-ficar-trist-0vzq7uf.mp3"
+    },
+    {
+      "id": "emotion:female:saudade-pode-misturar-tristeza-e-afeto-nem-18kuyoo",
+      "batch": "emotion-culture",
+      "batches": [
+        "emotion-culture"
+      ],
+      "text": "“Saudade” pode misturar tristeza e afeto; nem sempre significa apenas estar triste.",
+      "relativePath": "emotions/female/saudade-pode-misturar-tristeza-e-afeto-nem-18kuyoo.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:triste:culture"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/saudade-pode-misturar-tristeza-e-afeto-nem-18kuyoo.mp3"
+    },
+    {
+      "id": "emotion:female:apaixonada-0lazubt",
+      "batch": "emotion-lexicon-f",
+      "batches": [
+        "emotion-lexicon-f"
+      ],
+      "text": "apaixonada",
+      "relativePath": "emotions/female/apaixonada-0lazubt.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:apaixonada:lexicon:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/apaixonada-0lazubt.mp3"
+    },
+    {
+      "id": "emotion:male:apaixonado-0o2vv9j",
+      "batch": "emotion-lexicon-m",
+      "batches": [
+        "emotion-lexicon-m"
+      ],
+      "text": "apaixonado",
+      "relativePath": "emotions/male/apaixonado-0o2vv9j.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:apaixonada:lexicon:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/apaixonado-0o2vv9j.mp3"
+    },
+    {
+      "id": "emotion:female:ela-esta-apaixonada-por-uma-colega-da-facu-1to0hld",
+      "batch": "emotion-examples-f",
+      "batches": [
+        "emotion-examples-f"
+      ],
+      "text": "Ela está apaixonada por uma colega da faculdade.",
+      "relativePath": "emotions/female/ela-esta-apaixonada-por-uma-colega-da-facu-1to0hld.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:apaixonada:example:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/ela-esta-apaixonada-por-uma-colega-da-facu-1to0hld.mp3"
+    },
+    {
+      "id": "emotion:male:ele-esta-apaixonado-e-nao-para-de-sorrir-1lkvr0b",
+      "batch": "emotion-examples-m",
+      "batches": [
+        "emotion-examples-m"
+      ],
+      "text": "Ele está apaixonado e não para de sorrir.",
+      "relativePath": "emotions/male/ele-esta-apaixonado-e-nao-para-de-sorrir-1lkvr0b.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:apaixonada:example:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/ele-esta-apaixonado-e-nao-para-de-sorrir-1lkvr0b.mp3"
+    },
+    {
+      "id": "emotion:female:eu-estou-apaixonada-04qcan1",
+      "batch": "emotion-self-f",
+      "batches": [
+        "emotion-self-f"
+      ],
+      "text": "Eu estou apaixonada.",
+      "relativePath": "emotions/female/eu-estou-apaixonada-04qcan1.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:apaixonada:self:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/eu-estou-apaixonada-04qcan1.mp3"
+    },
+    {
+      "id": "emotion:male:eu-estou-apaixonado-04pr61f",
+      "batch": "emotion-self-m",
+      "batches": [
+        "emotion-self-m"
+      ],
+      "text": "Eu estou apaixonado.",
+      "relativePath": "emotions/male/eu-estou-apaixonado-04pr61f.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:apaixonada:self:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/eu-estou-apaixonado-04pr61f.mp3"
+    },
+    {
+      "id": "emotion:female:que-sinais-mostram-que-alguem-esta-apaixon-0oorlhe",
+      "batch": "emotion-context",
+      "batches": [
+        "emotion-context"
+      ],
+      "text": "Que sinais mostram que alguém está apaixonado?",
+      "relativePath": "emotions/female/que-sinais-mostram-que-alguem-esta-apaixon-0oorlhe.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:apaixonada:context"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/que-sinais-mostram-que-alguem-esta-apaixon-0oorlhe.mp3"
+    },
+    {
+      "id": "emotion:male:em-portugues-usamos-apaixonado-por-alguem-13pi3vr",
+      "batch": "emotion-usage",
+      "batches": [
+        "emotion-usage"
+      ],
+      "text": "Em português usamos “apaixonado por alguém”.",
+      "relativePath": "emotions/male/em-portugues-usamos-apaixonado-por-alguem-13pi3vr.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:apaixonada:usage"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/em-portugues-usamos-apaixonado-por-alguem-13pi3vr.mp3"
+    },
+    {
+      "id": "emotion:female:gostar-de-pode-expressar-afeto-de-modo-mai-1h5hgft",
+      "batch": "emotion-culture",
+      "batches": [
+        "emotion-culture"
+      ],
+      "text": "“Gostar de” pode expressar afeto de modo mais leve; “estar apaixonado” é mais intenso.",
+      "relativePath": "emotions/female/gostar-de-pode-expressar-afeto-de-modo-mai-1h5hgft.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:apaixonada:culture"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/gostar-de-pode-expressar-afeto-de-modo-mai-1h5hgft.mp3"
+    },
+    {
+      "id": "emotion:female:preocupada-021dp7f",
+      "batch": "emotion-lexicon-f",
+      "batches": [
+        "emotion-lexicon-f"
+      ],
+      "text": "preocupada",
+      "relativePath": "emotions/female/preocupada-021dp7f.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:preocupada:lexicon:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/preocupada-021dp7f.mp3"
+    },
+    {
+      "id": "emotion:male:preocupado-01hehth",
+      "batch": "emotion-lexicon-m",
+      "batches": [
+        "emotion-lexicon-m"
+      ],
+      "text": "preocupado",
+      "relativePath": "emotions/male/preocupado-01hehth.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:preocupada:lexicon:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/preocupado-01hehth.mp3"
+    },
+    {
+      "id": "emotion:female:ela-esta-preocupada-com-a-prova-de-amanha-11bob01",
+      "batch": "emotion-examples-f",
+      "batches": [
+        "emotion-examples-f"
+      ],
+      "text": "Ela está preocupada com a prova de amanhã.",
+      "relativePath": "emotions/female/ela-esta-preocupada-com-a-prova-de-amanha-11bob01.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:preocupada:example:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/ela-esta-preocupada-com-a-prova-de-amanha-11bob01.mp3"
+    },
+    {
+      "id": "emotion:male:ele-ficou-preocupado-quando-o-onibus-atras-17y0e06",
+      "batch": "emotion-examples-m",
+      "batches": [
+        "emotion-examples-m"
+      ],
+      "text": "Ele ficou preocupado quando o ônibus atrasou.",
+      "relativePath": "emotions/male/ele-ficou-preocupado-quando-o-onibus-atras-17y0e06.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:preocupada:example:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/ele-ficou-preocupado-quando-o-onibus-atras-17y0e06.mp3"
+    },
+    {
+      "id": "emotion:female:eu-estou-preocupada-com-isso-13stjxa",
+      "batch": "emotion-self-f",
+      "batches": [
+        "emotion-self-f"
+      ],
+      "text": "Eu estou preocupada com isso.",
+      "relativePath": "emotions/female/eu-estou-preocupada-com-isso-13stjxa.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:preocupada:self:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/eu-estou-preocupada-com-isso-13stjxa.mp3"
+    },
+    {
+      "id": "emotion:male:eu-estou-preocupado-com-isso-14etfnc",
+      "batch": "emotion-self-m",
+      "batches": [
+        "emotion-self-m"
+      ],
+      "text": "Eu estou preocupado com isso.",
+      "relativePath": "emotions/male/eu-estou-preocupado-com-isso-14etfnc.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:preocupada:self:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/eu-estou-preocupado-com-isso-14etfnc.mp3"
+    },
+    {
+      "id": "emotion:female:o-que-ajuda-voce-quando-esta-preocupado-0kn7kz2",
+      "batch": "emotion-context",
+      "batches": [
+        "emotion-context"
+      ],
+      "text": "O que ajuda você quando está preocupado?",
+      "relativePath": "emotions/female/o-que-ajuda-voce-quando-esta-preocupado-0kn7kz2.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:preocupada:context"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/o-que-ajuda-voce-quando-esta-preocupado-0kn7kz2.mp3"
+    },
+    {
+      "id": "emotion:male:a-construcao-mais-comum-e-preocupado-com-a-0zv4gwf",
+      "batch": "emotion-usage",
+      "batches": [
+        "emotion-usage"
+      ],
+      "text": "A construção mais comum é “preocupado com” alguma coisa.",
+      "relativePath": "emotions/male/a-construcao-mais-comum-e-preocupado-com-a-0zv4gwf.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:preocupada:usage"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/a-construcao-mais-comum-e-preocupado-com-a-0zv4gwf.mp3"
+    },
+    {
+      "id": "emotion:female:perguntar-esta-tudo-bem-e-uma-forma-brasil-0n5q2qb",
+      "batch": "emotion-culture",
+      "batches": [
+        "emotion-culture"
+      ],
+      "text": "Perguntar “Está tudo bem?” é uma forma brasileira frequente de demonstrar cuidado.",
+      "relativePath": "emotions/female/perguntar-esta-tudo-bem-e-uma-forma-brasil-0n5q2qb.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:preocupada:culture"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/perguntar-esta-tudo-bem-e-uma-forma-brasil-0n5q2qb.mp3"
+    },
+    {
+      "id": "emotion:female:assustada-076607u",
+      "batch": "emotion-lexicon-f",
+      "batches": [
+        "emotion-lexicon-f"
+      ],
+      "text": "assustada",
+      "relativePath": "emotions/female/assustada-076607u.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:assustada:lexicon:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/assustada-076607u.mp3"
+    },
+    {
+      "id": "emotion:male:assustado-03abki8",
+      "batch": "emotion-lexicon-m",
+      "batches": [
+        "emotion-lexicon-m"
+      ],
+      "text": "assustado",
+      "relativePath": "emotions/male/assustado-03abki8.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:assustada:lexicon:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/assustado-03abki8.mp3"
+    },
+    {
+      "id": "emotion:female:ela-ficou-assustada-com-o-barulho-da-porta-0xbqauo",
+      "batch": "emotion-examples-f",
+      "batches": [
+        "emotion-examples-f"
+      ],
+      "text": "Ela ficou assustada com o barulho da porta.",
+      "relativePath": "emotions/female/ela-ficou-assustada-com-o-barulho-da-porta-0xbqauo.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:assustada:example:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/ela-ficou-assustada-com-o-barulho-da-porta-0xbqauo.mp3"
+    },
+    {
+      "id": "emotion:male:ele-esta-assustado-mas-ja-esta-seguro-1t5g14r",
+      "batch": "emotion-examples-m",
+      "batches": [
+        "emotion-examples-m"
+      ],
+      "text": "Ele está assustado, mas já está seguro.",
+      "relativePath": "emotions/male/ele-esta-assustado-mas-ja-esta-seguro-1t5g14r.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:assustada:example:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/ele-esta-assustado-mas-ja-esta-seguro-1t5g14r.mp3"
+    },
+    {
+      "id": "emotion:female:eu-levei-um-susto-1qblszb",
+      "batch": "emotion-self-f",
+      "batches": [
+        "emotion-self-f"
+      ],
+      "text": "Eu levei um susto!",
+      "relativePath": "emotions/female/eu-levei-um-susto-1qblszb.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:assustada:self:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/eu-levei-um-susto-1qblszb.mp3"
+    },
+    {
+      "id": "emotion:male:eu-levei-um-susto-1qblszb",
+      "batch": "emotion-self-m",
+      "batches": [
+        "emotion-self-m"
+      ],
+      "text": "Eu levei um susto!",
+      "relativePath": "emotions/male/eu-levei-um-susto-1qblszb.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:assustada:self:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/eu-levei-um-susto-1qblszb.mp3"
+    },
+    {
+      "id": "emotion:female:o-que-voce-diria-para-tranquilizar-alguem--1vx8m3r",
+      "batch": "emotion-context",
+      "batches": [
+        "emotion-context"
+      ],
+      "text": "O que você diria para tranquilizar alguém assustado?",
+      "relativePath": "emotions/female/o-que-voce-diria-para-tranquilizar-alguem--1vx8m3r.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:assustada:context"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/o-que-voce-diria-para-tranquilizar-alguem--1vx8m3r.mp3"
+    },
+    {
+      "id": "emotion:male:levar-um-susto-e-uma-expressao-muito-comum-13tu547",
+      "batch": "emotion-usage",
+      "batches": [
+        "emotion-usage"
+      ],
+      "text": "“Levar um susto” é uma expressão muito comum para uma reação repentina.",
+      "relativePath": "emotions/male/levar-um-susto-e-uma-expressao-muito-comum-13tu547.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:assustada:usage"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/levar-um-susto-e-uma-expressao-muito-comum-13tu547.mp3"
+    },
+    {
+      "id": "emotion:female:nossa-pode-expressar-susto-surpresa-ou-adm-0m1ysfd",
+      "batch": "emotion-culture",
+      "batches": [
+        "emotion-culture"
+      ],
+      "text": "“Nossa!” pode expressar susto, surpresa ou admiração dependendo da entonação.",
+      "relativePath": "emotions/female/nossa-pode-expressar-susto-surpresa-ou-adm-0m1ysfd.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:assustada:culture"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/nossa-pode-expressar-susto-surpresa-ou-adm-0m1ysfd.mp3"
+    },
+    {
+      "id": "emotion:female:calma-0bfhis5",
+      "batch": "emotion-lexicon-f",
+      "batches": [
+        "emotion-lexicon-f"
+      ],
+      "text": "calma",
+      "relativePath": "emotions/female/calma-0bfhis5.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:calma:lexicon:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/calma-0bfhis5.mp3"
+    },
+    {
+      "id": "emotion:male:calmo-0bzgq63",
+      "batch": "emotion-lexicon-m",
+      "batches": [
+        "emotion-lexicon-m"
+      ],
+      "text": "calmo",
+      "relativePath": "emotions/male/calmo-0bzgq63.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:calma:lexicon:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/calmo-0bzgq63.mp3"
+    },
+    {
+      "id": "emotion:female:ela-esta-calma-antes-da-apresentacao-1sxidea",
+      "batch": "emotion-examples-f",
+      "batches": [
+        "emotion-examples-f"
+      ],
+      "text": "Ela está calma antes da apresentação.",
+      "relativePath": "emotions/female/ela-esta-calma-antes-da-apresentacao-1sxidea.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:calma:example:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/ela-esta-calma-antes-da-apresentacao-1sxidea.mp3"
+    },
+    {
+      "id": "emotion:male:ele-ficou-calmo-depois-de-respirar-fundo-01ouozg",
+      "batch": "emotion-examples-m",
+      "batches": [
+        "emotion-examples-m"
+      ],
+      "text": "Ele ficou calmo depois de respirar fundo.",
+      "relativePath": "emotions/male/ele-ficou-calmo-depois-de-respirar-fundo-01ouozg.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:calma:example:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/ele-ficou-calmo-depois-de-respirar-fundo-01ouozg.mp3"
+    },
+    {
+      "id": "emotion:female:agora-eu-me-sinto-calma-00kf054",
+      "batch": "emotion-self-f",
+      "batches": [
+        "emotion-self-f"
+      ],
+      "text": "Agora eu me sinto calma.",
+      "relativePath": "emotions/female/agora-eu-me-sinto-calma-00kf054.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:calma:self:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/agora-eu-me-sinto-calma-00kf054.mp3"
+    },
+    {
+      "id": "emotion:male:agora-eu-me-sinto-calmo-103xvj2",
+      "batch": "emotion-self-m",
+      "batches": [
+        "emotion-self-m"
+      ],
+      "text": "Agora eu me sinto calmo.",
+      "relativePath": "emotions/male/agora-eu-me-sinto-calmo-103xvj2.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:calma:self:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/agora-eu-me-sinto-calmo-103xvj2.mp3"
+    },
+    {
+      "id": "emotion:female:qual-habito-ajuda-voce-a-recuperar-a-calma-1k40dco",
+      "batch": "emotion-context",
+      "batches": [
+        "emotion-context"
+      ],
+      "text": "Qual hábito ajuda você a recuperar a calma?",
+      "relativePath": "emotions/female/qual-habito-ajuda-voce-a-recuperar-a-calma-1k40dco.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:calma:context"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/qual-habito-ajuda-voce-a-recuperar-a-calma-1k40dco.mp3"
+    },
+    {
+      "id": "emotion:male:estar-calmo-e-um-estado-ficar-calmo-indica-0zsx5u7",
+      "batch": "emotion-usage",
+      "batches": [
+        "emotion-usage"
+      ],
+      "text": "“Estar calmo” é um estado; “ficar calmo” indica que a tensão diminuiu.",
+      "relativePath": "emotions/male/estar-calmo-e-um-estado-ficar-calmo-indica-0zsx5u7.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:calma:usage"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/estar-calmo-e-um-estado-ficar-calmo-indica-0zsx5u7.mp3"
+    },
+    {
+      "id": "emotion:female:fica-tranquilo-pode-significar-tanto-acalm-12t5xby",
+      "batch": "emotion-culture",
+      "batches": [
+        "emotion-culture"
+      ],
+      "text": "“Fica tranquilo” pode significar tanto “acalme-se” quanto “não se preocupe”.",
+      "relativePath": "emotions/female/fica-tranquilo-pode-significar-tanto-acalm-12t5xby.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:calma:culture"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/fica-tranquilo-pode-significar-tanto-acalm-12t5xby.mp3"
+    },
+    {
+      "id": "emotion:female:irritada-0a38jgj",
+      "batch": "emotion-lexicon-f",
+      "batches": [
+        "emotion-lexicon-f"
+      ],
+      "text": "irritada",
+      "relativePath": "emotions/female/irritada-0a38jgj.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:irritada:lexicon:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/irritada-0a38jgj.mp3"
+    },
+    {
+      "id": "emotion:male:irritado-0dz2z65",
+      "batch": "emotion-lexicon-m",
+      "batches": [
+        "emotion-lexicon-m"
+      ],
+      "text": "irritado",
+      "relativePath": "emotions/male/irritado-0dz2z65.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:irritada:lexicon:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/irritado-0dz2z65.mp3"
+    },
+    {
+      "id": "emotion:female:ela-esta-irritada-com-o-barulho-constante-1p86ffw",
+      "batch": "emotion-examples-f",
+      "batches": [
+        "emotion-examples-f"
+      ],
+      "text": "Ela está irritada com o barulho constante.",
+      "relativePath": "emotions/female/ela-esta-irritada-com-o-barulho-constante-1p86ffw.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:irritada:example:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/ela-esta-irritada-com-o-barulho-constante-1p86ffw.mp3"
+    },
+    {
+      "id": "emotion:male:ele-ficou-irritado-porque-ninguem-responde-1sybmtv",
+      "batch": "emotion-examples-m",
+      "batches": [
+        "emotion-examples-m"
+      ],
+      "text": "Ele ficou irritado porque ninguém respondeu.",
+      "relativePath": "emotions/male/ele-ficou-irritado-porque-ninguem-responde-1sybmtv.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:irritada:example:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/ele-ficou-irritado-porque-ninguem-responde-1sybmtv.mp3"
+    },
+    {
+      "id": "emotion:female:eu-estou-irritada-preciso-de-um-minuto-0dhq901",
+      "batch": "emotion-self-f",
+      "batches": [
+        "emotion-self-f"
+      ],
+      "text": "Eu estou irritada, preciso de um minuto.",
+      "relativePath": "emotions/female/eu-estou-irritada-preciso-de-um-minuto-0dhq901.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:irritada:self:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/eu-estou-irritada-preciso-de-um-minuto-0dhq901.mp3"
+    },
+    {
+      "id": "emotion:male:eu-estou-irritado-preciso-de-um-minuto-07oeisj",
+      "batch": "emotion-self-m",
+      "batches": [
+        "emotion-self-m"
+      ],
+      "text": "Eu estou irritado, preciso de um minuto.",
+      "relativePath": "emotions/male/eu-estou-irritado-preciso-de-um-minuto-07oeisj.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:irritada:self:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/eu-estou-irritado-preciso-de-um-minuto-07oeisj.mp3"
+    },
+    {
+      "id": "emotion:female:como-expressar-irritacao-sem-desrespeitar--1cqyq4q",
+      "batch": "emotion-context",
+      "batches": [
+        "emotion-context"
+      ],
+      "text": "Como expressar irritação sem desrespeitar a outra pessoa?",
+      "relativePath": "emotions/female/como-expressar-irritacao-sem-desrespeitar--1cqyq4q.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:irritada:context"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/como-expressar-irritacao-sem-desrespeitar--1cqyq4q.mp3"
+    },
+    {
+      "id": "emotion:male:podemos-estar-irritados-com-alguem-ou-irri-14m9wyh",
+      "batch": "emotion-usage",
+      "batches": [
+        "emotion-usage"
+      ],
+      "text": "Podemos estar “irritados com alguém” ou “irritados por causa de algo”.",
+      "relativePath": "emotions/male/podemos-estar-irritados-com-alguem-ou-irri-14m9wyh.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:irritada:usage"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/podemos-estar-irritados-com-alguem-ou-irri-14m9wyh.mp3"
+    },
+    {
+      "id": "emotion:female:preciso-de-um-minuto-ajuda-a-estabelecer-u-0c0rxtv",
+      "batch": "emotion-culture",
+      "batches": [
+        "emotion-culture"
+      ],
+      "text": "“Preciso de um minuto” ajuda a estabelecer um limite sem transformar irritação em confronto.",
+      "relativePath": "emotions/female/preciso-de-um-minuto-ajuda-a-estabelecer-u-0c0rxtv.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:irritada:culture"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/preciso-de-um-minuto-ajuda-a-estabelecer-u-0c0rxtv.mp3"
+    },
+    {
+      "id": "emotion:female:surpresa-168dwei",
+      "batch": "emotion-lexicon-f",
+      "batches": [
+        "emotion-lexicon-f"
+      ],
+      "text": "surpresa",
+      "relativePath": "emotions/female/surpresa-168dwei.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:surpresa:lexicon:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/surpresa-168dwei.mp3"
+    },
+    {
+      "id": "emotion:male:surpreso-12cjgow",
+      "batch": "emotion-lexicon-m",
+      "batches": [
+        "emotion-lexicon-m"
+      ],
+      "text": "surpreso",
+      "relativePath": "emotions/male/surpreso-12cjgow.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:surpresa:lexicon:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/surpreso-12cjgow.mp3"
+    },
+    {
+      "id": "emotion:female:ela-ficou-surpresa-com-a-festa-0jzqlff",
+      "batch": "emotion-examples-f",
+      "batches": [
+        "emotion-examples-f"
+      ],
+      "text": "Ela ficou surpresa com a festa.",
+      "relativePath": "emotions/female/ela-ficou-surpresa-com-a-festa-0jzqlff.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:surpresa:example:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/ela-ficou-surpresa-com-a-festa-0jzqlff.mp3"
+    },
+    {
+      "id": "emotion:male:ele-esta-surpreso-com-o-resultado-0u19u3c",
+      "batch": "emotion-examples-m",
+      "batches": [
+        "emotion-examples-m"
+      ],
+      "text": "Ele está surpreso com o resultado.",
+      "relativePath": "emotions/male/ele-esta-surpreso-com-o-resultado-0u19u3c.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:surpresa:example:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/ele-esta-surpreso-com-o-resultado-0u19u3c.mp3"
+    },
+    {
+      "id": "emotion:female:eu-nao-esperava-por-isso-1bd1pgm",
+      "batch": "emotion-self-f",
+      "batches": [
+        "emotion-self-f"
+      ],
+      "text": "Eu não esperava por isso!",
+      "relativePath": "emotions/female/eu-nao-esperava-por-isso-1bd1pgm.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:surpresa:self:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/eu-nao-esperava-por-isso-1bd1pgm.mp3"
+    },
+    {
+      "id": "emotion:male:eu-nao-esperava-por-isso-1bd1pgm",
+      "batch": "emotion-self-m",
+      "batches": [
+        "emotion-self-m"
+      ],
+      "text": "Eu não esperava por isso!",
+      "relativePath": "emotions/male/eu-nao-esperava-por-isso-1bd1pgm.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:surpresa:self:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/eu-nao-esperava-por-isso-1bd1pgm.mp3"
+    },
+    {
+      "id": "emotion:female:conte-uma-surpresa-positiva-que-voce-receb-0v1qm17",
+      "batch": "emotion-context",
+      "batches": [
+        "emotion-context"
+      ],
+      "text": "Conte uma surpresa positiva que você recebeu.",
+      "relativePath": "emotions/female/conte-uma-surpresa-positiva-que-voce-receb-0v1qm17.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:surpresa:context"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/conte-uma-surpresa-positiva-que-voce-receb-0v1qm17.mp3"
+    },
+    {
+      "id": "emotion:male:ficar-surpreso-destaca-o-momento-em-que-a--1gojv50",
+      "batch": "emotion-usage",
+      "batches": [
+        "emotion-usage"
+      ],
+      "text": "“Ficar surpreso” destaca o momento em que a surpresa acontece.",
+      "relativePath": "emotions/male/ficar-surpreso-destaca-o-momento-em-que-a--1gojv50.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:surpresa:usage"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/ficar-surpreso-destaca-o-momento-em-que-a--1gojv50.mp3"
+    },
+    {
+      "id": "emotion:female:nossa-e-serio-sao-reacoes-comuns-em-russo--1bfpywy",
+      "batch": "emotion-culture",
+      "batches": [
+        "emotion-culture"
+      ],
+      "text": "“Nossa!” e “Sério?” são reações comuns; em russo, “Ничего себе!” cumpre função parecida.",
+      "relativePath": "emotions/female/nossa-e-serio-sao-reacoes-comuns-em-russo--1bfpywy.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:surpresa:culture"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/nossa-e-serio-sao-reacoes-comuns-em-russo--1bfpywy.mp3"
+    },
+    {
+      "id": "emotion:female:cansada-1mnkx82",
+      "batch": "emotion-lexicon-f",
+      "batches": [
+        "emotion-lexicon-f"
+      ],
+      "text": "cansada",
+      "relativePath": "emotions/female/cansada-1mnkx82.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:cansada:lexicon:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/cansada-1mnkx82.mp3"
+    },
+    {
+      "id": "emotion:male:cansado-1n7k4m0",
+      "batch": "emotion-lexicon-m",
+      "batches": [
+        "emotion-lexicon-m"
+      ],
+      "text": "cansado",
+      "relativePath": "emotions/male/cansado-1n7k4m0.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:cansada:lexicon:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/cansado-1n7k4m0.mp3"
+    },
+    {
+      "id": "emotion:female:ela-esta-cansada-depois-de-trabalhar-o-dia-0idrxwc",
+      "batch": "emotion-examples-f",
+      "batches": [
+        "emotion-examples-f"
+      ],
+      "text": "Ela está cansada depois de trabalhar o dia inteiro.",
+      "relativePath": "emotions/female/ela-esta-cansada-depois-de-trabalhar-o-dia-0idrxwc.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:cansada:example:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/ela-esta-cansada-depois-de-trabalhar-o-dia-0idrxwc.mp3"
+    },
+    {
+      "id": "emotion:male:ele-ficou-cansado-depois-da-viagem-002lq7s",
+      "batch": "emotion-examples-m",
+      "batches": [
+        "emotion-examples-m"
+      ],
+      "text": "Ele ficou cansado depois da viagem.",
+      "relativePath": "emotions/male/ele-ficou-cansado-depois-da-viagem-002lq7s.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:cansada:example:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/ele-ficou-cansado-depois-da-viagem-002lq7s.mp3"
+    },
+    {
+      "id": "emotion:female:eu-estou-cansada-e-preciso-descansar-1ihciqw",
+      "batch": "emotion-self-f",
+      "batches": [
+        "emotion-self-f"
+      ],
+      "text": "Eu estou cansada e preciso descansar.",
+      "relativePath": "emotions/female/eu-estou-cansada-e-preciso-descansar-1ihciqw.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:cansada:self:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/eu-estou-cansada-e-preciso-descansar-1ihciqw.mp3"
+    },
+    {
+      "id": "emotion:male:eu-estou-cansado-e-preciso-descansar-0eaxvc2",
+      "batch": "emotion-self-m",
+      "batches": [
+        "emotion-self-m"
+      ],
+      "text": "Eu estou cansado e preciso descansar.",
+      "relativePath": "emotions/male/eu-estou-cansado-e-preciso-descansar-0eaxvc2.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:cansada:self:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/eu-estou-cansado-e-preciso-descansar-0eaxvc2.mp3"
+    },
+    {
+      "id": "emotion:female:como-voce-percebe-que-precisa-descansar-0h1z9si",
+      "batch": "emotion-context",
+      "batches": [
+        "emotion-context"
+      ],
+      "text": "Como você percebe que precisa descansar?",
+      "relativePath": "emotions/female/como-voce-percebe-que-precisa-descansar-0h1z9si.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:cansada:context"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/como-voce-percebe-que-precisa-descansar-0h1z9si.mp3"
+    },
+    {
+      "id": "emotion:male:cansado-e-falta-de-energia-com-sono-e-vont-1sf1zpc",
+      "batch": "emotion-usage",
+      "batches": [
+        "emotion-usage"
+      ],
+      "text": "“Cansado” é falta de energia; “com sono” é vontade de dormir.",
+      "relativePath": "emotions/male/cansado-e-falta-de-energia-com-sono-e-vont-1sf1zpc.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:cansada:usage"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/cansado-e-falta-de-energia-com-sono-e-vont-1sf1zpc.mp3"
+    },
+    {
+      "id": "emotion:female:estou-so-o-po-e-uma-expressao-brasileira-i-0ag1hbo",
+      "batch": "emotion-culture",
+      "batches": [
+        "emotion-culture"
+      ],
+      "text": "“Estou só o pó” é uma expressão brasileira informal para dizer “estou muito cansado”.",
+      "relativePath": "emotions/female/estou-so-o-po-e-uma-expressao-brasileira-i-0ag1hbo.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:cansada:culture"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/estou-so-o-po-e-uma-expressao-brasileira-i-0ag1hbo.mp3"
+    },
+    {
+      "id": "emotion:female:animada-1kga5nw",
+      "batch": "emotion-lexicon-f",
+      "batches": [
+        "emotion-lexicon-f"
+      ],
+      "text": "animada",
+      "relativePath": "emotions/female/animada-1kga5nw.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:animada:lexicon:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/animada-1kga5nw.mp3"
+    },
+    {
+      "id": "emotion:male:animado-1m47rtq",
+      "batch": "emotion-lexicon-m",
+      "batches": [
+        "emotion-lexicon-m"
+      ],
+      "text": "animado",
+      "relativePath": "emotions/male/animado-1m47rtq.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:animada:lexicon:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/animado-1m47rtq.mp3"
+    },
+    {
+      "id": "emotion:female:ela-esta-animada-para-comecar-o-curso-0dkmwkk",
+      "batch": "emotion-examples-f",
+      "batches": [
+        "emotion-examples-f"
+      ],
+      "text": "Ela está animada para começar o curso.",
+      "relativePath": "emotions/female/ela-esta-animada-para-comecar-o-curso-0dkmwkk.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:animada:example:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/ela-esta-animada-para-comecar-o-curso-0dkmwkk.mp3"
+    },
+    {
+      "id": "emotion:male:ele-ficou-animado-com-a-ideia-da-viagem-0j0yw2c",
+      "batch": "emotion-examples-m",
+      "batches": [
+        "emotion-examples-m"
+      ],
+      "text": "Ele ficou animado com a ideia da viagem.",
+      "relativePath": "emotions/male/ele-ficou-animado-com-a-ideia-da-viagem-0j0yw2c.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:animada:example:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/ele-ficou-animado-com-a-ideia-da-viagem-0j0yw2c.mp3"
+    },
+    {
+      "id": "emotion:female:eu-estou-animada-com-o-projeto-1cncze7",
+      "batch": "emotion-self-f",
+      "batches": [
+        "emotion-self-f"
+      ],
+      "text": "Eu estou animada com o projeto.",
+      "relativePath": "emotions/female/eu-estou-animada-com-o-projeto-1cncze7.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:animada:self:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/eu-estou-animada-com-o-projeto-1cncze7.mp3"
+    },
+    {
+      "id": "emotion:male:eu-estou-animado-com-o-projeto-0kn852l",
+      "batch": "emotion-self-m",
+      "batches": [
+        "emotion-self-m"
+      ],
+      "text": "Eu estou animado com o projeto.",
+      "relativePath": "emotions/male/eu-estou-animado-com-o-projeto-0kn852l.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:animada:self:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/eu-estou-animado-com-o-projeto-0kn852l.mp3"
+    },
+    {
+      "id": "emotion:female:que-atividade-deixa-voce-animado-para-come-0kfoo7c",
+      "batch": "emotion-context",
+      "batches": [
+        "emotion-context"
+      ],
+      "text": "Que atividade deixa você animado para começar?",
+      "relativePath": "emotions/female/que-atividade-deixa-voce-animado-para-come-0kfoo7c.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:animada:context"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/que-atividade-deixa-voce-animado-para-come-0kfoo7c.mp3"
+    },
+    {
+      "id": "emotion:male:animado-aqui-significa-entusiasmado-nao-de-105bwlj",
+      "batch": "emotion-usage",
+      "batches": [
+        "emotion-usage"
+      ],
+      "text": "“Animado” aqui significa entusiasmado, não “desenho animado”.",
+      "relativePath": "emotions/male/animado-aqui-significa-entusiasmado-nao-de-105bwlj.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:animada:usage"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/animado-aqui-significa-entusiasmado-nao-de-105bwlj.mp3"
+    },
+    {
+      "id": "emotion:female:bora-e-um-convite-informal-brasileiro-que--1rufgnj",
+      "batch": "emotion-culture",
+      "batches": [
+        "emotion-culture"
+      ],
+      "text": "“Bora!” é um convite informal brasileiro que frequentemente transmite animação.",
+      "relativePath": "emotions/female/bora-e-um-convite-informal-brasileiro-que--1rufgnj.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:animada:culture"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/bora-e-um-convite-informal-brasileiro-que--1rufgnj.mp3"
+    },
+    {
+      "id": "emotion:female:timida-01xt5tf",
+      "batch": "emotion-lexicon-f",
+      "batches": [
+        "emotion-lexicon-f"
+      ],
+      "text": "tímida",
+      "relativePath": "emotions/female/timida-01xt5tf.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:timida:lexicon:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/timida-01xt5tf.mp3"
+    },
+    {
+      "id": "emotion:male:timido-05tnlj1",
+      "batch": "emotion-lexicon-m",
+      "batches": [
+        "emotion-lexicon-m"
+      ],
+      "text": "tímido",
+      "relativePath": "emotions/male/timido-05tnlj1.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:timida:lexicon:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/timido-05tnlj1.mp3"
+    },
+    {
+      "id": "emotion:female:ela-e-timida-quando-conhece-pessoas-novas-04iq4zq",
+      "batch": "emotion-examples-f",
+      "batches": [
+        "emotion-examples-f"
+      ],
+      "text": "Ela é tímida quando conhece pessoas novas.",
+      "relativePath": "emotions/female/ela-e-timida-quando-conhece-pessoas-novas-04iq4zq.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:timida:example:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/ela-e-timida-quando-conhece-pessoas-novas-04iq4zq.mp3"
+    },
+    {
+      "id": "emotion:male:ele-ficou-timido-quando-recebeu-o-elogio-039n3bo",
+      "batch": "emotion-examples-m",
+      "batches": [
+        "emotion-examples-m"
+      ],
+      "text": "Ele ficou tímido quando recebeu o elogio.",
+      "relativePath": "emotions/male/ele-ficou-timido-quando-recebeu-o-elogio-039n3bo.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:timida:example:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/ele-ficou-timido-quando-recebeu-o-elogio-039n3bo.mp3"
+    },
+    {
+      "id": "emotion:female:eu-sou-timida-em-grupos-grandes-01c6luo",
+      "batch": "emotion-self-f",
+      "batches": [
+        "emotion-self-f"
+      ],
+      "text": "Eu sou tímida em grupos grandes.",
+      "relativePath": "emotions/female/eu-sou-timida-em-grupos-grandes-01c6luo.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:timida:self:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/eu-sou-timida-em-grupos-grandes-01c6luo.mp3"
+    },
+    {
+      "id": "emotion:male:eu-sou-timido-em-grupos-grandes-0k14udu",
+      "batch": "emotion-self-m",
+      "batches": [
+        "emotion-self-m"
+      ],
+      "text": "Eu sou tímido em grupos grandes.",
+      "relativePath": "emotions/male/eu-sou-timido-em-grupos-grandes-0k14udu.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:timida:self:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/eu-sou-timido-em-grupos-grandes-0k14udu.mp3"
+    },
+    {
+      "id": "emotion:female:em-qual-situacao-voce-costuma-ficar-timido-14xbfq9",
+      "batch": "emotion-context",
+      "batches": [
+        "emotion-context"
+      ],
+      "text": "Em qual situação você costuma ficar tímido?",
+      "relativePath": "emotions/female/em-qual-situacao-voce-costuma-ficar-timido-14xbfq9.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:timida:context"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/em-qual-situacao-voce-costuma-ficar-timido-14xbfq9.mp3"
+    },
+    {
+      "id": "emotion:male:ser-timido-descreve-uma-caracteristica-fic-1jzxp6f",
+      "batch": "emotion-usage",
+      "batches": [
+        "emotion-usage"
+      ],
+      "text": "“Ser tímido” descreve uma característica; “ficar tímido” descreve um momento.",
+      "relativePath": "emotions/male/ser-timido-descreve-uma-caracteristica-fic-1jzxp6f.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:timida:usage"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/ser-timido-descreve-uma-caracteristica-fic-1jzxp6f.mp3"
+    },
+    {
+      "id": "emotion:female:no-uso-cotidiano-sem-graca-tambem-pode-des-0gm2r8i",
+      "batch": "emotion-culture",
+      "batches": [
+        "emotion-culture"
+      ],
+      "text": "No uso cotidiano, “sem graça” também pode descrever alguém momentaneamente constrangido.",
+      "relativePath": "emotions/female/no-uso-cotidiano-sem-graca-tambem-pode-des-0gm2r8i.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:timida:culture"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/no-uso-cotidiano-sem-graca-tambem-pode-des-0gm2r8i.mp3"
+    },
+    {
+      "id": "emotion:female:confiante-00au3vu",
+      "batch": "emotion-lexicon-f",
+      "batches": [
+        "emotion-lexicon-f"
+      ],
+      "text": "confiante",
+      "relativePath": "emotions/female/confiante-00au3vu.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:confiante:lexicon:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/confiante-00au3vu.mp3"
+    },
+    {
+      "id": "emotion:male:confiante-00au3vu",
+      "batch": "emotion-lexicon-m",
+      "batches": [
+        "emotion-lexicon-m"
+      ],
+      "text": "confiante",
+      "relativePath": "emotions/male/confiante-00au3vu.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:confiante:lexicon:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/confiante-00au3vu.mp3"
+    },
+    {
+      "id": "emotion:female:ela-esta-confiante-antes-da-entrevista-1bqmqj4",
+      "batch": "emotion-examples-f",
+      "batches": [
+        "emotion-examples-f"
+      ],
+      "text": "Ela está confiante antes da entrevista.",
+      "relativePath": "emotions/female/ela-esta-confiante-antes-da-entrevista-1bqmqj4.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:confiante:example:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/ela-esta-confiante-antes-da-entrevista-1bqmqj4.mp3"
+    },
+    {
+      "id": "emotion:male:ele-parece-confiante-ao-apresentar-a-ideia-1a1f9rk",
+      "batch": "emotion-examples-m",
+      "batches": [
+        "emotion-examples-m"
+      ],
+      "text": "Ele parece confiante ao apresentar a ideia.",
+      "relativePath": "emotions/male/ele-parece-confiante-ao-apresentar-a-ideia-1a1f9rk.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:confiante:example:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/ele-parece-confiante-ao-apresentar-a-ideia-1a1f9rk.mp3"
+    },
+    {
+      "id": "emotion:female:eu-me-sinto-confiante-para-tentar-0h0n44t",
+      "batch": "emotion-self-f",
+      "batches": [
+        "emotion-self-f"
+      ],
+      "text": "Eu me sinto confiante para tentar.",
+      "relativePath": "emotions/female/eu-me-sinto-confiante-para-tentar-0h0n44t.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:confiante:self:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/eu-me-sinto-confiante-para-tentar-0h0n44t.mp3"
+    },
+    {
+      "id": "emotion:male:eu-me-sinto-confiante-para-tentar-0h0n44t",
+      "batch": "emotion-self-m",
+      "batches": [
+        "emotion-self-m"
+      ],
+      "text": "Eu me sinto confiante para tentar.",
+      "relativePath": "emotions/male/eu-me-sinto-confiante-para-tentar-0h0n44t.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:confiante:self:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/eu-me-sinto-confiante-para-tentar-0h0n44t.mp3"
+    },
+    {
+      "id": "emotion:female:o-que-faz-voce-se-sentir-mais-confiante-15c0jr1",
+      "batch": "emotion-context",
+      "batches": [
+        "emotion-context"
+      ],
+      "text": "O que faz você se sentir mais confiante?",
+      "relativePath": "emotions/female/o-que-faz-voce-se-sentir-mais-confiante-15c0jr1.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:confiante:context"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/o-que-faz-voce-se-sentir-mais-confiante-15c0jr1.mp3"
+    },
+    {
+      "id": "emotion:male:confiante-nao-muda-por-genero-em-portugues-0sjsbhj",
+      "batch": "emotion-usage",
+      "batches": [
+        "emotion-usage"
+      ],
+      "text": "“Confiante” não muda por gênero em português.",
+      "relativePath": "emotions/male/confiante-nao-muda-por-genero-em-portugues-0sjsbhj.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:confiante:usage"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/confiante-nao-muda-por-genero-em-portugues-0sjsbhj.mp3"
+    },
+    {
+      "id": "emotion:female:vai-dar-certo-e-uma-frase-brasileira-frequ-0kro4tz",
+      "batch": "emotion-culture",
+      "batches": [
+        "emotion-culture"
+      ],
+      "text": "“Vai dar certo” é uma frase brasileira frequente para transmitir confiança e incentivo.",
+      "relativePath": "emotions/female/vai-dar-certo-e-uma-frase-brasileira-frequ-0kro4tz.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:confiante:culture"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/vai-dar-certo-e-uma-frase-brasileira-frequ-0kro4tz.mp3"
+    },
+    {
+      "id": "emotion:female:orgulhosa-1dkbroh",
+      "batch": "emotion-lexicon-f",
+      "batches": [
+        "emotion-lexicon-f"
+      ],
+      "text": "orgulhosa",
+      "relativePath": "emotions/female/orgulhosa-1dkbroh.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:orgulhosa:lexicon:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/orgulhosa-1dkbroh.mp3"
+    },
+    {
+      "id": "emotion:male:orgulhoso-1bwe5in",
+      "batch": "emotion-lexicon-m",
+      "batches": [
+        "emotion-lexicon-m"
+      ],
+      "text": "orgulhoso",
+      "relativePath": "emotions/male/orgulhoso-1bwe5in.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:orgulhosa:lexicon:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/orgulhoso-1bwe5in.mp3"
+    },
+    {
+      "id": "emotion:female:ela-esta-orgulhosa-do-proprio-progresso-1i0ajua",
+      "batch": "emotion-examples-f",
+      "batches": [
+        "emotion-examples-f"
+      ],
+      "text": "Ela está orgulhosa do próprio progresso.",
+      "relativePath": "emotions/female/ela-esta-orgulhosa-do-proprio-progresso-1i0ajua.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:orgulhosa:example:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/ela-esta-orgulhosa-do-proprio-progresso-1i0ajua.mp3"
+    },
+    {
+      "id": "emotion:male:ele-ficou-orgulhoso-do-trabalho-da-equipe-0bt9e0h",
+      "batch": "emotion-examples-m",
+      "batches": [
+        "emotion-examples-m"
+      ],
+      "text": "Ele ficou orgulhoso do trabalho da equipe.",
+      "relativePath": "emotions/male/ele-ficou-orgulhoso-do-trabalho-da-equipe-0bt9e0h.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:orgulhosa:example:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/ele-ficou-orgulhoso-do-trabalho-da-equipe-0bt9e0h.mp3"
+    },
+    {
+      "id": "emotion:female:eu-tenho-orgulho-do-que-aprendi-0bvv2va",
+      "batch": "emotion-self-f",
+      "batches": [
+        "emotion-self-f"
+      ],
+      "text": "Eu tenho orgulho do que aprendi.",
+      "relativePath": "emotions/female/eu-tenho-orgulho-do-que-aprendi-0bvv2va.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:orgulhosa:self:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/eu-tenho-orgulho-do-que-aprendi-0bvv2va.mp3"
+    },
+    {
+      "id": "emotion:male:eu-tenho-orgulho-do-que-aprendi-0bvv2va",
+      "batch": "emotion-self-m",
+      "batches": [
+        "emotion-self-m"
+      ],
+      "text": "Eu tenho orgulho do que aprendi.",
+      "relativePath": "emotions/male/eu-tenho-orgulho-do-que-aprendi-0bvv2va.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:orgulhosa:self:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/eu-tenho-orgulho-do-que-aprendi-0bvv2va.mp3"
+    },
+    {
+      "id": "emotion:female:qual-conquista-recente-deixou-voce-orgulho-19awiam",
+      "batch": "emotion-context",
+      "batches": [
+        "emotion-context"
+      ],
+      "text": "Qual conquista recente deixou você orgulhoso?",
+      "relativePath": "emotions/female/qual-conquista-recente-deixou-voce-orgulho-19awiam.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:orgulhosa:context"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/qual-conquista-recente-deixou-voce-orgulho-19awiam.mp3"
+    },
+    {
+      "id": "emotion:male:em-portugues-sentimos-orgulho-de-alguem-ou-0sr3fxw",
+      "batch": "emotion-usage",
+      "batches": [
+        "emotion-usage"
+      ],
+      "text": "Em português sentimos “orgulho de” alguém ou de alguma coisa.",
+      "relativePath": "emotions/male/em-portugues-sentimos-orgulho-de-alguem-ou-0sr3fxw.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:orgulhosa:usage"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/em-portugues-sentimos-orgulho-de-alguem-ou-0sr3fxw.mp3"
+    },
+    {
+      "id": "emotion:female:tenho-orgulho-de-voce-costuma-celebrar-esf-1d6x9f2",
+      "batch": "emotion-culture",
+      "batches": [
+        "emotion-culture"
+      ],
+      "text": "“Tenho orgulho de você” costuma celebrar esforço e vínculo, não apenas resultado.",
+      "relativePath": "emotions/female/tenho-orgulho-de-voce-costuma-celebrar-esf-1d6x9f2.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:orgulhosa:culture"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/tenho-orgulho-de-voce-costuma-celebrar-esf-1d6x9f2.mp3"
+    },
+    {
+      "id": "emotion:female:envergonhada-0s2u8ih",
+      "batch": "emotion-lexicon-f",
+      "batches": [
+        "emotion-lexicon-f"
+      ],
+      "text": "envergonhada",
+      "relativePath": "emotions/female/envergonhada-0s2u8ih.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:envergonhada:lexicon:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/envergonhada-0s2u8ih.mp3"
+    },
+    {
+      "id": "emotion:male:envergonhado-0uuq9g7",
+      "batch": "emotion-lexicon-m",
+      "batches": [
+        "emotion-lexicon-m"
+      ],
+      "text": "envergonhado",
+      "relativePath": "emotions/male/envergonhado-0uuq9g7.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:envergonhada:lexicon:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/envergonhado-0uuq9g7.mp3"
+    },
+    {
+      "id": "emotion:female:ela-ficou-envergonhada-depois-de-esquecer--1ogcjlj",
+      "batch": "emotion-examples-f",
+      "batches": [
+        "emotion-examples-f"
+      ],
+      "text": "Ela ficou envergonhada depois de esquecer o nome.",
+      "relativePath": "emotions/female/ela-ficou-envergonhada-depois-de-esquecer--1ogcjlj.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:envergonhada:example:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/ela-ficou-envergonhada-depois-de-esquecer--1ogcjlj.mp3"
+    },
+    {
+      "id": "emotion:male:ele-esta-envergonhado-com-o-engano-1o9cqwm",
+      "batch": "emotion-examples-m",
+      "batches": [
+        "emotion-examples-m"
+      ],
+      "text": "Ele está envergonhado com o engano.",
+      "relativePath": "emotions/male/ele-esta-envergonhado-com-o-engano-1o9cqwm.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:envergonhada:example:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/ele-esta-envergonhado-com-o-engano-1o9cqwm.mp3"
+    },
+    {
+      "id": "emotion:female:eu-fiquei-com-vergonha-naquela-hora-0ys73v4",
+      "batch": "emotion-self-f",
+      "batches": [
+        "emotion-self-f"
+      ],
+      "text": "Eu fiquei com vergonha naquela hora.",
+      "relativePath": "emotions/female/eu-fiquei-com-vergonha-naquela-hora-0ys73v4.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:envergonhada:self:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/eu-fiquei-com-vergonha-naquela-hora-0ys73v4.mp3"
+    },
+    {
+      "id": "emotion:male:eu-fiquei-com-vergonha-naquela-hora-0ys73v4",
+      "batch": "emotion-self-m",
+      "batches": [
+        "emotion-self-m"
+      ],
+      "text": "Eu fiquei com vergonha naquela hora.",
+      "relativePath": "emotions/male/eu-fiquei-com-vergonha-naquela-hora-0ys73v4.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:envergonhada:self:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/eu-fiquei-com-vergonha-naquela-hora-0ys73v4.mp3"
+    },
+    {
+      "id": "emotion:female:o-que-ajuda-a-acolher-alguem-que-cometeu-u-146574c",
+      "batch": "emotion-context",
+      "batches": [
+        "emotion-context"
+      ],
+      "text": "O que ajuda a acolher alguém que cometeu um engano?",
+      "relativePath": "emotions/female/o-que-ajuda-a-acolher-alguem-que-cometeu-u-146574c.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:envergonhada:context"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/o-que-ajuda-a-acolher-alguem-que-cometeu-u-146574c.mp3"
+    },
+    {
+      "id": "emotion:male:ficar-com-vergonha-e-muito-frequente-na-fa-1u14uup",
+      "batch": "emotion-usage",
+      "batches": [
+        "emotion-usage"
+      ],
+      "text": "“Ficar com vergonha” é muito frequente na fala brasileira.",
+      "relativePath": "emotions/male/ficar-com-vergonha-e-muito-frequente-na-fa-1u14uup.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:envergonhada:usage"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/ficar-com-vergonha-e-muito-frequente-na-fa-1u14uup.mp3"
+    },
+    {
+      "id": "emotion:female:em-russo-e-constrangido-expressa-vergonha--03kqnwf",
+      "batch": "emotion-culture",
+      "batches": [
+        "emotion-culture"
+      ],
+      "text": "Em russo, “смущённый” é constrangido; “стыдно” expressa vergonha moral mais forte.",
+      "relativePath": "emotions/female/em-russo-e-constrangido-expressa-vergonha--03kqnwf.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:envergonhada:culture"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/em-russo-e-constrangido-expressa-vergonha--03kqnwf.mp3"
+    },
+    {
+      "id": "emotion:female:confusa-0xa2d3e",
+      "batch": "emotion-lexicon-f",
+      "batches": [
+        "emotion-lexicon-f"
+      ],
+      "text": "confusa",
+      "relativePath": "emotions/female/confusa-0xa2d3e.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:confusa:lexicon:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/confusa-0xa2d3e.mp3"
+    },
+    {
+      "id": "emotion:male:confuso-0te7xds",
+      "batch": "emotion-lexicon-m",
+      "batches": [
+        "emotion-lexicon-m"
+      ],
+      "text": "confuso",
+      "relativePath": "emotions/male/confuso-0te7xds.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:confusa:lexicon:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/confuso-0te7xds.mp3"
+    },
+    {
+      "id": "emotion:female:ela-esta-confusa-com-tantas-instrucoes-0nyq6ce",
+      "batch": "emotion-examples-f",
+      "batches": [
+        "emotion-examples-f"
+      ],
+      "text": "Ela está confusa com tantas instruções.",
+      "relativePath": "emotions/female/ela-esta-confusa-com-tantas-instrucoes-0nyq6ce.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:confusa:example:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/ela-esta-confusa-com-tantas-instrucoes-0nyq6ce.mp3"
+    },
+    {
+      "id": "emotion:male:ele-ficou-confuso-durante-a-explicacao-0368e6x",
+      "batch": "emotion-examples-m",
+      "batches": [
+        "emotion-examples-m"
+      ],
+      "text": "Ele ficou confuso durante a explicação.",
+      "relativePath": "emotions/male/ele-ficou-confuso-durante-a-explicacao-0368e6x.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:confusa:example:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/ele-ficou-confuso-durante-a-explicacao-0368e6x.mp3"
+    },
+    {
+      "id": "emotion:female:eu-nao-entendi-estou-confusa-1b48fss",
+      "batch": "emotion-self-f",
+      "batches": [
+        "emotion-self-f"
+      ],
+      "text": "Eu não entendi; estou confusa.",
+      "relativePath": "emotions/female/eu-nao-entendi-estou-confusa-1b48fss.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:confusa:self:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/eu-nao-entendi-estou-confusa-1b48fss.mp3"
+    },
+    {
+      "id": "emotion:male:eu-nao-entendi-estou-confuso-1b2vvlm",
+      "batch": "emotion-self-m",
+      "batches": [
+        "emotion-self-m"
+      ],
+      "text": "Eu não entendi; estou confuso.",
+      "relativePath": "emotions/male/eu-nao-entendi-estou-confuso-1b2vvlm.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:confusa:self:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/eu-nao-entendi-estou-confuso-1b2vvlm.mp3"
+    },
+    {
+      "id": "emotion:female:que-pergunta-voce-pode-fazer-quando-esta-c-03jymo1",
+      "batch": "emotion-context",
+      "batches": [
+        "emotion-context"
+      ],
+      "text": "Que pergunta você pode fazer quando está confuso?",
+      "relativePath": "emotions/female/que-pergunta-voce-pode-fazer-quando-esta-c-03jymo1.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:confusa:context"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/que-pergunta-voce-pode-fazer-quando-esta-c-03jymo1.mp3"
+    },
+    {
+      "id": "emotion:male:uma-pessoa-fica-confusa-uma-explicacao-tam-0nnjpdl",
+      "batch": "emotion-usage",
+      "batches": [
+        "emotion-usage"
+      ],
+      "text": "Uma pessoa fica “confusa”; uma explicação também pode ser “confusa”.",
+      "relativePath": "emotions/male/uma-pessoa-fica-confusa-uma-explicacao-tam-0nnjpdl.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:confusa:usage"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/uma-pessoa-fica-confusa-uma-explicacao-tam-0nnjpdl.mp3"
+    },
+    {
+      "id": "emotion:female:pode-explicar-de-outro-jeito-e-uma-estrate-1tq7h0w",
+      "batch": "emotion-culture",
+      "batches": [
+        "emotion-culture"
+      ],
+      "text": "“Pode explicar de outro jeito?” é uma estratégia comunicativa melhor do que fingir compreensão.",
+      "relativePath": "emotions/female/pode-explicar-de-outro-jeito-e-uma-estrate-1tq7h0w.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:confusa:culture"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/pode-explicar-de-outro-jeito-e-uma-estrate-1tq7h0w.mp3"
+    },
+    {
+      "id": "emotion:female:aliviada-1gvgccq",
+      "batch": "emotion-lexicon-f",
+      "batches": [
+        "emotion-lexicon-f"
+      ],
+      "text": "aliviada",
+      "relativePath": "emotions/female/aliviada-1gvgccq.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:aliviada:lexicon:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/aliviada-1gvgccq.mp3"
+    },
+    {
+      "id": "emotion:male:aliviado-1czlwn4",
+      "batch": "emotion-lexicon-m",
+      "batches": [
+        "emotion-lexicon-m"
+      ],
+      "text": "aliviado",
+      "relativePath": "emotions/male/aliviado-1czlwn4.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:aliviada:lexicon:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/aliviado-1czlwn4.mp3"
+    },
+    {
+      "id": "emotion:female:ela-ficou-aliviada-quando-recebeu-a-mensag-1m35ww7",
+      "batch": "emotion-examples-f",
+      "batches": [
+        "emotion-examples-f"
+      ],
+      "text": "Ela ficou aliviada quando recebeu a mensagem.",
+      "relativePath": "emotions/female/ela-ficou-aliviada-quando-recebeu-a-mensag-1m35ww7.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:aliviada:example:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/ela-ficou-aliviada-quando-recebeu-a-mensag-1m35ww7.mp3"
+    },
+    {
+      "id": "emotion:male:ele-esta-aliviado-porque-tudo-terminou-bem-124wtbu",
+      "batch": "emotion-examples-m",
+      "batches": [
+        "emotion-examples-m"
+      ],
+      "text": "Ele está aliviado porque tudo terminou bem.",
+      "relativePath": "emotions/male/ele-esta-aliviado-porque-tudo-terminou-bem-124wtbu.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:aliviada:example:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/ele-esta-aliviado-porque-tudo-terminou-bem-124wtbu.mp3"
+    },
+    {
+      "id": "emotion:female:que-alivio-agora-estou-tranquila-074xa9g",
+      "batch": "emotion-self-f",
+      "batches": [
+        "emotion-self-f"
+      ],
+      "text": "Que alívio! Agora estou tranquila.",
+      "relativePath": "emotions/female/que-alivio-agora-estou-tranquila-074xa9g.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:aliviada:self:feminine"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/que-alivio-agora-estou-tranquila-074xa9g.mp3"
+    },
+    {
+      "id": "emotion:male:que-alivio-agora-estou-tranquilo-0753l9e",
+      "batch": "emotion-self-m",
+      "batches": [
+        "emotion-self-m"
+      ],
+      "text": "Que alívio! Agora estou tranquilo.",
+      "relativePath": "emotions/male/que-alivio-agora-estou-tranquilo-0753l9e.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:aliviada:self:masculine"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/que-alivio-agora-estou-tranquilo-0753l9e.mp3"
+    },
+    {
+      "id": "emotion:female:conte-uma-situacao-em-que-voce-sentiu-aliv-1qm1m2b",
+      "batch": "emotion-context",
+      "batches": [
+        "emotion-context"
+      ],
+      "text": "Conte uma situação em que você sentiu alívio.",
+      "relativePath": "emotions/female/conte-uma-situacao-em-que-voce-sentiu-aliv-1qm1m2b.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:aliviada:context"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/conte-uma-situacao-em-que-voce-sentiu-aliv-1qm1m2b.mp3"
+    },
+    {
+      "id": "emotion:male:ficar-aliviado-e-a-exclamacao-que-alivio-s-0akl6ux",
+      "batch": "emotion-usage",
+      "batches": [
+        "emotion-usage"
+      ],
+      "text": "“Ficar aliviado” e a exclamação “Que alívio!” são muito naturais.",
+      "relativePath": "emotions/male/ficar-aliviado-e-a-exclamacao-que-alivio-s-0akl6ux.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:aliviada:usage"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/ficar-aliviado-e-a-exclamacao-que-alivio-s-0akl6ux.mp3"
+    },
+    {
+      "id": "emotion:female:em-russo-e-comum-expressar-a-ideia-com-lit-0cock6z",
+      "batch": "emotion-culture",
+      "batches": [
+        "emotion-culture"
+      ],
+      "text": "Em russo é comum expressar a ideia com “почувствовать облегчение”, literalmente “sentir alívio”.",
+      "relativePath": "emotions/female/em-russo-e-comum-expressar-a-ideia-com-lit-0cock6z.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:aliviada:culture"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/em-russo-e-comum-expressar-a-ideia-com-lit-0cock6z.mp3"
     }
   ]
 }
