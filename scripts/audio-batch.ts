@@ -2,12 +2,42 @@ import { createHash } from 'node:crypto';
 import { existsSync, mkdirSync, readFileSync, readdirSync, renameSync, rmSync, statSync, writeFileSync } from 'node:fs';
 import { spawn, spawnSync } from 'node:child_process';
 import { dirname, join, relative, resolve } from 'node:path';
+import { emotionLearningContent } from '../src/data/emotionLearning.ts';
+import { emotionMoods } from '../src/data/emotions.ts';
+import {
+  audioSlug,
+  emotionAudioKey,
+  emotionAudioRelativePath,
+  normalizeAudioText,
+  safeAudioId,
+  selectGenderedAudioText,
+  type AudioVoiceRole,
+} from '../src/lib/audioNaming.ts';
 
-type AudioBatch = 'words' | 'examples' | 'scene-verbs' | 'scene-phrases';
+type AudioBatch =
+  | 'words' | 'examples' | 'scene-verbs' | 'scene-phrases'
+  | 'emotion-lexicon-f' | 'emotion-lexicon-m'
+  | 'emotion-examples-f' | 'emotion-examples-m'
+  | 'emotion-self-f' | 'emotion-self-m'
+  | 'emotion-context' | 'emotion-usage' | 'emotion-culture';
 type Command = 'plan' | 'generate' | 'verify';
 type LexicalItem = { id: string; lemmaPt: string; displayPt?: string | null };
 type Phrase = { id: string; kind: 'example' | 'scene-verb' | 'scene-phrase'; pt: string };
-type AudioItem = { id: string; batch: AudioBatch; text: string; relativePath: string };
+type AudioItem = {
+  id: string;
+  batch: AudioBatch;
+  batches: AudioBatch[];
+  text: string;
+  relativePath: string;
+  voiceRole?: AudioVoiceRole;
+  sourceRefs?: string[];
+};
+type EmotionAudioRequest = {
+  batch: AudioBatch;
+  text: string;
+  voiceRole: AudioVoiceRole;
+  sourceRef: string;
+};
 type LockEntry = { hash: string; voice: string; relativePath: string; generatedAt: string };
 type AudioLock = { schemaVersion: 1; provider: 'edge-tts'; entries: Record<string, LockEntry> };
 type EdgeCommand = { command: string; prefix: string[]; label: string };
@@ -19,12 +49,19 @@ const dataDirectory = resolve('src', 'content', 'data');
 const outputDirectory = resolve('public', 'assets', 'audio', locale);
 const lockPath = join(outputDirectory, 'audio-lock.json');
 const catalogPath = join(outputDirectory, 'audio-catalog.json');
-const validBatches: AudioBatch[] = ['words', 'examples', 'scene-verbs', 'scene-phrases'];
+const validBatches: AudioBatch[] = [
+  'words', 'examples', 'scene-verbs', 'scene-phrases',
+  'emotion-lexicon-f', 'emotion-lexicon-m',
+  'emotion-examples-f', 'emotion-examples-m',
+  'emotion-self-f', 'emotion-self-m',
+  'emotion-context', 'emotion-usage', 'emotion-culture',
+];
 
 function voiceFor(item: AudioItem, override?: string): string {
   if (override) return override;
   const femaleVoice = process.env.EDGE_TTS_FEMALE_VOICE || defaultFemaleVoice;
   const maleVoice = process.env.EDGE_TTS_MALE_VOICE || defaultMaleVoice;
+  if (item.voiceRole) return item.voiceRole === 'female' ? femaleVoice : maleVoice;
   return item.batch === 'words' || item.batch === 'scene-verbs' ? femaleVoice : maleVoice;
 }
 
@@ -32,43 +69,80 @@ function readJson<T>(path: string): T {
   return JSON.parse(readFileSync(path, 'utf8')) as T;
 }
 
-function normalizeText(text: string): string {
-  return text.trim().replace(/\s+/g, ' ');
-}
-
-function slugify(text: string): string {
-  return normalizeText(text).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-}
-
-function safeId(id: string): string {
-  return id.replace(/:/g, '--').replace(/[^a-zA-Z0-9_-]/g, '-');
-}
-
 function buildAudioItems(): AudioItem[] {
   const lexicalItems = readJson<LexicalItem[]>(join(dataDirectory, 'lexical-items.json'));
   const phrases = readJson<Phrase[]>(join(dataDirectory, 'phrases.json'));
   const words: AudioItem[] = lexicalItems.map((item) => ({
-    id: item.id, batch: 'words', text: normalizeText(item.displayPt || item.lemmaPt),
-    relativePath: `words/${safeId(item.id)}.mp3`,
+    id: item.id, batch: 'words', batches: ['words'], text: normalizeAudioText(item.displayPt || item.lemmaPt),
+    relativePath: `words/${safeAudioId(item.id)}.mp3`,
   }));
   const examples: AudioItem[] = phrases.filter((phrase) => phrase.kind === 'example').map((phrase) => ({
-    id: phrase.id, batch: 'examples', text: normalizeText(phrase.pt),
-    relativePath: `examples/${safeId(phrase.id)}.mp3`,
+    id: phrase.id, batch: 'examples', batches: ['examples'], text: normalizeAudioText(phrase.pt),
+    relativePath: `examples/${safeAudioId(phrase.id)}.mp3`,
   }));
   const uniqueSceneVerbs = new Map<string, Phrase>();
   for (const phrase of phrases.filter((candidate) => candidate.kind === 'scene-verb')) {
-    uniqueSceneVerbs.set(normalizeText(phrase.pt).toLocaleLowerCase(locale), phrase);
+    uniqueSceneVerbs.set(normalizeAudioText(phrase.pt).toLocaleLowerCase(locale), phrase);
   }
   const sceneVerbs: AudioItem[] = [...uniqueSceneVerbs.values()].map((phrase) => ({
-    id: `scene-verb:${slugify(phrase.pt)}`, batch: 'scene-verbs', text: normalizeText(phrase.pt),
-    relativePath: `scene-verbs/${slugify(phrase.pt)}.mp3`,
+    id: `scene-verb:${audioSlug(phrase.pt)}`, batch: 'scene-verbs', batches: ['scene-verbs'], text: normalizeAudioText(phrase.pt),
+    relativePath: `scene-verbs/${audioSlug(phrase.pt)}.mp3`,
   }));
   const scenePhrases: AudioItem[] = phrases.filter((phrase) => phrase.kind === 'scene-phrase').map((phrase) => ({
-    id: phrase.id, batch: 'scene-phrases', text: normalizeText(phrase.pt),
-    relativePath: `scene-phrases/${safeId(phrase.id)}.mp3`,
+    id: phrase.id, batch: 'scene-phrases', batches: ['scene-phrases'], text: normalizeAudioText(phrase.pt),
+    relativePath: `scene-phrases/${safeAudioId(phrase.id)}.mp3`,
   }));
-  return [...words, ...examples, ...sceneVerbs, ...scenePhrases];
+  return [...words, ...examples, ...sceneVerbs, ...scenePhrases, ...buildEmotionAudioItems()];
+}
+
+function buildEmotionAudioItems(): AudioItem[] {
+  const learningByMood = new Map(emotionLearningContent.map((content) => [content.moodId, content]));
+  const requests: EmotionAudioRequest[] = [];
+
+  const add = (batch: AudioBatch, text: string, voiceRole: AudioVoiceRole, sourceRef: string) => {
+    requests.push({ batch, text: normalizeAudioText(text), voiceRole, sourceRef });
+  };
+
+  for (const mood of emotionMoods) {
+    const content = learningByMood.get(mood.id);
+    if (!content) throw new Error(`Conteúdo pedagógico ausente para a emoção: ${mood.id}`);
+    add('emotion-lexicon-f', mood.pt.feminine, 'female', `emotion:${mood.id}:lexicon:feminine`);
+    add('emotion-lexicon-m', mood.pt.masculine, 'male', `emotion:${mood.id}:lexicon:masculine`);
+    add('emotion-examples-f', content.feminineExample.pt, 'female', `emotion:${mood.id}:example:feminine`);
+    add('emotion-examples-m', content.masculineExample.pt, 'male', `emotion:${mood.id}:example:masculine`);
+    add('emotion-self-f', selectGenderedAudioText(content.selfExpression.pt, 'female'), 'female', `emotion:${mood.id}:self:feminine`);
+    add('emotion-self-m', selectGenderedAudioText(content.selfExpression.pt, 'male'), 'male', `emotion:${mood.id}:self:masculine`);
+    add('emotion-context', content.contextPrompt.pt, 'female', `emotion:${mood.id}:context`);
+    add('emotion-usage', content.usageNote.pt, 'male', `emotion:${mood.id}:usage`);
+    add('emotion-culture', content.cultureNote.pt, 'female', `emotion:${mood.id}:culture`);
+  }
+
+  const unique = new Map<string, AudioItem>();
+  const pathOwners = new Map<string, string>();
+  for (const request of requests) {
+    const key = `${request.voiceRole}:${normalizeAudioText(request.text).toLocaleLowerCase(locale)}`;
+    const relativePath = emotionAudioRelativePath(request.text, request.voiceRole);
+    const pathOwner = pathOwners.get(relativePath);
+    if (pathOwner && pathOwner !== key) throw new Error(`Colisão de caminho de áudio: ${relativePath}`);
+    pathOwners.set(relativePath, key);
+
+    const existing = unique.get(key);
+    if (existing) {
+      if (!existing.batches.includes(request.batch)) existing.batches.push(request.batch);
+      existing.sourceRefs?.push(request.sourceRef);
+      continue;
+    }
+    unique.set(key, {
+      id: `emotion:${request.voiceRole}:${emotionAudioKey(request.text)}`,
+      batch: request.batch,
+      batches: [request.batch],
+      text: request.text,
+      relativePath,
+      voiceRole: request.voiceRole,
+      sourceRefs: [request.sourceRef],
+    });
+  }
+  return [...unique.values()];
 }
 
 function itemHash(item: AudioItem, voice: string): string {
@@ -118,7 +192,7 @@ function selectedBatch(): AudioBatch | undefined {
 
 function selectedItems(items: AudioItem[]): AudioItem[] {
   const batch = selectedBatch();
-  const filtered = batch ? items.filter((item) => item.batch === batch) : items;
+  const filtered = batch ? items.filter((item) => item.batches.includes(batch)) : items;
   const limitText = getOption('limit');
   if (!limitText) return filtered;
   const limit = Number.parseInt(limitText, 10);
@@ -137,10 +211,10 @@ function stateFor(item: AudioItem, voiceOverride: string | undefined, lock: Audi
 function printPlan(items: AudioItem[], voiceOverride: string | undefined, lock: AudioLock): void {
   console.log(`\nPlano de áudio Matrioskinha — ${locale} / ${voiceOverride || 'vozes alternadas por lote'}\n`);
   for (const batch of validBatches) {
-    const batchItems = items.filter((item) => item.batch === batch);
+    const batchItems = items.filter((item) => item.batches.includes(batch));
     const characters = batchItems.reduce((total, item) => total + item.text.length, 0);
     const batchVoice = batchItems[0] ? voiceFor(batchItems[0], voiceOverride) : voiceFor({ batch } as AudioItem, voiceOverride);
-    console.log(`${batch.padEnd(14)} ${String(batchItems.length).padStart(3)} arquivos  ${String(characters).padStart(5)} caracteres  ${batchVoice}`);
+    console.log(`${batch.padEnd(22)} ${String(batchItems.length).padStart(3)} arquivos  ${String(characters).padStart(5)} caracteres  ${batchVoice}`);
   }
   const states = items.reduce<Record<string, number>>((totals, item) => {
     const state = stateFor(item, voiceOverride, lock);
@@ -152,7 +226,7 @@ function printPlan(items: AudioItem[], voiceOverride: string | undefined, lock: 
 }
 
 function catalog(items: AudioItem[], voiceOverride?: string): unknown {
-  return { schemaVersion: 1, provider: 'edge-tts', locale,
+  return { schemaVersion: 2, provider: 'edge-tts', locale,
     voices: { female: process.env.EDGE_TTS_FEMALE_VOICE || defaultFemaleVoice, male: process.env.EDGE_TTS_MALE_VOICE || defaultMaleVoice },
     items: items.map((item) => ({ ...item, voice: voiceFor(item, voiceOverride), src: `/assets/audio/${locale}/${item.relativePath}` })) };
 }
@@ -277,7 +351,7 @@ function verify(items: AudioItem[], voiceOverride: string | undefined, lock: Aud
 }
 
 function printHelp(): void {
-  console.log(`\nUso:\n  npm run audio:plan\n  npm run audio:generate -- [--batch words|examples|scene-verbs|scene-phrases|all]\n  npm run audio:verify\n\nOpções:\n  --voice <nome>       Força uma única voz em todos os lotes\n  --batch <lote>       Processa apenas um lote\n  --limit <n>          Limita para teste\n  --force              Regenera itens atuais\n  --delay <ms>         Intervalo entre chamadas (padrão: 400)\n  --retries <n>        Tentativas adicionais (padrão: 3)\n\nPadrão alternado:\n  words, scene-verbs: ${defaultFemaleVoice}\n  examples, scene-phrases: ${defaultMaleVoice}\n`);
+  console.log(`\nUso:\n  npm run audio:plan\n  npm run audio:generate -- [--batch <lote>|all]\n  npm run audio:verify\n\nLotes:\n  ${validBatches.join('\n  ')}\n  all\n\nOpções:\n  --voice <nome>       Força uma única voz em todos os lotes\n  --batch <lote>       Processa apenas um lote\n  --limit <n>          Limita para teste\n  --force              Regenera itens atuais\n  --delay <ms>         Intervalo entre chamadas (padrão: 400)\n  --retries <n>        Tentativas adicionais (padrão: 3)\n\nPadrão de vozes:\n  Matrioskinha/female: ${defaultFemaleVoice}\n  Misha/male:          ${defaultMaleVoice}\n`);
 }
 
 async function main(): Promise<void> {

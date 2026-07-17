@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "settings": {
+    "maxWidth": 768,
+    "maxHeight": 1152,
+    "maxSourceBytes": 614400,
+    "webpQuality": 82
+  },
+  "entries": {
+    "matrioskinha/apaixonada": {
+      "character": "matrioskinha",
+      "mood": "apaixonada",
+      "sourceSha256": "ed0e6c295157f6f42ba167b8b9fce294fdf1c6208683684362b2625cfa916060",
+      "outputSha256": "40568f7253f2f82d5fbeb1614f3718d7b2bb8bfdb869589b7ee8642f92044bfe",
+      "sourceBytes": 2256545,
+      "outputBytes": 86534,
+      "savedPercent": 96.17,
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "outputDimensions": {
+        "width": 768,
+        "height": 1152
+      },
+      "sourceWasOversized": true,
+      "aspectRatio": 0.6667,
+      "archivePath": "assets-originals/scenarios/emotions/matrioskinha/apaixonada/ed0e6c295157f6f4.png",
+      "publicPath": "public/assets/scenarios/emotions/matrioskinha/apaixonada.webp",
+      "processedAt": "2026-07-17T03:06:42.538Z"
+    },
+    "matrioskinha/feliz": {
+      "character": "matrioskinha",
+      "mood": "feliz",
+      "sourceSha256": "00d67909d414eff721bea2a706e9d77e284629b61a4311b15e18b3bfcfa69073",
+      "outputSha256": "1cbfce610e9cf0fc46f2220bdf934e5d4335204a67b338bbbc888363b4ca010b",
+      "sourceBytes": 2300496,
+      "outputBytes": 87092,
+      "savedPercent": 96.21,
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "outputDimensions": {
+        "width": 768,
+        "height": 1152
+      },
+      "sourceWasOversized": true,
+      "aspectRatio": 0.6667,
+      "archivePath": "assets-originals/scenarios/emotions/matrioskinha/feliz/00d67909d414eff7.png",
+      "publicPath": "public/assets/scenarios/emotions/matrioskinha/feliz.webp",
+      "processedAt": "2026-07-17T03:06:42.707Z"
+    },
+    "matrioskinha/triste": {
+      "character": "matrioskinha",
+      "mood": "triste",
+      "sourceSha256": "9090d2fcc14cd7b2df7d29c65904594bdd03e9711cf7e4f337bd20a4d911b07f",
+      "outputSha256": "86da21ffc73869e400b94104ef7f0edebeb010713706dc3d73251fb727655462",
+      "sourceBytes": 2216437,
+      "outputBytes": 80492,
+      "savedPercent": 96.37,
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "outputDimensions": {
+        "width": 768,
+        "height": 1152
+      },
+      "sourceWasOversized": true,
+      "aspectRatio": 0.6667,
+      "archivePath": "assets-originals/scenarios/emotions/matrioskinha/triste/9090d2fcc14cd7b2.png",
+      "publicPath": "public/assets/scenarios/emotions/matrioskinha/triste.webp",
+      "processedAt": "2026-07-17T03:06:42.869Z"
+    },
+    "misha/feliz": {
+      "character": "misha",
+      "mood": "feliz",
+      "sourceSha256": "969084ac2c54b0c699219c5a2162138505e48f50bf478b90be31d851ec451ab1",
+      "outputSha256": "3800bcd2bed95c545e90b3a76999722ebf6ded079031a8c9f96ba17b2bdaf087",
+      "sourceBytes": 2470712,
+      "outputBytes": 120672,
+      "savedPercent": 95.12,
+      "sourceDimensions": {
+        "width": 1023,
+        "height": 1537
+      },
+      "outputDimensions": {
+        "width": 767,
+        "height": 1152
+      },
+      "sourceWasOversized": true,
+      "aspectRatio": 0.6656,
+      "archivePath": "assets-originals/scenarios/emotions/misha/feliz/969084ac2c54b0c6.png",
+      "publicPath": "public/assets/scenarios/emotions/misha/feliz.webp",
+      "processedAt": "2026-07-17T03:06:43.056Z"
+    },
+    "misha/triste": {
+      "character": "misha",
+      "mood": "triste",
+      "sourceSha256": "299722a19c99fbc254f1cb886997a23cb755e72ef4c44f6e5d8245d694b331fc",
+      "outputSha256": "6a124195cf967ecc09518da88aebf92f41ed50de1f8c3b08fc6b6317fbb69cbc",
+      "sourceBytes": 2308314,
+      "outputBytes": 104090,
+      "savedPercent": 95.49,
+      "sourceDimensions": {
+        "width": 1023,
+        "height": 1537
+      },
+      "outputDimensions": {
+        "width": 767,
+        "height": 1152
+      },
+      "sourceWasOversized": true,
+      "aspectRatio": 0.6656,
+      "archivePath": "assets-originals/scenarios/emotions/misha/triste/299722a19c99fbc2.png",
+      "publicPath": "public/assets/scenarios/emotions/misha/triste.webp",
+      "processedAt": "2026-07-17T03:06:43.231Z"
+    }
+  }
+}

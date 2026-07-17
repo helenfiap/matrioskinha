@@ -112,6 +112,12 @@ foreach ($job in $jobs) {
   Write-Output "[$($job.Gender)] $($job.Mood) -> $($job.Output)"
   if (-not $Execute) { continue }
 
+  $optimizedOutput = [System.IO.Path]::ChangeExtension($job.Output, '.webp')
+  if ((Test-Path -LiteralPath $optimizedOutput) -and -not $Force) {
+    Write-Output "Já otimizado, ignorando geração: $optimizedOutput"
+    continue
+  }
+
   $outputDir = Split-Path -Parent $job.Output
   New-Item -ItemType Directory -Path $outputDir -Force | Out-Null
   $arguments = @(
@@ -133,4 +139,12 @@ foreach ($job in $jobs) {
 
 if (-not $Execute) {
   Write-Output 'Planejamento concluído sem chamadas de API. Use -Execute somente quando quiser gerar e consumir créditos.'
+} else {
+  Push-Location $repoRoot
+  try {
+    & 'C:\Program Files\nodejs\npm.cmd' run art:sync
+    if ($LASTEXITCODE -ne 0) { throw 'A geração terminou, mas o funil de otimização falhou.' }
+  } finally {
+    Pop-Location
+  }
 }

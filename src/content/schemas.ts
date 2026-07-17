@@ -243,7 +243,7 @@ export const userProgressSchema = z.object({
 
 export const attemptSchema = z.object({
   id: idSchema, userId: idSchema, itemId: idSchema,
-  itemType: z.enum(['lexical-item', 'verb', 'lesson']),
+  itemType: z.enum(['lexical-item', 'verb', 'lesson', 'emotion']),
   exerciseTemplateId: idSchema.optional(), errorCode: idSchema.optional(),
   modality: z.enum(['visual', 'listening', 'reading', 'writing', 'speaking', 'context']),
   correct: z.boolean(), usedSupportLanguage: z.boolean(),

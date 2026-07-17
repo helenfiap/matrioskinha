@@ -29,6 +29,17 @@ Isso permite trabalhar simultaneamente:
 - formas invariáveis, como “feliz”, “triste” e “confiante”;
 - perguntas e respostas: “Como ela está?”, “Como ele está?”, “Como você se sente?”.
 
+### Estado implementado
+
+- os 16 cards exibem português e russo simultaneamente, independentemente do toggle global;
+- alternância entre Matrioskinha (ela/она) e Misha (ele/он);
+- fallback visual enquanto os PNGs finais ainda não foram adicionados;
+- painel detalhado com exemplo contextual, expressão em primeira pessoa e pergunta de produção;
+- notas comparativas de uso e curiosidades culturais/linguísticas nos dois idiomas;
+- progresso persistente em seis estágios pelo mesmo agendador dos Cenários;
+- registro de tentativas de uso contextual no motor de aprendizagem;
+- artes carregadas automaticamente pelos caminhos previstos assim que forem copiadas.
+
 ### Catálogo visual
 
 1. feliz;

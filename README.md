@@ -54,6 +54,19 @@ npm run audio:verify
 Consulte [docs/audio-pipeline.md](docs/audio-pipeline.md) para os lotes, vozes e
 opções de regeneração.
 
+## Imagens do Ateliê
+
+Moods em PNG/JPG podem ser sincronizados e comprimidos automaticamente:
+
+```powershell
+npm run art:sync    # processa novos arquivos uma vez
+npm run art:watch   # monitora enquanto as imagens são geradas
+npm run art:verify  # valida originais, hashes e WebPs
+```
+
+Os originais ficam versionados fora de `public`; o Ateliê consome WebP otimizado.
+Consulte [docs/emotion-image-pipeline.md](docs/emotion-image-pipeline.md).
+
 ## Estrutura de pastas
 
 ```

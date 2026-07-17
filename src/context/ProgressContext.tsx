@@ -12,6 +12,7 @@ import { progressRepository } from '../repositories/progressRepository';
 import { scheduleReview } from '../domain/learningEngine';
 import { useLearning } from './LearningContext';
 import { contentRepository } from '../repositories/contentRepository';
+import { EMOTION_ATELIER_PROGRESS_ID } from '../data/emotions';
 
 type PersistedShape = UserProgress;
 
@@ -153,6 +154,7 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     const progress = getStageInfo(sceneId, hotspotId);
     const scheduledStage = stageForInterval(progress.intervalIndex);
     if (scheduledStage !== 'dominado') return scheduledStage;
+    if (sceneId === EMOTION_ATELIER_PROGRESS_ID) return scheduledStage;
     if (!progress.lastReviewedAt) return 'dominado'; // preserva domínio importado do formato legado
     const lexicalItemId = contentRepository.getOccurrence(`${sceneId}:${hotspotId}`)?.lexicalItemId;
     return lexicalItemId && masteryByItem.get(lexicalItemId)?.mastered ? 'dominado' : 'revisado';

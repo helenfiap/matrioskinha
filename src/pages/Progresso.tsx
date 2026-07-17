@@ -20,6 +20,7 @@ const errorLabels: Record<string, { pt: string; ru: string }> = {
   'social-register': { pt: 'Registro social', ru: 'Социальный регистр' },
   'scene-choice': { pt: 'Associação bilíngue', ru: 'Двуязычная ассоциация' },
   'scene-word-order': { pt: 'Ordem da frase', ru: 'Порядок слов в предложении' },
+  'emotion-context': { pt: 'Uso afetivo no contexto', ru: 'Эмоция в контексте' },
 };
 
 export function Progresso() {

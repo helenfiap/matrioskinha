@@ -6,6 +6,8 @@ export interface EmotionMood {
   expressionCue: string;
 }
 
+export const EMOTION_ATELIER_PROGRESS_ID = 'emotion-atelier';
+
 export const emotionCharacters = {
   feminine: {
     id: 'matrioskinha',
@@ -37,4 +39,3 @@ export const emotionMoods: EmotionMood[] = [
   { id: 'confusa', emoji: '😕', pt: { feminine: 'confusa', masculine: 'confuso' }, ru: { feminine: 'растерянная', masculine: 'растерянный' }, expressionCue: 'one eyebrow raised, uncertain mouth, slight head tilt, palms gently turned upward' },
   { id: 'aliviada', emoji: '😮‍💨', pt: { feminine: 'aliviada', masculine: 'aliviado' }, ru: { feminine: 'испытывающая облегчение', masculine: 'испытывающий облегчение' }, expressionCue: 'relieved exhale, softened eyes, relaxed smile, shoulders visibly releasing tension' },
 ];
-
