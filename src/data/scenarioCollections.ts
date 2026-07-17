@@ -14,6 +14,16 @@ export interface ScenarioCollection {
 
 export const scenarioCollections: ScenarioCollection[] = [
   {
+    id: 'emotions',
+    kind: 'emotion-atelier',
+    titlePt: 'Ateliê das Emoções',
+    titleRu: 'Ателье эмоций',
+    descriptionPt: 'Observe expressões, nomeie sentimentos e pratique gênero e concordância.',
+    descriptionRu: 'Наблюдайте за выражениями, называйте чувства и практикуйте род и согласование.',
+    sceneIds: [],
+    status: 'in-production',
+  },
+  {
     id: 'house',
     kind: 'scenes',
     titlePt: 'Cenários da casa',
@@ -44,16 +54,6 @@ export const scenarioCollections: ScenarioCollection[] = [
     status: 'available',
   },
   {
-    id: 'emotions',
-    kind: 'emotion-atelier',
-    titlePt: 'Ateliê das Emoções',
-    titleRu: 'Ателье эмоций',
-    descriptionPt: 'Observe expressões, nomeie sentimentos e pratique gênero e concordância.',
-    descriptionRu: 'Наблюдайте за выражениями, называйте чувства и практикуйте род и согласование.',
-    sceneIds: [],
-    status: 'in-production',
-  },
-  {
     id: 'brazil',
     kind: 'scenes',
     titlePt: 'Viagem pelo Brasil',
@@ -66,6 +66,6 @@ export const scenarioCollections: ScenarioCollection[] = [
 ];
 
 export function getCollectionForScene(sceneId: string) {
-  return scenarioCollections.find((collection) => collection.sceneIds.includes(sceneId)) ?? scenarioCollections[0];
+  return scenarioCollections.find((collection) => collection.sceneIds.includes(sceneId))
+    ?? scenarioCollections.find((collection) => collection.id === 'house')!;
 }
-

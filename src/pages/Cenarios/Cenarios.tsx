@@ -60,7 +60,8 @@ export function Cenarios() {
 
   const scene = scenes.find((s) => s.id === currentSceneId)!;
   const mission = getMission(scene.id);
-  const activeCollection = scenarioCollections.find((collection) => collection.id === activeCollectionId) ?? scenarioCollections[0];
+  const activeCollection = scenarioCollections.find((collection) => collection.id === activeCollectionId)
+    ?? getCollectionForScene(currentSceneId);
   const visibleScenes = scenes.filter((candidate) => activeCollection.sceneIds.includes(candidate.id));
   const isEmotionAtelier = activeCollection.kind === 'emotion-atelier';
 
@@ -157,7 +158,7 @@ export function Cenarios() {
   const missionAlreadyDone = mission ? Boolean(missionsDone[scene.id]) : false;
 
   return (
-    <section className="section">
+    <section className={`section scenarios-section scenario-theme-${activeCollection.id}`}>
       <div className="section-head">
         <div>
           <h2>{t(activeCollection.titlePt, activeCollection.titleRu)}</h2>
@@ -181,7 +182,7 @@ export function Cenarios() {
             <button
               key={collection.id}
               type="button"
-              className={collection.id === activeCollection.id ? 'active' : ''}
+              className={`collection-${collection.id} ${collection.id === activeCollection.id ? 'active' : ''}`}
               onClick={() => selectCollection(collection.id)}
               disabled={planned}
               title={planned ? t('Coleção planejada', 'Коллекция запланирована') : undefined}

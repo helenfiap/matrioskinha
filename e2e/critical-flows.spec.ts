@@ -94,6 +94,7 @@ test('organiza cenarios por colecao e apresenta o Atelie das Emocoes', async ({ 
   await page.goto('/#/cenarios');
 
   await expect(page.getByRole('navigation', { name: 'Coleções de cenários' })).toBeVisible();
+  await expect(page.locator('.scenario-collections button').first()).toContainText('Ateliê das Emoções');
   await page.getByRole('button', { name: /Ateliê das Emoções/ }).click();
 
   await expect(page.getByRole('heading', { name: 'Ateliê das Emoções' })).toBeVisible();
@@ -102,9 +103,14 @@ test('organiza cenarios por colecao e apresenta o Atelie das Emocoes', async ({ 
   await expect(page.locator('.mood-learning-card').first().locator('img')).toHaveAttribute('src', /matrioskinha\/feliz\.webp$/);
   await expect(page.getByText('feliz', { exact: true }).first()).toBeVisible();
   await expect(page.getByText('счастливая', { exact: true }).first()).toBeVisible();
+  await expect(page.locator('.emotion-artwork.large img')).toHaveCSS('object-fit', 'contain');
+  expect(await page.locator('.emotion-artwork.large').evaluate((element) => {
+    const rect = element.getBoundingClientRect();
+    return rect.width / rect.height;
+  })).toBeCloseTo(2 / 3, 2);
 
   await page.locator('.mood-learning-card').first().click();
-  await expect(page.getByRole('heading', { name: 'Ela está feliz' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'feliz', exact: true })).toBeVisible();
   await expect(page.getByText('Она счастлива, потому что встретила подругу.')).toBeVisible();
   await expect(page.getByText(/Curiosidade cultural/)).toBeVisible();
   await page.getByRole('button', { name: /Usei no contexto/ }).click();
@@ -115,7 +121,7 @@ test('organiza cenarios por colecao e apresenta o Atelie das Emocoes', async ({ 
 
   await page.getByRole('button', { name: /Misha Matriôshkin/ }).click();
   await expect(page.locator('.mood-learning-card').first().locator('img')).toHaveAttribute('src', /misha\/feliz\.webp$/);
-  await expect(page.getByRole('heading', { name: 'Ele está feliz' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'feliz', exact: true })).toBeVisible();
   await expect(page.getByText('счастливый', { exact: true }).first()).toBeVisible();
 
   await page.getByRole('button', { name: 'Русский' }).click();
@@ -125,4 +131,18 @@ test('organiza cenarios por colecao e apresenta o Atelie das Emocoes', async ({ 
   await expect(page.getByRole('heading', { name: 'счастливый' })).toBeVisible();
   await expect(page.getByRole('heading', { name: 'Пример в контексте' })).toBeVisible();
   await expect(page.getByRole('button', { name: /Путешествие по Бразилии/ })).toBeDisabled();
+});
+
+test('compacta o seletor do Atelie e leva o detalhe ao foco no mobile', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto('/#/cenarios');
+  await page.getByRole('button', { name: /Ateliê das Emoções/ }).click();
+
+  await expect(page.locator('.mood-learning-grid')).toHaveCSS('display', 'flex');
+  await page.locator('.mood-learning-card').nth(1).click();
+  await expect(page.getByRole('heading', { name: 'triste', exact: true })).toBeVisible();
+  await expect.poll(() => page.locator('.emotion-detail-card').evaluate((element) => {
+    const rect = element.getBoundingClientRect();
+    return rect.top >= 0 && rect.top < window.innerHeight * 0.35;
+  })).toBe(true);
 });

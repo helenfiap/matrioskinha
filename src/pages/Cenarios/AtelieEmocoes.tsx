@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { BookOpen, CheckCircle2, Globe2, Heart, ImageOff, MessageCircle, RotateCcw, Sparkles } from 'lucide-react';
 import { useLanguage } from '../../context/LanguageContext';
 import { useLearning } from '../../context/LearningContext';
@@ -67,6 +67,7 @@ export function AtelieEmocoes() {
   const { recordAttempt } = useLearning();
   const [gender, setGender] = useState<EmotionGender>('feminine');
   const [selectedMoodId, setSelectedMoodId] = useState(emotionMoods[0].id);
+  const detailRef = useRef<HTMLElement>(null);
 
   const selectedMood = emotionMoods.find((mood) => mood.id === selectedMoodId) ?? emotionMoods[0];
   const selectedContent = emotionLearningByMoodId.get(selectedMood.id)!;
@@ -86,6 +87,9 @@ export function AtelieEmocoes() {
   const selectMood = (moodId: string) => {
     setSelectedMoodId(moodId);
     markReviewed(EMOTION_ATELIER_PROGRESS_ID, moodId);
+    if (window.matchMedia('(max-width: 800px)').matches) {
+      window.requestAnimationFrame(() => detailRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }));
+    }
   };
 
   const registerContextUse = () => {
@@ -162,30 +166,40 @@ export function AtelieEmocoes() {
         )}</span>
       </div>
 
-      <div className="mood-learning-grid" aria-label={t('Cards bilíngues de emoções', 'Двуязычные карточки эмоций')}>
-        {emotionMoods.map((mood) => {
-          const stage = getStage(EMOTION_ATELIER_PROGRESS_ID, mood.id);
-          const stageLabels = STAGE_LABELS[stage];
-          return (
-            <button
-              type="button"
-              className={`mood-learning-card stage-${stage} ${mood.id === selectedMood.id ? 'active' : ''}`}
-              key={mood.id}
-              onClick={() => selectMood(mood.id)}
-              aria-pressed={mood.id === selectedMood.id}
-            >
-              <EmotionArtwork mood={mood} gender={gender} lang={lang} />
-              <div className="mood-card-copy">
-                <strong lang={lang === 'ru' ? 'ru' : 'pt-BR'}>{lang === 'ru' ? mood.ru[gender] : mood.pt[gender]}</strong>
-                <span lang={lang === 'ru' ? 'pt-BR' : 'ru'}>{lang === 'ru' ? mood.pt[gender] : mood.ru[gender]}</span>
-              </div>
-              <small className="mood-stage">{t(stageLabels.pt, stageLabels.ru)}</small>
-            </button>
-          );
-        })}
-      </div>
+      <div className="emotion-workspace">
+        <aside className="mood-selector-panel">
+          <div className="mood-selector-heading">
+            <div>
+              <strong>{t('Escolha uma emoção', 'Выбери эмоцию')}</strong>
+              <span>{t('Toque para abrir o card', 'Нажми, чтобы открыть карточку')}</span>
+            </div>
+            <span>16</span>
+          </div>
+          <div className="mood-learning-grid" aria-label={t('Cards bilíngues de emoções', 'Двуязычные карточки эмоций')}>
+            {emotionMoods.map((mood) => {
+              const stage = getStage(EMOTION_ATELIER_PROGRESS_ID, mood.id);
+              const stageLabels = STAGE_LABELS[stage];
+              return (
+                <button
+                  type="button"
+                  className={`mood-learning-card stage-${stage} ${mood.id === selectedMood.id ? 'active' : ''}`}
+                  key={mood.id}
+                  onClick={() => selectMood(mood.id)}
+                  aria-pressed={mood.id === selectedMood.id}
+                >
+                  <EmotionArtwork mood={mood} gender={gender} lang={lang} />
+                  <div className="mood-card-copy">
+                    <strong lang={lang === 'ru' ? 'ru' : 'pt-BR'}>{lang === 'ru' ? mood.ru[gender] : mood.pt[gender]}</strong>
+                    <span lang={lang === 'ru' ? 'pt-BR' : 'ru'}>{lang === 'ru' ? mood.pt[gender] : mood.ru[gender]}</span>
+                  </div>
+                  <small className="mood-stage">{t(stageLabels.pt, stageLabels.ru)}</small>
+                </button>
+              );
+            })}
+          </div>
+        </aside>
 
-      <section className="emotion-detail-card" aria-live="polite">
+        <section ref={detailRef} className="emotion-detail-card" aria-live="polite">
         <div className="emotion-detail-visual">
           <EmotionArtwork mood={selectedMood} gender={gender} lang={lang} large />
           <div className="emotion-character-name">{selectedCharacter.name}</div>
@@ -261,7 +275,8 @@ export function AtelieEmocoes() {
             )}</span>
           </div>
         </div>
-      </section>
+        </section>
+      </div>
     </div>
   );
 }

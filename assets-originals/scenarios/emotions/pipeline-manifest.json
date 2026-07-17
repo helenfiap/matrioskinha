@@ -51,6 +51,28 @@
       "publicPath": "public/assets/scenarios/emotions/matrioskinha/assustada.webp",
       "processedAt": "2026-07-17T03:26:03.738Z"
     },
+    "matrioskinha/calma": {
+      "character": "matrioskinha",
+      "mood": "calma",
+      "sourceSha256": "0aa09447cbfccb61857db0c1c506b7e6aceb2a8653431139eaa84423ed5e77af",
+      "outputSha256": "ba00bbcd36845ef9fc74f2a899ec84b7cbef4fab684d6633892c342d5bc1e2d6",
+      "sourceBytes": 2350233,
+      "outputBytes": 95684,
+      "savedPercent": 95.93,
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "outputDimensions": {
+        "width": 768,
+        "height": 1152
+      },
+      "sourceWasOversized": true,
+      "aspectRatio": 0.6667,
+      "archivePath": "assets-originals/scenarios/emotions/matrioskinha/calma/0aa09447cbfccb61.png",
+      "publicPath": "public/assets/scenarios/emotions/matrioskinha/calma.webp",
+      "processedAt": "2026-07-17T11:29:50.028Z"
+    },
     "matrioskinha/feliz": {
       "character": "matrioskinha",
       "mood": "feliz",
@@ -72,6 +94,28 @@
       "archivePath": "assets-originals/scenarios/emotions/matrioskinha/feliz/00d67909d414eff7.png",
       "publicPath": "public/assets/scenarios/emotions/matrioskinha/feliz.webp",
       "processedAt": "2026-07-17T03:06:42.707Z"
+    },
+    "matrioskinha/preocupada": {
+      "character": "matrioskinha",
+      "mood": "preocupada",
+      "sourceSha256": "8290a04ad4d2cb99357105cf561d3854c8890ae00ce5aaf5db20c16c7a68fdc7",
+      "outputSha256": "d5b0c86addcd2f9e19f184b93f5c7931f6bdf3ea5d92884e5c5d752c20facd54",
+      "sourceBytes": 2180517,
+      "outputBytes": 83190,
+      "savedPercent": 96.18,
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "outputDimensions": {
+        "width": 768,
+        "height": 1152
+      },
+      "sourceWasOversized": true,
+      "aspectRatio": 0.6667,
+      "archivePath": "assets-originals/scenarios/emotions/matrioskinha/preocupada/8290a04ad4d2cb99.png",
+      "publicPath": "public/assets/scenarios/emotions/matrioskinha/preocupada.webp",
+      "processedAt": "2026-07-17T11:29:50.187Z"
     },
     "matrioskinha/triste": {
       "character": "matrioskinha",
@@ -139,6 +183,28 @@
       "publicPath": "public/assets/scenarios/emotions/misha/assustada.webp",
       "processedAt": "2026-07-17T03:30:57.929Z"
     },
+    "misha/calma": {
+      "character": "misha",
+      "mood": "calma",
+      "sourceSha256": "df6f3bb2c00dfd10e9a642c07bfeff7bbd29b69cfbed3191949e9a62945ea77a",
+      "outputSha256": "54eb79ba7aca54c3e8b623ce7103ee5a125c174cd4e671084558586e03c926cd",
+      "sourceBytes": 2449347,
+      "outputBytes": 114122,
+      "savedPercent": 95.34,
+      "sourceDimensions": {
+        "width": 1023,
+        "height": 1537
+      },
+      "outputDimensions": {
+        "width": 767,
+        "height": 1152
+      },
+      "sourceWasOversized": true,
+      "aspectRatio": 0.6656,
+      "archivePath": "assets-originals/scenarios/emotions/misha/calma/df6f3bb2c00dfd10.png",
+      "publicPath": "public/assets/scenarios/emotions/misha/calma.webp",
+      "processedAt": "2026-07-17T11:29:50.376Z"
+    },
     "misha/feliz": {
       "character": "misha",
       "mood": "feliz",
@@ -160,6 +226,28 @@
       "archivePath": "assets-originals/scenarios/emotions/misha/feliz/969084ac2c54b0c6.png",
       "publicPath": "public/assets/scenarios/emotions/misha/feliz.webp",
       "processedAt": "2026-07-17T03:06:43.056Z"
+    },
+    "misha/preocupada": {
+      "character": "misha",
+      "mood": "preocupada",
+      "sourceSha256": "36b30d6d16c83164ca9c3db945a87e9013b2c36cbf9886c2e72af802219d8610",
+      "outputSha256": "e0990fadd262647bd3827b9e8aaef8a4aced08759fe2bc179d82ce22f1d99a65",
+      "sourceBytes": 2242628,
+      "outputBytes": 95766,
+      "savedPercent": 95.73,
+      "sourceDimensions": {
+        "width": 1023,
+        "height": 1537
+      },
+      "outputDimensions": {
+        "width": 767,
+        "height": 1152
+      },
+      "sourceWasOversized": true,
+      "aspectRatio": 0.6656,
+      "archivePath": "assets-originals/scenarios/emotions/misha/preocupada/36b30d6d16c83164.png",
+      "publicPath": "public/assets/scenarios/emotions/misha/preocupada.webp",
+      "processedAt": "2026-07-17T11:29:50.541Z"
     },
     "misha/triste": {
       "character": "misha",
