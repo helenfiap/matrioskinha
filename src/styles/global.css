@@ -514,6 +514,34 @@ svg{display:block}
 .mood-learning-card:hover{transform:translateY(-2px);border-color:#a8bac7}
 .mood-learning-card.active{border-color:var(--blue);box-shadow:0 0 0 3px rgba(30,114,153,.12),0 8px 18px rgba(20,39,56,.08)}
 .mood-learning-card.stage-explorado,.mood-learning-card.stage-reconhecido,.mood-learning-card.stage-praticado,.mood-learning-card.stage-revisado{border-bottom-color:var(--green)}
+
+/* ---------- ciclo pedagógico P2 ---------- */
+.practice-cycle-button{border:0;border-radius:999px;background:var(--navy);color:#fff;padding:9px 14px;display:inline-flex;align-items:center;justify-content:center;gap:7px;font:inherit;font-weight:800;cursor:pointer;box-shadow:0 5px 15px rgba(15,43,63,.18);transition:transform .15s ease,box-shadow .15s ease}
+.practice-cycle-button:hover{transform:translateY(-1px);box-shadow:0 7px 18px rgba(15,43,63,.24)}
+.practice-cycle-button>span{font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;background:var(--yellow);color:var(--navy);border-radius:999px;padding:2px 5px}
+.practice-cycle-button:focus-visible,.practice-options button:focus-visible,.practice-next:focus-visible{outline:3px solid var(--yellow);outline-offset:3px}
+.conj-practice-action{display:flex;justify-content:flex-end;padding:10px 16px 0}
+.hotspot-practice-action{width:100%;margin:12px 0 4px}
+.practice-drawer-overlay{position:fixed;inset:0;z-index:1200;background:rgba(7,25,38,.55);display:flex;justify-content:flex-end;animation:practice-fade-in .18s ease}
+.practice-drawer{width:min(520px,100%);height:100%;overflow-y:auto;background:#fbfaf6;box-shadow:-18px 0 50px rgba(7,25,38,.25);padding:0 24px 28px;animation:practice-slide-in .22s ease}
+.practice-drawer-header{position:sticky;top:0;z-index:2;margin:0 -24px 20px;padding:20px 24px 16px;background:rgba(251,250,246,.97);backdrop-filter:blur(10px);border-bottom:1px solid #e5e0d6;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.practice-drawer-header small{display:block;color:#176b43;font-size:.72rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
+.practice-drawer-header h2{font-size:1.3rem;margin:3px 0 0;color:var(--navy)}
+.practice-stepper{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-bottom:12px}
+.practice-stepper span{height:5px;border-radius:99px;background:#ddd8cc}.practice-stepper span.active{background:var(--yellow)}.practice-stepper span.done{background:var(--green)}
+.practice-skill-label{text-transform:uppercase;letter-spacing:.08em;font-size:.68rem;font-weight:900;color:#4c5f6c;margin-bottom:16px}
+.practice-visual{display:block;width:min(210px,60%);max-height:240px;object-fit:contain;border-radius:18px;margin:0 auto 16px;background:var(--navy)}
+.practice-prompt{padding:18px;border-radius:18px;background:#fff;border:1px solid #e6e0d5;margin-bottom:16px}
+.practice-prompt h3{font-size:1.15rem;line-height:1.35;color:var(--navy);margin:0}.practice-prompt p{color:#485f6e;margin:7px 0 0;line-height:1.4}
+.practice-audio{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:12px;color:var(--green);font-size:.85rem}
+.practice-options{display:grid;gap:9px}.practice-options button{min-height:58px;border:1px solid #dcd6ca;border-radius:14px;background:#fff;color:var(--navy);padding:11px 14px;text-align:left;font:inherit;cursor:pointer;display:flex;flex-direction:column;justify-content:center;gap:3px;transition:border-color .15s ease,background .15s ease,transform .15s ease}.practice-options button:not(:disabled):hover{transform:translateX(-2px);border-color:var(--blue)}
+.practice-options button.correct{border-color:var(--green);background:#eaf7ef}.practice-options button.incorrect{border-color:#ba4a4a;background:#fff0f0}.practice-options button:disabled{cursor:default;opacity:.9}.practice-options small{color:#485f6e}
+.practice-feedback{display:flex;gap:10px;align-items:flex-start;border-radius:14px;padding:13px 15px;margin-top:15px}.practice-feedback.correct{background:#eaf7ef;color:var(--green)}.practice-feedback.incorrect{background:#fff0f0;color:#9d3434}.practice-feedback strong{display:block}.practice-feedback p{margin:3px 0 0;color:var(--navy);line-height:1.35}
+.practice-next{margin:16px 0 0 auto;display:flex;align-items:center;gap:7px}
+.practice-complete{text-align:center;padding:56px 18px}.practice-complete>svg{color:var(--green)}.practice-complete h3{color:var(--navy);font-size:1.5rem;margin:14px 0 6px}.practice-complete p{color:#60717d;margin:0 0 22px}
+@keyframes practice-fade-in{from{opacity:0}to{opacity:1}}@keyframes practice-slide-in{from{transform:translateX(35px)}to{transform:translateX(0)}}
+@media(max-width:600px){.practice-drawer-overlay{align-items:flex-end}.practice-drawer{width:100%;height:min(88vh,760px);border-radius:22px 22px 0 0;padding:0 18px 24px}.practice-drawer-header{margin:0 -18px 16px;padding:16px 18px 13px}.emotion-detail-title .practice-cycle-button{flex-basis:100%;margin-top:5px}.practice-visual{max-height:190px}}
+@media(prefers-reduced-motion:reduce){.practice-drawer-overlay,.practice-drawer{animation:none}.practice-cycle-button,.practice-options button{transition:none}}
 .mood-learning-card.stage-dominado{border-color:#d8b22c;background:#fffdf4}
 .emotion-artwork{grid-row:1/3;width:60px;height:78px;border-radius:11px;overflow:hidden;background:linear-gradient(145deg,#10283c,#1e4a67)}
 .emotion-artwork img{width:100%;height:100%;object-fit:cover;object-position:center 24%;display:block}

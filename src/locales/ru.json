@@ -2,21 +2,23 @@
   "sidebar": {
     "brandTagline": "Бразилия × Россия",
     "groups": {
-      "aprender": "Обучение",
-      "conteudo": "Содержание",
+      "inicio": "Начало",
+      "explorar": "Исследовать",
+      "estudar": "Изучать",
       "praticar": "Практика",
-      "progresso": "Прогресс",
+      "acompanhar": "Результаты",
       "config": "Настройки"
     },
     "items": {
       "visaoGeral": "Обзор",
       "minhaTrilha": "Мой путь",
-      "aulaAtual": "Текущий урок",
+      "aulaAtual": "Продолжить урок",
+      "atelieEmocoes": "Ателье эмоций",
       "conjugador": "Спряжение глаголов",
       "tuVoce": "Tu × você",
       "brasilReal": "Настоящая Бразилия",
       "bancoExercicios": "Банк упражнений",
-      "pictogramas": "Пиктограммы",
+      "pictogramas": "Визуальный словарь",
       "cenarios": "Сцены",
       "audioPronuncia": "Аудио и произношение",
       "desempenho": "Показатели",

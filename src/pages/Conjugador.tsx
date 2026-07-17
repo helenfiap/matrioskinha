@@ -8,6 +8,7 @@ import { AudioButton } from '../components/AudioButton';
 import { audioAssets } from '../lib/audioAssets';
 import type { RelatedExpressionAudio } from '../data/verbs';
 import { getVerbKnowledgeNode } from '../lib/semanticGraph';
+import { PracticeButton } from '../components/practice/PracticeButton';
 
 type Tense = 'presente' | 'pretPerf';
 type RuGender = 'masculine' | 'feminine';
@@ -177,6 +178,9 @@ export function Conjugador() {
               </button>
               {open && (
                 <div className="conj-item-body" style={{ display: 'block' }}>
+                  <div className="conj-practice-action">
+                    <PracticeButton entityRef={{ type: 'verb', id: v.id }} />
+                  </div>
                   {v.infinitiveAudio && (
                     <div className="verb-infinitive-audio">
                       <div>

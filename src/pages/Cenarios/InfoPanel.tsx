@@ -6,6 +6,7 @@ import { getLexicalKnowledgeNode, getRelatedOccurrences, getVerbKnowledgeNode } 
 import { audioAssets } from '../../lib/audioAssets';
 import { AudioButton } from '../../components/AudioButton';
 import type { Hotspot, Scene } from '../../types';
+import { PracticeButton } from '../../components/practice/PracticeButton';
 
 const catLabels: Record<string, { pt: string; ru: string }> = {
   objeto: { pt: 'Objetos', ru: 'Предметы' },
@@ -142,6 +143,10 @@ export function InfoPanel({
                 <AudioButton src={audioAssets.example(selected.exampleId)} label={selected.examplePt} />
               </div>
               <LearningTimeline stage={stage} stageInfo={stageInfo} lang={lang} />
+              <PracticeButton
+                className="hotspot-practice-action"
+                entityRef={{ type: 'scene-occurrence', id: `${scene.id}:${selected.id}` }}
+              />
               <nav className="knowledge-actions" aria-label={t('Caminhos na base de conhecimento', 'Переходы в базе знаний')}>
                 {lexicalNode && (
                   <Link to={lexicalNode.vocabularyHref}>

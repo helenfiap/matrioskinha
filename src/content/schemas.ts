@@ -248,6 +248,16 @@ export const attemptSchema = z.object({
   modality: z.enum(['visual', 'listening', 'reading', 'writing', 'speaking', 'context']),
   correct: z.boolean(), usedSupportLanguage: z.boolean(),
   answeredAt: z.string().datetime(), durationMs: z.number().int().nonnegative(),
+  pedagogy: z.object({
+    entityRef: z.object({
+      type: z.enum(['lexical-item', 'scene-occurrence', 'verb', 'verb-expression', 'emotion', 'phrase', 'scene']),
+      id: idSchema,
+    }),
+    skill: z.enum(['discovery', 'recognition', 'association', 'listening', 'ordering', 'conjugation', 'application', 'transfer', 'production', 'review']),
+    generatorId: idSchema,
+    interactionId: idSchema,
+    sessionId: idSchema,
+  }).optional(),
 });
 
 export type ContentBundle = z.infer<typeof contentBundleSchema>;

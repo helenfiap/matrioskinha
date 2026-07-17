@@ -1,7 +1,7 @@
-import { NavLink } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import type { ComponentType } from 'react';
 import {
-  Home, ListChecks, PenLine, BookOpen, Type, MapPin, ClipboardList,
+  Home, ListChecks, PenLine, Heart, BookOpen, Type, MapPin, ClipboardList,
   Grid2x2, Compass, Music, BarChart3, RotateCcw, Settings,
 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
@@ -19,7 +19,7 @@ interface NavGroup {
 
 const groups: NavGroup[] = [
   {
-    groupKey: 'aprender',
+    groupKey: 'inicio',
     items: [
       { to: '/', icon: Home, key: 'visaoGeral' },
       { to: '/trilha', icon: ListChecks, key: 'minhaTrilha' },
@@ -27,27 +27,33 @@ const groups: NavGroup[] = [
     ],
   },
   {
-    groupKey: 'conteudo',
+    groupKey: 'explorar',
+    items: [
+      { to: '/cenarios?collection=emotions', icon: Heart, key: 'atelieEmocoes' },
+      { to: '/cenarios', icon: Compass, key: 'cenarios' },
+      { to: '/vocab', icon: Grid2x2, key: 'pictogramas' },
+      { to: '/vocab?section=brasil-real', icon: MapPin, key: 'brasilReal' },
+    ],
+  },
+  {
+    groupKey: 'estudar',
     items: [
       { to: '/conjugador', icon: BookOpen, key: 'conjugador' },
       { to: '/trilha?section=aula-completa', icon: Type, key: 'tuVoce' },
-      { to: '/vocab?section=brasil-real', icon: MapPin, key: 'brasilReal' },
+      { to: '/trilha?tab=listen', icon: Music, key: 'audioPronuncia' },
     ],
   },
   {
     groupKey: 'praticar',
     items: [
       { to: '/trilha?section=banco-exercicios', icon: ClipboardList, key: 'bancoExercicios' },
-      { to: '/vocab', icon: Grid2x2, key: 'pictogramas' },
-      { to: '/cenarios', icon: Compass, key: 'cenarios' },
-      { to: '/trilha?tab=listen', icon: Music, key: 'audioPronuncia' },
+      { to: '/progresso?section=revisao', icon: RotateCcw, key: 'revisao' },
     ],
   },
   {
-    groupKey: 'progresso',
+    groupKey: 'acompanhar',
     items: [
       { to: '/progresso', icon: BarChart3, key: 'desempenho' },
-      { to: '/progresso?section=revisao', icon: RotateCcw, key: 'revisao' },
     ],
   },
   {
@@ -58,8 +64,33 @@ const groups: NavGroup[] = [
   },
 ];
 
+const querySpecificItems = groups
+  .flatMap((group) => group.items)
+  .filter((item) => item.to.includes('?'));
+
+function isSidebarItemActive(to: string, pathname: string, search: string) {
+  const target = new URL(to, 'https://matrioskinha.local');
+  if (target.pathname !== pathname) return false;
+
+  const currentParams = new URLSearchParams(search);
+  const targetEntries = [...target.searchParams.entries()];
+  if (targetEntries.length > 0) {
+    return targetEntries.every(([key, value]) => currentParams.get(key) === value);
+  }
+
+  // A rota-base permanece ativa, exceto quando um atalho mais específico
+  // da mesma tela está selecionado (Ateliê, áudio, Brasil real etc.).
+  return !querySpecificItems.some((item) => {
+    const specificTarget = new URL(item.to, 'https://matrioskinha.local');
+    return specificTarget.pathname === pathname
+      && [...specificTarget.searchParams.entries()]
+        .every(([key, value]) => currentParams.get(key) === value);
+  });
+}
+
 export function Sidebar({ open, onClose }: { open: boolean; onClose: () => void }) {
   const { tk } = useLanguage();
+  const { pathname, search } = useLocation();
   return (
     <aside className={'sidebar' + (open ? ' open' : '')}>
       <div className="brand">
@@ -78,15 +109,17 @@ export function Sidebar({ open, onClose }: { open: boolean; onClose: () => void 
           <nav className="nav">
             {group.items.map((item, i) => {
               const Icon = item.icon;
+              const active = isSidebarItemActive(item.to, pathname, search);
               return (
-                <NavLink
+                <Link
                   key={item.key + i}
                   to={item.to}
-                  className={({ isActive }) => (isActive ? 'active' : '')}
+                  className={active ? 'active' : ''}
+                  aria-current={active ? 'page' : undefined}
                   onClick={onClose}
                 >
                   <span className="dot"><Icon size={14} /></span> <span>{tk(`sidebar.items.${item.key}`)}</span>
-                </NavLink>
+                </Link>
               );
             })}
           </nav>

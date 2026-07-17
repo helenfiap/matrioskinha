@@ -12,6 +12,8 @@ import { AudioButton } from '../../components/AudioButton';
 import { audioAssets } from '../../lib/audioAssets';
 import { selectGenderedAudioText, type AudioVoiceRole } from '../../lib/audioNaming';
 import { getVerbKnowledgeNode } from '../../lib/semanticGraph';
+import { featureFlags } from '../../config/features';
+import { usePracticeSession } from '../../context/PracticeSessionContext';
 
 type EmotionGender = 'feminine' | 'masculine';
 
@@ -69,8 +71,9 @@ function BilingualLine({ pt, ru, primaryLang, audioVoice, href }: {
 
 export function AtelieEmocoes({ initialMoodId }: { initialMoodId?: string }) {
   const { lang, t } = useLanguage();
-  const { getStage, getStageInfo, markReviewed, advanceReview, failReview } = useProgress();
+  const { getStage, getStageInfo, markReviewed, advanceReview, failReview, settings } = useProgress();
   const { recordAttempt } = useLearning();
+  const { openPractice } = usePracticeSession();
   const [gender, setGender] = useState<EmotionGender>('feminine');
   const [selectedMoodId, setSelectedMoodId] = useState(
     emotionMoods.some((mood) => mood.id === initialMoodId) ? initialMoodId! : emotionMoods[0].id,
@@ -115,7 +118,13 @@ export function AtelieEmocoes({ initialMoodId }: { initialMoodId?: string }) {
     });
   };
 
-  const registerDifficulty = () => {
+  const registerDifficulty = (trigger?: HTMLButtonElement) => {
+    if (featureFlags.pedagogicalCycle) {
+      openPractice({ type: 'emotion', id: selectedMood.id }, {
+        selectedGender: gender, supportLanguage: settings.supportLang,
+      }, trigger);
+      return;
+    }
     if (selectedProgress.intervalIndex === 0) markReviewed(EMOTION_ATELIER_PROGRESS_ID, selectedMood.id);
     else failReview(EMOTION_ATELIER_PROGRESS_ID, selectedMood.id);
     recordAttempt({
@@ -294,8 +303,14 @@ export function AtelieEmocoes({ initialMoodId }: { initialMoodId?: string }) {
           </div>
 
           <div className="emotion-detail-actions">
-            <button type="button" className="sr-btn" onClick={registerDifficulty}>
-              <RotateCcw size={15} /> {t('Preciso praticar', 'Нужно повторить')}
+            <button
+              type="button"
+              className={featureFlags.pedagogicalCycle ? 'practice-cycle-button' : 'sr-btn'}
+              onClick={(event) => registerDifficulty(event.currentTarget)}
+            >
+              {featureFlags.pedagogicalCycle ? <>
+                <Sparkles size={15} /> {t('Praticar agora', 'Практиковаться сейчас')} <span>P2</span>
+              </> : <><RotateCcw size={15} /> {t('Preciso praticar', 'Нужно повторить')}</>}
             </button>
             <button type="button" className="sr-btn know" onClick={registerContextUse}>
               <CheckCircle2 size={15} /> {t('Usei no contexto', 'Использовал(а) в контексте')}

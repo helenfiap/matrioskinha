@@ -1,6 +1,33 @@
-# matrioskinha-app2 (React + TypeScript)
+# Matrioskinha (React + TypeScript)
 
-Baseline limpo criado a partir do `matrioskinha-app` para a evolucao arquitetural e de produto. O aplicativo original permanece preservado.
+Aplicação bilíngue para ensino de português brasileiro a falantes de russo,
+organizada em torno de cenários, emoções, verbos, expressões, prática contextual
+e revisão baseada em evidências.
+
+## Baseline e próxima evolução
+
+O estado entregue no commit `93da25b` e o plano detalhado de implantação do novo
+ciclo pedagógico estão documentados em
+[docs/BASELINE_E_ROADMAP_CICLO_PEDAGOGICO.md](docs/BASELINE_E_ROADMAP_CICLO_PEDAGOGICO.md).
+
+O protótipo deve ser desenvolvido na branch `prototype/pedagogical-cycle`. A
+Knowledge Base, os pipelines e os fluxos atuais formam a baseline protegida; o
+novo motor entra incrementalmente por feature flag.
+
+A Fase P1 do domínio pedagógico está implementada e documentada em
+[docs/P1_DOMINIO_PEDAGOGICO.md](docs/P1_DOMINIO_PEDAGOGICO.md). Ela não altera a
+interface: cria contratos, índice unificado, perfis de ensino derivados e gates
+para sustentar o planejador da P2.
+
+A Fase P2 está documentada em
+[docs/P2_PLANEJADOR_E_PRATICA_CONTEXTUAL.md](docs/P2_PLANEJADOR_E_PRATICA_CONTEXTUAL.md).
+Os botões de prática contextual aparecem no Ateliê, Conjugador e detalhes dos
+hotspots. A experiência P1/P2 foi validada e está ativa por padrão também no
+build de produção; `VITE_PEDAGOGICAL_CYCLE=false` funciona como kill switch.
+
+O inventário consolidado da versão promovida para produção, suas decisões de
+produto, qualidade, limitações e próximos passos está em
+[docs/ENTREGA_P1_P2_E_PROXIMOS_PASSOS.md](docs/ENTREGA_P1_P2_E_PROXIMOS_PASSOS.md).
 
 Clone do mockup `matrioskinha_mockup_v0/index.html`, reescrito como aplicacao React + TypeScript com Vite, organizada por hierarquia de componentes/telas.
 
@@ -26,6 +53,7 @@ npm run preview
 npm run test           # testes unitarios e de componentes
 npm run test:coverage  # cobertura dos modulos criticos
 npm run test:e2e       # fluxos reais no Chromium + acessibilidade automatizada
+npm run pedagogy:verify # integridade do índice e das capacidades pedagógicas
 npm run check          # conteudo, lint, tipos, testes e build
 npm run check:all      # check completo + navegador
 ```
@@ -45,7 +73,7 @@ O projeto possui um pipeline incremental para gerar o pacote pt-BR com Edge TTS:
 ```powershell
 cd C:\Users\helen\Documents\matrioskinha
 uv pip install --python ".\.venv\Scripts\python.exe" --upgrade edge-tts
-cd .\matrioskinha-app2
+cd .\matrioskinha-app
 npm run audio:plan
 npm run audio:generate -- --batch emotions  # gera somente o incremento do Ateliê
 npm run audio:verify
@@ -79,6 +107,7 @@ src/
   content/                      -> schemas Zod + Knowledge Core JSON versionado
   repositories/                 -> acesso a conteúdo e persistência local
   domain/                       -> contratos e regras de progresso sem React
+  pedagogy/                     -> contratos, adaptadores e perfis do ciclo pedagógico
   context/LanguageContext.tsx   -> estado global de idioma (pt/ru) + funcao t(pt, ru)
   types/index.ts                -> tipos compartilhados (Hotspot, Scene, ConjugatorVerb, etc.)
   data/                         -> adaptadores temporários para a UI anterior à Fase 2

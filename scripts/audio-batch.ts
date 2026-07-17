@@ -52,6 +52,7 @@ const dataDirectory = resolve('src', 'content', 'data');
 const outputDirectory = resolve('public', 'assets', 'audio', locale);
 const lockPath = join(outputDirectory, 'audio-lock.json');
 const catalogPath = join(outputDirectory, 'audio-catalog.json');
+const audioProjectionPath = resolve('src', 'pedagogy', 'assets', 'generatedAudioSources.ts');
 const validBatches: AudioBatch[] = [
   'words', 'examples', 'scene-verbs', 'scene-phrases',
   'emotion-lexicon-f', 'emotion-lexicon-m',
@@ -174,9 +175,18 @@ function writeJson(path: string, value: unknown): void {
 
 function writeJsonIfChanged(path: string, value: unknown): void {
   const next = `${JSON.stringify(value, null, 2)}\n`;
+  writeTextIfChanged(path, next);
+}
+
+function writeTextIfChanged(path: string, next: string): void {
   if (existsSync(path) && readFileSync(path, 'utf8') === next) return;
   mkdirSync(dirname(path), { recursive: true });
   writeFileSync(path, next, 'utf8');
+}
+
+function audioProjection(items: AudioItem[]): string {
+  const sources = items.map((item) => `/assets/audio/${locale}/${item.relativePath}`);
+  return `// Gerado por scripts/audio-batch.ts. Não editar manualmente.\nexport const validatedAudioSources = new Set<string>(${JSON.stringify(sources, null, 2)});\n`;
 }
 
 function isValidAudio(path: string): boolean {
@@ -299,6 +309,7 @@ async function generate(items: AudioItem[], allItems: AudioItem[], voiceOverride
   if (!Number.isInteger(retries) || retries < 0) throw new Error('--retries deve ser zero ou um inteiro positivo.');
   mkdirSync(outputDirectory, { recursive: true });
   writeJsonIfChanged(catalogPath, catalog(allItems, voiceOverride));
+  writeTextIfChanged(audioProjectionPath, audioProjection(allItems));
   console.log(`Edge TTS: ${command.label}`);
   console.log(`Voz: ${voiceOverride || 'Francisca/Antonio por lote'} | Lote: ${selectedBatch() || 'all'} | Itens selecionados: ${items.length}\n`);
   let generated = 0;
@@ -356,12 +367,15 @@ function verify(items: AudioItem[], voiceOverride: string | undefined, lock: Aud
   const expectedPaths = new Set(items.map((item) => resolve(outputDirectory, item.relativePath)));
   const checkOrphans = !selectedBatch() && !getOption('limit');
   const orphans = checkOrphans ? walkMp3(outputDirectory).filter((path) => !expectedPaths.has(resolve(path))) : [];
-  if (failures.length === 0 && orphans.length === 0) {
+  const projectionCurrent = existsSync(audioProjectionPath)
+    && readFileSync(audioProjectionPath, 'utf8') === audioProjection(buildAudioItems());
+  if (failures.length === 0 && orphans.length === 0 && projectionCurrent) {
     console.log(`Áudios válidos: ${items.length} arquivos estão presentes e atualizados.`);
     return;
   }
   for (const { item, state } of failures) console.error(`${state.padEnd(8)} ${item.id} -> ${item.relativePath}`);
   for (const path of orphans) console.warn(`orphan   ${relative(outputDirectory, path)}`);
+  if (!projectionCurrent) console.error('stale    src/pedagogy/assets/generatedAudioSources.ts — execute npm run audio:generate');
   console.error(`\nVerificação falhou: ${failures.length} pendências e ${orphans.length} órfãos.`);
   process.exitCode = 1;
 }

@@ -2,21 +2,23 @@
   "sidebar": {
     "brandTagline": "Brasil × Rússia",
     "groups": {
-      "aprender": "Aprender",
-      "conteudo": "Conteúdo",
+      "inicio": "Início",
+      "explorar": "Explorar",
+      "estudar": "Estudar",
       "praticar": "Praticar",
-      "progresso": "Progresso",
+      "acompanhar": "Acompanhar",
       "config": "Configurações"
     },
     "items": {
       "visaoGeral": "Visão geral",
       "minhaTrilha": "Minha trilha",
-      "aulaAtual": "Aula atual",
+      "aulaAtual": "Continuar aula",
+      "atelieEmocoes": "Ateliê das Emoções",
       "conjugador": "Conjugador de verbos",
       "tuVoce": "Tu × você",
       "brasilReal": "Brasil real",
       "bancoExercicios": "Banco de exercícios",
-      "pictogramas": "Pictogramas",
+      "pictogramas": "Vocabulário visual",
       "cenarios": "Cenários",
       "audioPronuncia": "Áudio e pronúncia",
       "desempenho": "Desempenho",

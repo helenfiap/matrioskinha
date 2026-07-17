@@ -1,5 +1,5 @@
 {
-  "name": "matrioskinha-app2",
+  "name": "matrioskinha",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -15,6 +15,7 @@
     "audio:generate": "tsx scripts/audio-batch.ts generate",
     "audio:verify": "tsx scripts/audio-batch.ts verify",
     "verbs:verify": "tsx scripts/verify-verb-knowledge.ts",
+    "pedagogy:verify": "tsx scripts/verify-pedagogy.ts",
     "art:moods": "powershell -ExecutionPolicy Bypass -File scripts/generate-emotion-moods.ps1",
     "art:sync": "tsx scripts/emotion-image-pipeline.ts sync",
     "art:watch": "tsx scripts/emotion-image-pipeline.ts watch",
@@ -23,7 +24,7 @@
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
     "test:e2e": "playwright test",
-    "check": "npm run validate:content && npm run art:verify && npm run audio:verify && npm run verbs:verify && npm run lint && npm run typecheck && npm run test:coverage && npm run build",
+    "check": "npm run validate:content && npm run art:verify && npm run audio:verify && npm run verbs:verify && npm run pedagogy:verify && npm run lint && npm run typecheck && npm run test:coverage && npm run build",
     "check:all": "npm run check && npm run test:e2e"
   },
   "dependencies": {
