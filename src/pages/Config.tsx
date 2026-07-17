@@ -1,5 +1,6 @@
 import { useLanguage } from '../context/LanguageContext';
-import { useProgress, type SettingsState } from '../context/ProgressContext';
+import { useProgress } from '../context/ProgressContext';
+import type { SettingsState } from '../domain/progress';
 
 function ToggleRow({
   labelPt, labelRu, settingKey,

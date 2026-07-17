@@ -7,7 +7,7 @@ const options = [
   { text: 'você vai — tratamento indireto', correct: false },
 ];
 
-export function ListenExercise({ onCorrect }: { onCorrect: () => void }) {
+export function ListenExercise({ onCorrect, onAttempt }: { onCorrect: () => void; onAttempt?: (correct: boolean) => void }) {
   const { t } = useLanguage();
   const [answered, setAnswered] = useState<string | null>(null);
   const isCorrect = answered ? options.find((o) => o.text === answered)?.correct : null;
@@ -28,7 +28,7 @@ export function ListenExercise({ onCorrect }: { onCorrect: () => void }) {
             {options.map((o) => {
               const cls = ['option', answered === o.text ? (o.correct ? 'correct' : 'wrong') : ''].filter(Boolean).join(' ');
               return (
-                <button key={o.text} className={cls} onClick={() => { setAnswered(o.text); if (o.correct) onCorrect(); }}>
+                <button key={o.text} className={cls} onClick={() => { setAnswered(o.text); onAttempt?.(o.correct); if (o.correct) onCorrect(); }}>
                   {o.text}
                 </button>
               );

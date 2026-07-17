@@ -1,0 +1,286 @@
+[
+  {
+    "id": "sala",
+    "image": "/assets/scenarios/house/living_room.png",
+    "icon": "🛋️",
+    "labels": {
+      "pt": "Sala",
+      "ru": "Гостиная"
+    },
+    "cefrLevel": "A1",
+    "difficulty": 1,
+    "occurrenceIds": [
+      "sala:sofa",
+      "sala:almofada",
+      "sala:manta",
+      "sala:mesa-centro",
+      "sala:tapete-sala",
+      "sala:poltrona",
+      "sala:tv",
+      "sala:estante",
+      "sala:luminaria-sala",
+      "sala:planta-sala",
+      "sala:cortina-sala",
+      "sala:vaso-sala"
+    ],
+    "phraseIds": [
+      "sala:verb:1",
+      "sala:verb:2",
+      "sala:verb:3",
+      "sala:verb:4",
+      "sala:phrase:1",
+      "sala:phrase:2"
+    ],
+    "cultureNoteIds": [
+      "sala:culture:1"
+    ]
+  },
+  {
+    "id": "cozinha",
+    "image": "/assets/scenarios/house/kitchen.png",
+    "icon": "🍳",
+    "labels": {
+      "pt": "Cozinha",
+      "ru": "Кухня"
+    },
+    "cefrLevel": "A1",
+    "difficulty": 1,
+    "occurrenceIds": [
+      "cozinha:geladeira",
+      "cozinha:fogao",
+      "cozinha:exaustor",
+      "cozinha:microondas",
+      "cozinha:pia-cozinha",
+      "cozinha:torneira-cozinha",
+      "cozinha:armario-cozinha",
+      "cozinha:mesa-jantar",
+      "cozinha:cadeira-cozinha",
+      "cozinha:panela",
+      "cozinha:luminaria-pendente"
+    ],
+    "phraseIds": [
+      "cozinha:verb:1",
+      "cozinha:verb:2",
+      "cozinha:verb:3",
+      "cozinha:verb:4",
+      "cozinha:phrase:1",
+      "cozinha:phrase:2"
+    ],
+    "cultureNoteIds": [
+      "cozinha:culture:1"
+    ]
+  },
+  {
+    "id": "quarto",
+    "image": "/assets/scenarios/house/bedroom.png",
+    "icon": "🛏️",
+    "labels": {
+      "pt": "Quarto",
+      "ru": "Спальня"
+    },
+    "cefrLevel": "A1",
+    "difficulty": 1,
+    "occurrenceIds": [
+      "quarto:cama",
+      "quarto:travesseiro",
+      "quarto:guarda-roupa",
+      "quarto:espelho-quarto",
+      "quarto:comoda",
+      "quarto:criado-mudo",
+      "quarto:luminaria-mesa",
+      "quarto:cortina-quarto",
+      "quarto:quadro",
+      "quarto:tapete-quarto",
+      "quarto:manta-quarto"
+    ],
+    "phraseIds": [
+      "quarto:verb:1",
+      "quarto:verb:2",
+      "quarto:verb:3",
+      "quarto:verb:4",
+      "quarto:phrase:1",
+      "quarto:phrase:2"
+    ],
+    "cultureNoteIds": [
+      "quarto:culture:1"
+    ]
+  },
+  {
+    "id": "banheiro",
+    "image": "/assets/scenarios/house/bathroom.png",
+    "icon": "🛁",
+    "labels": {
+      "pt": "Banheiro",
+      "ru": "Ванная"
+    },
+    "cefrLevel": "A1",
+    "difficulty": 1,
+    "occurrenceIds": [
+      "banheiro:banheira",
+      "banheiro:chuveiro",
+      "banheiro:vaso-sanitario",
+      "banheiro:pia-banheiro",
+      "banheiro:espelho-banheiro",
+      "banheiro:torneira-banheiro",
+      "banheiro:toalha",
+      "banheiro:tapete-banheiro",
+      "banheiro:planta-banheiro",
+      "banheiro:quadro-banheiro",
+      "banheiro:cesto"
+    ],
+    "phraseIds": [
+      "banheiro:verb:1",
+      "banheiro:verb:2",
+      "banheiro:verb:3",
+      "banheiro:verb:4",
+      "banheiro:phrase:1",
+      "banheiro:phrase:2"
+    ],
+    "cultureNoteIds": [
+      "banheiro:culture:1"
+    ]
+  },
+  {
+    "id": "lavanderia",
+    "image": "/assets/scenarios/house/laundry.png",
+    "icon": "🧺",
+    "labels": {
+      "pt": "Lavanderia",
+      "ru": "Постирочная"
+    },
+    "cefrLevel": "A2",
+    "difficulty": 2,
+    "occurrenceIds": [
+      "lavanderia:maquina-lavar",
+      "lavanderia:tanque",
+      "lavanderia:torneira-lavanderia",
+      "lavanderia:armario-limpeza",
+      "lavanderia:varal",
+      "lavanderia:camiseta-varal",
+      "lavanderia:toalha-varal",
+      "lavanderia:cesto-roupa",
+      "lavanderia:tabua-passar",
+      "lavanderia:ferro-passar",
+      "lavanderia:balde-lavanderia",
+      "lavanderia:vassoura"
+    ],
+    "phraseIds": [
+      "lavanderia:verb:1",
+      "lavanderia:verb:2",
+      "lavanderia:verb:3",
+      "lavanderia:verb:4",
+      "lavanderia:phrase:1",
+      "lavanderia:phrase:2"
+    ],
+    "cultureNoteIds": [
+      "lavanderia:culture:1"
+    ]
+  },
+  {
+    "id": "supermercado",
+    "image": "/assets/scenarios/commerce/supermarket.png",
+    "icon": "🛒",
+    "labels": {
+      "pt": "Supermercado",
+      "ru": "Супермаркет"
+    },
+    "cefrLevel": "A2",
+    "difficulty": 2,
+    "occurrenceIds": [
+      "supermercado:carrinho-compras",
+      "supermercado:cesta-compras",
+      "supermercado:caixa-mercado",
+      "supermercado:prateleira-hortifruti",
+      "supermercado:tomate-mercado",
+      "supermercado:laranja-mercado",
+      "supermercado:prateleira-mercearia",
+      "supermercado:pote-conserva",
+      "supermercado:caixas-papelao",
+      "supermercado:planta-mercado",
+      "supermercado:entrada-mercado"
+    ],
+    "phraseIds": [
+      "supermercado:verb:1",
+      "supermercado:verb:2",
+      "supermercado:verb:3",
+      "supermercado:verb:4",
+      "supermercado:phrase:1",
+      "supermercado:phrase:2",
+      "supermercado:phrase:3"
+    ],
+    "cultureNoteIds": [
+      "supermercado:culture:1",
+      "supermercado:culture:2"
+    ]
+  },
+  {
+    "id": "farmacia",
+    "image": "/assets/scenarios/commerce/pharmacy.png",
+    "icon": "💊",
+    "labels": {
+      "pt": "Farmácia",
+      "ru": "Аптека"
+    },
+    "cefrLevel": "B1",
+    "difficulty": 3,
+    "occurrenceIds": [
+      "farmacia:cruz-farmacia",
+      "farmacia:prateleira-remedios",
+      "farmacia:balcao-farmacia",
+      "farmacia:computador-caixa",
+      "farmacia:balanca",
+      "farmacia:alcool-gel",
+      "farmacia:planta-farmacia",
+      "farmacia:prateleira-higiene",
+      "farmacia:gondola-central",
+      "farmacia:banco-espera",
+      "farmacia:porta-farmacia"
+    ],
+    "phraseIds": [
+      "farmacia:verb:1",
+      "farmacia:verb:2",
+      "farmacia:verb:3",
+      "farmacia:verb:4",
+      "farmacia:phrase:1",
+      "farmacia:phrase:2"
+    ],
+    "cultureNoteIds": [
+      "farmacia:culture:1"
+    ]
+  },
+  {
+    "id": "transporte",
+    "image": "/assets/scenarios/commerce/transports.png",
+    "icon": "🚌",
+    "labels": {
+      "pt": "Transporte",
+      "ru": "Транспорт"
+    },
+    "cefrLevel": "B1",
+    "difficulty": 3,
+    "occurrenceIds": [
+      "transporte:onibus",
+      "transporte:carro",
+      "transporte:aviao",
+      "transporte:metro-trem",
+      "transporte:ponto-onibus",
+      "transporte:banco-ponto",
+      "transporte:lixeira",
+      "transporte:semaforo",
+      "transporte:faixa-pedestre",
+      "transporte:ciclovia",
+      "transporte:entrada-metro"
+    ],
+    "phraseIds": [
+      "transporte:verb:1",
+      "transporte:verb:2",
+      "transporte:verb:3",
+      "transporte:verb:4",
+      "transporte:phrase:1",
+      "transporte:phrase:2"
+    ],
+    "cultureNoteIds": [
+      "transporte:culture:1"
+    ]
+  }
+]

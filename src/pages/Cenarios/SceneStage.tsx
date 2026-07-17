@@ -1,6 +1,6 @@
 import { Plus, Eye, Check, CheckCheck, Star } from 'lucide-react';
 import type { Scene, Hotspot } from '../../types';
-import type { StageKey } from '../../context/ProgressContext';
+import type { StageKey } from '../../domain/progress';
 
 interface Props {
   scene: Scene;

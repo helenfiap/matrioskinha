@@ -5,6 +5,8 @@ import { Home, Coffee, Bus, ShoppingCart, Dog, CloudRain, Croissant, Pill, Palmt
 import { useLanguage } from '../context/LanguageContext';
 import { vocabItems } from '../data/vocab';
 import { scenes } from '../data/scenarios';
+import { audioAssets } from '../lib/audioAssets';
+import { AudioButton } from '../components/AudioButton';
 
 const icons: Record<string, ComponentType<{ size?: number }>> = {
   'a casa': Home,
@@ -50,7 +52,10 @@ export function Vocab() {
           return (
             <article className="vocab" key={v.pt}>
               <div className="icon"><Icon size={30} /></div>
-              <strong>{v.pt}</strong>
+              <div className="vocab-term-row">
+                <strong>{v.pt}</strong>
+                <AudioButton src={audioAssets.word(v.lexicalItemId)} label={v.pt} />
+              </div>
               <small>{v.ru}</small>
             </article>
           );

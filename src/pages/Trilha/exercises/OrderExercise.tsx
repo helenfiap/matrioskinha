@@ -4,7 +4,7 @@ import { useLanguage } from '../../../context/LanguageContext';
 const words = ['vais?', 'tu', 'Aonde'];
 const correctOrder = ['Aonde', 'tu', 'vais?'];
 
-export function OrderExercise({ onCorrect }: { onCorrect: () => void }) {
+export function OrderExercise({ onCorrect, onAttempt }: { onCorrect: () => void; onAttempt?: (correct: boolean) => void }) {
   const { t } = useLanguage();
   const [used, setUsed] = useState<boolean[]>(words.map(() => false));
   const [build, setBuild] = useState<string[]>([]);
@@ -32,7 +32,9 @@ export function OrderExercise({ onCorrect }: { onCorrect: () => void }) {
       setFeedback('ok');
       setDone(true);
       onCorrect();
+      onAttempt?.(true);
     } else {
+      onAttempt?.(false);
       setFeedback('wrong');
       setShake(true);
       setTimeout(() => setShake(false), 350);

@@ -1,4 +1,6 @@
-# matrioskinha-app (React + TypeScript)
+# matrioskinha-app2 (React + TypeScript)
+
+Baseline limpo criado a partir do `matrioskinha-app` para a evolucao arquitetural e de produto. O aplicativo original permanece preservado.
 
 Clone do mockup `matrioskinha_mockup_v0/index.html`, reescrito como aplicacao React + TypeScript com Vite, organizada por hierarquia de componentes/telas.
 
@@ -18,13 +20,50 @@ npm run build
 npm run preview
 ```
 
+## Qualidade e testes
+
+```bash
+npm run test           # testes unitarios e de componentes
+npm run test:coverage  # cobertura dos modulos criticos
+npm run test:e2e       # fluxos reais no Chromium + acessibilidade automatizada
+npm run check          # conteudo, lint, tipos, testes e build
+npm run check:all      # check completo + navegador
+```
+
+Na primeira execucao local dos testes de navegador, instale o Chromium gerenciado pelo Playwright:
+
+```bash
+npx playwright install chromium
+```
+
+O workflow `.github/workflows/ci.yml` executa o mesmo gate em pushes para `main` e pull requests.
+
+## Áudio em lote
+
+O projeto possui um pipeline incremental para gerar o pacote pt-BR com Edge TTS:
+
+```powershell
+cd C:\Users\helen\Documents\matrioskinha
+uv pip install --python ".\.venv\Scripts\python.exe" --upgrade edge-tts
+cd .\matrioskinha-app2
+npm run audio:plan
+npm run audio:generate
+npm run audio:verify
+```
+
+Consulte [docs/audio-pipeline.md](docs/audio-pipeline.md) para os lotes, vozes e
+opções de regeneração.
+
 ## Estrutura de pastas
 
 ```
 src/
+  content/                      -> schemas Zod + Knowledge Core JSON versionado
+  repositories/                 -> acesso a conteúdo e persistência local
+  domain/                       -> contratos e regras de progresso sem React
   context/LanguageContext.tsx   -> estado global de idioma (pt/ru) + funcao t(pt, ru)
   types/index.ts                -> tipos compartilhados (Hotspot, Scene, ConjugatorVerb, etc.)
-  data/                         -> conteudo bilingue (cenarios, verbos, vocabulario)
+  data/                         -> adaptadores temporários para a UI anterior à Fase 2
   layout/                       -> Sidebar, Topbar, AppShell (moldura fixa do app)
   pages/
     Dashboard.tsx
@@ -45,6 +84,8 @@ src/
       useSceneProgress.ts
   styles/global.css             -> design system inteiro (cores, tipografia, todos os componentes visuais)
 ```
+
+A arquitetura, as entidades e a auditoria da migração estão em [docs/architecture-phase-2.md](docs/architecture-phase-2.md). O registro de tentativas, agendador e domínio por evidências estão em [docs/architecture-phase-3.md](docs/architecture-phase-3.md).
 
 ## Notas de migracao
 

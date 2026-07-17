@@ -11,6 +11,8 @@ import { useSceneProgress } from './useSceneProgress';
 import { SceneStage } from './SceneStage';
 import { InfoPanel } from './InfoPanel';
 import { PracticeModal } from './PracticeModal';
+import { useLearning } from '../../context/LearningContext';
+import { contentRepository } from '../../repositories/contentRepository';
 
 const sceneIcons: Record<string, ComponentType<{ size?: number }>> = {
   sala: Sofa,
@@ -42,7 +44,8 @@ export function Cenarios() {
   const [missionInteractedThisStep, setMissionInteractedThisStep] = useState(false);
 
   const { reviewed, mastered, markReviewed, advanceReview, getStage, getStageInfo, counts } = useSceneProgress();
-  const { missionsDone, markMissionDone } = useProgress();
+  const { missionsDone, markMissionDone, settings } = useProgress();
+  const { recordAttempt } = useLearning();
 
   const scene = scenes.find((s) => s.id === currentSceneId)!;
   const mission = getMission(scene.id);
@@ -212,7 +215,6 @@ export function Cenarios() {
           reviewedIds={reviewed[scene.id] ?? new Set()}
           activeTab={activeTab}
           onTabChange={setActiveTab}
-          onAdvanceClick={() => selectedHotspot && advanceReview(scene.id, selectedHotspot.id)}
           onJumpTo={jumpToOccurrence}
           onPracticeClick={() => {
             if (counts[scene.id].reviewed >= 3) {
@@ -229,6 +231,16 @@ export function Cenarios() {
             masteredIds={Array.from(mastered[scene.id] ?? [])}
             getStage={(hotspotId) => getStage(scene.id, hotspotId)}
             onCorrect={(hotspotId) => advanceReview(scene.id, hotspotId)}
+            onAttempt={(hotspotId, kind, correct) => {
+              const occurrence = contentRepository.getOccurrence(`${scene.id}:${hotspotId}`);
+              if (occurrence) recordAttempt({
+                itemId: occurrence.lexicalItemId, itemType: 'lexical-item',
+                exerciseTemplateId: kind === 'choice' ? 'exercise-choice' : 'exercise-order',
+                modality: kind === 'choice' ? 'reading' : 'writing', correct,
+                usedSupportLanguage: settings.supportLang, durationMs: 0,
+                errorCode: correct ? undefined : kind === 'choice' ? 'scene-choice' : 'scene-word-order',
+              });
+            }}
             onClose={() => setPracticeOpen(false)}
           />
         )}

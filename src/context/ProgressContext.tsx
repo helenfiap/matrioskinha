@@ -1,51 +1,19 @@
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 import { scenes } from '../data/scenarios';
 import type { ChallengeKey } from '../types';
+import type { UserProgress } from '../content/schemas';
+import {
+  stageForInterval,
+  type ItemProgress,
+  type SettingsState,
+  type StageKey,
+} from '../domain/progress';
+import { progressRepository } from '../repositories/progressRepository';
+import { scheduleReview } from '../domain/learningEngine';
+import { useLearning } from './LearningContext';
+import { contentRepository } from '../repositories/contentRepository';
 
-const STORAGE_KEY = 'matrioskinha-progress';
-
-export interface SettingsState {
-  supportLang: boolean;
-  autoTranslate: boolean;
-  slowAudio: boolean;
-  region: boolean;
-  weeklyGoal: boolean;
-  reviewNotification: boolean;
-}
-
-// Spaced-repetition schedule: novo -> hoje -> 1 dia -> 3 dias -> 7 dias -> 14 dias -> 30 dias
-export const REVIEW_INTERVAL_DAYS = [0, 0, 1, 3, 7, 14, 30] as const;
-export const STAGE_KEYS = ['novo', 'explorado', 'reconhecido', 'praticado', 'revisado', 'dominado'] as const;
-export type StageKey = (typeof STAGE_KEYS)[number];
-
-export const STAGE_LABELS: Record<StageKey, { pt: string; ru: string }> = {
-  novo: { pt: 'Novo', ru: 'Новое' },
-  explorado: { pt: 'Explorado', ru: 'Изучено' },
-  reconhecido: { pt: 'Reconhecido', ru: 'Узнаётся' },
-  praticado: { pt: 'Praticado', ru: 'Отработано' },
-  revisado: { pt: 'Revisado', ru: 'Повторено' },
-  dominado: { pt: 'Dominado', ru: 'Освоено' },
-};
-
-// interval index (0..6) -> stage label shown to the user
-function stageForInterval(intervalIndex: number): StageKey {
-  const table: StageKey[] = ['novo', 'explorado', 'reconhecido', 'praticado', 'revisado', 'dominado', 'dominado'];
-  return table[Math.max(0, Math.min(intervalIndex, table.length - 1))];
-}
-
-export interface ItemProgress {
-  intervalIndex: number;
-  nextReviewDate: string | null;
-}
-
-interface PersistedShape {
-  itemProgress: Record<string, Record<string, ItemProgress>>;
-  challengeDone: Record<ChallengeKey, boolean>;
-  challengeDate: string;
-  missionsDone: Record<string, boolean>;
-  studyDates: string[];
-  settings: SettingsState;
-}
+type PersistedShape = UserProgress;
 
 const defaultSettings: SettingsState = {
   supportLang: true,
@@ -62,6 +30,7 @@ function todayIso() {
 
 function defaultState(): PersistedShape {
   return {
+    schemaVersion: 2,
     itemProgress: Object.fromEntries(scenes.map((s) => [s.id, {}])),
     challengeDone: { choice: false, flash: false, order: false, listen: false, registro: false },
     challengeDate: todayIso(),
@@ -102,16 +71,26 @@ function migrateLegacy(parsed: any): Record<string, Record<string, ItemProgress>
 }
 
 function loadState(): PersistedShape {
-  if (typeof window === 'undefined') return defaultState();
+  const current = progressRepository.read();
+  if (current) {
+    const base = defaultState();
+    const isSameDay = current.challengeDate === todayIso();
+    return {
+      ...current,
+      itemProgress: { ...base.itemProgress, ...current.itemProgress },
+      challengeDone: isSameDay ? current.challengeDone : base.challengeDone,
+      challengeDate: todayIso(),
+    };
+  }
   try {
-    const raw = window.localStorage.getItem(STORAGE_KEY);
-    if (!raw) return defaultState();
-    const parsed = JSON.parse(raw);
+    const parsed = progressRepository.readRaw() as Record<string, any> | null;
+    if (!parsed) return defaultState();
     const base = defaultState();
     // o desafio diário é por dia: se a data salva não é hoje, reseta o estado do desafio
     const savedChallengeDate = typeof parsed.challengeDate === 'string' ? parsed.challengeDate : null;
     const isSameDay = savedChallengeDate === todayIso();
     return {
+      schemaVersion: 2,
       itemProgress: migrateLegacy(parsed),
       challengeDone: isSameDay
         ? { ...base.challengeDone, ...(parsed.challengeDone ?? {}) }
@@ -133,7 +112,7 @@ interface ProgressContextValue {
   getStageInfo: (sceneId: string, hotspotId: string) => ItemProgress;
   markReviewed: (sceneId: string, hotspotId: string) => void;
   advanceReview: (sceneId: string, hotspotId: string) => void;
-  markMastered: (sceneId: string, hotspotId: string) => void;
+  failReview: (sceneId: string, hotspotId: string) => void;
   sceneCounts: Record<string, { reviewed: number; mastered: number; total: number }>;
   pendingReview: Array<{ sceneId: string; hotspotId: string; stage: StageKey }>;
   challengeDone: Record<ChallengeKey, boolean>;
@@ -153,10 +132,12 @@ interface ProgressContextValue {
 const ProgressContext = createContext<ProgressContextValue | null>(null);
 
 export function ProgressProvider({ children }: { children: ReactNode }) {
+  const { mastery } = useLearning();
   const [state, setState] = useState<PersistedShape>(() => loadState());
+  const masteryByItem = useMemo(() => new Map(mastery.map((item) => [item.itemId, item])), [mastery]);
 
   useEffect(() => {
-    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    progressRepository.write(state);
   }, [state]);
 
   const touchStudyDate = () => {
@@ -169,7 +150,12 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
   };
 
   const getStage = (sceneId: string, hotspotId: string): StageKey => {
-    return stageForInterval(getStageInfo(sceneId, hotspotId).intervalIndex);
+    const progress = getStageInfo(sceneId, hotspotId);
+    const scheduledStage = stageForInterval(progress.intervalIndex);
+    if (scheduledStage !== 'dominado') return scheduledStage;
+    if (!progress.lastReviewedAt) return 'dominado'; // preserva domínio importado do formato legado
+    const lexicalItemId = contentRepository.getOccurrence(`${sceneId}:${hotspotId}`)?.lexicalItemId;
+    return lexicalItemId && masteryByItem.get(lexicalItemId)?.mastered ? 'dominado' : 'revisado';
   };
 
   const setItemProgress = (sceneId: string, hotspotId: string, next: ItemProgress) => {
@@ -193,18 +179,11 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
   // one successful review/practice: advance one step on the schedule
   const advanceReview = (sceneId: string, hotspotId: string) => {
     const current = getStageInfo(sceneId, hotspotId);
-    const nextIndex = Math.min(current.intervalIndex + 1, REVIEW_INTERVAL_DAYS.length - 1);
-    setItemProgress(sceneId, hotspotId, {
-      intervalIndex: nextIndex,
-      nextReviewDate: addDaysIso(REVIEW_INTERVAL_DAYS[nextIndex]),
-    });
+    setItemProgress(sceneId, hotspotId, scheduleReview(current, 'good'));
   };
 
-  // explicit "mark as mastered" shortcut: jump straight to the dominado stage.
-  // Mantido na API por compatibilidade, mas não é mais chamado por nenhum botão
-  // da UI — o caminho para "dominado" é sempre pelo cronograma (advanceReview).
-  const markMastered = (sceneId: string, hotspotId: string) => {
-    setItemProgress(sceneId, hotspotId, { intervalIndex: 6, nextReviewDate: addDaysIso(30) });
+  const failReview = (sceneId: string, hotspotId: string) => {
+    setItemProgress(sceneId, hotspotId, scheduleReview(getStageInfo(sceneId, hotspotId), 'again'));
   };
 
   const markChallengeComplete = (key: ChallengeKey) => {
@@ -241,12 +220,17 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     scenes.forEach((s) => {
       result[s.id] = new Set(
         Object.entries(state.itemProgress[s.id] ?? {})
-          .filter(([, v]) => stageForInterval(v.intervalIndex) === 'dominado')
+          .filter(([hotspotId, progress]) => {
+            if (stageForInterval(progress.intervalIndex) !== 'dominado') return false;
+            if (!progress.lastReviewedAt) return true;
+            const lexicalItemId = contentRepository.getOccurrence(`${s.id}:${hotspotId}`)?.lexicalItemId;
+            return Boolean(lexicalItemId && masteryByItem.get(lexicalItemId)?.mastered);
+          })
           .map(([id]) => id)
       );
     });
     return result;
-  }, [state.itemProgress]);
+  }, [state.itemProgress, masteryByItem]);
 
   const sceneCounts = useMemo(() => {
     const result: Record<string, { reviewed: number; mastered: number; total: number }> = {};
@@ -310,7 +294,7 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     getStageInfo,
     markReviewed,
     advanceReview,
-    markMastered,
+    failReview,
     sceneCounts,
     pendingReview,
     challengeDone: state.challengeDone,
@@ -330,6 +314,7 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
   return <ProgressContext.Provider value={value}>{children}</ProgressContext.Provider>;
 }
 
+// oxlint-disable-next-line react/only-export-components -- baseline keeps the provider and its hook colocated; they will be split with the domain-store migration.
 export function useProgress() {
   const ctx = useContext(ProgressContext);
   if (!ctx) throw new Error('useProgress deve ser usado dentro de ProgressProvider');

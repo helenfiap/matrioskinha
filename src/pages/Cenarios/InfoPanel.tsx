@@ -1,7 +1,9 @@
-import { Search, BarChart3, Globe2, Target, Star, ChevronRight, Check, Link2 } from 'lucide-react';
+import { Search, BarChart3, Globe2, Target, Check, Link2 } from 'lucide-react';
 import { useLanguage } from '../../context/LanguageContext';
-import { STAGE_LABELS, STAGE_KEYS, REVIEW_INTERVAL_DAYS, type StageKey, type ItemProgress } from '../../context/ProgressContext';
+import { STAGE_LABELS, STAGE_KEYS, REVIEW_INTERVAL_DAYS, type StageKey, type ItemProgress } from '../../domain/progress';
 import { getRelatedOccurrences } from '../../lib/semanticGraph';
+import { audioAssets } from '../../lib/audioAssets';
+import { AudioButton } from '../../components/AudioButton';
 import type { Hotspot, Scene } from '../../types';
 
 const catLabels: Record<string, { pt: string; ru: string }> = {
@@ -27,7 +29,6 @@ interface Props {
   reviewedIds: Set<string>;
   activeTab: Tab;
   onTabChange: (t: Tab) => void;
-  onAdvanceClick: () => void;
   onPracticeClick: () => void;
   onJumpTo: (sceneId: string, hotspotId: string) => void;
 }
@@ -77,14 +78,13 @@ function LearningTimeline({ stage, stageInfo, lang }: { stage: StageKey; stageIn
 }
 
 export function InfoPanel({
-  scene, selected, stage, stageInfo, reviewedCount, masteredCount, reviewedIds, activeTab, onTabChange, onAdvanceClick, onPracticeClick, onJumpTo,
+  scene, selected, stage, stageInfo, reviewedCount, masteredCount, reviewedIds, activeTab, onTabChange, onPracticeClick, onJumpTo,
 }: Props) {
   const { t, lang } = useLanguage();
   const total = scene.hotspots.length;
   const exploredFrac = total ? reviewedCount / total : 0;
   const masteredFrac = total ? masteredCount / total : 0;
   const canPractice = reviewedCount >= 3;
-  const isDominado = stage === 'dominado';
   const stageLabel = STAGE_LABELS[stage];
 
   const cats = Array.from(new Set(scene.hotspots.map((h) => h.cat || 'objeto')));
@@ -116,7 +116,10 @@ export function InfoPanel({
               <div className="cat-chip">
                 {(lang === 'ru' ? 'Существительное · ' : 'Substantivo · ') + (lang === 'ru' ? scene.labelRu : scene.labelPt)}
               </div>
-              <h3>{selected.pt}</h3>
+              <div className="term-audio-row">
+                <h3>{selected.pt}</h3>
+                <AudioButton src={audioAssets.word(selected.lexicalItemId)} label={selected.pt} />
+              </div>
               <div className="ru-term">{selected.ru}</div>
               <div className="meta-row">
                 <span className="meta-chip">{(lang === 'ru' ? 'род: ' : 'gênero: ') + selected.gender}</span>
@@ -130,8 +133,11 @@ export function InfoPanel({
                 </div>
               )}
               <div className="example-box">
-                <p className="pt">{selected.examplePt}</p>
-                <p className="ru">{selected.exampleRu}</p>
+                <div>
+                  <p className="pt">{selected.examplePt}</p>
+                  <p className="ru">{selected.exampleRu}</p>
+                </div>
+                <AudioButton src={audioAssets.example(selected.exampleId)} label={selected.examplePt} />
               </div>
               <LearningTimeline stage={stage} stageInfo={stageInfo} lang={lang} />
               {related.length > 0 && (
@@ -154,13 +160,6 @@ export function InfoPanel({
                   </div>
                 </div>
               )}
-              <div className="info-actions">
-                <button className={'sr-btn know' + (isDominado ? ' locked' : '')} onClick={onAdvanceClick}>
-                  {isDominado
-                    ? <><Star size={14} /> {t('Dominado', 'Освоено')}</>
-                    : <><ChevronRight size={14} /> {t('Marcar etapa seguinte', 'Отметить следующий этап')}</>}
-                </button>
-              </div>
             </div>
           )}
         </div>
@@ -207,10 +206,13 @@ export function InfoPanel({
           {scene.verbs.length > 0 && (
             <div className="culture-block">
               <h4>{t('Verbos úteis', 'Полезные глаголы')}</h4>
-              {scene.verbs.map((v, i) => (
-                <div className="culture-item" key={i}>
-                  {lang === 'ru' ? v.ru : v.pt}
-                  <div className="ru-small">{lang === 'ru' ? v.pt : v.ru}</div>
+              {scene.verbs.map((v) => (
+                <div className="culture-item audio-item" key={v.id}>
+                  <div>
+                    {lang === 'ru' ? v.ru : v.pt}
+                    <div className="ru-small">{lang === 'ru' ? v.pt : v.ru}</div>
+                  </div>
+                  <AudioButton src={audioAssets.sceneVerb(v.pt)} label={v.pt} />
                 </div>
               ))}
             </div>
@@ -218,10 +220,13 @@ export function InfoPanel({
           {scene.phrases.length > 0 && (
             <div className="culture-block">
               <h4>{t('Frases úteis', 'Полезные фразы')}</h4>
-              {scene.phrases.map((p, i) => (
-                <div className="culture-item" key={i}>
-                  {lang === 'ru' ? p.ru : p.pt}
-                  <div className="ru-small">{lang === 'ru' ? p.pt : p.ru}</div>
+              {scene.phrases.map((p) => (
+                <div className="culture-item audio-item" key={p.id}>
+                  <div>
+                    {lang === 'ru' ? p.ru : p.pt}
+                    <div className="ru-small">{lang === 'ru' ? p.pt : p.ru}</div>
+                  </div>
+                  <AudioButton src={audioAssets.scenePhrase(p.id)} label={p.pt} />
                 </div>
               ))}
             </div>

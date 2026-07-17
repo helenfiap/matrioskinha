@@ -1,0 +1,114 @@
+[
+  {
+    "id": "phase-1",
+    "order": 1,
+    "title": {
+      "pt": "Primeiro contato",
+      "ru": "Первый контакт"
+    },
+    "description": {
+      "pt": "Apresentação, cumprimentos e frases de sobrevivência.",
+      "ru": "Знакомство, приветствия и базовые фразы."
+    },
+    "activityCount": 12,
+    "status": "planned"
+  },
+  {
+    "id": "phase-2",
+    "order": 2,
+    "title": {
+      "pt": "Ouvir o Brasil",
+      "ru": "Услышать Бразилию"
+    },
+    "description": {
+      "pt": "Ritmo, nasalização, reduções e sotaques.",
+      "ru": "Ритм, носовые звуки, сокращения и акценты."
+    },
+    "activityCount": 18,
+    "status": "planned"
+  },
+  {
+    "id": "phase-3",
+    "order": 3,
+    "title": {
+      "pt": "Tu × você",
+      "ru": "Tu × você"
+    },
+    "description": {
+      "pt": "Uso real, concordância e variação regional.",
+      "ru": "Реальное употребление, согласование и региональные различия."
+    },
+    "activityCount": 14,
+    "status": "available"
+  },
+  {
+    "id": "phase-4",
+    "order": 4,
+    "title": {
+      "pt": "Verbos essenciais",
+      "ru": "Основные глаголы"
+    },
+    "description": {
+      "pt": "Conjugação em contexto e micro-histórias.",
+      "ru": "Спряжение в контексте и микроистории."
+    },
+    "activityCount": 24,
+    "status": "planned"
+  },
+  {
+    "id": "phase-5",
+    "order": 5,
+    "title": {
+      "pt": "Mundo visual",
+      "ru": "Визуальный мир"
+    },
+    "description": {
+      "pt": "Casa, comida, cidade, animais e objetos.",
+      "ru": "Дом, еда, город, животные и предметы."
+    },
+    "activityCount": 36,
+    "status": "planned"
+  },
+  {
+    "id": "phase-6",
+    "order": 6,
+    "title": {
+      "pt": "História da língua",
+      "ru": "История языка"
+    },
+    "description": {
+      "pt": "Origem, mudança, Brasil e Portugal.",
+      "ru": "Происхождение, изменения, Бразилия и Португалия."
+    },
+    "activityCount": 10,
+    "status": "planned"
+  },
+  {
+    "id": "phase-7",
+    "order": 7,
+    "title": {
+      "pt": "Português social",
+      "ru": "Социальный португальский"
+    },
+    "description": {
+      "pt": "Intenção, afeto, ironia e expressões.",
+      "ru": "Намерение, эмоции, ирония и выражения."
+    },
+    "activityCount": 20,
+    "status": "planned"
+  },
+  {
+    "id": "phase-8",
+    "order": 8,
+    "title": {
+      "pt": "Conversação profunda",
+      "ru": "Глубокая беседа"
+    },
+    "description": {
+      "pt": "Opinião, ciência, história e cultura.",
+      "ru": "Мнения, наука, история и культура."
+    },
+    "activityCount": 16,
+    "status": "planned"
+  }
+]

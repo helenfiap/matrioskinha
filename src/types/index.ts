@@ -2,6 +2,8 @@ export type Lang = 'pt' | 'ru';
 
 export interface Hotspot {
   id: string;
+  lexicalItemId: string;
+  exampleId: string;
   x: number;
   y: number;
   cat?: string;
@@ -16,6 +18,7 @@ export interface Hotspot {
 }
 
 export interface VerbPhrase {
+  id: string;
   pt: string;
   ru: string;
 }
@@ -70,6 +73,7 @@ export interface ConjugatorVerb {
 }
 
 export interface VocabItem {
+  lexicalItemId: string;
   icon: string;
   pt: string;
   ru: string;

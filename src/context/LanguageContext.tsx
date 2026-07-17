@@ -2,6 +2,7 @@ import { createContext, useContext, useEffect, useState, type ReactNode } from '
 import type { Lang } from '../types';
 import ptLocale from '../locales/pt.json';
 import ruLocale from '../locales/ru.json';
+import { preferencesRepository } from '../repositories/preferencesRepository';
 
 interface LanguageContextValue {
   lang: Lang;
@@ -19,8 +20,6 @@ interface LanguageContextValue {
 
 const LanguageContext = createContext<LanguageContextValue | null>(null);
 
-const STORAGE_KEY = 'matrioskinha-lang';
-
 const locales: Record<Lang, unknown> = { pt: ptLocale, ru: ruLocale };
 
 function lookup(obj: unknown, path: string): string | undefined {
@@ -37,13 +36,10 @@ function lookup(obj: unknown, path: string): string | undefined {
 }
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [lang, setLang] = useState<Lang>(() => {
-    const saved = typeof window !== 'undefined' ? window.localStorage.getItem(STORAGE_KEY) : null;
-    return saved === 'ru' ? 'ru' : 'pt';
-  });
+  const [lang, setLang] = useState<Lang>(() => preferencesRepository.readLanguage());
 
   useEffect(() => {
-    window.localStorage.setItem(STORAGE_KEY, lang);
+    preferencesRepository.writeLanguage(lang);
     document.documentElement.lang = lang === 'ru' ? 'ru' : 'pt-BR';
   }, [lang]);
 
@@ -58,6 +54,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   );
 }
 
+// oxlint-disable-next-line react/only-export-components -- baseline keeps the provider and its hook colocated; they will be split with the domain-store migration.
 export function useLanguage() {
   const ctx = useContext(LanguageContext);
   if (!ctx) throw new Error('useLanguage deve ser usado dentro de LanguageProvider');

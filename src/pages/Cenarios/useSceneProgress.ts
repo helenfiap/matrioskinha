@@ -3,7 +3,7 @@ import { useProgress } from '../../context/ProgressContext';
 
 export function useSceneProgress() {
   const {
-    reviewed, mastered, markReviewed, markMastered, advanceReview, getStage, getStageInfo, sceneCounts,
+    reviewed, mastered, markReviewed, advanceReview, getStage, getStageInfo, sceneCounts,
   } = useProgress();
 
   const getState = (sceneId: string, hotspotId: string): HotspotState => {
@@ -13,7 +13,7 @@ export function useSceneProgress() {
   };
 
   return {
-    reviewed, mastered, markReviewed, markMastered, advanceReview, getStage, getStageInfo, getState,
+    reviewed, mastered, markReviewed, advanceReview, getStage, getStageInfo, getState,
     counts: sceneCounts,
   };
 }

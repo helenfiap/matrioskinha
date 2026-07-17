@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Check } from 'lucide-react';
 import { useLanguage } from '../../../context/LanguageContext';
 
-export function FlashExercise({ onCorrect }: { onCorrect: () => void }) {
+export function FlashExercise({ onCorrect, onAttempt }: { onCorrect: () => void; onAttempt?: (correct: boolean) => void }) {
   const { t } = useLanguage();
   const [flipped, setFlipped] = useState(false);
   const [saved, setSaved] = useState(false);
@@ -32,12 +32,12 @@ export function FlashExercise({ onCorrect }: { onCorrect: () => void }) {
               <div className="translation">ты идёшь / ты пойдёшь — неформально, юг Бразилии</div>
               <div className="bubble" style={{ marginTop: 8 }}><strong>"Tu vais pra praia amanhã?"</strong></div>
               <div className="sr-actions">
-                <button className="sr-btn" onClick={(e) => { e.stopPropagation(); setFlipped(false); }}>
+                <button className="sr-btn" onClick={(e) => { e.stopPropagation(); setFlipped(false); onAttempt?.(false); }}>
                   {t('Ainda não', 'Ещё нет')}
                 </button>
                 <button
                   className={'sr-btn know' + (saved ? ' locked' : '')}
-                  onClick={(e) => { e.stopPropagation(); setSaved(true); onCorrect(); }}
+                  onClick={(e) => { e.stopPropagation(); setSaved(true); onAttempt?.(true); onCorrect(); }}
                 >
                   <Check size={14} /> {saved ? t('Salvo', 'Сохранено') : t('Já sei', 'Уже знаю')}
                 </button>

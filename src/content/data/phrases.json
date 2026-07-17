@@ -1,0 +1,1097 @@
+[
+  {
+    "id": "sala:sofa:example",
+    "kind": "example",
+    "sceneId": "sala",
+    "lexicalItemId": "lex-sofa",
+    "pt": "Eu durmo no sofá quando assisto TV.",
+    "ru": "Я сплю на диване, когда смотрю телевизор."
+  },
+  {
+    "id": "sala:almofada:example",
+    "kind": "example",
+    "sceneId": "sala",
+    "lexicalItemId": "lex-almofada",
+    "pt": "As almofadas verdes combinam com o sofá.",
+    "ru": "Зелёные подушки подходят к дивану."
+  },
+  {
+    "id": "sala:manta:example",
+    "kind": "example",
+    "sceneId": "sala",
+    "lexicalItemId": "lex-manta",
+    "pt": "A manta fica jogada no sofá.",
+    "ru": "Плед лежит на диване."
+  },
+  {
+    "id": "sala:mesa-centro:example",
+    "kind": "example",
+    "sceneId": "sala",
+    "lexicalItemId": "lex-mesa-de-centro",
+    "pt": "O livro está em cima da mesa de centro.",
+    "ru": "Книга лежит на журнальном столике."
+  },
+  {
+    "id": "sala:tapete-sala:example",
+    "kind": "example",
+    "sceneId": "sala",
+    "lexicalItemId": "lex-tapete",
+    "pt": "O tapete é de fibra natural.",
+    "ru": "Ковёр сделан из натурального волокна."
+  },
+  {
+    "id": "sala:poltrona:example",
+    "kind": "example",
+    "sceneId": "sala",
+    "lexicalItemId": "lex-poltrona",
+    "pt": "Eu leio sentado na poltrona verde.",
+    "ru": "Я читаю, сидя в зелёном кресле."
+  },
+  {
+    "id": "sala:tv:example",
+    "kind": "example",
+    "sceneId": "sala",
+    "lexicalItemId": "lex-televisao",
+    "pt": "A televisão fica de frente pro sofá.",
+    "ru": "Телевизор стоит напротив дивана."
+  },
+  {
+    "id": "sala:estante:example",
+    "kind": "example",
+    "sceneId": "sala",
+    "lexicalItemId": "lex-estante",
+    "pt": "Os livros ficam na estante.",
+    "ru": "Книги стоят на стеллаже."
+  },
+  {
+    "id": "sala:luminaria-sala:example",
+    "kind": "example",
+    "sceneId": "sala",
+    "lexicalItemId": "lex-luminaria",
+    "pt": "A luminária deixa a sala mais aconchegante.",
+    "ru": "Торшер делает гостиную более уютной."
+  },
+  {
+    "id": "sala:planta-sala:example",
+    "kind": "example",
+    "sceneId": "sala",
+    "lexicalItemId": "lex-planta",
+    "pt": "Essa planta precisa de sol.",
+    "ru": "Этому растению нужно солнце."
+  },
+  {
+    "id": "sala:cortina-sala:example",
+    "kind": "example",
+    "sceneId": "sala",
+    "lexicalItemId": "lex-cortina",
+    "pt": "A cortina deixa entrar luz da tarde.",
+    "ru": "Штора пропускает дневной свет."
+  },
+  {
+    "id": "sala:vaso-sala:example",
+    "kind": "example",
+    "sceneId": "sala",
+    "lexicalItemId": "lex-vaso",
+    "pt": "O vaso tem flores do jardim.",
+    "ru": "В вазе цветы из сада."
+  },
+  {
+    "id": "sala:verb:1",
+    "kind": "scene-verb",
+    "sceneId": "sala",
+    "verbId": null,
+    "pt": "assistir",
+    "ru": "смотреть (ТВ)"
+  },
+  {
+    "id": "sala:verb:2",
+    "kind": "scene-verb",
+    "sceneId": "sala",
+    "verbId": null,
+    "pt": "sentar",
+    "ru": "садиться"
+  },
+  {
+    "id": "sala:verb:3",
+    "kind": "scene-verb",
+    "sceneId": "sala",
+    "verbId": null,
+    "pt": "relaxar",
+    "ru": "расслабляться"
+  },
+  {
+    "id": "sala:verb:4",
+    "kind": "scene-verb",
+    "sceneId": "sala",
+    "verbId": null,
+    "pt": "conversar",
+    "ru": "разговаривать"
+  },
+  {
+    "id": "sala:phrase:1",
+    "kind": "scene-phrase",
+    "sceneId": "sala",
+    "pt": "Senta aí, fica à vontade.",
+    "ru": "Садись, чувствуй себя как дома."
+  },
+  {
+    "id": "sala:phrase:2",
+    "kind": "scene-phrase",
+    "sceneId": "sala",
+    "pt": "Quer assistir um filme?",
+    "ru": "Хочешь посмотреть фильм?"
+  },
+  {
+    "id": "cozinha:geladeira:example",
+    "kind": "example",
+    "sceneId": "cozinha",
+    "lexicalItemId": "lex-geladeira",
+    "pt": "O leite está na geladeira.",
+    "ru": "Молоко в холодильнике."
+  },
+  {
+    "id": "cozinha:fogao:example",
+    "kind": "example",
+    "sceneId": "cozinha",
+    "lexicalItemId": "lex-fogao",
+    "pt": "Eu cozinho arroz no fogão.",
+    "ru": "Я готовлю рис на плите."
+  },
+  {
+    "id": "cozinha:exaustor:example",
+    "kind": "example",
+    "sceneId": "cozinha",
+    "lexicalItemId": "lex-exaustor",
+    "pt": "Liga o exaustor quando for fritar.",
+    "ru": "Включи вытяжку, когда будешь жарить."
+  },
+  {
+    "id": "cozinha:microondas:example",
+    "kind": "example",
+    "sceneId": "cozinha",
+    "lexicalItemId": "lex-micro-ondas",
+    "pt": "Esquenta a comida no micro-ondas.",
+    "ru": "Разогрей еду в микроволновке."
+  },
+  {
+    "id": "cozinha:pia-cozinha:example",
+    "kind": "example",
+    "sceneId": "cozinha",
+    "lexicalItemId": "lex-pia",
+    "pt": "Lava a louça na pia.",
+    "ru": "Помой посуду в раковине."
+  },
+  {
+    "id": "cozinha:torneira-cozinha:example",
+    "kind": "example",
+    "sceneId": "cozinha",
+    "lexicalItemId": "lex-torneira",
+    "pt": "Fecha bem a torneira.",
+    "ru": "Хорошо закрой кран."
+  },
+  {
+    "id": "cozinha:armario-cozinha:example",
+    "kind": "example",
+    "sceneId": "cozinha",
+    "lexicalItemId": "lex-armario",
+    "pt": "Os pratos ficam no armário.",
+    "ru": "Тарелки стоят в шкафу."
+  },
+  {
+    "id": "cozinha:mesa-jantar:example",
+    "kind": "example",
+    "sceneId": "cozinha",
+    "lexicalItemId": "lex-mesa-de-jantar",
+    "pt": "A família janta na mesa de jantar.",
+    "ru": "Семья ужинает за обеденным столом."
+  },
+  {
+    "id": "cozinha:cadeira-cozinha:example",
+    "kind": "example",
+    "sceneId": "cozinha",
+    "lexicalItemId": "lex-cadeira",
+    "pt": "Senta na cadeira pra comer.",
+    "ru": "Сядь на стул, чтобы поесть."
+  },
+  {
+    "id": "cozinha:panela:example",
+    "kind": "example",
+    "sceneId": "cozinha",
+    "lexicalItemId": "lex-panela",
+    "pt": "A panela verde está no fogo.",
+    "ru": "Зелёная кастрюля на огне."
+  },
+  {
+    "id": "cozinha:luminaria-pendente:example",
+    "kind": "example",
+    "sceneId": "cozinha",
+    "lexicalItemId": "lex-luminaria-pendente",
+    "pt": "A luminária ilumina a mesa de jantar.",
+    "ru": "Светильник освещает обеденный стол."
+  },
+  {
+    "id": "cozinha:verb:1",
+    "kind": "scene-verb",
+    "sceneId": "cozinha",
+    "verbId": null,
+    "pt": "cozinhar",
+    "ru": "готовить"
+  },
+  {
+    "id": "cozinha:verb:2",
+    "kind": "scene-verb",
+    "sceneId": "cozinha",
+    "verbId": "lavar",
+    "pt": "lavar",
+    "ru": "мыть"
+  },
+  {
+    "id": "cozinha:verb:3",
+    "kind": "scene-verb",
+    "sceneId": "cozinha",
+    "verbId": null,
+    "pt": "esquentar",
+    "ru": "разогревать"
+  },
+  {
+    "id": "cozinha:verb:4",
+    "kind": "scene-verb",
+    "sceneId": "cozinha",
+    "verbId": null,
+    "pt": "temperar",
+    "ru": "приправлять"
+  },
+  {
+    "id": "cozinha:phrase:1",
+    "kind": "scene-phrase",
+    "sceneId": "cozinha",
+    "pt": "Já esquentei o almoço.",
+    "ru": "Я уже разогрел(а) обед."
+  },
+  {
+    "id": "cozinha:phrase:2",
+    "kind": "scene-phrase",
+    "sceneId": "cozinha",
+    "pt": "Você lava ou eu lavo?",
+    "ru": "Ты моешь или я мою?"
+  },
+  {
+    "id": "quarto:cama:example",
+    "kind": "example",
+    "sceneId": "quarto",
+    "lexicalItemId": "lex-cama",
+    "pt": "Eu arrumo a cama todo dia.",
+    "ru": "Я заправляю кровать каждый день."
+  },
+  {
+    "id": "quarto:travesseiro:example",
+    "kind": "example",
+    "sceneId": "quarto",
+    "lexicalItemId": "lex-travesseiro",
+    "pt": "Prefiro dois travesseiros pra dormir.",
+    "ru": "Я предпочитаю спать на двух подушках."
+  },
+  {
+    "id": "quarto:guarda-roupa:example",
+    "kind": "example",
+    "sceneId": "quarto",
+    "lexicalItemId": "lex-guarda-roupa",
+    "pt": "As roupas ficam no guarda-roupa.",
+    "ru": "Одежда лежит в шкафу."
+  },
+  {
+    "id": "quarto:espelho-quarto:example",
+    "kind": "example",
+    "sceneId": "quarto",
+    "lexicalItemId": "lex-espelho",
+    "pt": "Eu me olho no espelho antes de sair.",
+    "ru": "Я смотрюсь в зеркало перед выходом."
+  },
+  {
+    "id": "quarto:comoda:example",
+    "kind": "example",
+    "sceneId": "quarto",
+    "lexicalItemId": "lex-comoda",
+    "pt": "As meias ficam na cômoda.",
+    "ru": "Носки лежат в комоде."
+  },
+  {
+    "id": "quarto:criado-mudo:example",
+    "kind": "example",
+    "sceneId": "quarto",
+    "lexicalItemId": "lex-criado-mudo",
+    "pt": "O celular está no criado-mudo.",
+    "ru": "Телефон на тумбочке."
+  },
+  {
+    "id": "quarto:luminaria-mesa:example",
+    "kind": "example",
+    "sceneId": "quarto",
+    "lexicalItemId": "lex-luminaria-de-mesa",
+    "pt": "Apago a luminária antes de dormir.",
+    "ru": "Я выключаю лампу перед сном."
+  },
+  {
+    "id": "quarto:cortina-quarto:example",
+    "kind": "example",
+    "sceneId": "quarto",
+    "lexicalItemId": "lex-cortina",
+    "pt": "A cortina bloqueia a luz do sol.",
+    "ru": "Штора блокирует солнечный свет."
+  },
+  {
+    "id": "quarto:quadro:example",
+    "kind": "example",
+    "sceneId": "quarto",
+    "lexicalItemId": "lex-quadro",
+    "pt": "Esse quadro foi um presente.",
+    "ru": "Эта картина была подарком."
+  },
+  {
+    "id": "quarto:tapete-quarto:example",
+    "kind": "example",
+    "sceneId": "quarto",
+    "lexicalItemId": "lex-tapete",
+    "pt": "Piso descalço no tapete.",
+    "ru": "Я хожу босиком по ковру."
+  },
+  {
+    "id": "quarto:manta-quarto:example",
+    "kind": "example",
+    "sceneId": "quarto",
+    "lexicalItemId": "lex-manta",
+    "pt": "A manta verde é bem quentinha.",
+    "ru": "Зелёный плед очень тёплый."
+  },
+  {
+    "id": "quarto:verb:1",
+    "kind": "scene-verb",
+    "sceneId": "quarto",
+    "verbId": "dormir",
+    "pt": "dormir",
+    "ru": "спать"
+  },
+  {
+    "id": "quarto:verb:2",
+    "kind": "scene-verb",
+    "sceneId": "quarto",
+    "verbId": null,
+    "pt": "acordar",
+    "ru": "просыпаться"
+  },
+  {
+    "id": "quarto:verb:3",
+    "kind": "scene-verb",
+    "sceneId": "quarto",
+    "verbId": null,
+    "pt": "arrumar",
+    "ru": "убирать/заправлять"
+  },
+  {
+    "id": "quarto:verb:4",
+    "kind": "scene-verb",
+    "sceneId": "quarto",
+    "verbId": null,
+    "pt": "descansar",
+    "ru": "отдыхать"
+  },
+  {
+    "id": "quarto:phrase:1",
+    "kind": "scene-phrase",
+    "sceneId": "quarto",
+    "pt": "Já vou dormir.",
+    "ru": "Я уже иду спать."
+  },
+  {
+    "id": "quarto:phrase:2",
+    "kind": "scene-phrase",
+    "sceneId": "quarto",
+    "pt": "Você arruma a cama todo dia?",
+    "ru": "Ты заправляешь кровать каждый день?"
+  },
+  {
+    "id": "banheiro:banheira:example",
+    "kind": "example",
+    "sceneId": "banheiro",
+    "lexicalItemId": "lex-banheira",
+    "pt": "Eu tomo banho de banheira aos domingos.",
+    "ru": "По воскресеньям я принимаю ванну."
+  },
+  {
+    "id": "banheiro:chuveiro:example",
+    "kind": "example",
+    "sceneId": "banheiro",
+    "lexicalItemId": "lex-chuveiro",
+    "pt": "Eu tomo banho de chuveiro toda manhã.",
+    "ru": "Я принимаю душ каждое утро."
+  },
+  {
+    "id": "banheiro:vaso-sanitario:example",
+    "kind": "example",
+    "sceneId": "banheiro",
+    "lexicalItemId": "lex-vaso-sanitario",
+    "pt": "Preciso trocar o papel do vaso sanitário.",
+    "ru": "Мне нужно поменять бумагу в туалете."
+  },
+  {
+    "id": "banheiro:pia-banheiro:example",
+    "kind": "example",
+    "sceneId": "banheiro",
+    "lexicalItemId": "lex-pia",
+    "pt": "Escovo os dentes na pia.",
+    "ru": "Я чищу зубы у раковины."
+  },
+  {
+    "id": "banheiro:espelho-banheiro:example",
+    "kind": "example",
+    "sceneId": "banheiro",
+    "lexicalItemId": "lex-espelho",
+    "pt": "O espelho embaçou com o vapor.",
+    "ru": "Зеркало запотело от пара."
+  },
+  {
+    "id": "banheiro:torneira-banheiro:example",
+    "kind": "example",
+    "sceneId": "banheiro",
+    "lexicalItemId": "lex-torneira",
+    "pt": "A torneira dourada é bem bonita.",
+    "ru": "Золотистый кран очень красивый."
+  },
+  {
+    "id": "banheiro:toalha:example",
+    "kind": "example",
+    "sceneId": "banheiro",
+    "lexicalItemId": "lex-toalha",
+    "pt": "Pega uma toalha limpa pra mim.",
+    "ru": "Возьми мне чистое полотенце."
+  },
+  {
+    "id": "banheiro:tapete-banheiro:example",
+    "kind": "example",
+    "sceneId": "banheiro",
+    "lexicalItemId": "lex-tapete",
+    "pt": "O tapete de banheiro evita escorregões.",
+    "ru": "Коврик для ванной не даёт поскользнуться."
+  },
+  {
+    "id": "banheiro:planta-banheiro:example",
+    "kind": "example",
+    "sceneId": "banheiro",
+    "lexicalItemId": "lex-planta",
+    "pt": "Essa planta gosta de umidade.",
+    "ru": "Это растение любит влажность."
+  },
+  {
+    "id": "banheiro:quadro-banheiro:example",
+    "kind": "example",
+    "sceneId": "banheiro",
+    "lexicalItemId": "lex-quadro",
+    "pt": "O quadro de folhas combina com o banheiro.",
+    "ru": "Картина с листьями подходит для ванной."
+  },
+  {
+    "id": "banheiro:cesto:example",
+    "kind": "example",
+    "sceneId": "banheiro",
+    "lexicalItemId": "lex-cesto",
+    "pt": "As toalhas limpas ficam no cesto.",
+    "ru": "Чистые полотенца лежат в корзине."
+  },
+  {
+    "id": "banheiro:verb:1",
+    "kind": "scene-verb",
+    "sceneId": "banheiro",
+    "verbId": null,
+    "pt": "tomar banho",
+    "ru": "принимать душ/ванну"
+  },
+  {
+    "id": "banheiro:verb:2",
+    "kind": "scene-verb",
+    "sceneId": "banheiro",
+    "verbId": null,
+    "pt": "escovar",
+    "ru": "чистить (щёткой)"
+  },
+  {
+    "id": "banheiro:verb:3",
+    "kind": "scene-verb",
+    "sceneId": "banheiro",
+    "verbId": "lavar",
+    "pt": "lavar",
+    "ru": "мыть"
+  },
+  {
+    "id": "banheiro:verb:4",
+    "kind": "scene-verb",
+    "sceneId": "banheiro",
+    "verbId": null,
+    "pt": "secar",
+    "ru": "вытирать/сушить"
+  },
+  {
+    "id": "banheiro:phrase:1",
+    "kind": "scene-phrase",
+    "sceneId": "banheiro",
+    "pt": "Vou tomar banho rapidinho.",
+    "ru": "Я быстро приму душ."
+  },
+  {
+    "id": "banheiro:phrase:2",
+    "kind": "scene-phrase",
+    "sceneId": "banheiro",
+    "pt": "Cadê a toalha limpa?",
+    "ru": "Где чистое полотенце?"
+  },
+  {
+    "id": "lavanderia:maquina-lavar:example",
+    "kind": "example",
+    "sceneId": "lavanderia",
+    "lexicalItemId": "lex-maquina-de-lavar",
+    "pt": "Você liga a máquina de lavar todos os dias?",
+    "ru": "Ты включаешь стиральную машину каждый день?"
+  },
+  {
+    "id": "lavanderia:tanque:example",
+    "kind": "example",
+    "sceneId": "lavanderia",
+    "lexicalItemId": "lex-tanque",
+    "pt": "Ele lava as roupas mais sujas no tanque.",
+    "ru": "Он стирает самую грязную одежду в хозяйственной раковине."
+  },
+  {
+    "id": "lavanderia:torneira-lavanderia:example",
+    "kind": "example",
+    "sceneId": "lavanderia",
+    "lexicalItemId": "lex-torneira",
+    "pt": "Fecha a torneira, por favor!",
+    "ru": "Закрой кран, пожалуйста!"
+  },
+  {
+    "id": "lavanderia:armario-limpeza:example",
+    "kind": "example",
+    "sceneId": "lavanderia",
+    "lexicalItemId": "lex-armario-de-produtos-de-limpeza",
+    "pt": "Os produtos de limpeza ficam no armário.",
+    "ru": "Чистящие средства хранятся в шкафу."
+  },
+  {
+    "id": "lavanderia:varal:example",
+    "kind": "example",
+    "sceneId": "lavanderia",
+    "lexicalItemId": "lex-varal",
+    "pt": "A roupa está secando no varal.",
+    "ru": "Одежда сушится на бельевой верёвке."
+  },
+  {
+    "id": "lavanderia:camiseta-varal:example",
+    "kind": "example",
+    "sceneId": "lavanderia",
+    "lexicalItemId": "lex-camiseta",
+    "pt": "Essa camiseta verde é sua?",
+    "ru": "Эта зелёная футболка твоя?"
+  },
+  {
+    "id": "lavanderia:toalha-varal:example",
+    "kind": "example",
+    "sceneId": "lavanderia",
+    "lexicalItemId": "lex-toalha",
+    "pt": "Pendura a toalha no varal.",
+    "ru": "Повесь полотенце на верёвку."
+  },
+  {
+    "id": "lavanderia:cesto-roupa:example",
+    "kind": "example",
+    "sceneId": "lavanderia",
+    "lexicalItemId": "lex-cesto-de-roupa-suja",
+    "pt": "Coloca a roupa suja no cesto.",
+    "ru": "Положи грязную одежду в корзину."
+  },
+  {
+    "id": "lavanderia:tabua-passar:example",
+    "kind": "example",
+    "sceneId": "lavanderia",
+    "lexicalItemId": "lex-tabua-de-passar",
+    "pt": "A tábua de passar está na área de serviço.",
+    "ru": "Гладильная доска стоит в постирочной."
+  },
+  {
+    "id": "lavanderia:ferro-passar:example",
+    "kind": "example",
+    "sceneId": "lavanderia",
+    "lexicalItemId": "lex-ferro-de-passar",
+    "pt": "Cuidado, o ferro de passar está quente!",
+    "ru": "Осторожно, утюг горячий!"
+  },
+  {
+    "id": "lavanderia:balde-lavanderia:example",
+    "kind": "example",
+    "sceneId": "lavanderia",
+    "lexicalItemId": "lex-balde",
+    "pt": "Enche o balde com água.",
+    "ru": "Наполни ведро водой."
+  },
+  {
+    "id": "lavanderia:vassoura:example",
+    "kind": "example",
+    "sceneId": "lavanderia",
+    "lexicalItemId": "lex-vassoura",
+    "pt": "Varre o chão com a vassoura.",
+    "ru": "Подмети пол веником."
+  },
+  {
+    "id": "lavanderia:verb:1",
+    "kind": "scene-verb",
+    "sceneId": "lavanderia",
+    "verbId": "lavar",
+    "pt": "lavar",
+    "ru": "стирать"
+  },
+  {
+    "id": "lavanderia:verb:2",
+    "kind": "scene-verb",
+    "sceneId": "lavanderia",
+    "verbId": "passar",
+    "pt": "passar",
+    "ru": "гладить"
+  },
+  {
+    "id": "lavanderia:verb:3",
+    "kind": "scene-verb",
+    "sceneId": "lavanderia",
+    "verbId": null,
+    "pt": "secar",
+    "ru": "сушить"
+  },
+  {
+    "id": "lavanderia:verb:4",
+    "kind": "scene-verb",
+    "sceneId": "lavanderia",
+    "verbId": null,
+    "pt": "pendurar",
+    "ru": "вешать"
+  },
+  {
+    "id": "lavanderia:phrase:1",
+    "kind": "scene-phrase",
+    "sceneId": "lavanderia",
+    "pt": "Já lavei a roupa, falta passar.",
+    "ru": "Я уже постирал(а) одежду, осталось погладить."
+  },
+  {
+    "id": "lavanderia:phrase:2",
+    "kind": "scene-phrase",
+    "sceneId": "lavanderia",
+    "pt": "Pendura isso no varal pra mim?",
+    "ru": "Повесь это на верёвку для меня?"
+  },
+  {
+    "id": "supermercado:carrinho-compras:example",
+    "kind": "example",
+    "sceneId": "supermercado",
+    "lexicalItemId": "lex-carrinho-de-compras",
+    "pt": "Você pega um carrinho de compras ou uma cesta?",
+    "ru": "Ты берёшь тележку для покупок или корзину?"
+  },
+  {
+    "id": "supermercado:cesta-compras:example",
+    "kind": "example",
+    "sceneId": "supermercado",
+    "lexicalItemId": "lex-cesta-de-compras",
+    "pt": "Prefiro levar a cesta, é mais rápido.",
+    "ru": "Я предпочитаю взять корзину, так быстрее."
+  },
+  {
+    "id": "supermercado:caixa-mercado:example",
+    "kind": "example",
+    "sceneId": "supermercado",
+    "lexicalItemId": "lex-caixa",
+    "pt": "A fila no caixa está grande hoje.",
+    "ru": "Очередь на кассе сегодня большая."
+  },
+  {
+    "id": "supermercado:prateleira-hortifruti:example",
+    "kind": "example",
+    "sceneId": "supermercado",
+    "lexicalItemId": "lex-prateleira-de-frutas-e-verduras",
+    "pt": "As verduras frescas ficam nessa prateleira.",
+    "ru": "Свежие овощи находятся на этой полке."
+  },
+  {
+    "id": "supermercado:tomate-mercado:example",
+    "kind": "example",
+    "sceneId": "supermercado",
+    "lexicalItemId": "lex-tomate",
+    "pt": "Você pode pesar esses tomates, por favor?",
+    "ru": "Можешь взвесить эти помидоры, пожалуйста?"
+  },
+  {
+    "id": "supermercado:laranja-mercado:example",
+    "kind": "example",
+    "sceneId": "supermercado",
+    "lexicalItemId": "lex-laranja",
+    "pt": "Essas laranjas estão bem doces.",
+    "ru": "Эти апельсины очень сладкие."
+  },
+  {
+    "id": "supermercado:prateleira-mercearia:example",
+    "kind": "example",
+    "sceneId": "supermercado",
+    "lexicalItemId": "lex-prateleira-de-mercearia",
+    "pt": "O macarrão fica na prateleira de mercearia.",
+    "ru": "Макароны находятся на полке с бакалеей."
+  },
+  {
+    "id": "supermercado:pote-conserva:example",
+    "kind": "example",
+    "sceneId": "supermercado",
+    "lexicalItemId": "lex-pote-de-conserva",
+    "pt": "Pega um pote de conserva de picles para mim.",
+    "ru": "Возьми мне банку маринованных огурцов."
+  },
+  {
+    "id": "supermercado:caixas-papelao:example",
+    "kind": "example",
+    "sceneId": "supermercado",
+    "lexicalItemId": "lex-caixa-de-papelao",
+    "pt": "Essas caixas de papelão acabaram de chegar.",
+    "ru": "Эти картонные коробки только что привезли."
+  },
+  {
+    "id": "supermercado:planta-mercado:example",
+    "kind": "example",
+    "sceneId": "supermercado",
+    "lexicalItemId": "lex-planta-decorativa",
+    "pt": "A planta na entrada deixa o mercado mais bonito.",
+    "ru": "Растение у входа делает магазин красивее."
+  },
+  {
+    "id": "supermercado:entrada-mercado:example",
+    "kind": "example",
+    "sceneId": "supermercado",
+    "lexicalItemId": "lex-entrada",
+    "pt": "A entrada do mercado fica perto do estacionamento.",
+    "ru": "Вход в магазин находится рядом с парковкой."
+  },
+  {
+    "id": "supermercado:verb:1",
+    "kind": "scene-verb",
+    "sceneId": "supermercado",
+    "verbId": "comprar",
+    "pt": "comprar",
+    "ru": "покупать"
+  },
+  {
+    "id": "supermercado:verb:2",
+    "kind": "scene-verb",
+    "sceneId": "supermercado",
+    "verbId": null,
+    "pt": "pagar",
+    "ru": "платить"
+  },
+  {
+    "id": "supermercado:verb:3",
+    "kind": "scene-verb",
+    "sceneId": "supermercado",
+    "verbId": null,
+    "pt": "escolher",
+    "ru": "выбирать"
+  },
+  {
+    "id": "supermercado:verb:4",
+    "kind": "scene-verb",
+    "sceneId": "supermercado",
+    "verbId": null,
+    "pt": "pesar",
+    "ru": "взвешивать"
+  },
+  {
+    "id": "supermercado:phrase:1",
+    "kind": "scene-phrase",
+    "sceneId": "supermercado",
+    "pt": "Quanto custa?",
+    "ru": "Сколько стоит?"
+  },
+  {
+    "id": "supermercado:phrase:2",
+    "kind": "scene-phrase",
+    "sceneId": "supermercado",
+    "pt": "Aceita cartão?",
+    "ru": "Принимаете карту?"
+  },
+  {
+    "id": "supermercado:phrase:3",
+    "kind": "scene-phrase",
+    "sceneId": "supermercado",
+    "pt": "Onde fica o leite?",
+    "ru": "Где молоко?"
+  },
+  {
+    "id": "farmacia:cruz-farmacia:example",
+    "kind": "example",
+    "sceneId": "farmacia",
+    "lexicalItemId": "lex-cruz-da-farmacia",
+    "pt": "A cruz verde indica onde fica a farmácia.",
+    "ru": "Зелёный крест показывает, где находится аптека."
+  },
+  {
+    "id": "farmacia:prateleira-remedios:example",
+    "kind": "example",
+    "sceneId": "farmacia",
+    "lexicalItemId": "lex-prateleira-de-remedios",
+    "pt": "Os remédios ficam guardados atrás do balcão.",
+    "ru": "Лекарства хранятся за прилавком."
+  },
+  {
+    "id": "farmacia:balcao-farmacia:example",
+    "kind": "example",
+    "sceneId": "farmacia",
+    "lexicalItemId": "lex-balcao",
+    "pt": "Você pode deixar a receita no balcão?",
+    "ru": "Ты можешь оставить рецепт на прилавке?"
+  },
+  {
+    "id": "farmacia:computador-caixa:example",
+    "kind": "example",
+    "sceneId": "farmacia",
+    "lexicalItemId": "lex-computador-do-caixa",
+    "pt": "O atendente digita o preço no computador.",
+    "ru": "Продавец вводит цену в компьютер."
+  },
+  {
+    "id": "farmacia:balanca:example",
+    "kind": "example",
+    "sceneId": "farmacia",
+    "lexicalItemId": "lex-balanca",
+    "pt": "Ele pesa o produto na balança.",
+    "ru": "Он взвешивает товар на весах."
+  },
+  {
+    "id": "farmacia:alcool-gel:example",
+    "kind": "example",
+    "sceneId": "farmacia",
+    "lexicalItemId": "lex-alcool-em-gel",
+    "pt": "Passa álcool em gel antes de sair.",
+    "ru": "Нанеси антисептический гель перед выходом."
+  },
+  {
+    "id": "farmacia:planta-farmacia:example",
+    "kind": "example",
+    "sceneId": "farmacia",
+    "lexicalItemId": "lex-planta",
+    "pt": "Essa planta deixa a farmácia mais agradável.",
+    "ru": "Это растение делает аптеку более приятной."
+  },
+  {
+    "id": "farmacia:prateleira-higiene:example",
+    "kind": "example",
+    "sceneId": "farmacia",
+    "lexicalItemId": "lex-prateleira-de-higiene",
+    "pt": "O sabonete líquido está nessa prateleira.",
+    "ru": "Жидкое мыло находится на этой полке."
+  },
+  {
+    "id": "farmacia:gondola-central:example",
+    "kind": "example",
+    "sceneId": "farmacia",
+    "lexicalItemId": "lex-gondola-central",
+    "pt": "A gôndola central tem produtos em promoção.",
+    "ru": "На центральном стеллаже товары со скидкой."
+  },
+  {
+    "id": "farmacia:banco-espera:example",
+    "kind": "example",
+    "sceneId": "farmacia",
+    "lexicalItemId": "lex-banco-de-espera",
+    "pt": "Senta no banco enquanto espera a receita.",
+    "ru": "Сядь на скамью, пока ждёшь рецепт."
+  },
+  {
+    "id": "farmacia:porta-farmacia:example",
+    "kind": "example",
+    "sceneId": "farmacia",
+    "lexicalItemId": "lex-porta-de-entrada",
+    "pt": "A porta da farmácia fica sempre aberta.",
+    "ru": "Дверь аптеки всегда открыта."
+  },
+  {
+    "id": "farmacia:verb:1",
+    "kind": "scene-verb",
+    "sceneId": "farmacia",
+    "verbId": "comprar",
+    "pt": "comprar",
+    "ru": "покупать"
+  },
+  {
+    "id": "farmacia:verb:2",
+    "kind": "scene-verb",
+    "sceneId": "farmacia",
+    "verbId": null,
+    "pt": "indicar",
+    "ru": "рекомендовать"
+  },
+  {
+    "id": "farmacia:verb:3",
+    "kind": "scene-verb",
+    "sceneId": "farmacia",
+    "verbId": null,
+    "pt": "receitar",
+    "ru": "выписывать (рецепт)"
+  },
+  {
+    "id": "farmacia:verb:4",
+    "kind": "scene-verb",
+    "sceneId": "farmacia",
+    "verbId": null,
+    "pt": "pesar",
+    "ru": "взвешивать"
+  },
+  {
+    "id": "farmacia:phrase:1",
+    "kind": "scene-phrase",
+    "sceneId": "farmacia",
+    "pt": "Você tem algo pra dor de cabeça?",
+    "ru": "У вас есть что-нибудь от головной боли?"
+  },
+  {
+    "id": "farmacia:phrase:2",
+    "kind": "scene-phrase",
+    "sceneId": "farmacia",
+    "pt": "Precisa de receita pra esse remédio?",
+    "ru": "Нужен рецепт на это лекарство?"
+  },
+  {
+    "id": "transporte:onibus:example",
+    "kind": "example",
+    "sceneId": "transporte",
+    "lexicalItemId": "lex-onibus",
+    "pt": "Você pega o ônibus ou o metrô?",
+    "ru": "Ты едешь на автобусе или на метро?"
+  },
+  {
+    "id": "transporte:carro:example",
+    "kind": "example",
+    "sceneId": "transporte",
+    "lexicalItemId": "lex-carro",
+    "pt": "O carro parou no sinal vermelho.",
+    "ru": "Машина остановилась на красный свет."
+  },
+  {
+    "id": "transporte:aviao:example",
+    "kind": "example",
+    "sceneId": "transporte",
+    "lexicalItemId": "lex-aviao",
+    "pt": "O avião está pousando agora.",
+    "ru": "Самолёт сейчас приземляется."
+  },
+  {
+    "id": "transporte:metro-trem:example",
+    "kind": "example",
+    "sceneId": "transporte",
+    "lexicalItemId": "lex-metro",
+    "pt": "O metrô passa de cinco em cinco minutos.",
+    "ru": "Метро ходит каждые пять минут."
+  },
+  {
+    "id": "transporte:ponto-onibus:example",
+    "kind": "example",
+    "sceneId": "transporte",
+    "lexicalItemId": "lex-ponto-de-onibus",
+    "pt": "Encontro você no ponto de ônibus às oito.",
+    "ru": "Встретимся на автобусной остановке в восемь."
+  },
+  {
+    "id": "transporte:banco-ponto:example",
+    "kind": "example",
+    "sceneId": "transporte",
+    "lexicalItemId": "lex-banco",
+    "pt": "Senta no banco enquanto espera o ônibus.",
+    "ru": "Посиди на скамейке, пока ждёшь автобус."
+  },
+  {
+    "id": "transporte:lixeira:example",
+    "kind": "example",
+    "sceneId": "transporte",
+    "lexicalItemId": "lex-lixeira",
+    "pt": "Joga o papel na lixeira, por favor.",
+    "ru": "Выброси бумагу в урну, пожалуйста."
+  },
+  {
+    "id": "transporte:semaforo:example",
+    "kind": "example",
+    "sceneId": "transporte",
+    "lexicalItemId": "lex-semaforo",
+    "pt": "Espera o semáforo abrir para atravessar.",
+    "ru": "Подожди, пока светофор загорится зелёным, чтобы перейти."
+  },
+  {
+    "id": "transporte:faixa-pedestre:example",
+    "kind": "example",
+    "sceneId": "transporte",
+    "lexicalItemId": "lex-faixa-de-pedestre",
+    "pt": "Atravessa sempre na faixa de pedestre.",
+    "ru": "Всегда переходи по пешеходному переходу."
+  },
+  {
+    "id": "transporte:ciclovia:example",
+    "kind": "example",
+    "sceneId": "transporte",
+    "lexicalItemId": "lex-ciclovia",
+    "pt": "Ele vai pro trabalho de bicicleta pela ciclovia.",
+    "ru": "Он ездит на работу на велосипеде по велодорожке."
+  },
+  {
+    "id": "transporte:entrada-metro:example",
+    "kind": "example",
+    "sceneId": "transporte",
+    "lexicalItemId": "lex-entrada-do-metro",
+    "pt": "A entrada do metrô fica logo ali.",
+    "ru": "Вход в метро прямо там."
+  },
+  {
+    "id": "transporte:verb:1",
+    "kind": "scene-verb",
+    "sceneId": "transporte",
+    "verbId": null,
+    "pt": "pegar (o ônibus)",
+    "ru": "сесть (на автобус)"
+  },
+  {
+    "id": "transporte:verb:2",
+    "kind": "scene-verb",
+    "sceneId": "transporte",
+    "verbId": null,
+    "pt": "descer",
+    "ru": "выходить"
+  },
+  {
+    "id": "transporte:verb:3",
+    "kind": "scene-verb",
+    "sceneId": "transporte",
+    "verbId": null,
+    "pt": "atravessar",
+    "ru": "переходить"
+  },
+  {
+    "id": "transporte:verb:4",
+    "kind": "scene-verb",
+    "sceneId": "transporte",
+    "verbId": null,
+    "pt": "esperar",
+    "ru": "ждать"
+  },
+  {
+    "id": "transporte:phrase:1",
+    "kind": "scene-phrase",
+    "sceneId": "transporte",
+    "pt": "Esse ônibus passa no centro?",
+    "ru": "Этот автобус едет в центр?"
+  },
+  {
+    "id": "transporte:phrase:2",
+    "kind": "scene-phrase",
+    "sceneId": "transporte",
+    "pt": "Onde eu desço pra ir à praça?",
+    "ru": "Где мне выйти, чтобы попасть на площадь?"
+  }
+]

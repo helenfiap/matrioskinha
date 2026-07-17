@@ -1,0 +1,56 @@
+[
+  {
+    "id": "sala:culture:1",
+    "sceneId": "sala",
+    "pt": "Nas casas brasileiras, a sala costuma ser o centro da vida social — é ali que se recebem visitas.",
+    "ru": "В бразильских домах гостиная обычно является центром общения — именно там принимают гостей."
+  },
+  {
+    "id": "cozinha:culture:1",
+    "sceneId": "cozinha",
+    "pt": "É comum pedir para alguém \"dar uma olhada na panela\" enquanto se faz outra coisa na casa.",
+    "ru": "Обычно просят кого-то \"присмотреть за кастрюлей\", пока занимаются другими делами по дому."
+  },
+  {
+    "id": "quarto:culture:1",
+    "sceneId": "quarto",
+    "pt": "Uma soneca curta depois do almoço é comum, mas dormir a noite toda com a luz acesa não é hábito brasileiro.",
+    "ru": "Короткий сон после обеда — обычное дело, но спать всю ночь при свете — не бразильская привычка."
+  },
+  {
+    "id": "banheiro:culture:1",
+    "sceneId": "banheiro",
+    "pt": "Banho gelado é raro no Brasil — a maioria toma banho quente mesmo em dias de calor, por hábito.",
+    "ru": "Холодный душ в Бразилии редкость — большинство принимает горячий душ даже в жару, по привычке."
+  },
+  {
+    "id": "lavanderia:culture:1",
+    "sceneId": "lavanderia",
+    "pt": "Muitas casas brasileiras usam varal em vez de secadora, mesmo em apartamentos — costuma ficar na área de serviço.",
+    "ru": "Во многих бразильских домах вместо сушильной машины используют бельевую верёвку — обычно в постирочной зоне."
+  },
+  {
+    "id": "supermercado:culture:1",
+    "sceneId": "supermercado",
+    "pt": "\"Caixa rápido\" é a fila para quem tem poucos itens — atenção ao limite indicado.",
+    "ru": "«Быстрая касса» — очередь для тех, у кого мало товаров, — обратите внимание на указанный лимит."
+  },
+  {
+    "id": "supermercado:culture:2",
+    "sceneId": "supermercado",
+    "pt": "Fila preferencial é reservada para idosos, gestantes e pessoas com deficiência.",
+    "ru": "Приоритетная очередь предназначена для пожилых, беременных и людей с инвалидностью."
+  },
+  {
+    "id": "farmacia:culture:1",
+    "sceneId": "farmacia",
+    "pt": "No Brasil, farmacêuticos costumam indicar remédios simples sem exigir médico — algo mais informal que em outros países.",
+    "ru": "В Бразилии фармацевты часто рекомендуют простые лекарства без обязательного визита к врачу — это более неформально, чем в других странах."
+  },
+  {
+    "id": "transporte:culture:1",
+    "sceneId": "transporte",
+    "pt": "É comum pedir para o motorista avisar \"o ponto\" onde descer, principalmente em cidades menores.",
+    "ru": "Обычно просят водителя предупредить об «остановке», где нужно выходить, особенно в небольших городах."
+  }
+]

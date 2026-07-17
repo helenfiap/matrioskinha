@@ -1,0 +1,1795 @@
+{
+  "schemaVersion": 1,
+  "provider": "edge-tts",
+  "locale": "pt-BR",
+  "voices": {
+    "female": "pt-BR-FranciscaNeural",
+    "male": "pt-BR-AntonioNeural"
+  },
+  "items": [
+    {
+      "id": "lex-alcool-em-gel",
+      "batch": "words",
+      "text": "o álcool em gel",
+      "relativePath": "words/lex-alcool-em-gel.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-alcool-em-gel.mp3"
+    },
+    {
+      "id": "lex-almofada",
+      "batch": "words",
+      "text": "a almofada",
+      "relativePath": "words/lex-almofada.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-almofada.mp3"
+    },
+    {
+      "id": "lex-armario",
+      "batch": "words",
+      "text": "o armário",
+      "relativePath": "words/lex-armario.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-armario.mp3"
+    },
+    {
+      "id": "lex-armario-de-produtos-de-limpeza",
+      "batch": "words",
+      "text": "o armário de produtos de limpeza",
+      "relativePath": "words/lex-armario-de-produtos-de-limpeza.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-armario-de-produtos-de-limpeza.mp3"
+    },
+    {
+      "id": "lex-aviao",
+      "batch": "words",
+      "text": "o avião",
+      "relativePath": "words/lex-aviao.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-aviao.mp3"
+    },
+    {
+      "id": "lex-balanca",
+      "batch": "words",
+      "text": "a balança",
+      "relativePath": "words/lex-balanca.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-balanca.mp3"
+    },
+    {
+      "id": "lex-balcao",
+      "batch": "words",
+      "text": "o balcão",
+      "relativePath": "words/lex-balcao.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-balcao.mp3"
+    },
+    {
+      "id": "lex-balde",
+      "batch": "words",
+      "text": "o balde",
+      "relativePath": "words/lex-balde.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-balde.mp3"
+    },
+    {
+      "id": "lex-banco",
+      "batch": "words",
+      "text": "o banco",
+      "relativePath": "words/lex-banco.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-banco.mp3"
+    },
+    {
+      "id": "lex-banco-de-espera",
+      "batch": "words",
+      "text": "o banco de espera",
+      "relativePath": "words/lex-banco-de-espera.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-banco-de-espera.mp3"
+    },
+    {
+      "id": "lex-banheira",
+      "batch": "words",
+      "text": "a banheira",
+      "relativePath": "words/lex-banheira.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-banheira.mp3"
+    },
+    {
+      "id": "lex-cachorro",
+      "batch": "words",
+      "text": "o cachorro",
+      "relativePath": "words/lex-cachorro.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-cachorro.mp3"
+    },
+    {
+      "id": "lex-cadeira",
+      "batch": "words",
+      "text": "a cadeira",
+      "relativePath": "words/lex-cadeira.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-cadeira.mp3"
+    },
+    {
+      "id": "lex-cafe",
+      "batch": "words",
+      "text": "o café",
+      "relativePath": "words/lex-cafe.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-cafe.mp3"
+    },
+    {
+      "id": "lex-caixa",
+      "batch": "words",
+      "text": "o caixa",
+      "relativePath": "words/lex-caixa.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-caixa.mp3"
+    },
+    {
+      "id": "lex-caixa-de-papelao",
+      "batch": "words",
+      "text": "a caixa de papelão",
+      "relativePath": "words/lex-caixa-de-papelao.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-caixa-de-papelao.mp3"
+    },
+    {
+      "id": "lex-cama",
+      "batch": "words",
+      "text": "a cama",
+      "relativePath": "words/lex-cama.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-cama.mp3"
+    },
+    {
+      "id": "lex-caminho",
+      "batch": "words",
+      "text": "o caminho",
+      "relativePath": "words/lex-caminho.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-caminho.mp3"
+    },
+    {
+      "id": "lex-camiseta",
+      "batch": "words",
+      "text": "a camiseta",
+      "relativePath": "words/lex-camiseta.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-camiseta.mp3"
+    },
+    {
+      "id": "lex-carrinho-de-compras",
+      "batch": "words",
+      "text": "o carrinho de compras",
+      "relativePath": "words/lex-carrinho-de-compras.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-carrinho-de-compras.mp3"
+    },
+    {
+      "id": "lex-carro",
+      "batch": "words",
+      "text": "o carro",
+      "relativePath": "words/lex-carro.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-carro.mp3"
+    },
+    {
+      "id": "lex-casa",
+      "batch": "words",
+      "text": "a casa",
+      "relativePath": "words/lex-casa.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-casa.mp3"
+    },
+    {
+      "id": "lex-celular",
+      "batch": "words",
+      "text": "o celular",
+      "relativePath": "words/lex-celular.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-celular.mp3"
+    },
+    {
+      "id": "lex-cesta-de-compras",
+      "batch": "words",
+      "text": "a cesta de compras",
+      "relativePath": "words/lex-cesta-de-compras.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-cesta-de-compras.mp3"
+    },
+    {
+      "id": "lex-cesto",
+      "batch": "words",
+      "text": "o cesto",
+      "relativePath": "words/lex-cesto.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-cesto.mp3"
+    },
+    {
+      "id": "lex-cesto-de-roupa-suja",
+      "batch": "words",
+      "text": "o cesto de roupa suja",
+      "relativePath": "words/lex-cesto-de-roupa-suja.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-cesto-de-roupa-suja.mp3"
+    },
+    {
+      "id": "lex-chuva",
+      "batch": "words",
+      "text": "a chuva",
+      "relativePath": "words/lex-chuva.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-chuva.mp3"
+    },
+    {
+      "id": "lex-chuveiro",
+      "batch": "words",
+      "text": "o chuveiro",
+      "relativePath": "words/lex-chuveiro.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-chuveiro.mp3"
+    },
+    {
+      "id": "lex-ciclovia",
+      "batch": "words",
+      "text": "a ciclovia",
+      "relativePath": "words/lex-ciclovia.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-ciclovia.mp3"
+    },
+    {
+      "id": "lex-comoda",
+      "batch": "words",
+      "text": "a cômoda",
+      "relativePath": "words/lex-comoda.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-comoda.mp3"
+    },
+    {
+      "id": "lex-computador-do-caixa",
+      "batch": "words",
+      "text": "o computador do caixa",
+      "relativePath": "words/lex-computador-do-caixa.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-computador-do-caixa.mp3"
+    },
+    {
+      "id": "lex-cortina",
+      "batch": "words",
+      "text": "a cortina",
+      "relativePath": "words/lex-cortina.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-cortina.mp3"
+    },
+    {
+      "id": "lex-criado-mudo",
+      "batch": "words",
+      "text": "o criado-mudo",
+      "relativePath": "words/lex-criado-mudo.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-criado-mudo.mp3"
+    },
+    {
+      "id": "lex-cruz-da-farmacia",
+      "batch": "words",
+      "text": "a cruz da farmácia",
+      "relativePath": "words/lex-cruz-da-farmacia.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-cruz-da-farmacia.mp3"
+    },
+    {
+      "id": "lex-entrada",
+      "batch": "words",
+      "text": "a entrada",
+      "relativePath": "words/lex-entrada.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-entrada.mp3"
+    },
+    {
+      "id": "lex-entrada-do-metro",
+      "batch": "words",
+      "text": "a entrada do metrô",
+      "relativePath": "words/lex-entrada-do-metro.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-entrada-do-metro.mp3"
+    },
+    {
+      "id": "lex-espelho",
+      "batch": "words",
+      "text": "o espelho",
+      "relativePath": "words/lex-espelho.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-espelho.mp3"
+    },
+    {
+      "id": "lex-estante",
+      "batch": "words",
+      "text": "a estante",
+      "relativePath": "words/lex-estante.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-estante.mp3"
+    },
+    {
+      "id": "lex-exaustor",
+      "batch": "words",
+      "text": "o exaustor",
+      "relativePath": "words/lex-exaustor.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-exaustor.mp3"
+    },
+    {
+      "id": "lex-faixa-de-pedestre",
+      "batch": "words",
+      "text": "a faixa de pedestre",
+      "relativePath": "words/lex-faixa-de-pedestre.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-faixa-de-pedestre.mp3"
+    },
+    {
+      "id": "lex-farmacia",
+      "batch": "words",
+      "text": "a farmácia",
+      "relativePath": "words/lex-farmacia.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-farmacia.mp3"
+    },
+    {
+      "id": "lex-ferro-de-passar",
+      "batch": "words",
+      "text": "o ferro de passar",
+      "relativePath": "words/lex-ferro-de-passar.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-ferro-de-passar.mp3"
+    },
+    {
+      "id": "lex-fogao",
+      "batch": "words",
+      "text": "o fogão",
+      "relativePath": "words/lex-fogao.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-fogao.mp3"
+    },
+    {
+      "id": "lex-geladeira",
+      "batch": "words",
+      "text": "a geladeira",
+      "relativePath": "words/lex-geladeira.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-geladeira.mp3"
+    },
+    {
+      "id": "lex-gondola-central",
+      "batch": "words",
+      "text": "a gôndola central",
+      "relativePath": "words/lex-gondola-central.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-gondola-central.mp3"
+    },
+    {
+      "id": "lex-guarda-roupa",
+      "batch": "words",
+      "text": "o guarda-roupa",
+      "relativePath": "words/lex-guarda-roupa.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-guarda-roupa.mp3"
+    },
+    {
+      "id": "lex-laranja",
+      "batch": "words",
+      "text": "a laranja",
+      "relativePath": "words/lex-laranja.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-laranja.mp3"
+    },
+    {
+      "id": "lex-lixeira",
+      "batch": "words",
+      "text": "a lixeira",
+      "relativePath": "words/lex-lixeira.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-lixeira.mp3"
+    },
+    {
+      "id": "lex-luminaria",
+      "batch": "words",
+      "text": "a luminária",
+      "relativePath": "words/lex-luminaria.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-luminaria.mp3"
+    },
+    {
+      "id": "lex-luminaria-de-mesa",
+      "batch": "words",
+      "text": "a luminária de mesa",
+      "relativePath": "words/lex-luminaria-de-mesa.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-luminaria-de-mesa.mp3"
+    },
+    {
+      "id": "lex-luminaria-pendente",
+      "batch": "words",
+      "text": "a luminária pendente",
+      "relativePath": "words/lex-luminaria-pendente.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-luminaria-pendente.mp3"
+    },
+    {
+      "id": "lex-manta",
+      "batch": "words",
+      "text": "a manta",
+      "relativePath": "words/lex-manta.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-manta.mp3"
+    },
+    {
+      "id": "lex-maquina-de-lavar",
+      "batch": "words",
+      "text": "a máquina de lavar",
+      "relativePath": "words/lex-maquina-de-lavar.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-maquina-de-lavar.mp3"
+    },
+    {
+      "id": "lex-mercado",
+      "batch": "words",
+      "text": "o mercado",
+      "relativePath": "words/lex-mercado.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-mercado.mp3"
+    },
+    {
+      "id": "lex-mesa-de-centro",
+      "batch": "words",
+      "text": "a mesa de centro",
+      "relativePath": "words/lex-mesa-de-centro.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-mesa-de-centro.mp3"
+    },
+    {
+      "id": "lex-mesa-de-jantar",
+      "batch": "words",
+      "text": "a mesa de jantar",
+      "relativePath": "words/lex-mesa-de-jantar.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-mesa-de-jantar.mp3"
+    },
+    {
+      "id": "lex-metro",
+      "batch": "words",
+      "text": "o metrô",
+      "relativePath": "words/lex-metro.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-metro.mp3"
+    },
+    {
+      "id": "lex-micro-ondas",
+      "batch": "words",
+      "text": "o micro-ondas",
+      "relativePath": "words/lex-micro-ondas.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-micro-ondas.mp3"
+    },
+    {
+      "id": "lex-onibus",
+      "batch": "words",
+      "text": "o ônibus",
+      "relativePath": "words/lex-onibus.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-onibus.mp3"
+    },
+    {
+      "id": "lex-panela",
+      "batch": "words",
+      "text": "a panela",
+      "relativePath": "words/lex-panela.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-panela.mp3"
+    },
+    {
+      "id": "lex-pao",
+      "batch": "words",
+      "text": "o pão",
+      "relativePath": "words/lex-pao.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-pao.mp3"
+    },
+    {
+      "id": "lex-pia",
+      "batch": "words",
+      "text": "a pia",
+      "relativePath": "words/lex-pia.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-pia.mp3"
+    },
+    {
+      "id": "lex-planta",
+      "batch": "words",
+      "text": "a planta",
+      "relativePath": "words/lex-planta.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-planta.mp3"
+    },
+    {
+      "id": "lex-planta-decorativa",
+      "batch": "words",
+      "text": "a planta decorativa",
+      "relativePath": "words/lex-planta-decorativa.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-planta-decorativa.mp3"
+    },
+    {
+      "id": "lex-poltrona",
+      "batch": "words",
+      "text": "a poltrona",
+      "relativePath": "words/lex-poltrona.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-poltrona.mp3"
+    },
+    {
+      "id": "lex-ponto-de-onibus",
+      "batch": "words",
+      "text": "o ponto de ônibus",
+      "relativePath": "words/lex-ponto-de-onibus.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-ponto-de-onibus.mp3"
+    },
+    {
+      "id": "lex-porta-de-entrada",
+      "batch": "words",
+      "text": "a porta de entrada",
+      "relativePath": "words/lex-porta-de-entrada.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-porta-de-entrada.mp3"
+    },
+    {
+      "id": "lex-pote-de-conserva",
+      "batch": "words",
+      "text": "o pote de conserva",
+      "relativePath": "words/lex-pote-de-conserva.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-pote-de-conserva.mp3"
+    },
+    {
+      "id": "lex-praia",
+      "batch": "words",
+      "text": "a praia",
+      "relativePath": "words/lex-praia.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-praia.mp3"
+    },
+    {
+      "id": "lex-prateleira-de-frutas-e-verduras",
+      "batch": "words",
+      "text": "a prateleira de frutas e verduras",
+      "relativePath": "words/lex-prateleira-de-frutas-e-verduras.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-prateleira-de-frutas-e-verduras.mp3"
+    },
+    {
+      "id": "lex-prateleira-de-higiene",
+      "batch": "words",
+      "text": "a prateleira de higiene",
+      "relativePath": "words/lex-prateleira-de-higiene.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-prateleira-de-higiene.mp3"
+    },
+    {
+      "id": "lex-prateleira-de-mercearia",
+      "batch": "words",
+      "text": "a prateleira de mercearia",
+      "relativePath": "words/lex-prateleira-de-mercearia.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-prateleira-de-mercearia.mp3"
+    },
+    {
+      "id": "lex-prateleira-de-remedios",
+      "batch": "words",
+      "text": "a prateleira de remédios",
+      "relativePath": "words/lex-prateleira-de-remedios.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-prateleira-de-remedios.mp3"
+    },
+    {
+      "id": "lex-quadro",
+      "batch": "words",
+      "text": "o quadro",
+      "relativePath": "words/lex-quadro.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-quadro.mp3"
+    },
+    {
+      "id": "lex-restaurante",
+      "batch": "words",
+      "text": "o restaurante",
+      "relativePath": "words/lex-restaurante.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-restaurante.mp3"
+    },
+    {
+      "id": "lex-semaforo",
+      "batch": "words",
+      "text": "o semáforo",
+      "relativePath": "words/lex-semaforo.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-semaforo.mp3"
+    },
+    {
+      "id": "lex-sofa",
+      "batch": "words",
+      "text": "o sofá",
+      "relativePath": "words/lex-sofa.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-sofa.mp3"
+    },
+    {
+      "id": "lex-tabua-de-passar",
+      "batch": "words",
+      "text": "a tábua de passar",
+      "relativePath": "words/lex-tabua-de-passar.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-tabua-de-passar.mp3"
+    },
+    {
+      "id": "lex-tanque",
+      "batch": "words",
+      "text": "o tanque",
+      "relativePath": "words/lex-tanque.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-tanque.mp3"
+    },
+    {
+      "id": "lex-tapete",
+      "batch": "words",
+      "text": "o tapete",
+      "relativePath": "words/lex-tapete.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-tapete.mp3"
+    },
+    {
+      "id": "lex-televisao",
+      "batch": "words",
+      "text": "a televisão",
+      "relativePath": "words/lex-televisao.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-televisao.mp3"
+    },
+    {
+      "id": "lex-toalha",
+      "batch": "words",
+      "text": "a toalha",
+      "relativePath": "words/lex-toalha.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-toalha.mp3"
+    },
+    {
+      "id": "lex-tomate",
+      "batch": "words",
+      "text": "o tomate",
+      "relativePath": "words/lex-tomate.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-tomate.mp3"
+    },
+    {
+      "id": "lex-torneira",
+      "batch": "words",
+      "text": "a torneira",
+      "relativePath": "words/lex-torneira.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-torneira.mp3"
+    },
+    {
+      "id": "lex-travesseiro",
+      "batch": "words",
+      "text": "o travesseiro",
+      "relativePath": "words/lex-travesseiro.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-travesseiro.mp3"
+    },
+    {
+      "id": "lex-varal",
+      "batch": "words",
+      "text": "o varal",
+      "relativePath": "words/lex-varal.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-varal.mp3"
+    },
+    {
+      "id": "lex-vaso",
+      "batch": "words",
+      "text": "o vaso",
+      "relativePath": "words/lex-vaso.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-vaso.mp3"
+    },
+    {
+      "id": "lex-vaso-sanitario",
+      "batch": "words",
+      "text": "o vaso sanitário",
+      "relativePath": "words/lex-vaso-sanitario.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-vaso-sanitario.mp3"
+    },
+    {
+      "id": "lex-vassoura",
+      "batch": "words",
+      "text": "a vassoura",
+      "relativePath": "words/lex-vassoura.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/words/lex-vassoura.mp3"
+    },
+    {
+      "id": "sala:sofa:example",
+      "batch": "examples",
+      "text": "Eu durmo no sofá quando assisto TV.",
+      "relativePath": "examples/sala--sofa--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/sala--sofa--example.mp3"
+    },
+    {
+      "id": "sala:almofada:example",
+      "batch": "examples",
+      "text": "As almofadas verdes combinam com o sofá.",
+      "relativePath": "examples/sala--almofada--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/sala--almofada--example.mp3"
+    },
+    {
+      "id": "sala:manta:example",
+      "batch": "examples",
+      "text": "A manta fica jogada no sofá.",
+      "relativePath": "examples/sala--manta--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/sala--manta--example.mp3"
+    },
+    {
+      "id": "sala:mesa-centro:example",
+      "batch": "examples",
+      "text": "O livro está em cima da mesa de centro.",
+      "relativePath": "examples/sala--mesa-centro--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/sala--mesa-centro--example.mp3"
+    },
+    {
+      "id": "sala:tapete-sala:example",
+      "batch": "examples",
+      "text": "O tapete é de fibra natural.",
+      "relativePath": "examples/sala--tapete-sala--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/sala--tapete-sala--example.mp3"
+    },
+    {
+      "id": "sala:poltrona:example",
+      "batch": "examples",
+      "text": "Eu leio sentado na poltrona verde.",
+      "relativePath": "examples/sala--poltrona--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/sala--poltrona--example.mp3"
+    },
+    {
+      "id": "sala:tv:example",
+      "batch": "examples",
+      "text": "A televisão fica de frente pro sofá.",
+      "relativePath": "examples/sala--tv--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/sala--tv--example.mp3"
+    },
+    {
+      "id": "sala:estante:example",
+      "batch": "examples",
+      "text": "Os livros ficam na estante.",
+      "relativePath": "examples/sala--estante--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/sala--estante--example.mp3"
+    },
+    {
+      "id": "sala:luminaria-sala:example",
+      "batch": "examples",
+      "text": "A luminária deixa a sala mais aconchegante.",
+      "relativePath": "examples/sala--luminaria-sala--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/sala--luminaria-sala--example.mp3"
+    },
+    {
+      "id": "sala:planta-sala:example",
+      "batch": "examples",
+      "text": "Essa planta precisa de sol.",
+      "relativePath": "examples/sala--planta-sala--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/sala--planta-sala--example.mp3"
+    },
+    {
+      "id": "sala:cortina-sala:example",
+      "batch": "examples",
+      "text": "A cortina deixa entrar luz da tarde.",
+      "relativePath": "examples/sala--cortina-sala--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/sala--cortina-sala--example.mp3"
+    },
+    {
+      "id": "sala:vaso-sala:example",
+      "batch": "examples",
+      "text": "O vaso tem flores do jardim.",
+      "relativePath": "examples/sala--vaso-sala--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/sala--vaso-sala--example.mp3"
+    },
+    {
+      "id": "cozinha:geladeira:example",
+      "batch": "examples",
+      "text": "O leite está na geladeira.",
+      "relativePath": "examples/cozinha--geladeira--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/cozinha--geladeira--example.mp3"
+    },
+    {
+      "id": "cozinha:fogao:example",
+      "batch": "examples",
+      "text": "Eu cozinho arroz no fogão.",
+      "relativePath": "examples/cozinha--fogao--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/cozinha--fogao--example.mp3"
+    },
+    {
+      "id": "cozinha:exaustor:example",
+      "batch": "examples",
+      "text": "Liga o exaustor quando for fritar.",
+      "relativePath": "examples/cozinha--exaustor--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/cozinha--exaustor--example.mp3"
+    },
+    {
+      "id": "cozinha:microondas:example",
+      "batch": "examples",
+      "text": "Esquenta a comida no micro-ondas.",
+      "relativePath": "examples/cozinha--microondas--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/cozinha--microondas--example.mp3"
+    },
+    {
+      "id": "cozinha:pia-cozinha:example",
+      "batch": "examples",
+      "text": "Lava a louça na pia.",
+      "relativePath": "examples/cozinha--pia-cozinha--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/cozinha--pia-cozinha--example.mp3"
+    },
+    {
+      "id": "cozinha:torneira-cozinha:example",
+      "batch": "examples",
+      "text": "Fecha bem a torneira.",
+      "relativePath": "examples/cozinha--torneira-cozinha--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/cozinha--torneira-cozinha--example.mp3"
+    },
+    {
+      "id": "cozinha:armario-cozinha:example",
+      "batch": "examples",
+      "text": "Os pratos ficam no armário.",
+      "relativePath": "examples/cozinha--armario-cozinha--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/cozinha--armario-cozinha--example.mp3"
+    },
+    {
+      "id": "cozinha:mesa-jantar:example",
+      "batch": "examples",
+      "text": "A família janta na mesa de jantar.",
+      "relativePath": "examples/cozinha--mesa-jantar--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/cozinha--mesa-jantar--example.mp3"
+    },
+    {
+      "id": "cozinha:cadeira-cozinha:example",
+      "batch": "examples",
+      "text": "Senta na cadeira pra comer.",
+      "relativePath": "examples/cozinha--cadeira-cozinha--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/cozinha--cadeira-cozinha--example.mp3"
+    },
+    {
+      "id": "cozinha:panela:example",
+      "batch": "examples",
+      "text": "A panela verde está no fogo.",
+      "relativePath": "examples/cozinha--panela--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/cozinha--panela--example.mp3"
+    },
+    {
+      "id": "cozinha:luminaria-pendente:example",
+      "batch": "examples",
+      "text": "A luminária ilumina a mesa de jantar.",
+      "relativePath": "examples/cozinha--luminaria-pendente--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/cozinha--luminaria-pendente--example.mp3"
+    },
+    {
+      "id": "quarto:cama:example",
+      "batch": "examples",
+      "text": "Eu arrumo a cama todo dia.",
+      "relativePath": "examples/quarto--cama--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/quarto--cama--example.mp3"
+    },
+    {
+      "id": "quarto:travesseiro:example",
+      "batch": "examples",
+      "text": "Prefiro dois travesseiros pra dormir.",
+      "relativePath": "examples/quarto--travesseiro--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/quarto--travesseiro--example.mp3"
+    },
+    {
+      "id": "quarto:guarda-roupa:example",
+      "batch": "examples",
+      "text": "As roupas ficam no guarda-roupa.",
+      "relativePath": "examples/quarto--guarda-roupa--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/quarto--guarda-roupa--example.mp3"
+    },
+    {
+      "id": "quarto:espelho-quarto:example",
+      "batch": "examples",
+      "text": "Eu me olho no espelho antes de sair.",
+      "relativePath": "examples/quarto--espelho-quarto--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/quarto--espelho-quarto--example.mp3"
+    },
+    {
+      "id": "quarto:comoda:example",
+      "batch": "examples",
+      "text": "As meias ficam na cômoda.",
+      "relativePath": "examples/quarto--comoda--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/quarto--comoda--example.mp3"
+    },
+    {
+      "id": "quarto:criado-mudo:example",
+      "batch": "examples",
+      "text": "O celular está no criado-mudo.",
+      "relativePath": "examples/quarto--criado-mudo--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/quarto--criado-mudo--example.mp3"
+    },
+    {
+      "id": "quarto:luminaria-mesa:example",
+      "batch": "examples",
+      "text": "Apago a luminária antes de dormir.",
+      "relativePath": "examples/quarto--luminaria-mesa--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/quarto--luminaria-mesa--example.mp3"
+    },
+    {
+      "id": "quarto:cortina-quarto:example",
+      "batch": "examples",
+      "text": "A cortina bloqueia a luz do sol.",
+      "relativePath": "examples/quarto--cortina-quarto--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/quarto--cortina-quarto--example.mp3"
+    },
+    {
+      "id": "quarto:quadro:example",
+      "batch": "examples",
+      "text": "Esse quadro foi um presente.",
+      "relativePath": "examples/quarto--quadro--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/quarto--quadro--example.mp3"
+    },
+    {
+      "id": "quarto:tapete-quarto:example",
+      "batch": "examples",
+      "text": "Piso descalço no tapete.",
+      "relativePath": "examples/quarto--tapete-quarto--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/quarto--tapete-quarto--example.mp3"
+    },
+    {
+      "id": "quarto:manta-quarto:example",
+      "batch": "examples",
+      "text": "A manta verde é bem quentinha.",
+      "relativePath": "examples/quarto--manta-quarto--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/quarto--manta-quarto--example.mp3"
+    },
+    {
+      "id": "banheiro:banheira:example",
+      "batch": "examples",
+      "text": "Eu tomo banho de banheira aos domingos.",
+      "relativePath": "examples/banheiro--banheira--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/banheiro--banheira--example.mp3"
+    },
+    {
+      "id": "banheiro:chuveiro:example",
+      "batch": "examples",
+      "text": "Eu tomo banho de chuveiro toda manhã.",
+      "relativePath": "examples/banheiro--chuveiro--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/banheiro--chuveiro--example.mp3"
+    },
+    {
+      "id": "banheiro:vaso-sanitario:example",
+      "batch": "examples",
+      "text": "Preciso trocar o papel do vaso sanitário.",
+      "relativePath": "examples/banheiro--vaso-sanitario--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/banheiro--vaso-sanitario--example.mp3"
+    },
+    {
+      "id": "banheiro:pia-banheiro:example",
+      "batch": "examples",
+      "text": "Escovo os dentes na pia.",
+      "relativePath": "examples/banheiro--pia-banheiro--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/banheiro--pia-banheiro--example.mp3"
+    },
+    {
+      "id": "banheiro:espelho-banheiro:example",
+      "batch": "examples",
+      "text": "O espelho embaçou com o vapor.",
+      "relativePath": "examples/banheiro--espelho-banheiro--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/banheiro--espelho-banheiro--example.mp3"
+    },
+    {
+      "id": "banheiro:torneira-banheiro:example",
+      "batch": "examples",
+      "text": "A torneira dourada é bem bonita.",
+      "relativePath": "examples/banheiro--torneira-banheiro--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/banheiro--torneira-banheiro--example.mp3"
+    },
+    {
+      "id": "banheiro:toalha:example",
+      "batch": "examples",
+      "text": "Pega uma toalha limpa pra mim.",
+      "relativePath": "examples/banheiro--toalha--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/banheiro--toalha--example.mp3"
+    },
+    {
+      "id": "banheiro:tapete-banheiro:example",
+      "batch": "examples",
+      "text": "O tapete de banheiro evita escorregões.",
+      "relativePath": "examples/banheiro--tapete-banheiro--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/banheiro--tapete-banheiro--example.mp3"
+    },
+    {
+      "id": "banheiro:planta-banheiro:example",
+      "batch": "examples",
+      "text": "Essa planta gosta de umidade.",
+      "relativePath": "examples/banheiro--planta-banheiro--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/banheiro--planta-banheiro--example.mp3"
+    },
+    {
+      "id": "banheiro:quadro-banheiro:example",
+      "batch": "examples",
+      "text": "O quadro de folhas combina com o banheiro.",
+      "relativePath": "examples/banheiro--quadro-banheiro--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/banheiro--quadro-banheiro--example.mp3"
+    },
+    {
+      "id": "banheiro:cesto:example",
+      "batch": "examples",
+      "text": "As toalhas limpas ficam no cesto.",
+      "relativePath": "examples/banheiro--cesto--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/banheiro--cesto--example.mp3"
+    },
+    {
+      "id": "lavanderia:maquina-lavar:example",
+      "batch": "examples",
+      "text": "Você liga a máquina de lavar todos os dias?",
+      "relativePath": "examples/lavanderia--maquina-lavar--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/lavanderia--maquina-lavar--example.mp3"
+    },
+    {
+      "id": "lavanderia:tanque:example",
+      "batch": "examples",
+      "text": "Ele lava as roupas mais sujas no tanque.",
+      "relativePath": "examples/lavanderia--tanque--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/lavanderia--tanque--example.mp3"
+    },
+    {
+      "id": "lavanderia:torneira-lavanderia:example",
+      "batch": "examples",
+      "text": "Fecha a torneira, por favor!",
+      "relativePath": "examples/lavanderia--torneira-lavanderia--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/lavanderia--torneira-lavanderia--example.mp3"
+    },
+    {
+      "id": "lavanderia:armario-limpeza:example",
+      "batch": "examples",
+      "text": "Os produtos de limpeza ficam no armário.",
+      "relativePath": "examples/lavanderia--armario-limpeza--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/lavanderia--armario-limpeza--example.mp3"
+    },
+    {
+      "id": "lavanderia:varal:example",
+      "batch": "examples",
+      "text": "A roupa está secando no varal.",
+      "relativePath": "examples/lavanderia--varal--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/lavanderia--varal--example.mp3"
+    },
+    {
+      "id": "lavanderia:camiseta-varal:example",
+      "batch": "examples",
+      "text": "Essa camiseta verde é sua?",
+      "relativePath": "examples/lavanderia--camiseta-varal--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/lavanderia--camiseta-varal--example.mp3"
+    },
+    {
+      "id": "lavanderia:toalha-varal:example",
+      "batch": "examples",
+      "text": "Pendura a toalha no varal.",
+      "relativePath": "examples/lavanderia--toalha-varal--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/lavanderia--toalha-varal--example.mp3"
+    },
+    {
+      "id": "lavanderia:cesto-roupa:example",
+      "batch": "examples",
+      "text": "Coloca a roupa suja no cesto.",
+      "relativePath": "examples/lavanderia--cesto-roupa--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/lavanderia--cesto-roupa--example.mp3"
+    },
+    {
+      "id": "lavanderia:tabua-passar:example",
+      "batch": "examples",
+      "text": "A tábua de passar está na área de serviço.",
+      "relativePath": "examples/lavanderia--tabua-passar--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/lavanderia--tabua-passar--example.mp3"
+    },
+    {
+      "id": "lavanderia:ferro-passar:example",
+      "batch": "examples",
+      "text": "Cuidado, o ferro de passar está quente!",
+      "relativePath": "examples/lavanderia--ferro-passar--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/lavanderia--ferro-passar--example.mp3"
+    },
+    {
+      "id": "lavanderia:balde-lavanderia:example",
+      "batch": "examples",
+      "text": "Enche o balde com água.",
+      "relativePath": "examples/lavanderia--balde-lavanderia--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/lavanderia--balde-lavanderia--example.mp3"
+    },
+    {
+      "id": "lavanderia:vassoura:example",
+      "batch": "examples",
+      "text": "Varre o chão com a vassoura.",
+      "relativePath": "examples/lavanderia--vassoura--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/lavanderia--vassoura--example.mp3"
+    },
+    {
+      "id": "supermercado:carrinho-compras:example",
+      "batch": "examples",
+      "text": "Você pega um carrinho de compras ou uma cesta?",
+      "relativePath": "examples/supermercado--carrinho-compras--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/supermercado--carrinho-compras--example.mp3"
+    },
+    {
+      "id": "supermercado:cesta-compras:example",
+      "batch": "examples",
+      "text": "Prefiro levar a cesta, é mais rápido.",
+      "relativePath": "examples/supermercado--cesta-compras--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/supermercado--cesta-compras--example.mp3"
+    },
+    {
+      "id": "supermercado:caixa-mercado:example",
+      "batch": "examples",
+      "text": "A fila no caixa está grande hoje.",
+      "relativePath": "examples/supermercado--caixa-mercado--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/supermercado--caixa-mercado--example.mp3"
+    },
+    {
+      "id": "supermercado:prateleira-hortifruti:example",
+      "batch": "examples",
+      "text": "As verduras frescas ficam nessa prateleira.",
+      "relativePath": "examples/supermercado--prateleira-hortifruti--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/supermercado--prateleira-hortifruti--example.mp3"
+    },
+    {
+      "id": "supermercado:tomate-mercado:example",
+      "batch": "examples",
+      "text": "Você pode pesar esses tomates, por favor?",
+      "relativePath": "examples/supermercado--tomate-mercado--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/supermercado--tomate-mercado--example.mp3"
+    },
+    {
+      "id": "supermercado:laranja-mercado:example",
+      "batch": "examples",
+      "text": "Essas laranjas estão bem doces.",
+      "relativePath": "examples/supermercado--laranja-mercado--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/supermercado--laranja-mercado--example.mp3"
+    },
+    {
+      "id": "supermercado:prateleira-mercearia:example",
+      "batch": "examples",
+      "text": "O macarrão fica na prateleira de mercearia.",
+      "relativePath": "examples/supermercado--prateleira-mercearia--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/supermercado--prateleira-mercearia--example.mp3"
+    },
+    {
+      "id": "supermercado:pote-conserva:example",
+      "batch": "examples",
+      "text": "Pega um pote de conserva de picles para mim.",
+      "relativePath": "examples/supermercado--pote-conserva--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/supermercado--pote-conserva--example.mp3"
+    },
+    {
+      "id": "supermercado:caixas-papelao:example",
+      "batch": "examples",
+      "text": "Essas caixas de papelão acabaram de chegar.",
+      "relativePath": "examples/supermercado--caixas-papelao--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/supermercado--caixas-papelao--example.mp3"
+    },
+    {
+      "id": "supermercado:planta-mercado:example",
+      "batch": "examples",
+      "text": "A planta na entrada deixa o mercado mais bonito.",
+      "relativePath": "examples/supermercado--planta-mercado--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/supermercado--planta-mercado--example.mp3"
+    },
+    {
+      "id": "supermercado:entrada-mercado:example",
+      "batch": "examples",
+      "text": "A entrada do mercado fica perto do estacionamento.",
+      "relativePath": "examples/supermercado--entrada-mercado--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/supermercado--entrada-mercado--example.mp3"
+    },
+    {
+      "id": "farmacia:cruz-farmacia:example",
+      "batch": "examples",
+      "text": "A cruz verde indica onde fica a farmácia.",
+      "relativePath": "examples/farmacia--cruz-farmacia--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/farmacia--cruz-farmacia--example.mp3"
+    },
+    {
+      "id": "farmacia:prateleira-remedios:example",
+      "batch": "examples",
+      "text": "Os remédios ficam guardados atrás do balcão.",
+      "relativePath": "examples/farmacia--prateleira-remedios--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/farmacia--prateleira-remedios--example.mp3"
+    },
+    {
+      "id": "farmacia:balcao-farmacia:example",
+      "batch": "examples",
+      "text": "Você pode deixar a receita no balcão?",
+      "relativePath": "examples/farmacia--balcao-farmacia--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/farmacia--balcao-farmacia--example.mp3"
+    },
+    {
+      "id": "farmacia:computador-caixa:example",
+      "batch": "examples",
+      "text": "O atendente digita o preço no computador.",
+      "relativePath": "examples/farmacia--computador-caixa--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/farmacia--computador-caixa--example.mp3"
+    },
+    {
+      "id": "farmacia:balanca:example",
+      "batch": "examples",
+      "text": "Ele pesa o produto na balança.",
+      "relativePath": "examples/farmacia--balanca--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/farmacia--balanca--example.mp3"
+    },
+    {
+      "id": "farmacia:alcool-gel:example",
+      "batch": "examples",
+      "text": "Passa álcool em gel antes de sair.",
+      "relativePath": "examples/farmacia--alcool-gel--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/farmacia--alcool-gel--example.mp3"
+    },
+    {
+      "id": "farmacia:planta-farmacia:example",
+      "batch": "examples",
+      "text": "Essa planta deixa a farmácia mais agradável.",
+      "relativePath": "examples/farmacia--planta-farmacia--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/farmacia--planta-farmacia--example.mp3"
+    },
+    {
+      "id": "farmacia:prateleira-higiene:example",
+      "batch": "examples",
+      "text": "O sabonete líquido está nessa prateleira.",
+      "relativePath": "examples/farmacia--prateleira-higiene--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/farmacia--prateleira-higiene--example.mp3"
+    },
+    {
+      "id": "farmacia:gondola-central:example",
+      "batch": "examples",
+      "text": "A gôndola central tem produtos em promoção.",
+      "relativePath": "examples/farmacia--gondola-central--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/farmacia--gondola-central--example.mp3"
+    },
+    {
+      "id": "farmacia:banco-espera:example",
+      "batch": "examples",
+      "text": "Senta no banco enquanto espera a receita.",
+      "relativePath": "examples/farmacia--banco-espera--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/farmacia--banco-espera--example.mp3"
+    },
+    {
+      "id": "farmacia:porta-farmacia:example",
+      "batch": "examples",
+      "text": "A porta da farmácia fica sempre aberta.",
+      "relativePath": "examples/farmacia--porta-farmacia--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/farmacia--porta-farmacia--example.mp3"
+    },
+    {
+      "id": "transporte:onibus:example",
+      "batch": "examples",
+      "text": "Você pega o ônibus ou o metrô?",
+      "relativePath": "examples/transporte--onibus--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/transporte--onibus--example.mp3"
+    },
+    {
+      "id": "transporte:carro:example",
+      "batch": "examples",
+      "text": "O carro parou no sinal vermelho.",
+      "relativePath": "examples/transporte--carro--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/transporte--carro--example.mp3"
+    },
+    {
+      "id": "transporte:aviao:example",
+      "batch": "examples",
+      "text": "O avião está pousando agora.",
+      "relativePath": "examples/transporte--aviao--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/transporte--aviao--example.mp3"
+    },
+    {
+      "id": "transporte:metro-trem:example",
+      "batch": "examples",
+      "text": "O metrô passa de cinco em cinco minutos.",
+      "relativePath": "examples/transporte--metro-trem--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/transporte--metro-trem--example.mp3"
+    },
+    {
+      "id": "transporte:ponto-onibus:example",
+      "batch": "examples",
+      "text": "Encontro você no ponto de ônibus às oito.",
+      "relativePath": "examples/transporte--ponto-onibus--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/transporte--ponto-onibus--example.mp3"
+    },
+    {
+      "id": "transporte:banco-ponto:example",
+      "batch": "examples",
+      "text": "Senta no banco enquanto espera o ônibus.",
+      "relativePath": "examples/transporte--banco-ponto--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/transporte--banco-ponto--example.mp3"
+    },
+    {
+      "id": "transporte:lixeira:example",
+      "batch": "examples",
+      "text": "Joga o papel na lixeira, por favor.",
+      "relativePath": "examples/transporte--lixeira--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/transporte--lixeira--example.mp3"
+    },
+    {
+      "id": "transporte:semaforo:example",
+      "batch": "examples",
+      "text": "Espera o semáforo abrir para atravessar.",
+      "relativePath": "examples/transporte--semaforo--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/transporte--semaforo--example.mp3"
+    },
+    {
+      "id": "transporte:faixa-pedestre:example",
+      "batch": "examples",
+      "text": "Atravessa sempre na faixa de pedestre.",
+      "relativePath": "examples/transporte--faixa-pedestre--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/transporte--faixa-pedestre--example.mp3"
+    },
+    {
+      "id": "transporte:ciclovia:example",
+      "batch": "examples",
+      "text": "Ele vai pro trabalho de bicicleta pela ciclovia.",
+      "relativePath": "examples/transporte--ciclovia--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/transporte--ciclovia--example.mp3"
+    },
+    {
+      "id": "transporte:entrada-metro:example",
+      "batch": "examples",
+      "text": "A entrada do metrô fica logo ali.",
+      "relativePath": "examples/transporte--entrada-metro--example.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/examples/transporte--entrada-metro--example.mp3"
+    },
+    {
+      "id": "scene-verb:assistir",
+      "batch": "scene-verbs",
+      "text": "assistir",
+      "relativePath": "scene-verbs/assistir.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/scene-verbs/assistir.mp3"
+    },
+    {
+      "id": "scene-verb:sentar",
+      "batch": "scene-verbs",
+      "text": "sentar",
+      "relativePath": "scene-verbs/sentar.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/scene-verbs/sentar.mp3"
+    },
+    {
+      "id": "scene-verb:relaxar",
+      "batch": "scene-verbs",
+      "text": "relaxar",
+      "relativePath": "scene-verbs/relaxar.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/scene-verbs/relaxar.mp3"
+    },
+    {
+      "id": "scene-verb:conversar",
+      "batch": "scene-verbs",
+      "text": "conversar",
+      "relativePath": "scene-verbs/conversar.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/scene-verbs/conversar.mp3"
+    },
+    {
+      "id": "scene-verb:cozinhar",
+      "batch": "scene-verbs",
+      "text": "cozinhar",
+      "relativePath": "scene-verbs/cozinhar.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/scene-verbs/cozinhar.mp3"
+    },
+    {
+      "id": "scene-verb:lavar",
+      "batch": "scene-verbs",
+      "text": "lavar",
+      "relativePath": "scene-verbs/lavar.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/scene-verbs/lavar.mp3"
+    },
+    {
+      "id": "scene-verb:esquentar",
+      "batch": "scene-verbs",
+      "text": "esquentar",
+      "relativePath": "scene-verbs/esquentar.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/scene-verbs/esquentar.mp3"
+    },
+    {
+      "id": "scene-verb:temperar",
+      "batch": "scene-verbs",
+      "text": "temperar",
+      "relativePath": "scene-verbs/temperar.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/scene-verbs/temperar.mp3"
+    },
+    {
+      "id": "scene-verb:dormir",
+      "batch": "scene-verbs",
+      "text": "dormir",
+      "relativePath": "scene-verbs/dormir.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/scene-verbs/dormir.mp3"
+    },
+    {
+      "id": "scene-verb:acordar",
+      "batch": "scene-verbs",
+      "text": "acordar",
+      "relativePath": "scene-verbs/acordar.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/scene-verbs/acordar.mp3"
+    },
+    {
+      "id": "scene-verb:arrumar",
+      "batch": "scene-verbs",
+      "text": "arrumar",
+      "relativePath": "scene-verbs/arrumar.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/scene-verbs/arrumar.mp3"
+    },
+    {
+      "id": "scene-verb:descansar",
+      "batch": "scene-verbs",
+      "text": "descansar",
+      "relativePath": "scene-verbs/descansar.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/scene-verbs/descansar.mp3"
+    },
+    {
+      "id": "scene-verb:tomar-banho",
+      "batch": "scene-verbs",
+      "text": "tomar banho",
+      "relativePath": "scene-verbs/tomar-banho.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/scene-verbs/tomar-banho.mp3"
+    },
+    {
+      "id": "scene-verb:escovar",
+      "batch": "scene-verbs",
+      "text": "escovar",
+      "relativePath": "scene-verbs/escovar.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/scene-verbs/escovar.mp3"
+    },
+    {
+      "id": "scene-verb:secar",
+      "batch": "scene-verbs",
+      "text": "secar",
+      "relativePath": "scene-verbs/secar.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/scene-verbs/secar.mp3"
+    },
+    {
+      "id": "scene-verb:passar",
+      "batch": "scene-verbs",
+      "text": "passar",
+      "relativePath": "scene-verbs/passar.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/scene-verbs/passar.mp3"
+    },
+    {
+      "id": "scene-verb:pendurar",
+      "batch": "scene-verbs",
+      "text": "pendurar",
+      "relativePath": "scene-verbs/pendurar.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/scene-verbs/pendurar.mp3"
+    },
+    {
+      "id": "scene-verb:comprar",
+      "batch": "scene-verbs",
+      "text": "comprar",
+      "relativePath": "scene-verbs/comprar.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/scene-verbs/comprar.mp3"
+    },
+    {
+      "id": "scene-verb:pagar",
+      "batch": "scene-verbs",
+      "text": "pagar",
+      "relativePath": "scene-verbs/pagar.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/scene-verbs/pagar.mp3"
+    },
+    {
+      "id": "scene-verb:escolher",
+      "batch": "scene-verbs",
+      "text": "escolher",
+      "relativePath": "scene-verbs/escolher.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/scene-verbs/escolher.mp3"
+    },
+    {
+      "id": "scene-verb:pesar",
+      "batch": "scene-verbs",
+      "text": "pesar",
+      "relativePath": "scene-verbs/pesar.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/scene-verbs/pesar.mp3"
+    },
+    {
+      "id": "scene-verb:indicar",
+      "batch": "scene-verbs",
+      "text": "indicar",
+      "relativePath": "scene-verbs/indicar.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/scene-verbs/indicar.mp3"
+    },
+    {
+      "id": "scene-verb:receitar",
+      "batch": "scene-verbs",
+      "text": "receitar",
+      "relativePath": "scene-verbs/receitar.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/scene-verbs/receitar.mp3"
+    },
+    {
+      "id": "scene-verb:pegar-o-onibus",
+      "batch": "scene-verbs",
+      "text": "pegar (o ônibus)",
+      "relativePath": "scene-verbs/pegar-o-onibus.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/scene-verbs/pegar-o-onibus.mp3"
+    },
+    {
+      "id": "scene-verb:descer",
+      "batch": "scene-verbs",
+      "text": "descer",
+      "relativePath": "scene-verbs/descer.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/scene-verbs/descer.mp3"
+    },
+    {
+      "id": "scene-verb:atravessar",
+      "batch": "scene-verbs",
+      "text": "atravessar",
+      "relativePath": "scene-verbs/atravessar.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/scene-verbs/atravessar.mp3"
+    },
+    {
+      "id": "scene-verb:esperar",
+      "batch": "scene-verbs",
+      "text": "esperar",
+      "relativePath": "scene-verbs/esperar.mp3",
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/scene-verbs/esperar.mp3"
+    },
+    {
+      "id": "sala:phrase:1",
+      "batch": "scene-phrases",
+      "text": "Senta aí, fica à vontade.",
+      "relativePath": "scene-phrases/sala--phrase--1.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/scene-phrases/sala--phrase--1.mp3"
+    },
+    {
+      "id": "sala:phrase:2",
+      "batch": "scene-phrases",
+      "text": "Quer assistir um filme?",
+      "relativePath": "scene-phrases/sala--phrase--2.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/scene-phrases/sala--phrase--2.mp3"
+    },
+    {
+      "id": "cozinha:phrase:1",
+      "batch": "scene-phrases",
+      "text": "Já esquentei o almoço.",
+      "relativePath": "scene-phrases/cozinha--phrase--1.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/scene-phrases/cozinha--phrase--1.mp3"
+    },
+    {
+      "id": "cozinha:phrase:2",
+      "batch": "scene-phrases",
+      "text": "Você lava ou eu lavo?",
+      "relativePath": "scene-phrases/cozinha--phrase--2.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/scene-phrases/cozinha--phrase--2.mp3"
+    },
+    {
+      "id": "quarto:phrase:1",
+      "batch": "scene-phrases",
+      "text": "Já vou dormir.",
+      "relativePath": "scene-phrases/quarto--phrase--1.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/scene-phrases/quarto--phrase--1.mp3"
+    },
+    {
+      "id": "quarto:phrase:2",
+      "batch": "scene-phrases",
+      "text": "Você arruma a cama todo dia?",
+      "relativePath": "scene-phrases/quarto--phrase--2.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/scene-phrases/quarto--phrase--2.mp3"
+    },
+    {
+      "id": "banheiro:phrase:1",
+      "batch": "scene-phrases",
+      "text": "Vou tomar banho rapidinho.",
+      "relativePath": "scene-phrases/banheiro--phrase--1.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/scene-phrases/banheiro--phrase--1.mp3"
+    },
+    {
+      "id": "banheiro:phrase:2",
+      "batch": "scene-phrases",
+      "text": "Cadê a toalha limpa?",
+      "relativePath": "scene-phrases/banheiro--phrase--2.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/scene-phrases/banheiro--phrase--2.mp3"
+    },
+    {
+      "id": "lavanderia:phrase:1",
+      "batch": "scene-phrases",
+      "text": "Já lavei a roupa, falta passar.",
+      "relativePath": "scene-phrases/lavanderia--phrase--1.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/scene-phrases/lavanderia--phrase--1.mp3"
+    },
+    {
+      "id": "lavanderia:phrase:2",
+      "batch": "scene-phrases",
+      "text": "Pendura isso no varal pra mim?",
+      "relativePath": "scene-phrases/lavanderia--phrase--2.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/scene-phrases/lavanderia--phrase--2.mp3"
+    },
+    {
+      "id": "supermercado:phrase:1",
+      "batch": "scene-phrases",
+      "text": "Quanto custa?",
+      "relativePath": "scene-phrases/supermercado--phrase--1.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/scene-phrases/supermercado--phrase--1.mp3"
+    },
+    {
+      "id": "supermercado:phrase:2",
+      "batch": "scene-phrases",
+      "text": "Aceita cartão?",
+      "relativePath": "scene-phrases/supermercado--phrase--2.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/scene-phrases/supermercado--phrase--2.mp3"
+    },
+    {
+      "id": "supermercado:phrase:3",
+      "batch": "scene-phrases",
+      "text": "Onde fica o leite?",
+      "relativePath": "scene-phrases/supermercado--phrase--3.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/scene-phrases/supermercado--phrase--3.mp3"
+    },
+    {
+      "id": "farmacia:phrase:1",
+      "batch": "scene-phrases",
+      "text": "Você tem algo pra dor de cabeça?",
+      "relativePath": "scene-phrases/farmacia--phrase--1.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/scene-phrases/farmacia--phrase--1.mp3"
+    },
+    {
+      "id": "farmacia:phrase:2",
+      "batch": "scene-phrases",
+      "text": "Precisa de receita pra esse remédio?",
+      "relativePath": "scene-phrases/farmacia--phrase--2.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/scene-phrases/farmacia--phrase--2.mp3"
+    },
+    {
+      "id": "transporte:phrase:1",
+      "batch": "scene-phrases",
+      "text": "Esse ônibus passa no centro?",
+      "relativePath": "scene-phrases/transporte--phrase--1.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/scene-phrases/transporte--phrase--1.mp3"
+    },
+    {
+      "id": "transporte:phrase:2",
+      "batch": "scene-phrases",
+      "text": "Onde eu desço pra ir à praça?",
+      "relativePath": "scene-phrases/transporte--phrase--2.mp3",
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/scene-phrases/transporte--phrase--2.mp3"
+    }
+  ]
+}

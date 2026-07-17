@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "source": "matrioskinha-app-phase-2",
+  "counts": {
+    "sceneOccurrences": 90,
+    "sceneLexicalItems": 78,
+    "totalLexicalItems": 89,
+    "verbs": 50,
+    "scenes": 8,
+    "missions": 8
+  }
+}

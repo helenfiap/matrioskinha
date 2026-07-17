@@ -1,0 +1,62 @@
+[
+  {
+    "id": "vocab-a-casa",
+    "lexicalItemId": "lex-casa",
+    "icon": "🏠"
+  },
+  {
+    "id": "vocab-o-cafe",
+    "lexicalItemId": "lex-cafe",
+    "icon": "☕"
+  },
+  {
+    "id": "vocab-o-onibus",
+    "lexicalItemId": "lex-onibus",
+    "icon": "🚌"
+  },
+  {
+    "id": "vocab-o-mercado",
+    "lexicalItemId": "lex-mercado",
+    "icon": "🛒"
+  },
+  {
+    "id": "vocab-o-cachorro",
+    "lexicalItemId": "lex-cachorro",
+    "icon": "🐕"
+  },
+  {
+    "id": "vocab-a-chuva",
+    "lexicalItemId": "lex-chuva",
+    "icon": "🌧️"
+  },
+  {
+    "id": "vocab-o-pao",
+    "lexicalItemId": "lex-pao",
+    "icon": "🍞"
+  },
+  {
+    "id": "vocab-a-farmacia",
+    "lexicalItemId": "lex-farmacia",
+    "icon": "💊"
+  },
+  {
+    "id": "vocab-a-praia",
+    "lexicalItemId": "lex-praia",
+    "icon": "🏖️"
+  },
+  {
+    "id": "vocab-o-celular",
+    "lexicalItemId": "lex-celular",
+    "icon": "📱"
+  },
+  {
+    "id": "vocab-o-restaurante",
+    "lexicalItemId": "lex-restaurante",
+    "icon": "🍽️"
+  },
+  {
+    "id": "vocab-o-caminho",
+    "lexicalItemId": "lex-caminho",
+    "icon": "🧭"
+  }
+]

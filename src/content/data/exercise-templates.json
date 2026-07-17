@@ -1,0 +1,47 @@
+[
+  {
+    "id": "exercise-choice",
+    "key": "choice",
+    "labels": {
+      "pt": "Escolha contextual",
+      "ru": "Выбор по контексту"
+    },
+    "competency": "context"
+  },
+  {
+    "id": "exercise-flash",
+    "key": "flash",
+    "labels": {
+      "pt": "Flashcard visual",
+      "ru": "Визуальная карточка"
+    },
+    "competency": "visual"
+  },
+  {
+    "id": "exercise-order",
+    "key": "order",
+    "labels": {
+      "pt": "Ordenar frase",
+      "ru": "Собрать фразу"
+    },
+    "competency": "syntax"
+  },
+  {
+    "id": "exercise-listen",
+    "key": "listen",
+    "labels": {
+      "pt": "Compreensão oral",
+      "ru": "Аудирование"
+    },
+    "competency": "listening"
+  },
+  {
+    "id": "exercise-registro",
+    "key": "registro",
+    "labels": {
+      "pt": "Classificar registro",
+      "ru": "Определить регистр"
+    },
+    "competency": "register"
+  }
+]

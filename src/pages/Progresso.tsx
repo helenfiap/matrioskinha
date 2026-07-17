@@ -1,17 +1,31 @@
 import { useEffect, useRef, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { Eye, CheckCircle2, XCircle, Info } from 'lucide-react';
+import { Eye, CheckCircle2, XCircle } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
-import { useProgress, STAGE_LABELS } from '../context/ProgressContext';
+import { useProgress } from '../context/ProgressContext';
+import { STAGE_LABELS } from '../domain/progress';
 import { scenes } from '../data/scenarios';
+import { useLearning } from '../context/LearningContext';
+import { contentRepository } from '../repositories/contentRepository';
 
 function keyOf(sceneId: string, hotspotId: string) {
   return sceneId + ':' + hotspotId;
 }
 
+const errorLabels: Record<string, { pt: string; ru: string }> = {
+  'register-choice': { pt: 'Escolha de registro', ru: 'Выбор регистра' },
+  recall: { pt: 'Recuperação de memória', ru: 'Воспроизведение из памяти' },
+  'word-order': { pt: 'Ordem das palavras', ru: 'Порядок слов' },
+  'agreement-listening': { pt: 'Concordância auditiva', ru: 'Согласование на слух' },
+  'social-register': { pt: 'Registro social', ru: 'Социальный регистр' },
+  'scene-choice': { pt: 'Associação bilíngue', ru: 'Двуязычная ассоциация' },
+  'scene-word-order': { pt: 'Ordem da frase', ru: 'Порядок слов в предложении' },
+};
+
 export function Progresso() {
   const { t, lang } = useLanguage();
-  const { pendingReview, advanceReview, sceneCounts, streakDays } = useProgress();
+  const { pendingReview, advanceReview, failReview, sceneCounts, settings } = useProgress();
+  const { metrics, recurringErrors, recordAttempt } = useLearning();
   const [searchParams, setSearchParams] = useSearchParams();
   const reviewRef = useRef<HTMLDivElement>(null);
   const [revealed, setRevealed] = useState<Set<string>>(new Set());
@@ -34,8 +48,8 @@ export function Progresso() {
   }).filter((x): x is { scene: (typeof scenes)[number]; hotspot: (typeof scenes)[number]['hotspots'][number]; stage: (typeof pendingReview)[number]['stage'] } => x !== null);
 
   const totalExplored = Object.values(sceneCounts).reduce((sum, c) => sum + c.reviewed, 0);
-  const totalMastered = Object.values(sceneCounts).reduce((sum, c) => sum + c.mastered, 0);
   const totalItems = Object.values(sceneCounts).reduce((sum, c) => sum + c.total, 0);
+  const percent = (value: number | null) => value === null ? '—' : `${Math.round(value * 100)}%`;
 
   const reveal = (key: string) => setRevealed((prev) => new Set(prev).add(key));
   const collapse = (key: string) => setRevealed((prev) => {
@@ -45,11 +59,22 @@ export function Progresso() {
   });
 
   const handleRemembered = (sceneId: string, hotspotId: string, key: string) => {
+    const occurrence = contentRepository.getOccurrence(`${sceneId}:${hotspotId}`);
+    if (occurrence) recordAttempt({
+      itemId: occurrence.lexicalItemId, itemType: 'lexical-item', modality: 'reading',
+      correct: true, usedSupportLanguage: settings.supportLang, durationMs: 0,
+    });
     advanceReview(sceneId, hotspotId);
     collapse(key);
   };
 
-  const handleNotRemembered = (key: string) => {
+  const handleNotRemembered = (sceneId: string, hotspotId: string, key: string) => {
+    const occurrence = contentRepository.getOccurrence(`${sceneId}:${hotspotId}`);
+    if (occurrence) recordAttempt({
+      itemId: occurrence.lexicalItemId, itemType: 'lexical-item', modality: 'reading',
+      correct: false, usedSupportLanguage: settings.supportLang, durationMs: 0, errorCode: 'recall',
+    });
+    failReview(sceneId, hotspotId);
     collapse(key);
     setJustSkipped((prev) => new Set(prev).add(key));
     setTimeout(() => setJustSkipped((prev) => {
@@ -72,9 +97,9 @@ export function Progresso() {
         </div>
         <div className="mini-stats">
           <div className="stat-card"><div className="label">{t('Itens explorados', 'Изучено предметов')}</div><div className="value">{totalExplored} / {totalItems}</div></div>
-          <div className="stat-card"><div className="label">{t('Itens dominados', 'Освоено предметов')}</div><div className="value">{totalMastered} / {totalItems}</div></div>
-          <div className="stat-card"><div className="label">{t('Revisão pendente hoje', 'Ожидает повторения сегодня')}</div><div className="value">{pendingReview.length}</div></div>
-          <div className="stat-card"><div className="label">{t('Sequência de estudo', 'Серия занятий')}</div><div className="value">{streakDays} {t('dias', 'дней')}</div></div>
+          <div className="stat-card"><div className="label">{t('Precisão real', 'Точность')}</div><div className="value">{percent(metrics.accuracy)}</div></div>
+          <div className="stat-card"><div className="label">{t('Sem apoio russo', 'Без русской подсказки')}</div><div className="value">{percent(metrics.supportFreeRate)}</div></div>
+          <div className="stat-card"><div className="label">{t('Tentativas registradas', 'Записано попыток')}</div><div className="value">{metrics.totalAttempts}</div></div>
         </div>
       </section>
 
@@ -134,7 +159,7 @@ export function Progresso() {
                     </button>
                   ) : (
                     <div style={{ display: 'flex', gap: 8, flex: '0 0 auto' }}>
-                      <button className="sr-btn" onClick={() => handleNotRemembered(key)}>
+                      <button className="sr-btn" onClick={() => handleNotRemembered(scene.id, hotspot.id, key)}>
                         <XCircle size={14} /> {t('Não lembrei', 'Не вспомнил(а)')}
                       </button>
                       <button className="sr-btn know" onClick={() => handleRemembered(scene.id, hotspot.id, key)}>
@@ -152,28 +177,30 @@ export function Progresso() {
       <section className="section">
         <div className="section-head">
           <div>
-            <h2>{t('Erros recorrentes', 'Повторяющиеся ошибки')} <span className="soon-chip">{t('exemplo', 'пример')}</span></h2>
-            <p>{t(
-              'Ainda não registramos tentativas erradas de verdade — esta tabela é um exemplo ilustrativo do que a análise de erros vai mostrar quando o histórico de tentativas existir.',
-              'Мы пока не записываем реальные неправильные попытки — эта таблица лишь иллюстрирует то, что покажет анализ ошибок, когда появится история попыток.'
-            )}</p>
+            <h2>{t('Erros recorrentes', 'Повторяющиеся ошибки')}</h2>
+            <p>{t('Dados derivados das suas respostas reais, agrupados por conteúdo e competência.', 'Данные основаны на твоих реальных ответах и сгруппированы по содержанию и навыку.')}</p>
           </div>
         </div>
-        <div className="illustrative-note"><Info size={13} /> {t('Dados de exemplo, não derivados do seu uso real.', 'Примерные данные, не основанные на твоём реальном использовании.')}</div>
-        <table className="grammar-table">
-          <thead>
-            <tr>
-              <th>{t('Estrutura', 'Структура')}</th>
-              <th>{t('Tipo de erro', 'Тип ошибки')}</th>
-              <th>{t('Prioridade', 'Приоритет')}</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr><td>Tu falas / tu fala</td><td>{t('Concordância verbal', 'Согласование глагола')}</td><td><strong>{t('Alta', 'Высокий')}</strong></td></tr>
-            <tr><td>Contigo / com você</td><td>{t('Regência pronominal', 'Управление местоимением')}</td><td><strong>{t('Média', 'Средний')}</strong></td></tr>
-            <tr><td>Nasalização de "ão"</td><td>{t('Percepção auditiva', 'Восприятие на слух')}</td><td><strong>{t('Média', 'Средний')}</strong></td></tr>
-          </tbody>
-        </table>
+        {recurringErrors.length === 0 ? (
+          <div className="panel" style={{ color: 'var(--muted)' }}>
+            {t('Nenhum erro registrado ainda. As respostas da Trilha e da revisão aparecerão aqui.', 'Ошибок пока нет. Здесь появятся ответы из учебного пути и повторения.')}
+          </div>
+        ) : (
+          <table className="grammar-table">
+            <thead><tr><th>{t('Conteúdo', 'Содержание')}</th><th>{t('Competência', 'Навык')}</th><th>{t('Ocorrências', 'Количество')}</th></tr></thead>
+            <tbody>
+              {recurringErrors.slice(0, 8).map((error) => (
+                <tr key={error.key}>
+                  <td>{error.itemId === 'phase-3' ? 'Tu × você' : contentRepository.getLexicalItem(error.itemId)?.displayPt ?? error.itemId}</td>
+                  <td>{error.errorCode && errorLabels[error.errorCode]
+                    ? t(errorLabels[error.errorCode].pt, errorLabels[error.errorCode].ru)
+                    : error.exerciseTemplateId ?? t('Recuperação', 'Воспроизведение')}</td>
+                  <td><strong>{error.count}</strong></td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        )}
       </section>
     </>
   );

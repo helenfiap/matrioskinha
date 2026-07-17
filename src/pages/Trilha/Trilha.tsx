@@ -8,25 +8,21 @@ import { OrderExercise } from './exercises/OrderExercise';
 import { ListenExercise } from './exercises/ListenExercise';
 import { RegistroExercise } from './exercises/RegistroExercise';
 import { LessonPanel } from './LessonPanel';
+import { curriculumPhases, exerciseTabs } from '../../data/curriculum';
 
-const phases = [
-  { pt: 'Primeiro contato', ru: 'Первый контакт', descPt: 'Apresentação, cumprimentos e frases de sobrevivência.', descRu: 'Знакомство, приветствия и базовые фразы.', count: 12 },
-  { pt: 'Ouvir o Brasil', ru: 'Услышать Бразилию', descPt: 'Ritmo, nasalização, reduções e sotaques.', descRu: 'Ритм, носовые звуки, сокращения и акценты.', count: 18 },
-  { pt: 'Tu × você', ru: 'Tu × você', descPt: 'Uso real, concordância e variação regional.', descRu: 'Реальное употребление, согласование и региональные различия.', count: 14 },
-  { pt: 'Verbos essenciais', ru: 'Основные глаголы', descPt: 'Conjugação em contexto e micro-histórias.', descRu: 'Спряжение в контексте и микроистории.', count: 24 },
-  { pt: 'Mundo visual', ru: 'Визуальный мир', descPt: 'Casa, comida, cidade, animais e objetos.', descRu: 'Дом, еда, город, животные и предметы.', count: 36 },
-  { pt: 'História da língua', ru: 'История языка', descPt: 'Origem, mudança, Brasil e Portugal.', descRu: 'Происхождение, изменения, Бразилия и Португалия.', count: 10 },
-  { pt: 'Português social', ru: 'Социальный португальский', descPt: 'Intenção, afeto, ironia e expressões.', descRu: 'Намерение, эмоции, ирония и выражения.', count: 20 },
-  { pt: 'Conversação profunda', ru: 'Глубокая беседа', descPt: 'Opinião, ciência, história e cultura.', descRu: 'Мнения, наука, история и культура.', count: 16 },
-];
+const phases = curriculumPhases.map((phase) => ({
+  pt: phase.title.pt,
+  ru: phase.title.ru,
+  descPt: phase.description.pt,
+  descRu: phase.description.ru,
+  count: phase.activityCount,
+}));
 
-const tabs: Array<{ key: ChallengeKey; pt: string; ru: string }> = [
-  { key: 'choice', pt: 'Escolha contextual', ru: 'Выбор по контексту' },
-  { key: 'flash', pt: 'Flashcard visual', ru: 'Визуальная карточка' },
-  { key: 'order', pt: 'Ordenar frase', ru: 'Собрать фразу' },
-  { key: 'listen', pt: 'Compreensão oral', ru: 'Аудирование' },
-  { key: 'registro', pt: 'Classificar registro', ru: 'Определить регистр' },
-];
+const tabs: Array<{ key: ChallengeKey; pt: string; ru: string }> = exerciseTabs.map((template) => ({
+  key: template.key,
+  pt: template.labels.pt,
+  ru: template.labels.ru,
+}));
 
 const isChallengeKey = (v: string): v is ChallengeKey =>
   ['choice', 'flash', 'order', 'listen', 'registro'].includes(v);
@@ -39,7 +35,7 @@ export function Trilha() {
     return tabParam && isChallengeKey(tabParam) ? tabParam : 'choice';
   });
   const [activePhase, setActivePhase] = useState(2);
-  const { items, markComplete, done, total, frac } = useChallenge();
+  const { items, recordAnswer, done, total, frac } = useChallenge();
   const lessonRef = useRef<HTMLDivElement>(null);
   const exercisesRef = useRef<HTMLDivElement>(null);
   const verboRef = useRef<HTMLDivElement>(null);
@@ -118,11 +114,11 @@ export function Trilha() {
             ))}
           </div>
 
-          {activeTab === 'choice' && <ChoiceExercise onCorrect={() => markComplete('choice')} />}
-          {activeTab === 'flash' && <FlashExercise onCorrect={() => markComplete('flash')} />}
-          {activeTab === 'order' && <OrderExercise onCorrect={() => markComplete('order')} />}
-          {activeTab === 'listen' && <ListenExercise onCorrect={() => markComplete('listen')} />}
-          {activeTab === 'registro' && <RegistroExercise onCorrect={() => markComplete('registro')} />}
+          {activeTab === 'choice' && <ChoiceExercise onCorrect={() => recordAnswer('choice', true)} onAttempt={(correct) => { if (!correct) recordAnswer('choice', false, 'register-choice'); }} />}
+          {activeTab === 'flash' && <FlashExercise onCorrect={() => recordAnswer('flash', true)} onAttempt={(correct) => { if (!correct) recordAnswer('flash', false, 'recall'); }} />}
+          {activeTab === 'order' && <OrderExercise onCorrect={() => recordAnswer('order', true)} onAttempt={(correct) => { if (!correct) recordAnswer('order', false, 'word-order'); }} />}
+          {activeTab === 'listen' && <ListenExercise onCorrect={() => recordAnswer('listen', true)} onAttempt={(correct) => { if (!correct) recordAnswer('listen', false, 'agreement-listening'); }} />}
+          {activeTab === 'registro' && <RegistroExercise onCorrect={() => recordAnswer('registro', true)} onAttempt={(correct) => { if (!correct) recordAnswer('registro', false, 'social-register'); }} />}
         </div>
 
         <aside className="context-card">

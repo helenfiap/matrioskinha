@@ -13,12 +13,13 @@ interface Props {
   masteredIds: string[];
   getStage: (hotspotId: string) => string;
   onCorrect: (hotspotId: string) => void;
+  onAttempt: (hotspotId: string, kind: Step['kind'], correct: boolean) => void;
   onClose: () => void;
 }
 
 type Step = { hotspot: Hotspot; kind: 'choice' | 'order' };
 
-export function PracticeModal({ scene, reviewedIds, masteredIds, getStage, onCorrect, onClose }: Props) {
+export function PracticeModal({ scene, reviewedIds, masteredIds, getStage, onCorrect, onAttempt, onClose }: Props) {
   const { t, lang } = useLanguage();
   const [correctIds, setCorrectIds] = useState<string[]>([]);
 
@@ -65,6 +66,7 @@ export function PracticeModal({ scene, reviewedIds, masteredIds, getStage, onCor
   const step = queue[index];
 
   const advance = (wasCorrect: boolean) => {
+    onAttempt(step.hotspot.id, step.kind, wasCorrect);
     if (wasCorrect) {
       setCorrect((c) => c + 1);
       setCorrectIds((ids) => [...ids, step.hotspot.id]);

@@ -1,0 +1,1158 @@
+[
+  {
+    "id": "sala:sofa",
+    "legacyId": "sofa",
+    "sceneId": "sala",
+    "lexicalItemId": "lex-sofa",
+    "senseId": "lex-sofa-sense-1",
+    "exampleId": "sala:sofa:example",
+    "x": 33,
+    "y": 57,
+    "category": "movel",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "sala:almofada",
+    "legacyId": "almofada",
+    "sceneId": "sala",
+    "lexicalItemId": "lex-almofada",
+    "senseId": "lex-almofada-sense-1",
+    "exampleId": "sala:almofada:example",
+    "x": 20,
+    "y": 63,
+    "category": "decoracao",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "sala:manta",
+    "legacyId": "manta",
+    "sceneId": "sala",
+    "lexicalItemId": "lex-manta",
+    "senseId": "lex-manta-sense-1",
+    "exampleId": "sala:manta:example",
+    "x": 24,
+    "y": 84,
+    "category": "decoracao",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "sala:mesa-centro",
+    "legacyId": "mesa-centro",
+    "sceneId": "sala",
+    "lexicalItemId": "lex-mesa-de-centro",
+    "senseId": "lex-mesa-de-centro-sense-1",
+    "exampleId": "sala:mesa-centro:example",
+    "x": 49,
+    "y": 77,
+    "category": "movel",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "sala:tapete-sala",
+    "legacyId": "tapete-sala",
+    "sceneId": "sala",
+    "lexicalItemId": "lex-tapete",
+    "senseId": "lex-tapete-sense-1",
+    "exampleId": "sala:tapete-sala:example",
+    "x": 63,
+    "y": 93,
+    "category": "decoracao",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "sala:poltrona",
+    "legacyId": "poltrona",
+    "sceneId": "sala",
+    "lexicalItemId": "lex-poltrona",
+    "senseId": "lex-poltrona-sense-1",
+    "exampleId": "sala:poltrona:example",
+    "x": 81,
+    "y": 66,
+    "category": "movel",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "sala:tv",
+    "legacyId": "tv",
+    "sceneId": "sala",
+    "lexicalItemId": "lex-televisao",
+    "senseId": "lex-televisao-sense-1",
+    "exampleId": "sala:tv:example",
+    "x": 66,
+    "y": 27,
+    "category": "eletro",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "sala:estante",
+    "legacyId": "estante",
+    "sceneId": "sala",
+    "lexicalItemId": "lex-estante",
+    "senseId": "lex-estante-sense-1",
+    "exampleId": "sala:estante:example",
+    "x": 90,
+    "y": 33,
+    "category": "movel",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "sala:luminaria-sala",
+    "legacyId": "luminaria-sala",
+    "sceneId": "sala",
+    "lexicalItemId": "lex-luminaria",
+    "senseId": "lex-luminaria-sense-1",
+    "exampleId": "sala:luminaria-sala:example",
+    "x": 37,
+    "y": 33,
+    "category": "decoracao",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "sala:planta-sala",
+    "legacyId": "planta-sala",
+    "sceneId": "sala",
+    "lexicalItemId": "lex-planta",
+    "senseId": "lex-planta-sense-1",
+    "exampleId": "sala:planta-sala:example",
+    "x": 47,
+    "y": 28,
+    "category": "decoracao",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "sala:cortina-sala",
+    "legacyId": "cortina-sala",
+    "sceneId": "sala",
+    "lexicalItemId": "lex-cortina",
+    "senseId": "lex-cortina-sense-1",
+    "exampleId": "sala:cortina-sala:example",
+    "x": 33,
+    "y": 8,
+    "category": "decoracao",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "sala:vaso-sala",
+    "legacyId": "vaso-sala",
+    "sceneId": "sala",
+    "lexicalItemId": "lex-vaso",
+    "senseId": "lex-vaso-sense-1",
+    "exampleId": "sala:vaso-sala:example",
+    "x": 50,
+    "y": 62,
+    "category": "decoracao",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "cozinha:geladeira",
+    "legacyId": "geladeira",
+    "sceneId": "cozinha",
+    "lexicalItemId": "lex-geladeira",
+    "senseId": "lex-geladeira-sense-1",
+    "exampleId": "cozinha:geladeira:example",
+    "x": 30,
+    "y": 45,
+    "category": "eletro",
+    "function": {
+      "pt": "armazenar comida",
+      "ru": "хранить еду"
+    },
+    "relatedOccurrenceIds": [
+      "cozinha:armario-cozinha"
+    ]
+  },
+  {
+    "id": "cozinha:fogao",
+    "legacyId": "fogao",
+    "sceneId": "cozinha",
+    "lexicalItemId": "lex-fogao",
+    "senseId": "lex-fogao-sense-1",
+    "exampleId": "cozinha:fogao:example",
+    "x": 66,
+    "y": 60,
+    "category": "eletro",
+    "function": {
+      "pt": "cozinhar",
+      "ru": "готовить"
+    },
+    "relatedOccurrenceIds": [
+      "cozinha:panela"
+    ]
+  },
+  {
+    "id": "cozinha:exaustor",
+    "legacyId": "exaustor",
+    "sceneId": "cozinha",
+    "lexicalItemId": "lex-exaustor",
+    "senseId": "lex-exaustor-sense-1",
+    "exampleId": "cozinha:exaustor:example",
+    "x": 66,
+    "y": 16,
+    "category": "eletro",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "cozinha:microondas",
+    "legacyId": "microondas",
+    "sceneId": "cozinha",
+    "lexicalItemId": "lex-micro-ondas",
+    "senseId": "lex-micro-ondas-sense-1",
+    "exampleId": "cozinha:microondas:example",
+    "x": 84,
+    "y": 40,
+    "category": "eletro",
+    "function": {
+      "pt": "esquentar comida",
+      "ru": "разогревать еду"
+    },
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "cozinha:pia-cozinha",
+    "legacyId": "pia-cozinha",
+    "sceneId": "cozinha",
+    "lexicalItemId": "lex-pia",
+    "senseId": "lex-pia-sense-1",
+    "exampleId": "cozinha:pia-cozinha:example",
+    "x": 50,
+    "y": 38,
+    "category": "infraestrutura",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "cozinha:torneira-cozinha",
+    "legacyId": "torneira-cozinha",
+    "sceneId": "cozinha",
+    "lexicalItemId": "lex-torneira",
+    "senseId": "lex-torneira-sense-1",
+    "exampleId": "cozinha:torneira-cozinha:example",
+    "x": 51,
+    "y": 31,
+    "category": "infraestrutura",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "cozinha:armario-cozinha",
+    "legacyId": "armario-cozinha",
+    "sceneId": "cozinha",
+    "lexicalItemId": "lex-armario",
+    "senseId": "lex-armario-sense-1",
+    "exampleId": "cozinha:armario-cozinha:example",
+    "x": 42,
+    "y": 56,
+    "category": "movel",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "cozinha:mesa-jantar",
+    "legacyId": "mesa-jantar",
+    "sceneId": "cozinha",
+    "lexicalItemId": "lex-mesa-de-jantar",
+    "senseId": "lex-mesa-de-jantar-sense-1",
+    "exampleId": "cozinha:mesa-jantar:example",
+    "x": 22,
+    "y": 60,
+    "category": "movel",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "cozinha:cadeira-cozinha",
+    "legacyId": "cadeira-cozinha",
+    "sceneId": "cozinha",
+    "lexicalItemId": "lex-cadeira",
+    "senseId": "lex-cadeira-sense-1",
+    "exampleId": "cozinha:cadeira-cozinha:example",
+    "x": 12,
+    "y": 82,
+    "category": "movel",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "cozinha:panela",
+    "legacyId": "panela",
+    "sceneId": "cozinha",
+    "lexicalItemId": "lex-panela",
+    "senseId": "lex-panela-sense-1",
+    "exampleId": "cozinha:panela:example",
+    "x": 72,
+    "y": 37,
+    "category": "utensilio",
+    "function": {
+      "pt": "preparar alimentos",
+      "ru": "готовить еду"
+    },
+    "relatedOccurrenceIds": [
+      "cozinha:fogao"
+    ]
+  },
+  {
+    "id": "cozinha:luminaria-pendente",
+    "legacyId": "luminaria-pendente",
+    "sceneId": "cozinha",
+    "lexicalItemId": "lex-luminaria-pendente",
+    "senseId": "lex-luminaria-pendente-sense-1",
+    "exampleId": "cozinha:luminaria-pendente:example",
+    "x": 18,
+    "y": 13,
+    "category": "decoracao",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "quarto:cama",
+    "legacyId": "cama",
+    "sceneId": "quarto",
+    "lexicalItemId": "lex-cama",
+    "senseId": "lex-cama-sense-1",
+    "exampleId": "quarto:cama:example",
+    "x": 35,
+    "y": 68,
+    "category": "movel",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "quarto:travesseiro",
+    "legacyId": "travesseiro",
+    "sceneId": "quarto",
+    "lexicalItemId": "lex-travesseiro",
+    "senseId": "lex-travesseiro-sense-1",
+    "exampleId": "quarto:travesseiro:example",
+    "x": 20,
+    "y": 53,
+    "category": "decoracao",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "quarto:guarda-roupa",
+    "legacyId": "guarda-roupa",
+    "sceneId": "quarto",
+    "lexicalItemId": "lex-guarda-roupa",
+    "senseId": "lex-guarda-roupa-sense-1",
+    "exampleId": "quarto:guarda-roupa:example",
+    "x": 58,
+    "y": 42,
+    "category": "movel",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "quarto:espelho-quarto",
+    "legacyId": "espelho-quarto",
+    "sceneId": "quarto",
+    "lexicalItemId": "lex-espelho",
+    "senseId": "lex-espelho-sense-1",
+    "exampleId": "quarto:espelho-quarto:example",
+    "x": 76,
+    "y": 42,
+    "category": "decoracao",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "quarto:comoda",
+    "legacyId": "comoda",
+    "sceneId": "quarto",
+    "lexicalItemId": "lex-comoda",
+    "senseId": "lex-comoda-sense-1",
+    "exampleId": "quarto:comoda:example",
+    "x": 90,
+    "y": 68,
+    "category": "movel",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "quarto:criado-mudo",
+    "legacyId": "criado-mudo",
+    "sceneId": "quarto",
+    "lexicalItemId": "lex-criado-mudo",
+    "senseId": "lex-criado-mudo-sense-1",
+    "exampleId": "quarto:criado-mudo:example",
+    "x": 6,
+    "y": 62,
+    "category": "movel",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "quarto:luminaria-mesa",
+    "legacyId": "luminaria-mesa",
+    "sceneId": "quarto",
+    "lexicalItemId": "lex-luminaria-de-mesa",
+    "senseId": "lex-luminaria-de-mesa-sense-1",
+    "exampleId": "quarto:luminaria-mesa:example",
+    "x": 5,
+    "y": 48,
+    "category": "decoracao",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "quarto:cortina-quarto",
+    "legacyId": "cortina-quarto",
+    "sceneId": "quarto",
+    "lexicalItemId": "lex-cortina",
+    "senseId": "lex-cortina-sense-1",
+    "exampleId": "quarto:cortina-quarto:example",
+    "x": 30,
+    "y": 18,
+    "category": "decoracao",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "quarto:quadro",
+    "legacyId": "quadro",
+    "sceneId": "quarto",
+    "lexicalItemId": "lex-quadro",
+    "senseId": "lex-quadro-sense-1",
+    "exampleId": "quarto:quadro:example",
+    "x": 14,
+    "y": 22,
+    "category": "decoracao",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "quarto:tapete-quarto",
+    "legacyId": "tapete-quarto",
+    "sceneId": "quarto",
+    "lexicalItemId": "lex-tapete",
+    "senseId": "lex-tapete-sense-1",
+    "exampleId": "quarto:tapete-quarto:example",
+    "x": 55,
+    "y": 88,
+    "category": "decoracao",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "quarto:manta-quarto",
+    "legacyId": "manta-quarto",
+    "sceneId": "quarto",
+    "lexicalItemId": "lex-manta",
+    "senseId": "lex-manta-sense-1",
+    "exampleId": "quarto:manta-quarto:example",
+    "x": 45,
+    "y": 72,
+    "category": "decoracao",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "banheiro:banheira",
+    "legacyId": "banheira",
+    "sceneId": "banheiro",
+    "lexicalItemId": "lex-banheira",
+    "senseId": "lex-banheira-sense-1",
+    "exampleId": "banheiro:banheira:example",
+    "x": 30,
+    "y": 52,
+    "category": "infraestrutura",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "banheiro:chuveiro",
+    "legacyId": "chuveiro",
+    "sceneId": "banheiro",
+    "lexicalItemId": "lex-chuveiro",
+    "senseId": "lex-chuveiro-sense-1",
+    "exampleId": "banheiro:chuveiro:example",
+    "x": 35,
+    "y": 18,
+    "category": "infraestrutura",
+    "function": {
+      "pt": "tomar banho",
+      "ru": "принимать душ"
+    },
+    "relatedOccurrenceIds": [
+      "banheiro:toalha"
+    ]
+  },
+  {
+    "id": "banheiro:vaso-sanitario",
+    "legacyId": "vaso-sanitario",
+    "sceneId": "banheiro",
+    "lexicalItemId": "lex-vaso-sanitario",
+    "senseId": "lex-vaso-sanitario-sense-1",
+    "exampleId": "banheiro:vaso-sanitario:example",
+    "x": 50,
+    "y": 68,
+    "category": "infraestrutura",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "banheiro:pia-banheiro",
+    "legacyId": "pia-banheiro",
+    "sceneId": "banheiro",
+    "lexicalItemId": "lex-pia",
+    "senseId": "lex-pia-sense-1",
+    "exampleId": "banheiro:pia-banheiro:example",
+    "x": 80,
+    "y": 63,
+    "category": "infraestrutura",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "banheiro:espelho-banheiro",
+    "legacyId": "espelho-banheiro",
+    "sceneId": "banheiro",
+    "lexicalItemId": "lex-espelho",
+    "senseId": "lex-espelho-sense-1",
+    "exampleId": "banheiro:espelho-banheiro:example",
+    "x": 83,
+    "y": 28,
+    "category": "decoracao",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "banheiro:torneira-banheiro",
+    "legacyId": "torneira-banheiro",
+    "sceneId": "banheiro",
+    "lexicalItemId": "lex-torneira",
+    "senseId": "lex-torneira-sense-1",
+    "exampleId": "banheiro:torneira-banheiro:example",
+    "x": 82,
+    "y": 56,
+    "category": "infraestrutura",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "banheiro:toalha",
+    "legacyId": "toalha",
+    "sceneId": "banheiro",
+    "lexicalItemId": "lex-toalha",
+    "senseId": "lex-toalha-sense-1",
+    "exampleId": "banheiro:toalha:example",
+    "x": 4,
+    "y": 55,
+    "category": "utensilio",
+    "function": {
+      "pt": "secar o corpo",
+      "ru": "вытираться"
+    },
+    "relatedOccurrenceIds": [
+      "banheiro:chuveiro"
+    ]
+  },
+  {
+    "id": "banheiro:tapete-banheiro",
+    "legacyId": "tapete-banheiro",
+    "sceneId": "banheiro",
+    "lexicalItemId": "lex-tapete",
+    "senseId": "lex-tapete-sense-2",
+    "exampleId": "banheiro:tapete-banheiro:example",
+    "x": 33,
+    "y": 80,
+    "category": "decoracao",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "banheiro:planta-banheiro",
+    "legacyId": "planta-banheiro",
+    "sceneId": "banheiro",
+    "lexicalItemId": "lex-planta",
+    "senseId": "lex-planta-sense-1",
+    "exampleId": "banheiro:planta-banheiro:example",
+    "x": 70,
+    "y": 53,
+    "category": "decoracao",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "banheiro:quadro-banheiro",
+    "legacyId": "quadro-banheiro",
+    "sceneId": "banheiro",
+    "lexicalItemId": "lex-quadro",
+    "senseId": "lex-quadro-sense-1",
+    "exampleId": "banheiro:quadro-banheiro:example",
+    "x": 60,
+    "y": 20,
+    "category": "decoracao",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "banheiro:cesto",
+    "legacyId": "cesto",
+    "sceneId": "banheiro",
+    "lexicalItemId": "lex-cesto",
+    "senseId": "lex-cesto-sense-1",
+    "exampleId": "banheiro:cesto:example",
+    "x": 78,
+    "y": 85,
+    "category": "utensilio",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "lavanderia:maquina-lavar",
+    "legacyId": "maquina-lavar",
+    "sceneId": "lavanderia",
+    "lexicalItemId": "lex-maquina-de-lavar",
+    "senseId": "lex-maquina-de-lavar-sense-1",
+    "exampleId": "lavanderia:maquina-lavar:example",
+    "x": 32,
+    "y": 59,
+    "category": "eletro",
+    "function": {
+      "pt": "lavar roupa",
+      "ru": "стирать одежду"
+    },
+    "relatedOccurrenceIds": [
+      "lavanderia:varal",
+      "lavanderia:cesto-roupa"
+    ]
+  },
+  {
+    "id": "lavanderia:tanque",
+    "legacyId": "tanque",
+    "sceneId": "lavanderia",
+    "lexicalItemId": "lex-tanque",
+    "senseId": "lex-tanque-sense-1",
+    "exampleId": "lavanderia:tanque:example",
+    "x": 14,
+    "y": 59,
+    "category": "infraestrutura",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "lavanderia:torneira-lavanderia",
+    "legacyId": "torneira-lavanderia",
+    "sceneId": "lavanderia",
+    "lexicalItemId": "lex-torneira",
+    "senseId": "lex-torneira-sense-1",
+    "exampleId": "lavanderia:torneira-lavanderia:example",
+    "x": 12,
+    "y": 46,
+    "category": "infraestrutura",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "lavanderia:armario-limpeza",
+    "legacyId": "armario-limpeza",
+    "sceneId": "lavanderia",
+    "lexicalItemId": "lex-armario-de-produtos-de-limpeza",
+    "senseId": "lex-armario-de-produtos-de-limpeza-sense-1",
+    "exampleId": "lavanderia:armario-limpeza:example",
+    "x": 11,
+    "y": 12,
+    "category": "movel",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "lavanderia:varal",
+    "legacyId": "varal",
+    "sceneId": "lavanderia",
+    "lexicalItemId": "lex-varal",
+    "senseId": "lex-varal-sense-1",
+    "exampleId": "lavanderia:varal:example",
+    "x": 70,
+    "y": 8,
+    "category": "infraestrutura",
+    "function": {
+      "pt": "secar roupa",
+      "ru": "сушить одежду"
+    },
+    "relatedOccurrenceIds": [
+      "lavanderia:maquina-lavar",
+      "lavanderia:camiseta-varal"
+    ]
+  },
+  {
+    "id": "lavanderia:camiseta-varal",
+    "legacyId": "camiseta-varal",
+    "sceneId": "lavanderia",
+    "lexicalItemId": "lex-camiseta",
+    "senseId": "lex-camiseta-sense-1",
+    "exampleId": "lavanderia:camiseta-varal:example",
+    "x": 49,
+    "y": 26,
+    "category": "utensilio",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "lavanderia:toalha-varal",
+    "legacyId": "toalha-varal",
+    "sceneId": "lavanderia",
+    "lexicalItemId": "lex-toalha",
+    "senseId": "lex-toalha-sense-1",
+    "exampleId": "lavanderia:toalha-varal:example",
+    "x": 87,
+    "y": 28,
+    "category": "utensilio",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "lavanderia:cesto-roupa",
+    "legacyId": "cesto-roupa",
+    "sceneId": "lavanderia",
+    "lexicalItemId": "lex-cesto-de-roupa-suja",
+    "senseId": "lex-cesto-de-roupa-suja-sense-1",
+    "exampleId": "lavanderia:cesto-roupa:example",
+    "x": 48,
+    "y": 66,
+    "category": "utensilio",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "lavanderia:tabua-passar",
+    "legacyId": "tabua-passar",
+    "sceneId": "lavanderia",
+    "lexicalItemId": "lex-tabua-de-passar",
+    "senseId": "lex-tabua-de-passar-sense-1",
+    "exampleId": "lavanderia:tabua-passar:example",
+    "x": 75,
+    "y": 59,
+    "category": "utensilio",
+    "function": {
+      "pt": "apoiar a roupa ao passar",
+      "ru": "подставка для глажки"
+    },
+    "relatedOccurrenceIds": [
+      "lavanderia:ferro-passar"
+    ]
+  },
+  {
+    "id": "lavanderia:ferro-passar",
+    "legacyId": "ferro-passar",
+    "sceneId": "lavanderia",
+    "lexicalItemId": "lex-ferro-de-passar",
+    "senseId": "lex-ferro-de-passar-sense-1",
+    "exampleId": "lavanderia:ferro-passar:example",
+    "x": 81,
+    "y": 57,
+    "category": "eletro",
+    "function": {
+      "pt": "passar roupa",
+      "ru": "гладить одежду"
+    },
+    "relatedOccurrenceIds": [
+      "lavanderia:tabua-passar"
+    ]
+  },
+  {
+    "id": "lavanderia:balde-lavanderia",
+    "legacyId": "balde-lavanderia",
+    "sceneId": "lavanderia",
+    "lexicalItemId": "lex-balde",
+    "senseId": "lex-balde-sense-1",
+    "exampleId": "lavanderia:balde-lavanderia:example",
+    "x": 17,
+    "y": 81,
+    "category": "utensilio",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "lavanderia:vassoura",
+    "legacyId": "vassoura",
+    "sceneId": "lavanderia",
+    "lexicalItemId": "lex-vassoura",
+    "senseId": "lex-vassoura-sense-1",
+    "exampleId": "lavanderia:vassoura:example",
+    "x": 93,
+    "y": 83,
+    "category": "utensilio",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "supermercado:carrinho-compras",
+    "legacyId": "carrinho-compras",
+    "sceneId": "supermercado",
+    "lexicalItemId": "lex-carrinho-de-compras",
+    "senseId": "lex-carrinho-de-compras-sense-1",
+    "exampleId": "supermercado:carrinho-compras:example",
+    "x": 54,
+    "y": 63,
+    "category": "utensilio",
+    "function": {
+      "pt": "carregar as compras",
+      "ru": "везти покупки"
+    },
+    "relatedOccurrenceIds": [
+      "supermercado:cesta-compras"
+    ]
+  },
+  {
+    "id": "supermercado:cesta-compras",
+    "legacyId": "cesta-compras",
+    "sceneId": "supermercado",
+    "lexicalItemId": "lex-cesta-de-compras",
+    "senseId": "lex-cesta-de-compras-sense-1",
+    "exampleId": "supermercado:cesta-compras:example",
+    "x": 67,
+    "y": 82,
+    "category": "utensilio",
+    "function": {
+      "pt": "carregar poucas compras",
+      "ru": "нести немного покупок"
+    },
+    "relatedOccurrenceIds": [
+      "supermercado:carrinho-compras"
+    ]
+  },
+  {
+    "id": "supermercado:caixa-mercado",
+    "legacyId": "caixa-mercado",
+    "sceneId": "supermercado",
+    "lexicalItemId": "lex-caixa",
+    "senseId": "lex-caixa-sense-1",
+    "exampleId": "supermercado:caixa-mercado:example",
+    "x": 42,
+    "y": 33,
+    "category": "infraestrutura",
+    "function": {
+      "pt": "pagar pelas compras",
+      "ru": "платить за покупки"
+    },
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "supermercado:prateleira-hortifruti",
+    "legacyId": "prateleira-hortifruti",
+    "sceneId": "supermercado",
+    "lexicalItemId": "lex-prateleira-de-frutas-e-verduras",
+    "senseId": "lex-prateleira-de-frutas-e-verduras-sense-1",
+    "exampleId": "supermercado:prateleira-hortifruti:example",
+    "x": 13,
+    "y": 48,
+    "category": "infraestrutura",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "supermercado:tomate-mercado",
+    "legacyId": "tomate-mercado",
+    "sceneId": "supermercado",
+    "lexicalItemId": "lex-tomate",
+    "senseId": "lex-tomate-sense-1",
+    "exampleId": "supermercado:tomate-mercado:example",
+    "x": 5,
+    "y": 58,
+    "category": "alimento",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "supermercado:laranja-mercado",
+    "legacyId": "laranja-mercado",
+    "sceneId": "supermercado",
+    "lexicalItemId": "lex-laranja",
+    "senseId": "lex-laranja-sense-1",
+    "exampleId": "supermercado:laranja-mercado:example",
+    "x": 30,
+    "y": 58,
+    "category": "alimento",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "supermercado:prateleira-mercearia",
+    "legacyId": "prateleira-mercearia",
+    "sceneId": "supermercado",
+    "lexicalItemId": "lex-prateleira-de-mercearia",
+    "senseId": "lex-prateleira-de-mercearia-sense-1",
+    "exampleId": "supermercado:prateleira-mercearia:example",
+    "x": 88,
+    "y": 33,
+    "category": "infraestrutura",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "supermercado:pote-conserva",
+    "legacyId": "pote-conserva",
+    "sceneId": "supermercado",
+    "lexicalItemId": "lex-pote-de-conserva",
+    "senseId": "lex-pote-de-conserva-sense-1",
+    "exampleId": "supermercado:pote-conserva:example",
+    "x": 88,
+    "y": 63,
+    "category": "alimento",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "supermercado:caixas-papelao",
+    "legacyId": "caixas-papelao",
+    "sceneId": "supermercado",
+    "lexicalItemId": "lex-caixa-de-papelao",
+    "senseId": "lex-caixa-de-papelao-sense-1",
+    "exampleId": "supermercado:caixas-papelao:example",
+    "x": 67,
+    "y": 42,
+    "category": "utensilio",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "supermercado:planta-mercado",
+    "legacyId": "planta-mercado",
+    "sceneId": "supermercado",
+    "lexicalItemId": "lex-planta-decorativa",
+    "senseId": "lex-planta-decorativa-sense-1",
+    "exampleId": "supermercado:planta-mercado:example",
+    "x": 4,
+    "y": 15,
+    "category": "decoracao",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "supermercado:entrada-mercado",
+    "legacyId": "entrada-mercado",
+    "sceneId": "supermercado",
+    "lexicalItemId": "lex-entrada",
+    "senseId": "lex-entrada-sense-1",
+    "exampleId": "supermercado:entrada-mercado:example",
+    "x": 62,
+    "y": 22,
+    "category": "infraestrutura",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "farmacia:cruz-farmacia",
+    "legacyId": "cruz-farmacia",
+    "sceneId": "farmacia",
+    "lexicalItemId": "lex-cruz-da-farmacia",
+    "senseId": "lex-cruz-da-farmacia-sense-1",
+    "exampleId": "farmacia:cruz-farmacia:example",
+    "x": 27,
+    "y": 12,
+    "category": "infraestrutura",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "farmacia:prateleira-remedios",
+    "legacyId": "prateleira-remedios",
+    "sceneId": "farmacia",
+    "lexicalItemId": "lex-prateleira-de-remedios",
+    "senseId": "lex-prateleira-de-remedios-sense-1",
+    "exampleId": "farmacia:prateleira-remedios:example",
+    "x": 23,
+    "y": 24,
+    "category": "infraestrutura",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "farmacia:balcao-farmacia",
+    "legacyId": "balcao-farmacia",
+    "sceneId": "farmacia",
+    "lexicalItemId": "lex-balcao",
+    "senseId": "lex-balcao-sense-1",
+    "exampleId": "farmacia:balcao-farmacia:example",
+    "x": 45,
+    "y": 68,
+    "category": "infraestrutura",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "farmacia:computador-caixa",
+    "legacyId": "computador-caixa",
+    "sceneId": "farmacia",
+    "lexicalItemId": "lex-computador-do-caixa",
+    "senseId": "lex-computador-do-caixa-sense-1",
+    "exampleId": "farmacia:computador-caixa:example",
+    "x": 18,
+    "y": 55,
+    "category": "eletro",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "farmacia:balanca",
+    "legacyId": "balanca",
+    "sceneId": "farmacia",
+    "lexicalItemId": "lex-balanca",
+    "senseId": "lex-balanca-sense-1",
+    "exampleId": "farmacia:balanca:example",
+    "x": 38,
+    "y": 48,
+    "category": "eletro",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "farmacia:alcool-gel",
+    "legacyId": "alcool-gel",
+    "sceneId": "farmacia",
+    "lexicalItemId": "lex-alcool-em-gel",
+    "senseId": "lex-alcool-em-gel-sense-1",
+    "exampleId": "farmacia:alcool-gel:example",
+    "x": 8,
+    "y": 59,
+    "category": "utensilio",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "farmacia:planta-farmacia",
+    "legacyId": "planta-farmacia",
+    "sceneId": "farmacia",
+    "lexicalItemId": "lex-planta",
+    "senseId": "lex-planta-sense-1",
+    "exampleId": "farmacia:planta-farmacia:example",
+    "x": 2,
+    "y": 54,
+    "category": "decoracao",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "farmacia:prateleira-higiene",
+    "legacyId": "prateleira-higiene",
+    "sceneId": "farmacia",
+    "lexicalItemId": "lex-prateleira-de-higiene",
+    "senseId": "lex-prateleira-de-higiene-sense-1",
+    "exampleId": "farmacia:prateleira-higiene:example",
+    "x": 57,
+    "y": 34,
+    "category": "infraestrutura",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "farmacia:gondola-central",
+    "legacyId": "gondola-central",
+    "sceneId": "farmacia",
+    "lexicalItemId": "lex-gondola-central",
+    "senseId": "lex-gondola-central-sense-1",
+    "exampleId": "farmacia:gondola-central:example",
+    "x": 68,
+    "y": 29,
+    "category": "infraestrutura",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "farmacia:banco-espera",
+    "legacyId": "banco-espera",
+    "sceneId": "farmacia",
+    "lexicalItemId": "lex-banco-de-espera",
+    "senseId": "lex-banco-de-espera-sense-1",
+    "exampleId": "farmacia:banco-espera:example",
+    "x": 79,
+    "y": 32,
+    "category": "movel",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "farmacia:porta-farmacia",
+    "legacyId": "porta-farmacia",
+    "sceneId": "farmacia",
+    "lexicalItemId": "lex-porta-de-entrada",
+    "senseId": "lex-porta-de-entrada-sense-1",
+    "exampleId": "farmacia:porta-farmacia:example",
+    "x": 83,
+    "y": 24,
+    "category": "infraestrutura",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "transporte:onibus",
+    "legacyId": "onibus",
+    "sceneId": "transporte",
+    "lexicalItemId": "lex-onibus",
+    "senseId": "lex-onibus-sense-1",
+    "exampleId": "transporte:onibus:example",
+    "x": 21,
+    "y": 40,
+    "category": "veiculo",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "transporte:carro",
+    "legacyId": "carro",
+    "sceneId": "transporte",
+    "lexicalItemId": "lex-carro",
+    "senseId": "lex-carro-sense-1",
+    "exampleId": "transporte:carro:example",
+    "x": 49,
+    "y": 48,
+    "category": "veiculo",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "transporte:aviao",
+    "legacyId": "aviao",
+    "sceneId": "transporte",
+    "lexicalItemId": "lex-aviao",
+    "senseId": "lex-aviao-sense-1",
+    "exampleId": "transporte:aviao:example",
+    "x": 37,
+    "y": 13,
+    "category": "veiculo",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "transporte:metro-trem",
+    "legacyId": "metro-trem",
+    "sceneId": "transporte",
+    "lexicalItemId": "lex-metro",
+    "senseId": "lex-metro-sense-1",
+    "exampleId": "transporte:metro-trem:example",
+    "x": 83,
+    "y": 22,
+    "category": "veiculo",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "transporte:ponto-onibus",
+    "legacyId": "ponto-onibus",
+    "sceneId": "transporte",
+    "lexicalItemId": "lex-ponto-de-onibus",
+    "senseId": "lex-ponto-de-onibus-sense-1",
+    "exampleId": "transporte:ponto-onibus:example",
+    "x": 14,
+    "y": 59,
+    "category": "infraestrutura",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "transporte:banco-ponto",
+    "legacyId": "banco-ponto",
+    "sceneId": "transporte",
+    "lexicalItemId": "lex-banco",
+    "senseId": "lex-banco-sense-1",
+    "exampleId": "transporte:banco-ponto:example",
+    "x": 12,
+    "y": 78,
+    "category": "movel",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "transporte:lixeira",
+    "legacyId": "lixeira",
+    "sceneId": "transporte",
+    "lexicalItemId": "lex-lixeira",
+    "senseId": "lex-lixeira-sense-1",
+    "exampleId": "transporte:lixeira:example",
+    "x": 24,
+    "y": 72,
+    "category": "infraestrutura",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "transporte:semaforo",
+    "legacyId": "semaforo",
+    "sceneId": "transporte",
+    "lexicalItemId": "lex-semaforo",
+    "senseId": "lex-semaforo-sense-1",
+    "exampleId": "transporte:semaforo:example",
+    "x": 48,
+    "y": 22,
+    "category": "infraestrutura",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "transporte:faixa-pedestre",
+    "legacyId": "faixa-pedestre",
+    "sceneId": "transporte",
+    "lexicalItemId": "lex-faixa-de-pedestre",
+    "senseId": "lex-faixa-de-pedestre-sense-1",
+    "exampleId": "transporte:faixa-pedestre:example",
+    "x": 54,
+    "y": 58,
+    "category": "infraestrutura",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "transporte:ciclovia",
+    "legacyId": "ciclovia",
+    "sceneId": "transporte",
+    "lexicalItemId": "lex-ciclovia",
+    "senseId": "lex-ciclovia-sense-1",
+    "exampleId": "transporte:ciclovia:example",
+    "x": 67,
+    "y": 46,
+    "category": "infraestrutura",
+    "relatedOccurrenceIds": []
+  },
+  {
+    "id": "transporte:entrada-metro",
+    "legacyId": "entrada-metro",
+    "sceneId": "transporte",
+    "lexicalItemId": "lex-entrada-do-metro",
+    "senseId": "lex-entrada-do-metro-sense-1",
+    "exampleId": "transporte:entrada-metro:example",
+    "x": 80,
+    "y": 73,
+    "category": "infraestrutura",
+    "relatedOccurrenceIds": []
+  }
+]

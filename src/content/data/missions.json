@@ -1,0 +1,172 @@
+[
+  {
+    "id": "mission-sala",
+    "sceneId": "sala",
+    "title": {
+      "pt": "Chegar e relaxar na sala",
+      "ru": "Прийти домой и расслабиться в гостиной"
+    },
+    "stepOccurrenceIds": [
+      "sala:sofa",
+      "sala:tapete-sala",
+      "sala:luminaria-sala",
+      "sala:tv",
+      "sala:poltrona",
+      "sala:estante",
+      "sala:manta",
+      "sala:almofada",
+      "sala:mesa-centro",
+      "sala:vaso-sala",
+      "sala:planta-sala",
+      "sala:cortina-sala"
+    ]
+  },
+  {
+    "id": "mission-cozinha",
+    "sceneId": "cozinha",
+    "title": {
+      "pt": "Preparar uma refeição",
+      "ru": "Приготовить еду"
+    },
+    "stepOccurrenceIds": [
+      "cozinha:geladeira",
+      "cozinha:pia-cozinha",
+      "cozinha:torneira-cozinha",
+      "cozinha:panela",
+      "cozinha:fogao",
+      "cozinha:exaustor",
+      "cozinha:microondas",
+      "cozinha:armario-cozinha",
+      "cozinha:mesa-jantar",
+      "cozinha:cadeira-cozinha",
+      "cozinha:luminaria-pendente"
+    ]
+  },
+  {
+    "id": "mission-quarto",
+    "sceneId": "quarto",
+    "title": {
+      "pt": "Hora de dormir",
+      "ru": "Время спать"
+    },
+    "stepOccurrenceIds": [
+      "quarto:guarda-roupa",
+      "quarto:espelho-quarto",
+      "quarto:criado-mudo",
+      "quarto:luminaria-mesa",
+      "quarto:cama",
+      "quarto:travesseiro",
+      "quarto:manta-quarto",
+      "quarto:tapete-quarto",
+      "quarto:cortina-quarto",
+      "quarto:comoda",
+      "quarto:quadro"
+    ]
+  },
+  {
+    "id": "mission-banheiro",
+    "sceneId": "banheiro",
+    "title": {
+      "pt": "Tomar banho e se arrumar",
+      "ru": "Принять душ и собраться"
+    },
+    "stepOccurrenceIds": [
+      "banheiro:chuveiro",
+      "banheiro:banheira",
+      "banheiro:toalha",
+      "banheiro:pia-banheiro",
+      "banheiro:torneira-banheiro",
+      "banheiro:espelho-banheiro",
+      "banheiro:vaso-sanitario",
+      "banheiro:tapete-banheiro",
+      "banheiro:cesto",
+      "banheiro:planta-banheiro",
+      "banheiro:quadro-banheiro"
+    ]
+  },
+  {
+    "id": "mission-lavanderia",
+    "sceneId": "lavanderia",
+    "title": {
+      "pt": "Lavar e passar a roupa",
+      "ru": "Постирать и погладить одежду"
+    },
+    "stepOccurrenceIds": [
+      "lavanderia:cesto-roupa",
+      "lavanderia:maquina-lavar",
+      "lavanderia:tanque",
+      "lavanderia:torneira-lavanderia",
+      "lavanderia:varal",
+      "lavanderia:camiseta-varal",
+      "lavanderia:toalha-varal",
+      "lavanderia:tabua-passar",
+      "lavanderia:ferro-passar",
+      "lavanderia:balde-lavanderia",
+      "lavanderia:vassoura",
+      "lavanderia:armario-limpeza"
+    ]
+  },
+  {
+    "id": "mission-supermercado",
+    "sceneId": "supermercado",
+    "title": {
+      "pt": "Fazer compras no supermercado",
+      "ru": "Сделать покупки в супермаркете"
+    },
+    "stepOccurrenceIds": [
+      "supermercado:entrada-mercado",
+      "supermercado:carrinho-compras",
+      "supermercado:prateleira-hortifruti",
+      "supermercado:tomate-mercado",
+      "supermercado:laranja-mercado",
+      "supermercado:prateleira-mercearia",
+      "supermercado:pote-conserva",
+      "supermercado:caixas-papelao",
+      "supermercado:planta-mercado",
+      "supermercado:caixa-mercado",
+      "supermercado:cesta-compras"
+    ]
+  },
+  {
+    "id": "mission-farmacia",
+    "sceneId": "farmacia",
+    "title": {
+      "pt": "Comprar um remédio",
+      "ru": "Купить лекарство"
+    },
+    "stepOccurrenceIds": [
+      "farmacia:porta-farmacia",
+      "farmacia:cruz-farmacia",
+      "farmacia:prateleira-remedios",
+      "farmacia:balcao-farmacia",
+      "farmacia:balanca",
+      "farmacia:computador-caixa",
+      "farmacia:alcool-gel",
+      "farmacia:prateleira-higiene",
+      "farmacia:gondola-central",
+      "farmacia:banco-espera",
+      "farmacia:planta-farmacia"
+    ]
+  },
+  {
+    "id": "mission-transporte",
+    "sceneId": "transporte",
+    "title": {
+      "pt": "Pegar o transporte até o centro",
+      "ru": "Доехать до центра города"
+    },
+    "stepOccurrenceIds": [
+      "transporte:ponto-onibus",
+      "transporte:banco-ponto",
+      "transporte:onibus",
+      "transporte:faixa-pedestre",
+      "transporte:semaforo",
+      "transporte:lixeira",
+      "transporte:ciclovia",
+      "transporte:carro",
+      "transporte:metro-trem",
+      "transporte:entrada-metro",
+      "transporte:aviao"
+    ]
+  }
+]

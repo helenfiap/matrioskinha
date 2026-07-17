@@ -1,0 +1,1687 @@
+[
+  {
+    "id": "lex-alcool-em-gel",
+    "lemmaPt": "álcool em gel",
+    "articlePt": "o",
+    "displayPt": "o álcool em gel",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "álcoois em gel",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-alcool-em-gel-sense-1",
+        "translationRu": "антисептический гель"
+      }
+    ],
+    "exampleIds": [
+      "farmacia:alcool-gel:example"
+    ]
+  },
+  {
+    "id": "lex-almofada",
+    "lemmaPt": "almofada",
+    "articlePt": "a",
+    "displayPt": "a almofada",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "almofadas",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-almofada-sense-1",
+        "translationRu": "подушка (декоративная)"
+      }
+    ],
+    "exampleIds": [
+      "sala:almofada:example"
+    ]
+  },
+  {
+    "id": "lex-armario",
+    "lemmaPt": "armário",
+    "articlePt": "o",
+    "displayPt": "o armário",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "armários",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-armario-sense-1",
+        "translationRu": "кухонный шкаф"
+      }
+    ],
+    "exampleIds": [
+      "cozinha:armario-cozinha:example"
+    ]
+  },
+  {
+    "id": "lex-armario-de-produtos-de-limpeza",
+    "lemmaPt": "armário de produtos de limpeza",
+    "articlePt": "o",
+    "displayPt": "o armário de produtos de limpeza",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "armários de limpeza",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-armario-de-produtos-de-limpeza-sense-1",
+        "translationRu": "шкаф для чистящих средств"
+      }
+    ],
+    "exampleIds": [
+      "lavanderia:armario-limpeza:example"
+    ]
+  },
+  {
+    "id": "lex-aviao",
+    "lemmaPt": "avião",
+    "articlePt": "o",
+    "displayPt": "o avião",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "aviões",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-aviao-sense-1",
+        "translationRu": "самолёт"
+      }
+    ],
+    "exampleIds": [
+      "transporte:aviao:example"
+    ]
+  },
+  {
+    "id": "lex-balanca",
+    "lemmaPt": "balança",
+    "articlePt": "a",
+    "displayPt": "a balança",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "balanças",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-balanca-sense-1",
+        "translationRu": "весы"
+      }
+    ],
+    "exampleIds": [
+      "farmacia:balanca:example"
+    ]
+  },
+  {
+    "id": "lex-balcao",
+    "lemmaPt": "balcão",
+    "articlePt": "o",
+    "displayPt": "o balcão",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "balcões",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-balcao-sense-1",
+        "translationRu": "прилавок"
+      }
+    ],
+    "exampleIds": [
+      "farmacia:balcao-farmacia:example"
+    ]
+  },
+  {
+    "id": "lex-balde",
+    "lemmaPt": "balde",
+    "articlePt": "o",
+    "displayPt": "o balde",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "baldes",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-balde-sense-1",
+        "translationRu": "ведро"
+      }
+    ],
+    "exampleIds": [
+      "lavanderia:balde-lavanderia:example"
+    ]
+  },
+  {
+    "id": "lex-banco",
+    "lemmaPt": "banco",
+    "articlePt": "o",
+    "displayPt": "o banco",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "bancos",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-banco-sense-1",
+        "translationRu": "скамейка"
+      }
+    ],
+    "exampleIds": [
+      "transporte:banco-ponto:example"
+    ]
+  },
+  {
+    "id": "lex-banco-de-espera",
+    "lemmaPt": "banco de espera",
+    "articlePt": "o",
+    "displayPt": "o banco de espera",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "bancos de espera",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-banco-de-espera-sense-1",
+        "translationRu": "скамья ожидания"
+      }
+    ],
+    "exampleIds": [
+      "farmacia:banco-espera:example"
+    ]
+  },
+  {
+    "id": "lex-banheira",
+    "lemmaPt": "banheira",
+    "articlePt": "a",
+    "displayPt": "a banheira",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "banheiras",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-banheira-sense-1",
+        "translationRu": "ванна"
+      }
+    ],
+    "exampleIds": [
+      "banheiro:banheira:example"
+    ]
+  },
+  {
+    "id": "lex-cachorro",
+    "lemmaPt": "cachorro",
+    "articlePt": "o",
+    "displayPt": "o cachorro",
+    "partOfSpeech": "noun",
+    "gender": null,
+    "pluralPt": null,
+    "status": "minimal",
+    "senses": [
+      {
+        "id": "lex-cachorro-sense-1",
+        "translationRu": "собака"
+      }
+    ],
+    "exampleIds": []
+  },
+  {
+    "id": "lex-cadeira",
+    "lemmaPt": "cadeira",
+    "articlePt": "a",
+    "displayPt": "a cadeira",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "cadeiras",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-cadeira-sense-1",
+        "translationRu": "стул"
+      }
+    ],
+    "exampleIds": [
+      "cozinha:cadeira-cozinha:example"
+    ]
+  },
+  {
+    "id": "lex-cafe",
+    "lemmaPt": "café",
+    "articlePt": "o",
+    "displayPt": "o café",
+    "partOfSpeech": "noun",
+    "gender": null,
+    "pluralPt": null,
+    "status": "minimal",
+    "senses": [
+      {
+        "id": "lex-cafe-sense-1",
+        "translationRu": "кофе"
+      }
+    ],
+    "exampleIds": []
+  },
+  {
+    "id": "lex-caixa",
+    "lemmaPt": "caixa",
+    "articlePt": "o",
+    "displayPt": "o caixa",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "caixas",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-caixa-sense-1",
+        "translationRu": "касса"
+      }
+    ],
+    "exampleIds": [
+      "supermercado:caixa-mercado:example"
+    ]
+  },
+  {
+    "id": "lex-caixa-de-papelao",
+    "lemmaPt": "caixa de papelão",
+    "articlePt": "a",
+    "displayPt": "a caixa de papelão",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "caixas de papelão",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-caixa-de-papelao-sense-1",
+        "translationRu": "картонная коробка"
+      }
+    ],
+    "exampleIds": [
+      "supermercado:caixas-papelao:example"
+    ]
+  },
+  {
+    "id": "lex-cama",
+    "lemmaPt": "cama",
+    "articlePt": "a",
+    "displayPt": "a cama",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "camas",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-cama-sense-1",
+        "translationRu": "кровать"
+      }
+    ],
+    "exampleIds": [
+      "quarto:cama:example"
+    ]
+  },
+  {
+    "id": "lex-caminho",
+    "lemmaPt": "caminho",
+    "articlePt": "o",
+    "displayPt": "o caminho",
+    "partOfSpeech": "noun",
+    "gender": null,
+    "pluralPt": null,
+    "status": "minimal",
+    "senses": [
+      {
+        "id": "lex-caminho-sense-1",
+        "translationRu": "путь"
+      }
+    ],
+    "exampleIds": []
+  },
+  {
+    "id": "lex-camiseta",
+    "lemmaPt": "camiseta",
+    "articlePt": "a",
+    "displayPt": "a camiseta",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "camisetas",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-camiseta-sense-1",
+        "translationRu": "футболка"
+      }
+    ],
+    "exampleIds": [
+      "lavanderia:camiseta-varal:example"
+    ]
+  },
+  {
+    "id": "lex-carrinho-de-compras",
+    "lemmaPt": "carrinho de compras",
+    "articlePt": "o",
+    "displayPt": "o carrinho de compras",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "carrinhos de compras",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-carrinho-de-compras-sense-1",
+        "translationRu": "тележка для покупок"
+      }
+    ],
+    "exampleIds": [
+      "supermercado:carrinho-compras:example"
+    ]
+  },
+  {
+    "id": "lex-carro",
+    "lemmaPt": "carro",
+    "articlePt": "o",
+    "displayPt": "o carro",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "carros",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-carro-sense-1",
+        "translationRu": "машина"
+      }
+    ],
+    "exampleIds": [
+      "transporte:carro:example"
+    ]
+  },
+  {
+    "id": "lex-casa",
+    "lemmaPt": "casa",
+    "articlePt": "a",
+    "displayPt": "a casa",
+    "partOfSpeech": "noun",
+    "gender": null,
+    "pluralPt": null,
+    "status": "minimal",
+    "senses": [
+      {
+        "id": "lex-casa-sense-1",
+        "translationRu": "дом"
+      }
+    ],
+    "exampleIds": []
+  },
+  {
+    "id": "lex-celular",
+    "lemmaPt": "celular",
+    "articlePt": "o",
+    "displayPt": "o celular",
+    "partOfSpeech": "noun",
+    "gender": null,
+    "pluralPt": null,
+    "status": "minimal",
+    "senses": [
+      {
+        "id": "lex-celular-sense-1",
+        "translationRu": "телефон"
+      }
+    ],
+    "exampleIds": []
+  },
+  {
+    "id": "lex-cesta-de-compras",
+    "lemmaPt": "cesta de compras",
+    "articlePt": "a",
+    "displayPt": "a cesta de compras",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "cestas de compras",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-cesta-de-compras-sense-1",
+        "translationRu": "корзина для покупок"
+      }
+    ],
+    "exampleIds": [
+      "supermercado:cesta-compras:example"
+    ]
+  },
+  {
+    "id": "lex-cesto",
+    "lemmaPt": "cesto",
+    "articlePt": "o",
+    "displayPt": "o cesto",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "cestos",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-cesto-sense-1",
+        "translationRu": "корзина"
+      }
+    ],
+    "exampleIds": [
+      "banheiro:cesto:example"
+    ]
+  },
+  {
+    "id": "lex-cesto-de-roupa-suja",
+    "lemmaPt": "cesto de roupa suja",
+    "articlePt": "o",
+    "displayPt": "o cesto de roupa suja",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "cestos de roupa suja",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-cesto-de-roupa-suja-sense-1",
+        "translationRu": "корзина для грязного белья"
+      }
+    ],
+    "exampleIds": [
+      "lavanderia:cesto-roupa:example"
+    ]
+  },
+  {
+    "id": "lex-chuva",
+    "lemmaPt": "chuva",
+    "articlePt": "a",
+    "displayPt": "a chuva",
+    "partOfSpeech": "noun",
+    "gender": null,
+    "pluralPt": null,
+    "status": "minimal",
+    "senses": [
+      {
+        "id": "lex-chuva-sense-1",
+        "translationRu": "дождь"
+      }
+    ],
+    "exampleIds": []
+  },
+  {
+    "id": "lex-chuveiro",
+    "lemmaPt": "chuveiro",
+    "articlePt": "o",
+    "displayPt": "o chuveiro",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "chuveiros",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-chuveiro-sense-1",
+        "translationRu": "душ"
+      }
+    ],
+    "exampleIds": [
+      "banheiro:chuveiro:example"
+    ]
+  },
+  {
+    "id": "lex-ciclovia",
+    "lemmaPt": "ciclovia",
+    "articlePt": "a",
+    "displayPt": "a ciclovia",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "ciclovias",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-ciclovia-sense-1",
+        "translationRu": "велодорожка"
+      }
+    ],
+    "exampleIds": [
+      "transporte:ciclovia:example"
+    ]
+  },
+  {
+    "id": "lex-comoda",
+    "lemmaPt": "cômoda",
+    "articlePt": "a",
+    "displayPt": "a cômoda",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "cômodas",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-comoda-sense-1",
+        "translationRu": "комод"
+      }
+    ],
+    "exampleIds": [
+      "quarto:comoda:example"
+    ]
+  },
+  {
+    "id": "lex-computador-do-caixa",
+    "lemmaPt": "computador do caixa",
+    "articlePt": "o",
+    "displayPt": "o computador do caixa",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "computadores do caixa",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-computador-do-caixa-sense-1",
+        "translationRu": "компьютер кассы"
+      }
+    ],
+    "exampleIds": [
+      "farmacia:computador-caixa:example"
+    ]
+  },
+  {
+    "id": "lex-cortina",
+    "lemmaPt": "cortina",
+    "articlePt": "a",
+    "displayPt": "a cortina",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "cortinas",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-cortina-sense-1",
+        "translationRu": "штора"
+      }
+    ],
+    "exampleIds": [
+      "sala:cortina-sala:example",
+      "quarto:cortina-quarto:example"
+    ]
+  },
+  {
+    "id": "lex-criado-mudo",
+    "lemmaPt": "criado-mudo",
+    "articlePt": "o",
+    "displayPt": "o criado-mudo",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "criados-mudos",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-criado-mudo-sense-1",
+        "translationRu": "тумбочка"
+      }
+    ],
+    "exampleIds": [
+      "quarto:criado-mudo:example"
+    ]
+  },
+  {
+    "id": "lex-cruz-da-farmacia",
+    "lemmaPt": "cruz da farmácia",
+    "articlePt": "a",
+    "displayPt": "a cruz da farmácia",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "cruzes de farmácia",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-cruz-da-farmacia-sense-1",
+        "translationRu": "аптечный крест"
+      }
+    ],
+    "exampleIds": [
+      "farmacia:cruz-farmacia:example"
+    ]
+  },
+  {
+    "id": "lex-entrada",
+    "lemmaPt": "entrada",
+    "articlePt": "a",
+    "displayPt": "a entrada",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "entradas",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-entrada-sense-1",
+        "translationRu": "вход"
+      }
+    ],
+    "exampleIds": [
+      "supermercado:entrada-mercado:example"
+    ]
+  },
+  {
+    "id": "lex-entrada-do-metro",
+    "lemmaPt": "entrada do metrô",
+    "articlePt": "a",
+    "displayPt": "a entrada do metrô",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "entradas do metrô",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-entrada-do-metro-sense-1",
+        "translationRu": "вход в метро"
+      }
+    ],
+    "exampleIds": [
+      "transporte:entrada-metro:example"
+    ]
+  },
+  {
+    "id": "lex-espelho",
+    "lemmaPt": "espelho",
+    "articlePt": "o",
+    "displayPt": "o espelho",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "espelhos",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-espelho-sense-1",
+        "translationRu": "зеркало"
+      }
+    ],
+    "exampleIds": [
+      "quarto:espelho-quarto:example",
+      "banheiro:espelho-banheiro:example"
+    ]
+  },
+  {
+    "id": "lex-estante",
+    "lemmaPt": "estante",
+    "articlePt": "a",
+    "displayPt": "a estante",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "estantes",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-estante-sense-1",
+        "translationRu": "стеллаж"
+      }
+    ],
+    "exampleIds": [
+      "sala:estante:example"
+    ]
+  },
+  {
+    "id": "lex-exaustor",
+    "lemmaPt": "exaustor",
+    "articlePt": "o",
+    "displayPt": "o exaustor",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "exaustores",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-exaustor-sense-1",
+        "translationRu": "вытяжка"
+      }
+    ],
+    "exampleIds": [
+      "cozinha:exaustor:example"
+    ]
+  },
+  {
+    "id": "lex-faixa-de-pedestre",
+    "lemmaPt": "faixa de pedestre",
+    "articlePt": "a",
+    "displayPt": "a faixa de pedestre",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "faixas de pedestre",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-faixa-de-pedestre-sense-1",
+        "translationRu": "пешеходный переход"
+      }
+    ],
+    "exampleIds": [
+      "transporte:faixa-pedestre:example"
+    ]
+  },
+  {
+    "id": "lex-farmacia",
+    "lemmaPt": "farmácia",
+    "articlePt": "a",
+    "displayPt": "a farmácia",
+    "partOfSpeech": "noun",
+    "gender": null,
+    "pluralPt": null,
+    "status": "minimal",
+    "senses": [
+      {
+        "id": "lex-farmacia-sense-1",
+        "translationRu": "аптека"
+      }
+    ],
+    "exampleIds": []
+  },
+  {
+    "id": "lex-ferro-de-passar",
+    "lemmaPt": "ferro de passar",
+    "articlePt": "o",
+    "displayPt": "o ferro de passar",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "ferros de passar",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-ferro-de-passar-sense-1",
+        "translationRu": "утюг"
+      }
+    ],
+    "exampleIds": [
+      "lavanderia:ferro-passar:example"
+    ]
+  },
+  {
+    "id": "lex-fogao",
+    "lemmaPt": "fogão",
+    "articlePt": "o",
+    "displayPt": "o fogão",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "fogões",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-fogao-sense-1",
+        "translationRu": "плита"
+      }
+    ],
+    "exampleIds": [
+      "cozinha:fogao:example"
+    ]
+  },
+  {
+    "id": "lex-geladeira",
+    "lemmaPt": "geladeira",
+    "articlePt": "a",
+    "displayPt": "a geladeira",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "geladeiras",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-geladeira-sense-1",
+        "translationRu": "холодильник"
+      }
+    ],
+    "exampleIds": [
+      "cozinha:geladeira:example"
+    ]
+  },
+  {
+    "id": "lex-gondola-central",
+    "lemmaPt": "gôndola central",
+    "articlePt": "a",
+    "displayPt": "a gôndola central",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "gôndolas centrais",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-gondola-central-sense-1",
+        "translationRu": "центральный стеллаж"
+      }
+    ],
+    "exampleIds": [
+      "farmacia:gondola-central:example"
+    ]
+  },
+  {
+    "id": "lex-guarda-roupa",
+    "lemmaPt": "guarda-roupa",
+    "articlePt": "o",
+    "displayPt": "o guarda-roupa",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "guarda-roupas",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-guarda-roupa-sense-1",
+        "translationRu": "платяной шкаф"
+      }
+    ],
+    "exampleIds": [
+      "quarto:guarda-roupa:example"
+    ]
+  },
+  {
+    "id": "lex-laranja",
+    "lemmaPt": "laranja",
+    "articlePt": "a",
+    "displayPt": "a laranja",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "laranjas",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-laranja-sense-1",
+        "translationRu": "апельсин"
+      }
+    ],
+    "exampleIds": [
+      "supermercado:laranja-mercado:example"
+    ]
+  },
+  {
+    "id": "lex-lixeira",
+    "lemmaPt": "lixeira",
+    "articlePt": "a",
+    "displayPt": "a lixeira",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "lixeiras",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-lixeira-sense-1",
+        "translationRu": "урна"
+      }
+    ],
+    "exampleIds": [
+      "transporte:lixeira:example"
+    ]
+  },
+  {
+    "id": "lex-luminaria",
+    "lemmaPt": "luminária",
+    "articlePt": "a",
+    "displayPt": "a luminária",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "luminárias",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-luminaria-sense-1",
+        "translationRu": "торшер"
+      }
+    ],
+    "exampleIds": [
+      "sala:luminaria-sala:example"
+    ]
+  },
+  {
+    "id": "lex-luminaria-de-mesa",
+    "lemmaPt": "luminária de mesa",
+    "articlePt": "a",
+    "displayPt": "a luminária de mesa",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "luminárias de mesa",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-luminaria-de-mesa-sense-1",
+        "translationRu": "настольная лампа"
+      }
+    ],
+    "exampleIds": [
+      "quarto:luminaria-mesa:example"
+    ]
+  },
+  {
+    "id": "lex-luminaria-pendente",
+    "lemmaPt": "luminária pendente",
+    "articlePt": "a",
+    "displayPt": "a luminária pendente",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "luminárias pendentes",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-luminaria-pendente-sense-1",
+        "translationRu": "подвесной светильник"
+      }
+    ],
+    "exampleIds": [
+      "cozinha:luminaria-pendente:example"
+    ]
+  },
+  {
+    "id": "lex-manta",
+    "lemmaPt": "manta",
+    "articlePt": "a",
+    "displayPt": "a manta",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "mantas",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-manta-sense-1",
+        "translationRu": "плед"
+      }
+    ],
+    "exampleIds": [
+      "sala:manta:example",
+      "quarto:manta-quarto:example"
+    ]
+  },
+  {
+    "id": "lex-maquina-de-lavar",
+    "lemmaPt": "máquina de lavar",
+    "articlePt": "a",
+    "displayPt": "a máquina de lavar",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "máquinas de lavar",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-maquina-de-lavar-sense-1",
+        "translationRu": "стиральная машина"
+      }
+    ],
+    "exampleIds": [
+      "lavanderia:maquina-lavar:example"
+    ]
+  },
+  {
+    "id": "lex-mercado",
+    "lemmaPt": "mercado",
+    "articlePt": "o",
+    "displayPt": "o mercado",
+    "partOfSpeech": "noun",
+    "gender": null,
+    "pluralPt": null,
+    "status": "minimal",
+    "senses": [
+      {
+        "id": "lex-mercado-sense-1",
+        "translationRu": "рынок / магазин"
+      }
+    ],
+    "exampleIds": []
+  },
+  {
+    "id": "lex-mesa-de-centro",
+    "lemmaPt": "mesa de centro",
+    "articlePt": "a",
+    "displayPt": "a mesa de centro",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "mesas de centro",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-mesa-de-centro-sense-1",
+        "translationRu": "журнальный столик"
+      }
+    ],
+    "exampleIds": [
+      "sala:mesa-centro:example"
+    ]
+  },
+  {
+    "id": "lex-mesa-de-jantar",
+    "lemmaPt": "mesa de jantar",
+    "articlePt": "a",
+    "displayPt": "a mesa de jantar",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "mesas de jantar",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-mesa-de-jantar-sense-1",
+        "translationRu": "обеденный стол"
+      }
+    ],
+    "exampleIds": [
+      "cozinha:mesa-jantar:example"
+    ]
+  },
+  {
+    "id": "lex-metro",
+    "lemmaPt": "metrô",
+    "articlePt": "o",
+    "displayPt": "o metrô",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "metrôs",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-metro-sense-1",
+        "translationRu": "метро"
+      }
+    ],
+    "exampleIds": [
+      "transporte:metro-trem:example"
+    ]
+  },
+  {
+    "id": "lex-micro-ondas",
+    "lemmaPt": "micro-ondas",
+    "articlePt": "o",
+    "displayPt": "o micro-ondas",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "micro-ondas",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-micro-ondas-sense-1",
+        "translationRu": "микроволновка"
+      }
+    ],
+    "exampleIds": [
+      "cozinha:microondas:example"
+    ]
+  },
+  {
+    "id": "lex-onibus",
+    "lemmaPt": "ônibus",
+    "articlePt": "o",
+    "displayPt": "o ônibus",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "ônibus",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-onibus-sense-1",
+        "translationRu": "автобус"
+      }
+    ],
+    "exampleIds": [
+      "transporte:onibus:example"
+    ]
+  },
+  {
+    "id": "lex-panela",
+    "lemmaPt": "panela",
+    "articlePt": "a",
+    "displayPt": "a panela",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "panelas",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-panela-sense-1",
+        "translationRu": "кастрюля"
+      }
+    ],
+    "exampleIds": [
+      "cozinha:panela:example"
+    ]
+  },
+  {
+    "id": "lex-pao",
+    "lemmaPt": "pão",
+    "articlePt": "o",
+    "displayPt": "o pão",
+    "partOfSpeech": "noun",
+    "gender": null,
+    "pluralPt": null,
+    "status": "minimal",
+    "senses": [
+      {
+        "id": "lex-pao-sense-1",
+        "translationRu": "хлеб"
+      }
+    ],
+    "exampleIds": []
+  },
+  {
+    "id": "lex-pia",
+    "lemmaPt": "pia",
+    "articlePt": "a",
+    "displayPt": "a pia",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "pias",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-pia-sense-1",
+        "translationRu": "раковина"
+      }
+    ],
+    "exampleIds": [
+      "cozinha:pia-cozinha:example",
+      "banheiro:pia-banheiro:example"
+    ]
+  },
+  {
+    "id": "lex-planta",
+    "lemmaPt": "planta",
+    "articlePt": "a",
+    "displayPt": "a planta",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "plantas",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-planta-sense-1",
+        "translationRu": "растение"
+      }
+    ],
+    "exampleIds": [
+      "sala:planta-sala:example",
+      "banheiro:planta-banheiro:example",
+      "farmacia:planta-farmacia:example"
+    ]
+  },
+  {
+    "id": "lex-planta-decorativa",
+    "lemmaPt": "planta decorativa",
+    "articlePt": "a",
+    "displayPt": "a planta decorativa",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "plantas decorativas",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-planta-decorativa-sense-1",
+        "translationRu": "декоративное растение"
+      }
+    ],
+    "exampleIds": [
+      "supermercado:planta-mercado:example"
+    ]
+  },
+  {
+    "id": "lex-poltrona",
+    "lemmaPt": "poltrona",
+    "articlePt": "a",
+    "displayPt": "a poltrona",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "poltronas",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-poltrona-sense-1",
+        "translationRu": "кресло"
+      }
+    ],
+    "exampleIds": [
+      "sala:poltrona:example"
+    ]
+  },
+  {
+    "id": "lex-ponto-de-onibus",
+    "lemmaPt": "ponto de ônibus",
+    "articlePt": "o",
+    "displayPt": "o ponto de ônibus",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "pontos de ônibus",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-ponto-de-onibus-sense-1",
+        "translationRu": "автобусная остановка"
+      }
+    ],
+    "exampleIds": [
+      "transporte:ponto-onibus:example"
+    ]
+  },
+  {
+    "id": "lex-porta-de-entrada",
+    "lemmaPt": "porta de entrada",
+    "articlePt": "a",
+    "displayPt": "a porta de entrada",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "portas de entrada",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-porta-de-entrada-sense-1",
+        "translationRu": "входная дверь"
+      }
+    ],
+    "exampleIds": [
+      "farmacia:porta-farmacia:example"
+    ]
+  },
+  {
+    "id": "lex-pote-de-conserva",
+    "lemmaPt": "pote de conserva",
+    "articlePt": "o",
+    "displayPt": "o pote de conserva",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "potes de conserva",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-pote-de-conserva-sense-1",
+        "translationRu": "банка с консервами"
+      }
+    ],
+    "exampleIds": [
+      "supermercado:pote-conserva:example"
+    ]
+  },
+  {
+    "id": "lex-praia",
+    "lemmaPt": "praia",
+    "articlePt": "a",
+    "displayPt": "a praia",
+    "partOfSpeech": "noun",
+    "gender": null,
+    "pluralPt": null,
+    "status": "minimal",
+    "senses": [
+      {
+        "id": "lex-praia-sense-1",
+        "translationRu": "пляж"
+      }
+    ],
+    "exampleIds": []
+  },
+  {
+    "id": "lex-prateleira-de-frutas-e-verduras",
+    "lemmaPt": "prateleira de frutas e verduras",
+    "articlePt": "a",
+    "displayPt": "a prateleira de frutas e verduras",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "prateleiras de frutas e verduras",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-prateleira-de-frutas-e-verduras-sense-1",
+        "translationRu": "полка с фруктами и овощами"
+      }
+    ],
+    "exampleIds": [
+      "supermercado:prateleira-hortifruti:example"
+    ]
+  },
+  {
+    "id": "lex-prateleira-de-higiene",
+    "lemmaPt": "prateleira de higiene",
+    "articlePt": "a",
+    "displayPt": "a prateleira de higiene",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "prateleiras de higiene",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-prateleira-de-higiene-sense-1",
+        "translationRu": "полка гигиенических товаров"
+      }
+    ],
+    "exampleIds": [
+      "farmacia:prateleira-higiene:example"
+    ]
+  },
+  {
+    "id": "lex-prateleira-de-mercearia",
+    "lemmaPt": "prateleira de mercearia",
+    "articlePt": "a",
+    "displayPt": "a prateleira de mercearia",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "prateleiras de mercearia",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-prateleira-de-mercearia-sense-1",
+        "translationRu": "полка с бакалеей"
+      }
+    ],
+    "exampleIds": [
+      "supermercado:prateleira-mercearia:example"
+    ]
+  },
+  {
+    "id": "lex-prateleira-de-remedios",
+    "lemmaPt": "prateleira de remédios",
+    "articlePt": "a",
+    "displayPt": "a prateleira de remédios",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "prateleiras de remédios",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-prateleira-de-remedios-sense-1",
+        "translationRu": "полка с лекарствами"
+      }
+    ],
+    "exampleIds": [
+      "farmacia:prateleira-remedios:example"
+    ]
+  },
+  {
+    "id": "lex-quadro",
+    "lemmaPt": "quadro",
+    "articlePt": "o",
+    "displayPt": "o quadro",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "quadros",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-quadro-sense-1",
+        "translationRu": "картина"
+      }
+    ],
+    "exampleIds": [
+      "quarto:quadro:example",
+      "banheiro:quadro-banheiro:example"
+    ]
+  },
+  {
+    "id": "lex-restaurante",
+    "lemmaPt": "restaurante",
+    "articlePt": "o",
+    "displayPt": "o restaurante",
+    "partOfSpeech": "noun",
+    "gender": null,
+    "pluralPt": null,
+    "status": "minimal",
+    "senses": [
+      {
+        "id": "lex-restaurante-sense-1",
+        "translationRu": "ресторан"
+      }
+    ],
+    "exampleIds": []
+  },
+  {
+    "id": "lex-semaforo",
+    "lemmaPt": "semáforo",
+    "articlePt": "o",
+    "displayPt": "o semáforo",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "semáforos",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-semaforo-sense-1",
+        "translationRu": "светофор"
+      }
+    ],
+    "exampleIds": [
+      "transporte:semaforo:example"
+    ]
+  },
+  {
+    "id": "lex-sofa",
+    "lemmaPt": "sofá",
+    "articlePt": "o",
+    "displayPt": "o sofá",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "sofás",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-sofa-sense-1",
+        "translationRu": "диван"
+      }
+    ],
+    "exampleIds": [
+      "sala:sofa:example"
+    ]
+  },
+  {
+    "id": "lex-tabua-de-passar",
+    "lemmaPt": "tábua de passar",
+    "articlePt": "a",
+    "displayPt": "a tábua de passar",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "tábuas de passar",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-tabua-de-passar-sense-1",
+        "translationRu": "гладильная доска"
+      }
+    ],
+    "exampleIds": [
+      "lavanderia:tabua-passar:example"
+    ]
+  },
+  {
+    "id": "lex-tanque",
+    "lemmaPt": "tanque",
+    "articlePt": "o",
+    "displayPt": "o tanque",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "tanques",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-tanque-sense-1",
+        "translationRu": "хозяйственная раковина"
+      }
+    ],
+    "exampleIds": [
+      "lavanderia:tanque:example"
+    ]
+  },
+  {
+    "id": "lex-tapete",
+    "lemmaPt": "tapete",
+    "articlePt": "o",
+    "displayPt": "o tapete",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "tapetes",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-tapete-sense-1",
+        "translationRu": "ковёр"
+      },
+      {
+        "id": "lex-tapete-sense-2",
+        "translationRu": "коврик"
+      }
+    ],
+    "exampleIds": [
+      "sala:tapete-sala:example",
+      "quarto:tapete-quarto:example",
+      "banheiro:tapete-banheiro:example"
+    ]
+  },
+  {
+    "id": "lex-televisao",
+    "lemmaPt": "televisão",
+    "articlePt": "a",
+    "displayPt": "a televisão",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "televisões",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-televisao-sense-1",
+        "translationRu": "телевизор"
+      }
+    ],
+    "exampleIds": [
+      "sala:tv:example"
+    ]
+  },
+  {
+    "id": "lex-toalha",
+    "lemmaPt": "toalha",
+    "articlePt": "a",
+    "displayPt": "a toalha",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "toalhas",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-toalha-sense-1",
+        "translationRu": "полотенце"
+      }
+    ],
+    "exampleIds": [
+      "banheiro:toalha:example",
+      "lavanderia:toalha-varal:example"
+    ]
+  },
+  {
+    "id": "lex-tomate",
+    "lemmaPt": "tomate",
+    "articlePt": "o",
+    "displayPt": "o tomate",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "tomates",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-tomate-sense-1",
+        "translationRu": "помидор"
+      }
+    ],
+    "exampleIds": [
+      "supermercado:tomate-mercado:example"
+    ]
+  },
+  {
+    "id": "lex-torneira",
+    "lemmaPt": "torneira",
+    "articlePt": "a",
+    "displayPt": "a torneira",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "torneiras",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-torneira-sense-1",
+        "translationRu": "кран"
+      }
+    ],
+    "exampleIds": [
+      "cozinha:torneira-cozinha:example",
+      "banheiro:torneira-banheiro:example",
+      "lavanderia:torneira-lavanderia:example"
+    ]
+  },
+  {
+    "id": "lex-travesseiro",
+    "lemmaPt": "travesseiro",
+    "articlePt": "o",
+    "displayPt": "o travesseiro",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "travesseiros",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-travesseiro-sense-1",
+        "translationRu": "подушка (для сна)"
+      }
+    ],
+    "exampleIds": [
+      "quarto:travesseiro:example"
+    ]
+  },
+  {
+    "id": "lex-varal",
+    "lemmaPt": "varal",
+    "articlePt": "o",
+    "displayPt": "o varal",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "varais",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-varal-sense-1",
+        "translationRu": "бельевая верёвка"
+      }
+    ],
+    "exampleIds": [
+      "lavanderia:varal:example"
+    ]
+  },
+  {
+    "id": "lex-vaso",
+    "lemmaPt": "vaso",
+    "articlePt": "o",
+    "displayPt": "o vaso",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "vasos",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-vaso-sense-1",
+        "translationRu": "ваза"
+      }
+    ],
+    "exampleIds": [
+      "sala:vaso-sala:example"
+    ]
+  },
+  {
+    "id": "lex-vaso-sanitario",
+    "lemmaPt": "vaso sanitário",
+    "articlePt": "o",
+    "displayPt": "o vaso sanitário",
+    "partOfSpeech": "noun",
+    "gender": "masculino",
+    "pluralPt": "vasos sanitários",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-vaso-sanitario-sense-1",
+        "translationRu": "унитаз"
+      }
+    ],
+    "exampleIds": [
+      "banheiro:vaso-sanitario:example"
+    ]
+  },
+  {
+    "id": "lex-vassoura",
+    "lemmaPt": "vassoura",
+    "articlePt": "a",
+    "displayPt": "a vassoura",
+    "partOfSpeech": "noun",
+    "gender": "feminino",
+    "pluralPt": "vassouras",
+    "status": "complete",
+    "senses": [
+      {
+        "id": "lex-vassoura-sense-1",
+        "translationRu": "веник"
+      }
+    ],
+    "exampleIds": [
+      "lavanderia:vassoura:example"
+    ]
+  }
+]

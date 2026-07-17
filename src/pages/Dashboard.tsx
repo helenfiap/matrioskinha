@@ -3,12 +3,14 @@ import { useNavigate } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 import { useProgress } from '../context/ProgressContext';
 import { getNextBestAction } from '../lib/recommendation';
+import { useLearning } from '../context/LearningContext';
 
 const RING_CIRCUMFERENCE = 97.4;
 
 export function Dashboard() {
   const { t, lang } = useLanguage();
   const navigate = useNavigate();
+  const { metrics } = useLearning();
   const {
     streakDays, studyDaysThisWeek, weeklyGoalTarget,
     pendingReview, challengeDoneCount, challengeTotal, sceneCounts,
@@ -95,6 +97,11 @@ export function Dashboard() {
               strokeLinecap="round" strokeWidth={4} transform="rotate(-90 18 18)"
             />
           </svg>
+        </div>
+        <div className="stat-card">
+          <div className="label">{t('Precisão nas tentativas', 'Точность попыток')}</div>
+          <div className="value">{metrics.accuracy === null ? '—' : `${Math.round(metrics.accuracy * 100)}%`}</div>
+          <div className="label" style={{ marginTop: 8 }}>{metrics.totalAttempts} {t('respostas registradas', 'записанных ответов')}</div>
         </div>
       </div>
     </section>

@@ -1,0 +1,1344 @@
+{
+  "schemaVersion": 1,
+  "provider": "edge-tts",
+  "entries": {
+    "lex-alcool-em-gel": {
+      "hash": "aeeadcf0deea0eb985308811f1126125ef6aab3ddf8decee6a22fa43bfabf43c",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-alcool-em-gel.mp3",
+      "generatedAt": "2026-07-17T01:23:38.212Z"
+    },
+    "lex-almofada": {
+      "hash": "5742a6ea8084d3167235c4444d7b20c88f615da5b7681db0ee3e200726132287",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-almofada.mp3",
+      "generatedAt": "2026-07-17T01:23:40.813Z"
+    },
+    "lex-armario": {
+      "hash": "7454c8b2791311384cfceaca16e44a9657b002261f2ad3c2d7bc1c1e527b2b96",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-armario.mp3",
+      "generatedAt": "2026-07-17T01:23:43.461Z"
+    },
+    "lex-armario-de-produtos-de-limpeza": {
+      "hash": "87081306baa4c9a4f34561d610f4461e2ec70c7df670d5503526d133020aa0af",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-armario-de-produtos-de-limpeza.mp3",
+      "generatedAt": "2026-07-17T01:23:46.461Z"
+    },
+    "lex-aviao": {
+      "hash": "9f7114d82c3376d511af652f97a8dd3804c848986cd8f2766600e89e7303fcb2",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-aviao.mp3",
+      "generatedAt": "2026-07-17T01:23:49.038Z"
+    },
+    "lex-balanca": {
+      "hash": "06154b75fdd80957fae29ae7baba0da0ed79a21ddf7dda78192bf456ef72e40a",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-balanca.mp3",
+      "generatedAt": "2026-07-17T01:23:51.501Z"
+    },
+    "lex-balcao": {
+      "hash": "e58a26ac7fbe3ebbcaab5012809aadb17aa403fa1afced6ac2d50adf17da9f0e",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-balcao.mp3",
+      "generatedAt": "2026-07-17T01:23:54.121Z"
+    },
+    "lex-balde": {
+      "hash": "9860efc1c715e4741998470d8a463fb61a4712fef1c08102a16a8a2227bdd5dd",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-balde.mp3",
+      "generatedAt": "2026-07-17T01:23:56.668Z"
+    },
+    "lex-banco": {
+      "hash": "f2538f061100c68463b3704ce9bd64a6ba01d9afff43da154a4b15ee99b0e39a",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-banco.mp3",
+      "generatedAt": "2026-07-17T01:23:59.487Z"
+    },
+    "lex-banco-de-espera": {
+      "hash": "3aeccdd1e011665c6f7397d7bab99f4ebd43bd1ffeaab7193dcc4746d92cdfc9",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-banco-de-espera.mp3",
+      "generatedAt": "2026-07-17T01:24:02.267Z"
+    },
+    "lex-banheira": {
+      "hash": "fa3c45a19edee75c66ae4fa30636a1db1470d59bdb0d5842b0fb12013beb90e5",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-banheira.mp3",
+      "generatedAt": "2026-07-17T01:24:04.838Z"
+    },
+    "lex-cachorro": {
+      "hash": "17c7c1e31ee3f6f87ff274595f98fb5b5528d9544050042fbf24e1441f761223",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-cachorro.mp3",
+      "generatedAt": "2026-07-17T01:24:07.494Z"
+    },
+    "lex-cadeira": {
+      "hash": "b076b694bbf04e3ba188dea3760e10cf5cccdc750680763542c435323dfa9ead",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-cadeira.mp3",
+      "generatedAt": "2026-07-17T01:24:10.057Z"
+    },
+    "lex-cafe": {
+      "hash": "027b086e5507390c1c4bd55a535e0108615c3add415b355d7657175ea35643ac",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-cafe.mp3",
+      "generatedAt": "2026-07-17T01:24:12.585Z"
+    },
+    "lex-caixa": {
+      "hash": "976076819773f9c2af120126ac6e2786fe917682dec90a782d202b90ea5c0fb4",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-caixa.mp3",
+      "generatedAt": "2026-07-17T01:24:15.190Z"
+    },
+    "lex-caixa-de-papelao": {
+      "hash": "abb9b8d797aac0fd751ecf8f5747c58c2ad09a5030b12e75dc3360125967be62",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-caixa-de-papelao.mp3",
+      "generatedAt": "2026-07-17T01:24:17.952Z"
+    },
+    "lex-cama": {
+      "hash": "45db1a60c63797c45e8aba714b5611185de4ad3607155628110624deb6ac4f0a",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-cama.mp3",
+      "generatedAt": "2026-07-17T01:24:20.500Z"
+    },
+    "lex-caminho": {
+      "hash": "a7ecd4fa1a2657eaca1fcb7cccde6cd0bc793aeabae956e96f1563b93c6ef6c6",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-caminho.mp3",
+      "generatedAt": "2026-07-17T01:24:23.043Z"
+    },
+    "lex-camiseta": {
+      "hash": "6039dc3817049bfb503ab523a917cd10d5dd028426201fe961c6e56d53cceb8a",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-camiseta.mp3",
+      "generatedAt": "2026-07-17T01:24:25.877Z"
+    },
+    "lex-carrinho-de-compras": {
+      "hash": "be4e5c947838c1efed8d8ad9a4d11c5a550c14aa249765c9aa8711274c179dce",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-carrinho-de-compras.mp3",
+      "generatedAt": "2026-07-17T01:24:28.568Z"
+    },
+    "lex-carro": {
+      "hash": "d82d427b5b99ab3fa05f8650fbe6fceabbd37bc6a459a3dfdb5fe9379f195d94",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-carro.mp3",
+      "generatedAt": "2026-07-17T01:24:31.183Z"
+    },
+    "lex-casa": {
+      "hash": "719a9736d4a71c15b0dac0541fa69b39ba0af334035b17a55270b1a20e30bec4",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-casa.mp3",
+      "generatedAt": "2026-07-17T01:24:34.101Z"
+    },
+    "lex-celular": {
+      "hash": "c6ddaba017ce3deb4f6f3fc9f380c3f71c37ee871014f14fdb0fa26ec6f75457",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-celular.mp3",
+      "generatedAt": "2026-07-17T01:24:36.917Z"
+    },
+    "lex-cesta-de-compras": {
+      "hash": "edfba1c4ad6f1f6129b6e1629006570ed46a9f2bf234f3d4ccd32dfd0a0aaf5a",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-cesta-de-compras.mp3",
+      "generatedAt": "2026-07-17T01:24:39.834Z"
+    },
+    "lex-cesto": {
+      "hash": "f33e934c75d8c3db0072bda9c37f5680e69f5d248739816ce98bb0ca7e241179",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-cesto.mp3",
+      "generatedAt": "2026-07-17T01:24:42.745Z"
+    },
+    "lex-cesto-de-roupa-suja": {
+      "hash": "56d5350dde1426af46739396535d26e8f313f544f4e5ed6f0803e59ef1071a93",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-cesto-de-roupa-suja.mp3",
+      "generatedAt": "2026-07-17T01:24:45.560Z"
+    },
+    "lex-chuva": {
+      "hash": "fe3d50b8f4ebeaf4ce9a64f0aedf66548b705c0a9ca259161fd5700ddd4da6e1",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-chuva.mp3",
+      "generatedAt": "2026-07-17T01:24:48.406Z"
+    },
+    "lex-chuveiro": {
+      "hash": "258fde3c81ac71e06964710c5c131813124f20d5c30c42731faa3a820e0c5291",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-chuveiro.mp3",
+      "generatedAt": "2026-07-17T01:24:51.209Z"
+    },
+    "lex-ciclovia": {
+      "hash": "fb1f3bf20fdb17ba4e330aa014b098b440d68d333c10ae0a7ac8be4fdc5b11b3",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-ciclovia.mp3",
+      "generatedAt": "2026-07-17T01:24:53.718Z"
+    },
+    "lex-comoda": {
+      "hash": "9dff5cb79299d54877503ccc51b9c903f094a8df7546bb9dd1806c9dd124e82c",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-comoda.mp3",
+      "generatedAt": "2026-07-17T01:24:56.703Z"
+    },
+    "lex-computador-do-caixa": {
+      "hash": "9958daf0c85b829f3193cf28b6656dd2036e19c993865b123069146a6d4ffb36",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-computador-do-caixa.mp3",
+      "generatedAt": "2026-07-17T01:24:59.436Z"
+    },
+    "lex-cortina": {
+      "hash": "e9eda547517571870a1612bd2f8614d47db363366aeece49623bb3144aa9a302",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-cortina.mp3",
+      "generatedAt": "2026-07-17T01:25:01.615Z"
+    },
+    "lex-criado-mudo": {
+      "hash": "29822e34f33d2572983da8ff670008bb672f7584bdd9376904fa5d6842ac5c74",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-criado-mudo.mp3",
+      "generatedAt": "2026-07-17T01:25:03.740Z"
+    },
+    "lex-cruz-da-farmacia": {
+      "hash": "3846bca587ad3b16e42993e1d6c3e37ea5b5658a8f39fcf8d4aad9be6a8c2c43",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-cruz-da-farmacia.mp3",
+      "generatedAt": "2026-07-17T01:25:06.108Z"
+    },
+    "lex-entrada": {
+      "hash": "8658c11d9d230f6ff04681efe92b1eefb47f93fd1b8a0dde688e3dbcad66cb41",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-entrada.mp3",
+      "generatedAt": "2026-07-17T01:25:08.154Z"
+    },
+    "lex-entrada-do-metro": {
+      "hash": "7be6876940888323706d61257863d7e7c7532a769aefff36c5a9f73a031551ef",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-entrada-do-metro.mp3",
+      "generatedAt": "2026-07-17T01:25:10.464Z"
+    },
+    "lex-espelho": {
+      "hash": "ddc1e299909019f343ed3ca3a72e20ea35f2c87b381ed770dd732ad336b22fe0",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-espelho.mp3",
+      "generatedAt": "2026-07-17T01:25:12.473Z"
+    },
+    "lex-estante": {
+      "hash": "eaf7fbe3c69abcd7bc6e2939b11899136381bf48cba1b75e6a1dc6b29f3a382f",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-estante.mp3",
+      "generatedAt": "2026-07-17T01:25:14.473Z"
+    },
+    "lex-exaustor": {
+      "hash": "7b79a601463ae91b79f4bf04bccab248bd475e4e5f2186f7d57d7b89eff7f08e",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-exaustor.mp3",
+      "generatedAt": "2026-07-17T01:25:16.588Z"
+    },
+    "lex-faixa-de-pedestre": {
+      "hash": "04fecb3eef3b409980df47e550a933f461b9a310189c6b88289f61e5704b75b8",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-faixa-de-pedestre.mp3",
+      "generatedAt": "2026-07-17T01:25:18.862Z"
+    },
+    "lex-farmacia": {
+      "hash": "8ad4fed951ecea8639ace54640b4f9b8a572506a82b5f6cedf3e52041166cd86",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-farmacia.mp3",
+      "generatedAt": "2026-07-17T01:25:20.950Z"
+    },
+    "lex-ferro-de-passar": {
+      "hash": "6effc6a99fbd9a97a5da6ce6830dd800e256a956243fcd6b40c2181869f6d66f",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-ferro-de-passar.mp3",
+      "generatedAt": "2026-07-17T01:25:23.210Z"
+    },
+    "lex-fogao": {
+      "hash": "dfa989f8fb77e2a3c831cd51ba933772df2eadc7a36dba19be219896db7eff06",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-fogao.mp3",
+      "generatedAt": "2026-07-17T01:25:25.452Z"
+    },
+    "lex-geladeira": {
+      "hash": "d67b231b896ce0f545d40f6a5f6195e9389b4059950455a3f244a104ef76e76f",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-geladeira.mp3",
+      "generatedAt": "2026-07-17T01:25:27.502Z"
+    },
+    "lex-gondola-central": {
+      "hash": "806a3b16eef0633aaae99590323a2c9ccbe9edad5f7bd3e8c3d38afe545f8512",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-gondola-central.mp3",
+      "generatedAt": "2026-07-17T01:25:29.701Z"
+    },
+    "lex-guarda-roupa": {
+      "hash": "53435f316b548a3d984cb3e01fedfcde55848977c299ea9aec997737a44cae5c",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-guarda-roupa.mp3",
+      "generatedAt": "2026-07-17T01:25:31.732Z"
+    },
+    "lex-laranja": {
+      "hash": "f92045a5f0bc226578117aee792a770a2d31bb7fa95b70e78a6f41c60b106c20",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-laranja.mp3",
+      "generatedAt": "2026-07-17T01:25:33.750Z"
+    },
+    "lex-lixeira": {
+      "hash": "cdfc0c7325d324438549d6bd32037b3c90e1c20f71b512a7e30986bda6ad0bf6",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-lixeira.mp3",
+      "generatedAt": "2026-07-17T01:25:36.133Z"
+    },
+    "lex-luminaria": {
+      "hash": "037032fd82740c1a7047a329d457c0dd197c9230e10d89f7fbcbc0ef48faa39e",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-luminaria.mp3",
+      "generatedAt": "2026-07-17T01:25:38.234Z"
+    },
+    "lex-luminaria-de-mesa": {
+      "hash": "8b2e23c506ddfc28799b564d36916792b19a00b61efb41f80d2a97f5ed99150e",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-luminaria-de-mesa.mp3",
+      "generatedAt": "2026-07-17T01:25:40.291Z"
+    },
+    "lex-luminaria-pendente": {
+      "hash": "9a849e8250cd86d93ed3e31cefdab221f1686622ea7f77b2b1d1d99669fe36a3",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-luminaria-pendente.mp3",
+      "generatedAt": "2026-07-17T01:25:42.402Z"
+    },
+    "lex-manta": {
+      "hash": "3beac80d1fdf427b55362f2ddea3593320f1d5654ae3c689c6cf86a92c45c007",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-manta.mp3",
+      "generatedAt": "2026-07-17T01:25:44.705Z"
+    },
+    "lex-maquina-de-lavar": {
+      "hash": "3488c100d86a87d7a6351ebc718c4928563dbe1f10eeb7236c1619753533dfdb",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-maquina-de-lavar.mp3",
+      "generatedAt": "2026-07-17T01:25:46.920Z"
+    },
+    "lex-mercado": {
+      "hash": "b7e79e576e3db9faec64c7fadf12a4a225fee0621cf5c7c8af151b65c4db6089",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-mercado.mp3",
+      "generatedAt": "2026-07-17T01:25:48.956Z"
+    },
+    "lex-mesa-de-centro": {
+      "hash": "c8482fbb40bc74e14a62233593183f20131f584b3482b95ef0c92186bda1f322",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-mesa-de-centro.mp3",
+      "generatedAt": "2026-07-17T01:25:50.994Z"
+    },
+    "lex-mesa-de-jantar": {
+      "hash": "6b5731cefb628889f7206b148a84e170ed8d8eb9f9e1d3e4645a0c8eb78bd5d2",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-mesa-de-jantar.mp3",
+      "generatedAt": "2026-07-17T01:25:53.266Z"
+    },
+    "lex-metro": {
+      "hash": "bfd13a90f9f7e26a96f8db34b41f66b2711350ba2a783682bb02431de43bfa32",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-metro.mp3",
+      "generatedAt": "2026-07-17T01:25:55.325Z"
+    },
+    "lex-micro-ondas": {
+      "hash": "9b08090e582da265a2ebdf4d1c5461c965fb0d5225c559adadce5d418955d6d8",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-micro-ondas.mp3",
+      "generatedAt": "2026-07-17T01:25:57.537Z"
+    },
+    "lex-onibus": {
+      "hash": "c02e8a809d383992058b5816b7cc172e7e4f1d2c558da7a0ac5b6830df2f3142",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-onibus.mp3",
+      "generatedAt": "2026-07-17T01:25:59.608Z"
+    },
+    "lex-panela": {
+      "hash": "0c308fa8372bcaa49ebc5e4d2b18ad975ea871c9600a46272d78c44a10265c22",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-panela.mp3",
+      "generatedAt": "2026-07-17T01:26:01.696Z"
+    },
+    "lex-pao": {
+      "hash": "74901da389f686d52145ac091ec5d4ba67138bbc1aa5bc22dbbc7f1c28fbb3a9",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-pao.mp3",
+      "generatedAt": "2026-07-17T01:26:03.648Z"
+    },
+    "lex-pia": {
+      "hash": "824d571b5ece8344b6baf42a2c5fe39af69f66332ab9515b9b2ee3dd63511ef0",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-pia.mp3",
+      "generatedAt": "2026-07-17T01:26:05.819Z"
+    },
+    "lex-planta": {
+      "hash": "b4b22c12997136ada1dcade613841ad912fd2d1cfba8cc3cbae59e30e80f7fd4",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-planta.mp3",
+      "generatedAt": "2026-07-17T01:26:07.986Z"
+    },
+    "lex-planta-decorativa": {
+      "hash": "696316a7bfec4ccd4efcd522f6ca90fa8594a4fffc54de34708e962a44255979",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-planta-decorativa.mp3",
+      "generatedAt": "2026-07-17T01:26:10.233Z"
+    },
+    "lex-poltrona": {
+      "hash": "60d50d9ec8c2d50eea7061830c2c4139bf1fc2d0b68de09d2223cdfb5836228f",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-poltrona.mp3",
+      "generatedAt": "2026-07-17T01:26:12.326Z"
+    },
+    "lex-ponto-de-onibus": {
+      "hash": "5d6c82dd70371b551f516ec91fd5e1827eb2b1223ff09d4d7e4886823313baac",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-ponto-de-onibus.mp3",
+      "generatedAt": "2026-07-17T01:26:14.669Z"
+    },
+    "lex-porta-de-entrada": {
+      "hash": "1dd5e9431c40a0bdcd22acf2d7ed617a8b01505dbd1a85802a3afa7daa11e62f",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-porta-de-entrada.mp3",
+      "generatedAt": "2026-07-17T01:26:16.787Z"
+    },
+    "lex-pote-de-conserva": {
+      "hash": "b8d6fdc8b8b04b40849a9b03edfa1f622f5f2d62f98467a143f6f7bed9e94ffd",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-pote-de-conserva.mp3",
+      "generatedAt": "2026-07-17T01:26:18.893Z"
+    },
+    "lex-praia": {
+      "hash": "205f78ffa8e7408b1d2b087e8ef3cdea9b35bc532dc18ff7e83ab0e2b33aebc6",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-praia.mp3",
+      "generatedAt": "2026-07-17T01:26:20.975Z"
+    },
+    "lex-prateleira-de-frutas-e-verduras": {
+      "hash": "01ff9b8b22ecdbd7ecaccba2c7802e6ba3ba9b726ff1a2ad8c4cb4dbe81c4234",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-prateleira-de-frutas-e-verduras.mp3",
+      "generatedAt": "2026-07-17T01:26:23.220Z"
+    },
+    "lex-prateleira-de-higiene": {
+      "hash": "4cc9b265bf820796a187d0dffa0eccbd41f1246db3ec0213b3a7536d49648f7c",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-prateleira-de-higiene.mp3",
+      "generatedAt": "2026-07-17T01:26:25.429Z"
+    },
+    "lex-prateleira-de-mercearia": {
+      "hash": "886f5eda1c14c2b30201d518f5a65a297aaf6c781242ccf363b5435106fcaba0",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-prateleira-de-mercearia.mp3",
+      "generatedAt": "2026-07-17T01:26:27.624Z"
+    },
+    "lex-prateleira-de-remedios": {
+      "hash": "950b84365df929f1fd1671d41828ec39163bb0ee6a878280c9823ae2a8ba07de",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-prateleira-de-remedios.mp3",
+      "generatedAt": "2026-07-17T01:26:29.757Z"
+    },
+    "lex-quadro": {
+      "hash": "f88a7f5d89f372978df76c73d1f4424a682e1bda4e6acacd55e3829fbf179d36",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-quadro.mp3",
+      "generatedAt": "2026-07-17T01:26:31.728Z"
+    },
+    "lex-restaurante": {
+      "hash": "1fd9dba4ba68c90f975f7a61c29e3d8390346788bbad5a17f9b59bba1fbf1509",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-restaurante.mp3",
+      "generatedAt": "2026-07-17T01:26:33.742Z"
+    },
+    "lex-semaforo": {
+      "hash": "c762916a2031e4656b41853e261c8004b0f8f99283a243ff01196b39cccddc2d",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-semaforo.mp3",
+      "generatedAt": "2026-07-17T01:26:35.794Z"
+    },
+    "lex-sofa": {
+      "hash": "21d5b5959a67fa645e595b47a4694fee5b31a1dec8898a4546478e586fd3eea5",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-sofa.mp3",
+      "generatedAt": "2026-07-17T01:26:37.753Z"
+    },
+    "lex-tabua-de-passar": {
+      "hash": "74c14cfb1336ac8fcfeb63fe8ea1e665b1a8bcada0c288ef1526e12e6dcb2096",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-tabua-de-passar.mp3",
+      "generatedAt": "2026-07-17T01:26:40.151Z"
+    },
+    "lex-tanque": {
+      "hash": "f43a06ad31368af43246245c0f191551ea86a77b06a2b12a07c3523e9cd9bf4f",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-tanque.mp3",
+      "generatedAt": "2026-07-17T01:26:42.289Z"
+    },
+    "lex-tapete": {
+      "hash": "8ea7ac38c7ba0f238518c4c8662f35c084b113bd3f76ee84d3c10630c610c3d2",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-tapete.mp3",
+      "generatedAt": "2026-07-17T01:26:44.247Z"
+    },
+    "lex-televisao": {
+      "hash": "2f30179583e95ef87a91116f6284893b34b25eafd2fb3ce8c8a4d50ccd913b18",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-televisao.mp3",
+      "generatedAt": "2026-07-17T01:26:46.262Z"
+    },
+    "lex-toalha": {
+      "hash": "fcee387cfc3ca08c4476ed224369663f7798987127250fb865e4df288822abc7",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-toalha.mp3",
+      "generatedAt": "2026-07-17T01:26:48.443Z"
+    },
+    "lex-tomate": {
+      "hash": "574535b2d6aa9507568d1ed8f6f0c3df2cd3edb941c25820ffb675601f32be16",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-tomate.mp3",
+      "generatedAt": "2026-07-17T01:26:50.459Z"
+    },
+    "lex-torneira": {
+      "hash": "9c386f4980b4779eae8f873403b40c95f24dea600cde77d421a0733769f2fb97",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-torneira.mp3",
+      "generatedAt": "2026-07-17T01:26:52.535Z"
+    },
+    "lex-travesseiro": {
+      "hash": "04b6f524fbc380e71e8ca3b0c8227b8af393bca32e8de6448467dbc8ead981a0",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-travesseiro.mp3",
+      "generatedAt": "2026-07-17T01:26:54.564Z"
+    },
+    "lex-varal": {
+      "hash": "39d31a543a8e0d26dd6249bed3e23d88adaf963799f1d2ebfc81c0dae67f0091",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-varal.mp3",
+      "generatedAt": "2026-07-17T01:26:56.640Z"
+    },
+    "lex-vaso": {
+      "hash": "7b9d623258cc4ee9fbfada3ca8704de08fd2f7b5b58046da5736b07d1f276b1b",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-vaso.mp3",
+      "generatedAt": "2026-07-17T01:26:58.884Z"
+    },
+    "lex-vaso-sanitario": {
+      "hash": "d698194cebe00a4e0c9493e98de952cbd406f099fb8fa1ecc0e93ba242a7e7a1",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-vaso-sanitario.mp3",
+      "generatedAt": "2026-07-17T01:27:01.360Z"
+    },
+    "lex-vassoura": {
+      "hash": "66f207501df08f9057ec06cd89197d72b9cc8ab474f5b2c08dff575ee291877b",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "words/lex-vassoura.mp3",
+      "generatedAt": "2026-07-17T01:27:03.510Z"
+    },
+    "sala:sofa:example": {
+      "hash": "72508b436c65c8ecd92591e20bd294433db0d208a5b8608a097a08753b2cc6a0",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/sala--sofa--example.mp3",
+      "generatedAt": "2026-07-17T01:27:05.824Z"
+    },
+    "sala:almofada:example": {
+      "hash": "9573b6e20c88a54a8d1806fe9a7ad43625c46e3461b8e2cb9f70881fda017a8e",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/sala--almofada--example.mp3",
+      "generatedAt": "2026-07-17T01:27:08.306Z"
+    },
+    "sala:manta:example": {
+      "hash": "bff31c3692dd55e9e8aa2b145b335505a19ec324f0a19026463320ad3eddc3e8",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/sala--manta--example.mp3",
+      "generatedAt": "2026-07-17T01:27:10.716Z"
+    },
+    "sala:mesa-centro:example": {
+      "hash": "989e7d2af952b768ed6145f95a14072026596723ff529b779e088be4aa9d1cca",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/sala--mesa-centro--example.mp3",
+      "generatedAt": "2026-07-17T01:27:13.485Z"
+    },
+    "sala:tapete-sala:example": {
+      "hash": "0359ae87267d112a3e4917ede5c23b4e2edf3b2686e462835ce5b96d0df8c587",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/sala--tapete-sala--example.mp3",
+      "generatedAt": "2026-07-17T01:27:15.763Z"
+    },
+    "sala:poltrona:example": {
+      "hash": "1b75bab443b89ae032e1abdc48be7c486c9a7a9335c4b98310b4ec82998afea2",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/sala--poltrona--example.mp3",
+      "generatedAt": "2026-07-17T01:27:18.005Z"
+    },
+    "sala:tv:example": {
+      "hash": "0ebfc1061dd585deb7527ebf173d418ecfcdb1fb67648b6832475a9f21801049",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/sala--tv--example.mp3",
+      "generatedAt": "2026-07-17T01:27:20.313Z"
+    },
+    "sala:estante:example": {
+      "hash": "b243717b6772b8e11202c525a9e51a1a714ae00aa4f1f7dee5bf208aeba4b02a",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/sala--estante--example.mp3",
+      "generatedAt": "2026-07-17T01:27:22.547Z"
+    },
+    "sala:luminaria-sala:example": {
+      "hash": "47249cd4b8cc6f92134085a56f4880de5deb246dbfcebd0f73076e4871dff6ff",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/sala--luminaria-sala--example.mp3",
+      "generatedAt": "2026-07-17T01:27:25.035Z"
+    },
+    "sala:planta-sala:example": {
+      "hash": "93cad0508bd000b1918b7b019f635b5ff9afb92d27f97120d86666e6e1409b17",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/sala--planta-sala--example.mp3",
+      "generatedAt": "2026-07-17T01:27:27.200Z"
+    },
+    "sala:cortina-sala:example": {
+      "hash": "5df11a634471d12f2a8b2ec89d18363063e120bbc3750bc39c22db65651263e0",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/sala--cortina-sala--example.mp3",
+      "generatedAt": "2026-07-17T01:27:29.716Z"
+    },
+    "sala:vaso-sala:example": {
+      "hash": "c87937a988aae97b35241e04375f4256c045b799b1410d63d2c483a62a3ef6ba",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/sala--vaso-sala--example.mp3",
+      "generatedAt": "2026-07-17T01:27:32.026Z"
+    },
+    "cozinha:geladeira:example": {
+      "hash": "46231e3af06794760ac5f34494d9c77af769fcca0707d475f015a94c9394d2f4",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/cozinha--geladeira--example.mp3",
+      "generatedAt": "2026-07-17T01:27:34.655Z"
+    },
+    "cozinha:fogao:example": {
+      "hash": "07e4433978df2847bb264b44384cbe117299858e435ca6a86946c7d41c9dbadc",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/cozinha--fogao--example.mp3",
+      "generatedAt": "2026-07-17T01:27:36.988Z"
+    },
+    "cozinha:exaustor:example": {
+      "hash": "c0ac20725377d511169cc83c8b5019f1d02556b5ed46d7a28dae1610599dbd1d",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/cozinha--exaustor--example.mp3",
+      "generatedAt": "2026-07-17T01:27:39.191Z"
+    },
+    "cozinha:microondas:example": {
+      "hash": "edd45a549c6d5c90540b72109fa29e51d84cfe442995f91fc24a221454f8eadf",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/cozinha--microondas--example.mp3",
+      "generatedAt": "2026-07-17T01:27:41.728Z"
+    },
+    "cozinha:pia-cozinha:example": {
+      "hash": "b2c1615e6c68f2bbd84be45c96e181ef62add060fb5f2502563866a5a2ab68fa",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/cozinha--pia-cozinha--example.mp3",
+      "generatedAt": "2026-07-17T01:27:43.870Z"
+    },
+    "cozinha:torneira-cozinha:example": {
+      "hash": "0ca7b049d8cfe704a866342b7285a6bf83d68ab23ac841fe11705beca3dd5586",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/cozinha--torneira-cozinha--example.mp3",
+      "generatedAt": "2026-07-17T01:27:46.107Z"
+    },
+    "cozinha:armario-cozinha:example": {
+      "hash": "b1ce03f2756f42ce232006b3363aebaa5d2fffc7d4d3db94a7864b4f8f273d2b",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/cozinha--armario-cozinha--example.mp3",
+      "generatedAt": "2026-07-17T01:27:48.389Z"
+    },
+    "cozinha:mesa-jantar:example": {
+      "hash": "6c493296b88cea5dd913be99a898cf90e5c8f7ea52aab1bafdf320bdb74b4ee4",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/cozinha--mesa-jantar--example.mp3",
+      "generatedAt": "2026-07-17T01:27:50.799Z"
+    },
+    "cozinha:cadeira-cozinha:example": {
+      "hash": "29e8f5a3c66e087a623f9f581d323b0a50859c3093e24acf86d89d146f5acce7",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/cozinha--cadeira-cozinha--example.mp3",
+      "generatedAt": "2026-07-17T01:27:53.057Z"
+    },
+    "cozinha:panela:example": {
+      "hash": "1695f14b4210280df4008d6de29b252e7ada97a34ebd848900de3cd4485917cc",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/cozinha--panela--example.mp3",
+      "generatedAt": "2026-07-17T01:27:55.387Z"
+    },
+    "cozinha:luminaria-pendente:example": {
+      "hash": "6072efd0777d460ad92faf54866c85c570f8cca46be00d57d1ca5b9df40802cc",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/cozinha--luminaria-pendente--example.mp3",
+      "generatedAt": "2026-07-17T01:27:57.862Z"
+    },
+    "quarto:cama:example": {
+      "hash": "d2a46807d4310c58e572581bdefc78d6ca20f47e2106283ed00f40fd414a4318",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/quarto--cama--example.mp3",
+      "generatedAt": "2026-07-17T01:28:00.194Z"
+    },
+    "quarto:travesseiro:example": {
+      "hash": "02d75dbc1b4909e631195518e59793a70036bc6e637e912e84a53270098672d7",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/quarto--travesseiro--example.mp3",
+      "generatedAt": "2026-07-17T01:28:02.661Z"
+    },
+    "quarto:guarda-roupa:example": {
+      "hash": "e56d6fd0a4b86d2f638ef227e248686f17fd32783042a746268bf016a7b7b3e5",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/quarto--guarda-roupa--example.mp3",
+      "generatedAt": "2026-07-17T01:28:05.814Z"
+    },
+    "quarto:espelho-quarto:example": {
+      "hash": "34f75f2bf3b7f38b6ff735a2bab2413696ea39a70d0204f7eb510df9bb739981",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/quarto--espelho-quarto--example.mp3",
+      "generatedAt": "2026-07-17T01:28:08.722Z"
+    },
+    "quarto:comoda:example": {
+      "hash": "a64c8f93e6056e1aab991d0825b5a2ce927d185026461951efcebdf9a4f39e2e",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/quarto--comoda--example.mp3",
+      "generatedAt": "2026-07-17T01:28:11.504Z"
+    },
+    "quarto:criado-mudo:example": {
+      "hash": "3c457879491661619a07d1c46cd46597f0aa931482a8ad7142bd1b79ae6d294a",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/quarto--criado-mudo--example.mp3",
+      "generatedAt": "2026-07-17T01:28:14.298Z"
+    },
+    "quarto:luminaria-mesa:example": {
+      "hash": "ebe43ac398de1402a46527a0c64e66b8b0d16609740b5d3cada165a7303351ec",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/quarto--luminaria-mesa--example.mp3",
+      "generatedAt": "2026-07-17T01:28:17.073Z"
+    },
+    "quarto:cortina-quarto:example": {
+      "hash": "19668840bb32770ce77c1a1d4ae76b58c5626cc19c0193edd322f4d024d4a2c0",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/quarto--cortina-quarto--example.mp3",
+      "generatedAt": "2026-07-17T01:28:19.778Z"
+    },
+    "quarto:quadro:example": {
+      "hash": "a7d30ed20fcf1136aa9602cdb7ca1ac782a4d636425c74a696d9b87f1f85c9af",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/quarto--quadro--example.mp3",
+      "generatedAt": "2026-07-17T01:28:22.488Z"
+    },
+    "quarto:tapete-quarto:example": {
+      "hash": "dbd8f21edfd0603e4803530f2f5720bdbbdd51603e9877fd1c47fa300964e7f8",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/quarto--tapete-quarto--example.mp3",
+      "generatedAt": "2026-07-17T01:28:25.233Z"
+    },
+    "quarto:manta-quarto:example": {
+      "hash": "ec9558b613fbc6f1f34f50d2b4e49680bc1b64e916ff2d2ff7674a2d3019796a",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/quarto--manta-quarto--example.mp3",
+      "generatedAt": "2026-07-17T01:28:28.252Z"
+    },
+    "banheiro:banheira:example": {
+      "hash": "1eb8591e373d5665979c068f24e2044726cb3232c6ff9534aa859da658c356bb",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/banheiro--banheira--example.mp3",
+      "generatedAt": "2026-07-17T01:28:31.120Z"
+    },
+    "banheiro:chuveiro:example": {
+      "hash": "719fcf6edfeff57e1ad7aa7b543ff57f9d7c0cb3fbe1cbaacc1f339c9d215d85",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/banheiro--chuveiro--example.mp3",
+      "generatedAt": "2026-07-17T01:28:33.869Z"
+    },
+    "banheiro:vaso-sanitario:example": {
+      "hash": "7faf04988c4f9628a4eefc8832bf29713dae14f62a1b40cf2775a81f211fd247",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/banheiro--vaso-sanitario--example.mp3",
+      "generatedAt": "2026-07-17T01:28:36.752Z"
+    },
+    "banheiro:pia-banheiro:example": {
+      "hash": "e0987f0913e6027ee4bfdaeea8eefd2f119cbd7023bdaa0464732d1aac6bea57",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/banheiro--pia-banheiro--example.mp3",
+      "generatedAt": "2026-07-17T01:28:39.752Z"
+    },
+    "banheiro:espelho-banheiro:example": {
+      "hash": "dccd085390277522f410d7df9ef0138cc605b606d85b156f2a3ca6b4f21c2444",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/banheiro--espelho-banheiro--example.mp3",
+      "generatedAt": "2026-07-17T01:28:42.797Z"
+    },
+    "banheiro:torneira-banheiro:example": {
+      "hash": "e0241d8d6b46f04f0a41274725ae53ebc3c064e4955cc32330ca993062c35f9a",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/banheiro--torneira-banheiro--example.mp3",
+      "generatedAt": "2026-07-17T01:28:45.554Z"
+    },
+    "banheiro:toalha:example": {
+      "hash": "d2af5b4da8e3984ef6e2fd5e68812d33f71a3a60ef8c0120a3561d6353c4b0c8",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/banheiro--toalha--example.mp3",
+      "generatedAt": "2026-07-17T01:28:48.417Z"
+    },
+    "banheiro:tapete-banheiro:example": {
+      "hash": "5afb26d0b3f369ad35a342659b54b9d7afb458e62826d389252f04313e9d90a9",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/banheiro--tapete-banheiro--example.mp3",
+      "generatedAt": "2026-07-17T01:28:51.220Z"
+    },
+    "banheiro:planta-banheiro:example": {
+      "hash": "ce29606ec641959fa087cfeb87d3deab9e600e43f02c02a27c60acdf5d65c2b8",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/banheiro--planta-banheiro--example.mp3",
+      "generatedAt": "2026-07-17T01:28:54.074Z"
+    },
+    "banheiro:quadro-banheiro:example": {
+      "hash": "3f58bc09710b51edfe4e2ab9026e8a10085f17a832a9c760042e00786eb3d22c",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/banheiro--quadro-banheiro--example.mp3",
+      "generatedAt": "2026-07-17T01:28:56.862Z"
+    },
+    "banheiro:cesto:example": {
+      "hash": "665a11c75d6760e2b120ad80113e096bcf6cb0b6e3d45f598704be619867c894",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/banheiro--cesto--example.mp3",
+      "generatedAt": "2026-07-17T01:28:59.632Z"
+    },
+    "lavanderia:maquina-lavar:example": {
+      "hash": "67999a672a9ab1d55da77bfcb827015686cf0273ed21e16554e60fa923847aa8",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/lavanderia--maquina-lavar--example.mp3",
+      "generatedAt": "2026-07-17T01:29:03.238Z"
+    },
+    "lavanderia:tanque:example": {
+      "hash": "59e2bee344cd5336a29054ef9255496f82980eb8e87642a944a874b9cd85bfb9",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/lavanderia--tanque--example.mp3",
+      "generatedAt": "2026-07-17T01:29:06.019Z"
+    },
+    "lavanderia:torneira-lavanderia:example": {
+      "hash": "9bf4f84d47ac35518e87b35005d928aae76a8b697a80a46c4e00ecd9b9ad7cc0",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/lavanderia--torneira-lavanderia--example.mp3",
+      "generatedAt": "2026-07-17T01:29:08.755Z"
+    },
+    "lavanderia:armario-limpeza:example": {
+      "hash": "757a622b63bf119aa9ed8fbf0f05c283b5239135173fd17a9f0b12f4d0fd6ca4",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/lavanderia--armario-limpeza--example.mp3",
+      "generatedAt": "2026-07-17T01:29:11.626Z"
+    },
+    "lavanderia:varal:example": {
+      "hash": "1314b7df463cdcda74ec77ae1510520b3de80ebcd294ec09a4531a58234eec97",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/lavanderia--varal--example.mp3",
+      "generatedAt": "2026-07-17T01:29:14.804Z"
+    },
+    "lavanderia:camiseta-varal:example": {
+      "hash": "c07beb2223c6151dc9bf0fdb3d6aa639b56cd6ba2b48f510bfb6243bab97208a",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/lavanderia--camiseta-varal--example.mp3",
+      "generatedAt": "2026-07-17T01:29:17.603Z"
+    },
+    "lavanderia:toalha-varal:example": {
+      "hash": "bdfda0a056ccab9765a27970686e224368fd9bd3ceaddd834a51286bc417a030",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/lavanderia--toalha-varal--example.mp3",
+      "generatedAt": "2026-07-17T01:29:20.457Z"
+    },
+    "lavanderia:cesto-roupa:example": {
+      "hash": "b140bd2b8977bffb4ce94b31f0d34e062cc576d55b32222bfaa54a5e28eb67fd",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/lavanderia--cesto-roupa--example.mp3",
+      "generatedAt": "2026-07-17T01:29:23.368Z"
+    },
+    "lavanderia:tabua-passar:example": {
+      "hash": "7e8db1524fff2c3edf8bb156c5e846c7d4622d434169a5312dc8ccf612b25d1d",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/lavanderia--tabua-passar--example.mp3",
+      "generatedAt": "2026-07-17T01:29:26.247Z"
+    },
+    "lavanderia:ferro-passar:example": {
+      "hash": "51f0d64989b382bf04b6a20ab4bc0f48f12c8378c4d8f885a391b3cc787dc415",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/lavanderia--ferro-passar--example.mp3",
+      "generatedAt": "2026-07-17T01:29:29.007Z"
+    },
+    "lavanderia:balde-lavanderia:example": {
+      "hash": "6cc0217491b80e9f3bedd6ee942c4b2d497df07a7fb9159f8b024f6c07de1378",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/lavanderia--balde-lavanderia--example.mp3",
+      "generatedAt": "2026-07-17T01:29:32.129Z"
+    },
+    "lavanderia:vassoura:example": {
+      "hash": "18c7dc54b86253cd0e0ea6055952b85e61a1e027c9370bc0f5e6f557b6c78dcd",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/lavanderia--vassoura--example.mp3",
+      "generatedAt": "2026-07-17T01:29:34.882Z"
+    },
+    "supermercado:carrinho-compras:example": {
+      "hash": "f13d99d8099bb59800f5302720a250b46ff55200985beba6f5a2120704ee5eb4",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/supermercado--carrinho-compras--example.mp3",
+      "generatedAt": "2026-07-17T01:29:37.790Z"
+    },
+    "supermercado:cesta-compras:example": {
+      "hash": "00bbc49d158cb6107c319da29ca1e8b1460fa06dcc4cd3f438e1381d23ac602d",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/supermercado--cesta-compras--example.mp3",
+      "generatedAt": "2026-07-17T01:29:40.924Z"
+    },
+    "supermercado:caixa-mercado:example": {
+      "hash": "5eba9e5e81256518ac109a06e372e4cca7cd55894f79d9e172711772f6904b85",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/supermercado--caixa-mercado--example.mp3",
+      "generatedAt": "2026-07-17T01:29:43.666Z"
+    },
+    "supermercado:prateleira-hortifruti:example": {
+      "hash": "97de9d79ca94a6e947a09a5fa5d771a9e045547b1a1a86dca67ac43766ccaa89",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/supermercado--prateleira-hortifruti--example.mp3",
+      "generatedAt": "2026-07-17T01:29:46.815Z"
+    },
+    "supermercado:tomate-mercado:example": {
+      "hash": "12a40c75f2b2948af1693884d0ca9eb405dddb62026bf344518b757a3de9ad64",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/supermercado--tomate-mercado--example.mp3",
+      "generatedAt": "2026-07-17T01:29:49.672Z"
+    },
+    "supermercado:laranja-mercado:example": {
+      "hash": "fc4c637771e7e9afbe861e04ebd1da2a65239537acc475b6567e121ac1ae4617",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/supermercado--laranja-mercado--example.mp3",
+      "generatedAt": "2026-07-17T01:29:52.391Z"
+    },
+    "supermercado:prateleira-mercearia:example": {
+      "hash": "b3b05e94ceb10d20f1be6e588786d8128bf299b027cd2012c28a297b893545a3",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/supermercado--prateleira-mercearia--example.mp3",
+      "generatedAt": "2026-07-17T01:29:55.181Z"
+    },
+    "supermercado:pote-conserva:example": {
+      "hash": "7ed72376bd745ddcdeb214e26d3f07f810a6d4c0be046c90a9631d6fef61a58b",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/supermercado--pote-conserva--example.mp3",
+      "generatedAt": "2026-07-17T01:29:58.441Z"
+    },
+    "supermercado:caixas-papelao:example": {
+      "hash": "bb0cf7b203cea4f84f06ce795e0fd1ba2409d8f077503e59de91e6d0ad0b31af",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/supermercado--caixas-papelao--example.mp3",
+      "generatedAt": "2026-07-17T01:30:01.617Z"
+    },
+    "supermercado:planta-mercado:example": {
+      "hash": "05d8921635c439bfdbeac4fc3e248972ecf013deba4d8ad8581371a34f7e2233",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/supermercado--planta-mercado--example.mp3",
+      "generatedAt": "2026-07-17T01:30:04.033Z"
+    },
+    "supermercado:entrada-mercado:example": {
+      "hash": "0d70323eff069c7e616f3d7d87f9bb99b437652fbd6ace48896ab9401569aacb",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/supermercado--entrada-mercado--example.mp3",
+      "generatedAt": "2026-07-17T01:30:06.460Z"
+    },
+    "farmacia:cruz-farmacia:example": {
+      "hash": "5002a1359c9f6e4f5fbff40f0371ed770a1b9bbdd3f4f07a7de07995704ababd",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/farmacia--cruz-farmacia--example.mp3",
+      "generatedAt": "2026-07-17T01:30:08.866Z"
+    },
+    "farmacia:prateleira-remedios:example": {
+      "hash": "63a4c502a7fb8a028c3d9dc0df47f23ef4fb8f55f605917d43012d4fe117956a",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/farmacia--prateleira-remedios--example.mp3",
+      "generatedAt": "2026-07-17T01:30:11.300Z"
+    },
+    "farmacia:balcao-farmacia:example": {
+      "hash": "fea289596ea4192c86c96cddee11c676c1154f86660fe710c74dcb28111693d6",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/farmacia--balcao-farmacia--example.mp3",
+      "generatedAt": "2026-07-17T01:30:13.911Z"
+    },
+    "farmacia:computador-caixa:example": {
+      "hash": "8ce9f2f93260beae36eb88fca017a9d34a7948488232e987c48bfa4d0ebe3cb9",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/farmacia--computador-caixa--example.mp3",
+      "generatedAt": "2026-07-17T01:30:16.263Z"
+    },
+    "farmacia:balanca:example": {
+      "hash": "56219a0110650b232c66a5552b86505c9a64c674ffe2863b45d78e4264308af2",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/farmacia--balanca--example.mp3",
+      "generatedAt": "2026-07-17T01:30:18.440Z"
+    },
+    "farmacia:alcool-gel:example": {
+      "hash": "3f1d2b2d4f714f31b0798ab7bd09417c3c38f5dc601fcdc3f5479f5c2620b35c",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/farmacia--alcool-gel--example.mp3",
+      "generatedAt": "2026-07-17T01:30:20.649Z"
+    },
+    "farmacia:planta-farmacia:example": {
+      "hash": "451eb6b9dee991e94567eb490dfb77db6ed80b0a625501c2a23d07e0d04ed8ed",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/farmacia--planta-farmacia--example.mp3",
+      "generatedAt": "2026-07-17T01:30:23.365Z"
+    },
+    "farmacia:prateleira-higiene:example": {
+      "hash": "e6d633bd81a795916441fcac67a70ca1d86b6c3208a1a5b2970e2a924eb11a4f",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/farmacia--prateleira-higiene--example.mp3",
+      "generatedAt": "2026-07-17T01:30:25.793Z"
+    },
+    "farmacia:gondola-central:example": {
+      "hash": "5bed86e44cf747c3c8b114f6bd65e7287a87081e444176cffc062e221262dc8b",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/farmacia--gondola-central--example.mp3",
+      "generatedAt": "2026-07-17T01:30:28.402Z"
+    },
+    "farmacia:banco-espera:example": {
+      "hash": "a21909c029799d0dd0d01d2116a807e1b2d5f1544ed345b494df7a26a472f1d4",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/farmacia--banco-espera--example.mp3",
+      "generatedAt": "2026-07-17T01:30:30.903Z"
+    },
+    "farmacia:porta-farmacia:example": {
+      "hash": "40a84a0a535549f0dc46dff562a946c8efbb43a3d2cb285106962d03b4049118",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/farmacia--porta-farmacia--example.mp3",
+      "generatedAt": "2026-07-17T01:30:33.118Z"
+    },
+    "transporte:onibus:example": {
+      "hash": "e5de55a6ae2ab835ea23f927c49f5a8b76bb2244cb88f8137d4d09e78ab4a317",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/transporte--onibus--example.mp3",
+      "generatedAt": "2026-07-17T01:30:35.376Z"
+    },
+    "transporte:carro:example": {
+      "hash": "f6947e072968a37fb566012a990eb95aebc717944d97220ed22df9c730499a7b",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/transporte--carro--example.mp3",
+      "generatedAt": "2026-07-17T01:30:37.726Z"
+    },
+    "transporte:aviao:example": {
+      "hash": "ff4a5b5abaefa1e4cc48392468972acf69faeea5429c06c8f9da6d2a287550f4",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/transporte--aviao--example.mp3",
+      "generatedAt": "2026-07-17T01:30:39.893Z"
+    },
+    "transporte:metro-trem:example": {
+      "hash": "f4c79b1e51534f9ed6706aff9474a85b78355a96485f1a1d4df5448810e3d79c",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/transporte--metro-trem--example.mp3",
+      "generatedAt": "2026-07-17T01:30:42.187Z"
+    },
+    "transporte:ponto-onibus:example": {
+      "hash": "5868a3cb0ab70e91636d70b5415a7dadd4fac66ec738cfaaf66321f903d1584c",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/transporte--ponto-onibus--example.mp3",
+      "generatedAt": "2026-07-17T01:30:44.523Z"
+    },
+    "transporte:banco-ponto:example": {
+      "hash": "f7a56cdda749d92957554a54d5c79d1fdd60bff772a5fb4eaa3ca8fa73ab3fe3",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/transporte--banco-ponto--example.mp3",
+      "generatedAt": "2026-07-17T01:30:47.018Z"
+    },
+    "transporte:lixeira:example": {
+      "hash": "00cc08f4e1841f294395d1a5e090933664a5ae8290430cdb84ec4a2718b5fd4b",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/transporte--lixeira--example.mp3",
+      "generatedAt": "2026-07-17T01:30:49.405Z"
+    },
+    "transporte:semaforo:example": {
+      "hash": "6c1663504912219c6d41fe3d0c45c30790619b5ad05d19d91fd9de50480dc0f2",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/transporte--semaforo--example.mp3",
+      "generatedAt": "2026-07-17T01:30:51.691Z"
+    },
+    "transporte:faixa-pedestre:example": {
+      "hash": "5cc7183f15f577325bb982df21138a0fff9b32657ac7ebee0944835c5721c7cd",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/transporte--faixa-pedestre--example.mp3",
+      "generatedAt": "2026-07-17T01:30:54.293Z"
+    },
+    "transporte:ciclovia:example": {
+      "hash": "0067eb242ab8ea378e1d285dfbb214bb3a18c346ccee840148c2659e206d1ced",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/transporte--ciclovia--example.mp3",
+      "generatedAt": "2026-07-17T01:30:56.617Z"
+    },
+    "transporte:entrada-metro:example": {
+      "hash": "21676aa57497e4a7f28a864829b9914cfd20870b5919c3471aab5eeb709094dd",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "examples/transporte--entrada-metro--example.mp3",
+      "generatedAt": "2026-07-17T01:30:58.896Z"
+    },
+    "scene-verb:assistir": {
+      "hash": "0ad77b83e749148e83828b9db930e9ba7e5089a1a671e0cededa5b488fe31939",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "scene-verbs/assistir.mp3",
+      "generatedAt": "2026-07-17T01:31:00.961Z"
+    },
+    "scene-verb:sentar": {
+      "hash": "2903df92138cd67111af5bcb80bf2ddfa389e3242446a0e4c799836aba85872f",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "scene-verbs/sentar.mp3",
+      "generatedAt": "2026-07-17T01:31:03.091Z"
+    },
+    "scene-verb:relaxar": {
+      "hash": "f5637957367076ab237e0c7fe87399efd06c5816f5ad84031c49744d0695ec80",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "scene-verbs/relaxar.mp3",
+      "generatedAt": "2026-07-17T01:31:05.176Z"
+    },
+    "scene-verb:conversar": {
+      "hash": "26b6447789c06848a2311c4dcd47506be6c8aa024168828a43433577d2bf3d05",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "scene-verbs/conversar.mp3",
+      "generatedAt": "2026-07-17T01:31:07.420Z"
+    },
+    "scene-verb:cozinhar": {
+      "hash": "e5875ad8f032686aa6d29b87ffcbad179f02f13cbbb24efb9e0cb90ac0438ae1",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "scene-verbs/cozinhar.mp3",
+      "generatedAt": "2026-07-17T01:31:09.342Z"
+    },
+    "scene-verb:lavar": {
+      "hash": "9b1f5a055ed3342696ab888c0efc5d3aca60a04d94443e367297ba5f89d8e71d",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "scene-verbs/lavar.mp3",
+      "generatedAt": "2026-07-17T01:31:11.360Z"
+    },
+    "scene-verb:esquentar": {
+      "hash": "c0be23a1e19fed22bcbacbd02cd9d3caa1e57b3a9e56ef67036ce8324de89557",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "scene-verbs/esquentar.mp3",
+      "generatedAt": "2026-07-17T01:31:13.536Z"
+    },
+    "scene-verb:temperar": {
+      "hash": "bd49479eea556c49a3c35e34382ac73795b6bf4fe3db6f106e791f5c1c654eb6",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "scene-verbs/temperar.mp3",
+      "generatedAt": "2026-07-17T01:31:15.536Z"
+    },
+    "scene-verb:dormir": {
+      "hash": "e022b25590c83648da69d044e395dbc356162563bcf3f560419f5fcffae69d89",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "scene-verbs/dormir.mp3",
+      "generatedAt": "2026-07-17T01:31:17.491Z"
+    },
+    "scene-verb:acordar": {
+      "hash": "73153f2e8462a3d99e21a604990428e5516d0c3d43556dc47dd1374b1cd437e4",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "scene-verbs/acordar.mp3",
+      "generatedAt": "2026-07-17T01:31:19.514Z"
+    },
+    "scene-verb:arrumar": {
+      "hash": "118fca41a8a05e3dffe0b8c63b85cd0a248c2c4b7633776bba73171f677195e8",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "scene-verbs/arrumar.mp3",
+      "generatedAt": "2026-07-17T01:31:21.871Z"
+    },
+    "scene-verb:descansar": {
+      "hash": "b04c07cc9f0a6f22cecfebb5b5762dde57a7a1da0d7df40e16a1dde1ce98ff57",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "scene-verbs/descansar.mp3",
+      "generatedAt": "2026-07-17T01:31:23.983Z"
+    },
+    "scene-verb:tomar-banho": {
+      "hash": "ffb419db42c08d2fd7fdc1febc6f3dfa4cab7fba005ce36c5183372944cbebf4",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "scene-verbs/tomar-banho.mp3",
+      "generatedAt": "2026-07-17T01:31:26.102Z"
+    },
+    "scene-verb:escovar": {
+      "hash": "8c2ff60827e397974444177d652c306d4c32f9f3c56ba0c1487f9f3963af56a0",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "scene-verbs/escovar.mp3",
+      "generatedAt": "2026-07-17T01:31:28.298Z"
+    },
+    "scene-verb:secar": {
+      "hash": "073b6b27e938b9dd5451814f523f4aad9581d6e553f2e82f377d17b90b02d948",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "scene-verbs/secar.mp3",
+      "generatedAt": "2026-07-17T01:31:30.303Z"
+    },
+    "scene-verb:passar": {
+      "hash": "6e70294fd449bc34c47e31904d3e9056903b2988ccbbab7745045d07c333aea7",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "scene-verbs/passar.mp3",
+      "generatedAt": "2026-07-17T01:31:32.506Z"
+    },
+    "scene-verb:pendurar": {
+      "hash": "dac792cd242123f709d1862cbe6b1a816e57e7f98cc9133959558a4a4deb30e7",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "scene-verbs/pendurar.mp3",
+      "generatedAt": "2026-07-17T01:31:34.655Z"
+    },
+    "scene-verb:comprar": {
+      "hash": "a02d31953414d83cede48510076d20dbc90587b0f34e34398cef9d34c988b396",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "scene-verbs/comprar.mp3",
+      "generatedAt": "2026-07-17T01:31:36.575Z"
+    },
+    "scene-verb:pagar": {
+      "hash": "c135b9b981d04da6d2ba777cdd7c4b3ad2d1246139b83a2e4d0987a26d3eccb6",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "scene-verbs/pagar.mp3",
+      "generatedAt": "2026-07-17T01:31:38.510Z"
+    },
+    "scene-verb:escolher": {
+      "hash": "2f357ae01d97294edf462ba7c674d083b8783052068ac2c2dac01e6de75bf4c0",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "scene-verbs/escolher.mp3",
+      "generatedAt": "2026-07-17T01:31:40.614Z"
+    },
+    "scene-verb:pesar": {
+      "hash": "f5067edc124668eca916319e695f5c12427e35e9af6485256932a31188a4b9a4",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "scene-verbs/pesar.mp3",
+      "generatedAt": "2026-07-17T01:31:42.658Z"
+    },
+    "scene-verb:indicar": {
+      "hash": "6fb13dedb9c2404c7926e748fe198b7ff2c7324b1410af73bc318c7eea4df950",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "scene-verbs/indicar.mp3",
+      "generatedAt": "2026-07-17T01:31:44.737Z"
+    },
+    "scene-verb:receitar": {
+      "hash": "97eb3e2e2c9d33a10a8109568aee82b0cf574078a1cc8bb4185971a19f94fb60",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "scene-verbs/receitar.mp3",
+      "generatedAt": "2026-07-17T01:31:46.956Z"
+    },
+    "scene-verb:pegar-o-onibus": {
+      "hash": "b67236d4f780ff88ac922ac7c4c34127b320f6438c1c7c79b6552fc9251145d4",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "scene-verbs/pegar-o-onibus.mp3",
+      "generatedAt": "2026-07-17T01:31:49.204Z"
+    },
+    "scene-verb:descer": {
+      "hash": "f8776fb1dacfeaac5214a979e3141350aa1820ce5db232c184e4682855198dd9",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "scene-verbs/descer.mp3",
+      "generatedAt": "2026-07-17T01:31:51.298Z"
+    },
+    "scene-verb:atravessar": {
+      "hash": "d1d4b89570c188ddf076ca905069ca5ad25ce0bee91815ced11c895df790bc8e",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "scene-verbs/atravessar.mp3",
+      "generatedAt": "2026-07-17T01:31:53.492Z"
+    },
+    "scene-verb:esperar": {
+      "hash": "0178863eebd88d7d30c7aeea410b22c6e4dfc3abc7fe89ad825456f6ec2e2ec8",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "scene-verbs/esperar.mp3",
+      "generatedAt": "2026-07-17T01:31:55.552Z"
+    },
+    "sala:phrase:1": {
+      "hash": "f26cd69b174e689adb256f8cf6421acc3611b4bfc422a0bd12507629af564b4e",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "scene-phrases/sala--phrase--1.mp3",
+      "generatedAt": "2026-07-17T01:31:57.752Z"
+    },
+    "sala:phrase:2": {
+      "hash": "c8efd15229cb3cc524a6737f7ea8c777f13fb25ca05e84017d5c289edf22cd02",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "scene-phrases/sala--phrase--2.mp3",
+      "generatedAt": "2026-07-17T01:31:59.902Z"
+    },
+    "cozinha:phrase:1": {
+      "hash": "e39786802b503885132540b44f0dab67a28921203dc2806f625e9bdef58b4d65",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "scene-phrases/cozinha--phrase--1.mp3",
+      "generatedAt": "2026-07-17T01:32:02.096Z"
+    },
+    "cozinha:phrase:2": {
+      "hash": "e9fc1803e484318fc99f5cd8e6ceff6796e9a3603652a43a2c919f6663b6a933",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "scene-phrases/cozinha--phrase--2.mp3",
+      "generatedAt": "2026-07-17T01:32:04.411Z"
+    },
+    "quarto:phrase:1": {
+      "hash": "40e3feadd23d1db3feb16e829a148aac4e70e4fa679e2140d9d7a964c0d791aa",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "scene-phrases/quarto--phrase--1.mp3",
+      "generatedAt": "2026-07-17T01:32:06.620Z"
+    },
+    "quarto:phrase:2": {
+      "hash": "de431253809c867f84285b528cc7ab6901a7d1f6a254eb37a24f908818252bcd",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "scene-phrases/quarto--phrase--2.mp3",
+      "generatedAt": "2026-07-17T01:32:08.795Z"
+    },
+    "banheiro:phrase:1": {
+      "hash": "ce47f02c30b2343d9b87ea6a2ca148f07b2bca6c59fc9501928e865a8bf7004b",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "scene-phrases/banheiro--phrase--1.mp3",
+      "generatedAt": "2026-07-17T01:32:11.003Z"
+    },
+    "banheiro:phrase:2": {
+      "hash": "94ef8f632c323c6e6325026718ed85862454daf2693f9fb854f384d23039918a",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "scene-phrases/banheiro--phrase--2.mp3",
+      "generatedAt": "2026-07-17T01:32:13.182Z"
+    },
+    "lavanderia:phrase:1": {
+      "hash": "57b7c87a2f87368ee0e26f76815db762016f705d4a219af04176196eb2d5c773",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "scene-phrases/lavanderia--phrase--1.mp3",
+      "generatedAt": "2026-07-17T01:32:15.516Z"
+    },
+    "lavanderia:phrase:2": {
+      "hash": "c4d8265edd54292432422387608bc2f28f6d893a70757286242297f326b0c6a9",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "scene-phrases/lavanderia--phrase--2.mp3",
+      "generatedAt": "2026-07-17T01:32:17.931Z"
+    },
+    "supermercado:phrase:1": {
+      "hash": "4fb894214415be389f1cb521264504b17c6c372bb432b0d60894af16c497ff99",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "scene-phrases/supermercado--phrase--1.mp3",
+      "generatedAt": "2026-07-17T01:32:20.034Z"
+    },
+    "supermercado:phrase:2": {
+      "hash": "ad308eb1fe4bd9fa4e2f275886f18568a34e68721794625dd114b9760d81be7b",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "scene-phrases/supermercado--phrase--2.mp3",
+      "generatedAt": "2026-07-17T01:32:22.333Z"
+    },
+    "supermercado:phrase:3": {
+      "hash": "aa72d5bcec80191d13cc3f7819947b56dad2e4bb89520a56c38284dce3663a29",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "scene-phrases/supermercado--phrase--3.mp3",
+      "generatedAt": "2026-07-17T01:32:24.695Z"
+    },
+    "farmacia:phrase:1": {
+      "hash": "65feedaa9d72f4f3ead91d4cda94ea890686a3f868f145eeaac17c4bf7617ecf",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "scene-phrases/farmacia--phrase--1.mp3",
+      "generatedAt": "2026-07-17T01:32:27.175Z"
+    },
+    "farmacia:phrase:2": {
+      "hash": "c3a6e592a448a6e6c0465cc36568ffec6d58ad0be2c466b1f469b770cad822e7",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "scene-phrases/farmacia--phrase--2.mp3",
+      "generatedAt": "2026-07-17T01:32:29.474Z"
+    },
+    "transporte:phrase:1": {
+      "hash": "62f72b8ce55644f86e83eec4da4a2306c1bab489d430002f46545c26a01d2bf1",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "scene-phrases/transporte--phrase--1.mp3",
+      "generatedAt": "2026-07-17T01:32:31.638Z"
+    },
+    "transporte:phrase:2": {
+      "hash": "63048d48b8da08fa19332825a8e9859f41993cebb6b175666c87d016e2742fb4",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "scene-phrases/transporte--phrase--2.mp3",
+      "generatedAt": "2026-07-17T01:32:34.090Z"
+    }
+  }
+}

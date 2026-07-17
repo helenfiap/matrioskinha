@@ -13,7 +13,7 @@ const choices: Array<{ key: 'formal' | 'neutro' | 'informal'; pt: string; ru: st
   { key: 'informal', pt: 'Informal', ru: 'Неформально' },
 ];
 
-export function RegistroExercise({ onCorrect }: { onCorrect: () => void }) {
+export function RegistroExercise({ onCorrect, onAttempt }: { onCorrect: () => void; onAttempt?: (correct: boolean) => void }) {
   const { t } = useLanguage();
   const [solved, setSolved] = useState<Record<number, string | null>>({});
 
@@ -23,6 +23,7 @@ export function RegistroExercise({ onCorrect }: { onCorrect: () => void }) {
     setSolved((prev) => {
       const next = { ...prev, [i]: key };
       const done = items.every((_, idx) => next[idx] === items[idx].correct);
+      onAttempt?.(key === items[i].correct);
       if (done) onCorrect();
       return next;
     });
