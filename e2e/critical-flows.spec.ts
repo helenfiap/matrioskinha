@@ -130,6 +130,9 @@ test('organiza cenarios por colecao e apresenta o Atelie das Emocoes', async ({ 
 
   await page.getByRole('button', { name: 'Русский' }).click();
   await expect(page.getByRole('heading', { name: 'Ателье эмоций' })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Миша Матрёшкин · он', exact: true })).toBeVisible();
+  await expect(page.locator('.emotion-character-name')).toHaveText('Миша Матрёшкин');
+  await expect(page.locator('.emotion-artwork.large img')).toHaveAttribute('alt', /^Миша Матрёшкин:/);
   await expect(page.locator('.mood-card-copy strong').first()).toHaveText('счастливый');
   await expect(page.locator('.mood-card-copy span').first()).toHaveText('feliz');
   await expect(page.getByRole('heading', { name: 'счастливый' })).toBeVisible();

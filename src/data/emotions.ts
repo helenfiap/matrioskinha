@@ -11,12 +11,12 @@ export const EMOTION_ATELIER_PROGRESS_ID = 'emotion-atelier';
 export const emotionCharacters = {
   feminine: {
     id: 'matrioskinha',
-    name: 'Matrioskinha',
+    name: { pt: 'Matrioskinha', ru: 'Матрёшкинка' },
     imageBasePath: '/assets/scenarios/emotions/matrioskinha',
   },
   masculine: {
     id: 'misha-matrioshkin',
-    name: 'Misha Matriôshkin',
+    name: { pt: 'Misha Matriôshkin', ru: 'Миша Матрёшкин' },
     imageBasePath: '/assets/scenarios/emotions/misha',
   },
 } as const;

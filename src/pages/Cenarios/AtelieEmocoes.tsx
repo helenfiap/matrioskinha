@@ -18,6 +18,7 @@ type EmotionGender = 'feminine' | 'masculine';
 function EmotionArtwork({ mood, gender, lang, large = false }: { mood: EmotionMood; gender: EmotionGender; lang: 'pt' | 'ru'; large?: boolean }) {
   const [sourceFormat, setSourceFormat] = useState<'webp' | 'png' | 'missing'>('webp');
   const character = emotionCharacters[gender];
+  const characterName = character.name[lang];
   const src = `${character.imageBasePath}/${mood.id}.${sourceFormat === 'webp' ? 'webp' : 'png'}`;
 
   useEffect(() => setSourceFormat('webp'), [mood.id, gender]);
@@ -27,14 +28,14 @@ function EmotionArtwork({ mood, gender, lang, large = false }: { mood: EmotionMo
       {sourceFormat !== 'missing' ? (
         <img
           src={src}
-          alt={`${character.name}: ${lang === 'ru' ? mood.ru[gender] : mood.pt[gender]}`}
+          alt={`${characterName}: ${lang === 'ru' ? mood.ru[gender] : mood.pt[gender]}`}
           onError={() => setSourceFormat((current) => current === 'webp' ? 'png' : 'missing')}
         />
       ) : (
         <div
           className="emotion-artwork-fallback"
           role="img"
-          aria-label={lang === 'ru' ? `Иллюстрация ${character.name} ещё не добавлена` : `Arte de ${character.name} ainda não adicionada`}
+          aria-label={lang === 'ru' ? `Иллюстрация ${characterName} ещё не добавлена` : `Arte de ${characterName} ainda não adicionada`}
         >
           <span aria-hidden="true">{mood.emoji}</span>
           <ImageOff size={large ? 22 : 15} />
@@ -162,10 +163,10 @@ export function AtelieEmocoes({ initialMoodId }: { initialMoodId?: string }) {
         <div className="gender-toggle" role="group" aria-label={t('Personagem para os exemplos', 'Персонаж для примеров')}>
           <span className="gender-toggle-label">{t('Personagem', 'Персонаж')}</span>
           <button type="button" className={gender === 'feminine' ? 'active' : ''} onClick={() => setGender('feminine')}>
-            {emotionCharacters.feminine.name} · {t('ela', 'она')}
+            {emotionCharacters.feminine.name[lang]} · {t('ela', 'она')}
           </button>
           <button type="button" className={gender === 'masculine' ? 'active' : ''} onClick={() => setGender('masculine')}>
-            {emotionCharacters.masculine.name} · {t('ele', 'он')}
+            {emotionCharacters.masculine.name[lang]} · {t('ele', 'он')}
           </button>
         </div>
         <span className="atelier-auto-assets">{t(
@@ -210,7 +211,7 @@ export function AtelieEmocoes({ initialMoodId }: { initialMoodId?: string }) {
         <section ref={detailRef} className="emotion-detail-card" aria-live="polite">
         <div className="emotion-detail-visual">
           <EmotionArtwork mood={selectedMood} gender={gender} lang={lang} large />
-          <div className="emotion-character-name">{selectedCharacter.name}</div>
+          <div className="emotion-character-name">{selectedCharacter.name[lang]}</div>
         </div>
 
         <div className="emotion-detail-content">
