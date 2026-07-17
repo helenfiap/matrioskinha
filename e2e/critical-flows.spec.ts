@@ -179,3 +179,28 @@ test('consolida os verbos do produto nas secoes de infinitivo', async ({ page })
   await expect(page.getByRole('button', { name: /sentir saudade/ })).toBeVisible();
   await expect(page.getByText('Sinto muito.', { exact: true })).toHaveCount(0);
 });
+
+test('navega pela knowledge base entre atelie, conjugador, cenarios, lexico e revisao', async ({ page }) => {
+  await page.goto('/#/cenarios?collection=emotions&mood=surpresa');
+  await expect(page.locator('.emotion-detail-title h3')).toHaveText('surpresa');
+  await page.getByRole('link', { name: /surpreender-se/ }).click();
+  await expect(page).toHaveURL(/#\/conjugador$/);
+  await expect(page.locator('.conj-item.open')).toContainText('surpreender-se');
+  await page.getByRole('link', { name: /surpresa \/ surpreso/ }).click();
+  await expect(page).toHaveURL(/collection=emotions.*mood=surpresa/);
+  await expect(page.locator('.emotion-detail-title h3')).toHaveText('surpresa');
+
+  await page.goto('/#/cenarios?scene=transporte');
+  await page.getByRole('button', { name: 'Cultura' }).click();
+  await page.getByRole('link', { name: /pegar \(o ônibus\)/ }).click();
+  await expect(page).toHaveURL(/#\/conjugador$/);
+  await expect(page.locator('.conj-item.open')).toContainText('pegar');
+
+  await page.goto('/#/vocab');
+  const busCard = page.locator('.vocab').filter({ hasText: 'o ônibus' });
+  await busCard.getByRole('link', { name: /Transporte/ }).click();
+  await expect(page.getByRole('heading', { name: 'o ônibus' })).toBeVisible();
+  await page.getByRole('link', { name: /Revisar este item/ }).click();
+  await expect(page).toHaveURL(/progresso\?section=revisao.*scene=transporte.*item=onibus/);
+  await expect(page.locator('.focused-review-item')).toContainText('o ônibus');
+});

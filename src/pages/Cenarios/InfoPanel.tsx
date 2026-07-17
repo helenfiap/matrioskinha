@@ -1,7 +1,8 @@
-import { Search, BarChart3, Globe2, Target, Check, Link2 } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { ArrowRight, BookOpen, Search, BarChart3, Globe2, Target, Check, Link2, RotateCcw } from 'lucide-react';
 import { useLanguage } from '../../context/LanguageContext';
 import { STAGE_LABELS, STAGE_KEYS, REVIEW_INTERVAL_DAYS, type StageKey, type ItemProgress } from '../../domain/progress';
-import { getRelatedOccurrences } from '../../lib/semanticGraph';
+import { getLexicalKnowledgeNode, getRelatedOccurrences, getVerbKnowledgeNode } from '../../lib/semanticGraph';
 import { audioAssets } from '../../lib/audioAssets';
 import { AudioButton } from '../../components/AudioButton';
 import type { Hotspot, Scene } from '../../types';
@@ -89,6 +90,7 @@ export function InfoPanel({
 
   const cats = Array.from(new Set(scene.hotspots.map((h) => h.cat || 'objeto')));
   const related = selected ? getRelatedOccurrences(scene.id, selected.id) : [];
+  const lexicalNode = selected ? getLexicalKnowledgeNode(selected.pt) : null;
 
   return (
     <div className="scenario-info">
@@ -140,6 +142,16 @@ export function InfoPanel({
                 <AudioButton src={audioAssets.example(selected.exampleId)} label={selected.examplePt} />
               </div>
               <LearningTimeline stage={stage} stageInfo={stageInfo} lang={lang} />
+              <nav className="knowledge-actions" aria-label={t('Caminhos na base de conhecimento', 'Переходы в базе знаний')}>
+                {lexicalNode && (
+                  <Link to={lexicalNode.vocabularyHref}>
+                    <BookOpen size={13} /> {t('Abrir no vocabulário', 'Открыть в словаре')} <ArrowRight size={12} />
+                  </Link>
+                )}
+                <Link to={`/progresso?section=revisao&scene=${encodeURIComponent(scene.id)}&item=${encodeURIComponent(selected.id)}`}>
+                  <RotateCcw size={13} /> {t('Revisar este item', 'Повторить этот элемент')} <ArrowRight size={12} />
+                </Link>
+              </nav>
               {related.length > 0 && (
                 <div className="related-objects">
                   <div className="related-title"><Link2 size={12} /> {t('Objetos relacionados', 'Связанные предметы')}</div>
@@ -206,15 +218,20 @@ export function InfoPanel({
           {scene.verbs.length > 0 && (
             <div className="culture-block">
               <h4>{t('Verbos úteis', 'Полезные глаголы')}</h4>
-              {scene.verbs.map((v) => (
-                <div className="culture-item audio-item" key={v.id}>
+              {scene.verbs.map((v) => {
+                const verbNode = getVerbKnowledgeNode(v.pt);
+                return <div className="culture-item audio-item knowledge-culture-item" key={v.id}>
                   <div>
-                    {lang === 'ru' ? v.ru : v.pt}
+                    {verbNode ? (
+                      <Link to={verbNode.conjugatorHref}>
+                        {lang === 'ru' ? v.ru : v.pt} <ArrowRight size={12} />
+                      </Link>
+                    ) : (lang === 'ru' ? v.ru : v.pt)}
                     <div className="ru-small">{lang === 'ru' ? v.pt : v.ru}</div>
                   </div>
                   <AudioButton src={audioAssets.sceneVerb(v.pt)} label={v.pt} />
-                </div>
-              ))}
+                </div>;
+              })}
             </div>
           )}
           {scene.phrases.length > 0 && (

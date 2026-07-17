@@ -210,6 +210,10 @@ svg{display:block}
 .vocab small{display:block;color:var(--blue);margin-top:3px;font-size:.78rem}
 .vocab-term-row{display:flex;align-items:center;justify-content:center;gap:6px}
 .vocab-term-row strong{min-width:0}
+.vocab.knowledge-focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(30,114,153,.14)}
+.vocab-knowledge-links{display:flex;flex-direction:column;gap:4px;margin-top:9px;padding-top:8px;border-top:1px solid var(--line)}
+.vocab-knowledge-links a{display:flex;align-items:center;justify-content:center;gap:4px;color:var(--blue);font-size:.65rem;font-weight:800;text-decoration:none}
+.vocab-knowledge-links a:hover{text-decoration:underline}
 .audio-button{width:30px;height:30px;flex:0 0 30px;border:1px solid rgba(16,113,76,.18);border-radius:999px;background:#eaf7ef;color:var(--green);display:inline-grid;place-items:center;cursor:pointer;transition:transform .16s ease,background .16s ease,color .16s ease,box-shadow .16s ease}
 .audio-button:hover{transform:scale(1.06);background:var(--green);color:#fff}
 .audio-button:focus-visible{outline:3px solid rgba(220,171,37,.42);outline-offset:2px}
@@ -319,6 +323,7 @@ svg{display:block}
 .conj-item-head .ru-inf{color:var(--blue);margin-left:8px;font-size:.9rem}
 .conj-item-head .chevron{color:var(--muted);transition:transform .2s;display:inline-block}
 .conj-item.open .chevron{transform:rotate(180deg)}
+.conj-item-body{padding:0 16px 14px}
 .conj-infinitive-title{display:flex;align-items:center;gap:9px;min-width:0;flex-wrap:wrap}
 .verb-infinitive-audio{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 10px;padding:9px 11px;border:1px solid #d9e8de;background:#f1f8f3;border-radius:11px}
 .verb-infinitive-audio>div{display:flex;align-items:baseline;gap:8px;min-width:0}
@@ -344,7 +349,8 @@ svg{display:block}
 .verb-contexts{margin-top:10px;padding-top:10px;border-top:1px solid var(--line)}
 .verb-contexts>strong{display:block;font-size:.66rem;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin-bottom:7px}
 .verb-contexts>div{display:flex;gap:6px;flex-wrap:wrap}
-.verb-contexts span{display:inline-flex;border-radius:999px;background:#eef5f8;color:var(--blue);padding:4px 8px;font-size:.68rem;font-weight:700}
+.verb-contexts a{display:inline-flex;align-items:center;gap:4px;border-radius:999px;background:#eef5f8;color:var(--blue);padding:4px 8px;font-size:.68rem;font-weight:700;text-decoration:none;transition:transform .15s,background .15s}
+.verb-contexts a:hover{background:#dceef5;transform:translateY(-1px)}
 .verb-related-expressions{margin-top:12px;padding-top:12px;border-top:1px solid var(--line)}
 .verb-related-expressions h4{margin:0 0 8px;font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:#664c6a}
 .verb-related-expression-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
@@ -352,12 +358,14 @@ svg{display:block}
 .verb-related-expression>div{min-width:0;flex:1}
 .related-expression-title{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
 .related-expression-title small{display:inline-flex;border-radius:999px;background:#ebe3ee;color:#664c6a;padding:2px 6px;font-size:.58rem;font-weight:800;text-transform:uppercase;letter-spacing:.04em}
+.related-expression-title a{display:inline-flex;align-items:center;gap:4px;color:var(--navy);font-size:.8rem;font-weight:800;text-decoration:none}
+.related-expression-title a:hover{color:var(--blue)}
 .verb-related-expression strong,.verb-related-expression span{display:block;line-height:1.35}
 .verb-related-expression strong{font-size:.8rem;color:var(--navy)}
 .verb-related-expression span{font-size:.73rem;color:var(--blue);margin-top:2px}
 .conj-note{background:var(--cream);border-radius:10px;padding:8px 12px;font-size:.8rem;margin-top:8px;color:var(--muted)}
 .conj-empty{padding:20px;text-align:center;color:var(--muted)}
-@media(max-width:700px){.infinitive-overview{grid-template-columns:1fr 1fr}.infinitive-overview>div{border-right:0}.infinitive-overview p{grid-column:1/-1}.conj-infinitive-title>div{width:100%}.conj-item-head .ru-inf{display:block;margin:3px 0 0}.verb-related-expression-list{grid-template-columns:1fr}}
+@media(max-width:700px){.infinitive-overview{grid-template-columns:1fr 1fr}.infinitive-overview>div{border-right:0}.infinitive-overview p{grid-column:1/-1}.conj-infinitive-title>div{width:100%}.conj-item-head .ru-inf{display:block;margin:3px 0 0}.conj-item-body{padding:0 10px 12px}.verb-related-expression-list{grid-template-columns:1fr}}
 .scenario-stage{position:relative;border-radius:22px;overflow:hidden;box-shadow:var(--shadow);background:#000;line-height:0}
 .scenario-stage img{width:100%;display:block}
 .hotspot{position:absolute;transform:translate(-50%,-50%);width:30px;height:30px;border-radius:50%;background:rgba(148,163,184,.65);border:2px solid rgba(255,255,255,.92);color:#fff;font-weight:900;font-size:1rem;display:grid;place-items:center;box-shadow:0 4px 14px rgba(0,0,0,.35);cursor:pointer;transition:transform .15s ease, background .15s ease, box-shadow .15s ease}
@@ -410,6 +418,12 @@ svg{display:block}
 }
 .func-note{background:#fff8ea;border-radius:10px;padding:8px 12px;font-size:.83rem;margin-bottom:10px;color:#6b5900}
 .related-objects{margin-top:14px;padding-top:12px;border-top:1px solid var(--line)}
+.knowledge-actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px;padding-top:11px;border-top:1px solid var(--line)}
+.knowledge-actions a{display:inline-flex;align-items:center;gap:5px;border:1px solid #d7e4e9;border-radius:999px;background:#f5fafb;color:var(--blue);padding:6px 9px;font-size:.7rem;font-weight:800;text-decoration:none}
+.knowledge-actions a:hover{background:#e8f4f7}
+.knowledge-culture-item a{display:inline-flex;align-items:center;gap:5px;color:var(--navy);font-weight:800;text-decoration:none}
+.knowledge-culture-item a:hover{color:var(--blue)}
+.focused-review-item{margin:0 -10px;padding-left:10px!important;padding-right:10px!important;border-radius:10px;background:#f1f8f3}
 .related-title{display:flex;align-items:center;gap:5px;font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:#5d6d79;font-weight:700;margin-bottom:8px}
 .related-chips{display:flex;flex-wrap:wrap;gap:7px}
 .related-chip{background:var(--cream);border:1px solid var(--line);border-radius:999px;padding:6px 11px;font-size:.78rem;text-align:left;cursor:pointer}
@@ -540,6 +554,9 @@ svg{display:block}
 .emotion-related-item:first-child{border-top:0}
 .emotion-related-item .bilingual-line p{font-size:.8rem;font-weight:700}
 .emotion-related-item .bilingual-line p+ p{font-size:.74rem;font-weight:500}
+.knowledge-inline-link{display:grid;grid-template-columns:1fr auto;align-items:center;column-gap:8px;color:inherit;text-decoration:none;border-radius:8px;padding:3px 5px;margin:-3px -5px;transition:background .15s,color .15s}
+.knowledge-inline-link:hover{background:rgba(30,114,153,.08);color:var(--blue)}
+.knowledge-inline-link svg{grid-column:2;grid-row:1/3;color:var(--blue)}
 .emotion-info-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}
 .emotion-info-grid .emotion-info-block{margin:0}
 .bilingual-line p{margin:0;line-height:1.42;font-size:.84rem}

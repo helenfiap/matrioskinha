@@ -56,6 +56,8 @@ opções de regeneração.
 
 O Conjugador consolida os verbos do Knowledge Core, cenários e Ateliê em um
 índice único de infinitivos. Consulte [docs/verb-curation.md](docs/verb-curation.md).
+As ligações Ateliê ↔ Conjugador ↔ Cenários ↔ Vocabulário ↔ Revisão estão
+documentadas em [docs/knowledge-navigation.md](docs/knowledge-navigation.md).
 
 ## Imagens do Ateliê
 

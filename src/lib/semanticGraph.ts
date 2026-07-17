@@ -1,4 +1,6 @@
 import { scenes } from '../data/scenarios';
+import { curatedInfinitives, type VerbContext } from '../data/verbs';
+import { vocabItems } from '../data/vocab';
 import type { Hotspot } from '../types';
 
 export type RelationKind = 'mesma_palavra' | 'relacionado';
@@ -13,8 +15,8 @@ export interface GraphOccurrence {
   relation: RelationKind;
 }
 
-function normalizeLemma(pt: string): string {
-  let s = pt.toLowerCase().trim();
+export function normalizeKnowledgeTerm(pt: string): string {
+  let s = pt.toLocaleLowerCase('pt-BR').trim().replace(/\s+/g, ' ');
   for (const article of ['os ', 'as ', 'o ', 'a ']) {
     if (s.startsWith(article)) {
       s = s.slice(article.length);
@@ -22,6 +24,85 @@ function normalizeLemma(pt: string): string {
     }
   }
   return s;
+}
+
+function normalizeVerbTerm(pt: string): string {
+  return pt.toLocaleLowerCase('pt-BR')
+    .replace(/\s*\(([^)]*)\)/g, ' $1')
+    .trim()
+    .replace(/\s+/g, ' ');
+}
+
+export interface VerbKnowledgeNode {
+  lemma: string;
+  ru: string;
+  conjugatorHref: string;
+  contexts: Array<VerbContext & { href: string }>;
+}
+
+export interface LexicalKnowledgeOccurrence {
+  sceneId: string;
+  sceneLabelPt: string;
+  sceneLabelRu: string;
+  hotspotId: string;
+  pt: string;
+  ru: string;
+  href: string;
+}
+
+export interface LexicalKnowledgeNode {
+  pt: string;
+  ru: string;
+  vocabularyHref: string;
+  occurrences: LexicalKnowledgeOccurrence[];
+}
+
+export function getVerbKnowledgeNode(text: string): VerbKnowledgeNode | null {
+  const normalized = normalizeVerbTerm(text);
+  const verb = curatedInfinitives.find((candidate) =>
+    normalizeVerbTerm(candidate.pt) === normalized
+    || candidate.relatedExpressions.some((expression) => normalizeVerbTerm(expression.pt) === normalized),
+  );
+  if (!verb) return null;
+  return {
+    lemma: verb.pt,
+    ru: verb.ru,
+    conjugatorHref: `/conjugador?q=${encodeURIComponent(verb.pt)}`,
+    contexts: verb.contexts.map((context) => ({
+      ...context,
+      href: context.kind === 'scene'
+        ? `/cenarios?scene=${encodeURIComponent(context.id)}`
+        : `/cenarios?collection=emotions&mood=${encodeURIComponent(context.id)}`,
+    })),
+  };
+}
+
+export function getLexicalKnowledgeOccurrences(text: string): LexicalKnowledgeOccurrence[] {
+  const lemma = normalizeKnowledgeTerm(text);
+  return scenes.flatMap((scene) => scene.hotspots
+    .filter((hotspot) => normalizeKnowledgeTerm(hotspot.pt) === lemma)
+    .map((hotspot) => ({
+      sceneId: scene.id,
+      sceneLabelPt: scene.labelPt,
+      sceneLabelRu: scene.labelRu,
+      hotspotId: hotspot.id,
+      pt: hotspot.pt,
+      ru: hotspot.ru,
+      href: `/cenarios?scene=${encodeURIComponent(scene.id)}&hotspot=${encodeURIComponent(hotspot.id)}`,
+    })),
+  );
+}
+
+export function getLexicalKnowledgeNode(text: string): LexicalKnowledgeNode | null {
+  const lemma = normalizeKnowledgeTerm(text);
+  const vocabulary = vocabItems.find((item) => normalizeKnowledgeTerm(item.pt) === lemma);
+  if (!vocabulary) return null;
+  return {
+    pt: vocabulary.pt,
+    ru: vocabulary.ru,
+    vocabularyHref: `/vocab?item=${encodeURIComponent(vocabulary.lexicalItemId)}`,
+    occurrences: getLexicalKnowledgeOccurrences(vocabulary.pt),
+  };
 }
 
 interface Occurrence {
@@ -36,7 +117,7 @@ interface Occurrence {
 const lemmaIndex = new Map<string, Occurrence[]>();
 scenes.forEach((scene) => {
   scene.hotspots.forEach((hotspot) => {
-    const lemma = normalizeLemma(hotspot.pt);
+    const lemma = normalizeKnowledgeTerm(hotspot.pt);
     const list = lemmaIndex.get(lemma) ?? [];
     list.push({ sceneId: scene.id, hotspot });
     lemmaIndex.set(lemma, list);
@@ -76,7 +157,7 @@ export function getRelatedOccurrences(sceneId: string, hotspotId: string): Graph
   const result: GraphOccurrence[] = [];
   const seen = new Set<string>([sceneId + ':' + hotspotId]);
 
-  const lemma = normalizeLemma(hotspot.pt);
+  const lemma = normalizeKnowledgeTerm(hotspot.pt);
   const sameWord = lemmaIndex.get(lemma) ?? [];
   sameWord.forEach((occ) => {
     const key = occ.sceneId + ':' + occ.hotspot.id;

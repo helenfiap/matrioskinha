@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
-import { BookOpen, CheckCircle2, Globe2, Heart, ImageOff, ListChecks, MessageCircle, MessagesSquare, RotateCcw, Sparkles } from 'lucide-react';
+import { Link as RouterLink } from 'react-router-dom';
+import { ArrowRight, BookOpen, CheckCircle2, Globe2, Heart, ImageOff, ListChecks, MessageCircle, MessagesSquare, RotateCcw, Sparkles } from 'lucide-react';
 import { useLanguage } from '../../context/LanguageContext';
 import { useLearning } from '../../context/LearningContext';
 import { useProgress } from '../../context/ProgressContext';
@@ -10,6 +11,7 @@ import { STAGE_LABELS } from '../../domain/progress';
 import { AudioButton } from '../../components/AudioButton';
 import { audioAssets } from '../../lib/audioAssets';
 import { selectGenderedAudioText, type AudioVoiceRole } from '../../lib/audioNaming';
+import { getVerbKnowledgeNode } from '../../lib/semanticGraph';
 
 type EmotionGender = 'feminine' | 'masculine';
 
@@ -42,32 +44,36 @@ function EmotionArtwork({ mood, gender, lang, large = false }: { mood: EmotionMo
   );
 }
 
-function BilingualLine({ pt, ru, primaryLang, audioVoice }: {
+function BilingualLine({ pt, ru, primaryLang, audioVoice, href }: {
   pt: string;
   ru: string;
   primaryLang: 'pt' | 'ru';
   audioVoice?: AudioVoiceRole;
+  href?: string;
 }) {
+  const lines = primaryLang === 'ru' ? (
+    <><p lang="ru">{ru}</p><p lang="pt-BR">{pt}</p></>
+  ) : (
+    <><p lang="pt-BR">{pt}</p><p lang="ru">{ru}</p></>
+  );
   return (
     <div className="bilingual-audio-row">
       <div className="bilingual-line">
-        {primaryLang === 'ru' ? (
-          <><p lang="ru">{ru}</p><p lang="pt-BR">{pt}</p></>
-        ) : (
-          <><p lang="pt-BR">{pt}</p><p lang="ru">{ru}</p></>
-        )}
+        {href ? <RouterLink className="knowledge-inline-link" to={href}>{lines}<ArrowRight size={14} /></RouterLink> : lines}
       </div>
       {audioVoice && <AudioButton src={audioAssets.emotion(pt, audioVoice)} label={pt} />}
     </div>
   );
 }
 
-export function AtelieEmocoes() {
+export function AtelieEmocoes({ initialMoodId }: { initialMoodId?: string }) {
   const { lang, t } = useLanguage();
   const { getStage, getStageInfo, markReviewed, advanceReview, failReview } = useProgress();
   const { recordAttempt } = useLearning();
   const [gender, setGender] = useState<EmotionGender>('feminine');
-  const [selectedMoodId, setSelectedMoodId] = useState(emotionMoods[0].id);
+  const [selectedMoodId, setSelectedMoodId] = useState(
+    emotionMoods.some((mood) => mood.id === initialMoodId) ? initialMoodId! : emotionMoods[0].id,
+  );
   const detailRef = useRef<HTMLElement>(null);
 
   const selectedMood = emotionMoods.find((mood) => mood.id === selectedMoodId) ?? emotionMoods[0];
@@ -247,7 +253,13 @@ export function AtelieEmocoes() {
               <div className="emotion-related-list">
                 {selectedVocabulary.verbs.map((verb) => (
                   <div className="emotion-related-item" key={verb.id}>
-                    <BilingualLine pt={verb.pt} ru={verb.ru} primaryLang={lang} audioVoice="female" />
+                    <BilingualLine
+                      pt={verb.pt}
+                      ru={verb.ru}
+                      primaryLang={lang}
+                      audioVoice="female"
+                      href={getVerbKnowledgeNode(verb.pt)?.conjugatorHref}
+                    />
                   </div>
                 ))}
               </div>

@@ -1,12 +1,13 @@
 import { useEffect, useRef } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import type { ComponentType } from 'react';
-import { Home, Coffee, Bus, ShoppingCart, Dog, CloudRain, Croissant, Pill, Palmtree, Smartphone, UtensilsCrossed, Compass, Globe2 } from 'lucide-react';
+import { ArrowRight, Home, Coffee, Bus, ShoppingCart, Dog, CloudRain, Croissant, Pill, Palmtree, Smartphone, UtensilsCrossed, Compass, Globe2, MapPin } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { vocabItems } from '../data/vocab';
 import { scenes } from '../data/scenarios';
 import { audioAssets } from '../lib/audioAssets';
 import { AudioButton } from '../components/AudioButton';
+import { getLexicalKnowledgeOccurrences } from '../lib/semanticGraph';
 
 const icons: Record<string, ComponentType<{ size?: number }>> = {
   'a casa': Home,
@@ -27,12 +28,16 @@ export function Vocab() {
   const { t, lang } = useLanguage();
   const [searchParams, setSearchParams] = useSearchParams();
   const brasilRealRef = useRef<HTMLDivElement>(null);
+  const focusedItemId = useRef(searchParams.get('item')).current;
 
   useEffect(() => {
     if (searchParams.get('section') === 'brasil-real' && brasilRealRef.current) {
       brasilRealRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
-    if (searchParams.get('section')) {
+    if (focusedItemId) {
+      document.getElementById(`vocab-${focusedItemId}`)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+    if (searchParams.get('section') || searchParams.get('item')) {
       setSearchParams({}, { replace: true });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -49,14 +54,24 @@ export function Vocab() {
       <div className="vocab-grid">
         {vocabItems.map((v) => {
           const Icon = icons[v.pt] ?? Home;
+          const occurrences = getLexicalKnowledgeOccurrences(v.pt);
           return (
-            <article className="vocab" key={v.pt}>
+            <article id={`vocab-${v.lexicalItemId}`} className={`vocab ${focusedItemId === v.lexicalItemId ? 'knowledge-focus' : ''}`} key={v.pt}>
               <div className="icon"><Icon size={30} /></div>
               <div className="vocab-term-row">
                 <strong>{v.pt}</strong>
                 <AudioButton src={audioAssets.word(v.lexicalItemId)} label={v.pt} />
               </div>
               <small>{v.ru}</small>
+              {occurrences.length > 0 && (
+                <div className="vocab-knowledge-links">
+                  {occurrences.map((occurrence) => (
+                    <Link key={`${occurrence.sceneId}:${occurrence.hotspotId}`} to={occurrence.href}>
+                      <MapPin size={11} /> {t(occurrence.sceneLabelPt, occurrence.sceneLabelRu)} <ArrowRight size={11} />
+                    </Link>
+                  ))}
+                </div>
+              )}
             </article>
           );
         })}

@@ -1,12 +1,13 @@
 import { useEffect, useMemo, useState } from 'react';
-import { useSearchParams } from 'react-router-dom';
-import { CheckCircle2, ChevronDown, Layers3, Search } from 'lucide-react';
+import { Link, useSearchParams } from 'react-router-dom';
+import { CheckCircle2, ChevronDown, Layers3, MapPin, Search } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { conjPersons, curatedInfinitives, type InfinitiveGroup } from '../data/verbs';
 import type { RussianPastForms } from '../types';
 import { AudioButton } from '../components/AudioButton';
 import { audioAssets } from '../lib/audioAssets';
 import type { RelatedExpressionAudio } from '../data/verbs';
+import { getVerbKnowledgeNode } from '../lib/semanticGraph';
 
 type Tense = 'presente' | 'pretPerf';
 type RuGender = 'masculine' | 'feminine';
@@ -159,6 +160,7 @@ export function Conjugador() {
         {list.length === 0 && <div className="conj-empty">{t('Nada encontrado.', 'Ничего не найдено.')}</div>}
         {list.map((v) => {
           const open = openId === v.id;
+          const knowledgeNode = getVerbKnowledgeNode(v.pt);
           const hasPret = Boolean(v.pretPeritoRu);
           const showingPret = tense === 'pretPerf' && hasPret;
           const invariant = v.pretPeritoRu?.invariant;
@@ -270,7 +272,12 @@ export function Conjugador() {
                     <div className="verb-contexts">
                       <strong>{t('Onde este verbo aparece', 'Где встречается этот глагол')}</strong>
                       <div>{v.contexts.map((context) => (
-                        <span key={`${context.kind}:${context.id}`}>{lang === 'ru' ? context.ru : context.pt}</span>
+                        <Link
+                          key={`${context.kind}:${context.id}`}
+                          to={knowledgeNode?.contexts.find((candidate) => candidate.kind === context.kind && candidate.id === context.id)?.href ?? '/cenarios'}
+                        >
+                          <MapPin size={11} /> {lang === 'ru' ? context.ru : context.pt}
+                        </Link>
                       ))}</div>
                     </div>
                   )}
@@ -278,18 +285,26 @@ export function Conjugador() {
                     <section className="verb-related-expressions">
                       <h4>{t('Expressões relacionadas', 'Связанные выражения')}</h4>
                       <div className="verb-related-expression-list">
-                        {v.relatedExpressions.map((expression) => (
-                          <div className="verb-related-expression" key={expression.id}>
+                        {v.relatedExpressions.map((expression) => {
+                          const contextHref = knowledgeNode?.contexts.find((context) => context.kind === 'scene')?.href
+                            ?? knowledgeNode?.contexts[0]?.href;
+                          return <div className="verb-related-expression" key={expression.id}>
                             <div>
                               <div className="related-expression-title">
-                                <strong lang={lang === 'ru' ? 'ru' : 'pt-BR'}>{lang === 'ru' ? expression.ru : expression.pt}</strong>
+                                {contextHref ? (
+                                  <Link to={contextHref} lang={lang === 'ru' ? 'ru' : 'pt-BR'}>
+                                    {lang === 'ru' ? expression.ru : expression.pt} <MapPin size={11} />
+                                  </Link>
+                                ) : (
+                                  <strong lang={lang === 'ru' ? 'ru' : 'pt-BR'}>{lang === 'ru' ? expression.ru : expression.pt}</strong>
+                                )}
                                 <small>{t('infinitivo', 'инфинитив')}</small>
                               </div>
                               <span lang={lang === 'ru' ? 'pt-BR' : 'ru'}>{lang === 'ru' ? expression.pt : expression.ru}</span>
                             </div>
                             <AudioButton src={relatedAudioSrc(expression.audio)} label={expression.pt} />
-                          </div>
-                        ))}
+                          </div>;
+                        })}
                       </div>
                     </section>
                   )}

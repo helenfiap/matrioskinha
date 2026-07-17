@@ -25,10 +25,11 @@ const errorLabels: Record<string, { pt: string; ru: string }> = {
 
 export function Progresso() {
   const { t, lang } = useLanguage();
-  const { pendingReview, advanceReview, failReview, sceneCounts, settings } = useProgress();
+  const { pendingReview, advanceReview, failReview, getStage, sceneCounts, settings } = useProgress();
   const { metrics, recurringErrors, recordAttempt } = useLearning();
   const [searchParams, setSearchParams] = useSearchParams();
   const reviewRef = useRef<HTMLDivElement>(null);
+  const focusedReview = useRef({ sceneId: searchParams.get('scene'), itemId: searchParams.get('item') }).current;
   const [revealed, setRevealed] = useState<Set<string>>(new Set());
   const [justSkipped, setJustSkipped] = useState<Set<string>>(new Set());
 
@@ -36,7 +37,7 @@ export function Progresso() {
     if (searchParams.get('section') === 'revisao' && reviewRef.current) {
       reviewRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
-    if (searchParams.get('section')) {
+    if (searchParams.get('section') || searchParams.get('scene') || searchParams.get('item')) {
       setSearchParams({}, { replace: true });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -47,6 +48,11 @@ export function Progresso() {
     const hotspot = scene?.hotspots.find((h) => h.id === hotspotId);
     return scene && hotspot ? { scene, hotspot, stage } : null;
   }).filter((x): x is { scene: (typeof scenes)[number]; hotspot: (typeof scenes)[number]['hotspots'][number]; stage: (typeof pendingReview)[number]['stage'] } => x !== null);
+  if (focusedReview.sceneId && focusedReview.itemId && !reviewItems.some(({ scene, hotspot }) => scene.id === focusedReview.sceneId && hotspot.id === focusedReview.itemId)) {
+    const scene = scenes.find((candidate) => candidate.id === focusedReview.sceneId);
+    const hotspot = scene?.hotspots.find((candidate) => candidate.id === focusedReview.itemId);
+    if (scene && hotspot) reviewItems.unshift({ scene, hotspot, stage: getStage(scene.id, hotspot.id) });
+  }
 
   const totalExplored = Object.values(sceneCounts).reduce((sum, c) => sum + c.reviewed, 0);
   const totalItems = Object.values(sceneCounts).reduce((sum, c) => sum + c.total, 0);
@@ -135,6 +141,7 @@ export function Progresso() {
               return (
                 <div
                   key={key}
+                  className={scene.id === focusedReview.sceneId && hotspot.id === focusedReview.itemId ? 'focused-review-item' : undefined}
                   style={{
                     display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12,
                     padding: '10px 0', borderBottom: '1px solid var(--line)', flexWrap: 'wrap',

@@ -38,11 +38,13 @@ const collectionIcons: Record<string, ComponentType<{ size?: number }>> = {
 export function Cenarios() {
   const { t, lang } = useLanguage();
   const [searchParams, setSearchParams] = useSearchParams();
+  const requestedCollection = scenarioCollections.find((collection) => collection.id === searchParams.get('collection'));
+  const requestedMoodId = searchParams.get('mood') ?? undefined;
   const initialSceneId = scenes.some((s) => s.id === searchParams.get('scene'))
     ? (searchParams.get('scene') as string)
-    : scenes[0].id;
+    : requestedCollection?.sceneIds[0] ?? scenes[0].id;
   const [currentSceneId, setCurrentSceneId] = useState(initialSceneId);
-  const [activeCollectionId, setActiveCollectionId] = useState(getCollectionForScene(initialSceneId).id);
+  const [activeCollectionId, setActiveCollectionId] = useState(requestedCollection?.id ?? getCollectionForScene(initialSceneId).id);
   const [selectedHotspot, setSelectedHotspot] = useState<Hotspot | null>(null);
   const [activeTab, setActiveTab] = useState<'detalhe' | 'progresso' | 'cultura'>('detalhe');
   const [practiceOpen, setPracticeOpen] = useState(false);
@@ -68,18 +70,31 @@ export function Cenarios() {
   useEffect(() => {
     const sceneParam = searchParams.get('scene');
     const hotspotParam = searchParams.get('hotspot');
-    if (sceneParam && hotspotParam) {
+    const collectionParam = searchParams.get('collection');
+    const targetCollection = scenarioCollections.find((collection) => collection.id === collectionParam);
+    if (targetCollection && targetCollection.status !== 'planned') {
+      setActiveCollectionId(targetCollection.id);
+      if (targetCollection.sceneIds[0]) setCurrentSceneId(targetCollection.sceneIds[0]);
+    }
+    if (sceneParam) {
       const targetScene = scenes.find((s) => s.id === sceneParam);
+      if (targetScene) {
+        setCurrentSceneId(sceneParam);
+        setActiveCollectionId(getCollectionForScene(sceneParam).id);
+        setSelectedHotspot(null);
+        setActiveTab('detalhe');
+      }
+      if (targetScene && hotspotParam) {
       const targetHotspot = targetScene?.hotspots.find((h) => h.id === hotspotParam);
       if (targetHotspot) {
-        setActiveCollectionId(getCollectionForScene(sceneParam).id);
         markReviewed(sceneParam, hotspotParam);
         setSelectedHotspot(targetHotspot);
       }
-      setSearchParams({}, { replace: true });
+      }
     }
+    if (sceneParam || hotspotParam || collectionParam || searchParams.get('mood')) setSearchParams({}, { replace: true });
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [searchParams]);
 
   const selectScene = (id: string) => {
     setActiveCollectionId(getCollectionForScene(id).id);
@@ -119,6 +134,7 @@ export function Cenarios() {
     setMissionActive(false);
     setMissionDone(false);
     setCurrentSceneId(targetSceneId);
+    setActiveCollectionId(getCollectionForScene(targetSceneId).id);
     setSelectedHotspot(targetHotspot);
     markReviewed(targetSceneId, targetHotspotId);
     setActiveTab('detalhe');
@@ -245,7 +261,7 @@ export function Cenarios() {
         </div>
       )}
 
-      {isEmotionAtelier ? <AtelieEmocoes /> : <div className="scenario-wrap">
+      {isEmotionAtelier ? <AtelieEmocoes initialMoodId={requestedMoodId} /> : <div className="scenario-wrap">
         <SceneStage
           scene={scene}
           getStage={getStage}

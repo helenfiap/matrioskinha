@@ -1,5 +1,11 @@
 import { describe, expect, it } from 'vitest';
-import { countSameWordEdges, getRelatedOccurrences } from './semanticGraph';
+import {
+  countSameWordEdges,
+  getLexicalKnowledgeOccurrences,
+  getLexicalKnowledgeNode,
+  getRelatedOccurrences,
+  getVerbKnowledgeNode,
+} from './semanticGraph';
 
 describe('semanticGraph', () => {
   it('conecta ocorrencias da mesma palavra em cenas diferentes', () => {
@@ -35,5 +41,30 @@ describe('semanticGraph', () => {
 
   it('retorna vazio para referencias inexistentes', () => {
     expect(getRelatedOccurrences('inexistente', 'nada')).toEqual([]);
+  });
+
+  it('resolve verbos e construcoes para o mesmo lema canonico', () => {
+    expect(getVerbKnowledgeNode('acalmar-se')).toMatchObject({ lemma: 'acalmar-se', conjugatorHref: '/conjugador?q=acalmar-se' });
+    expect(getVerbKnowledgeNode('pegar (o ônibus)')).toMatchObject({ lemma: 'pegar' });
+    expect(getVerbKnowledgeNode('pegar o ônibus')).toMatchObject({ lemma: 'pegar' });
+    expect(getVerbKnowledgeNode('sentir saudade')).toMatchObject({ lemma: 'sentir' });
+  });
+
+  it('leva um verbo aos contextos de cenario e emocao', () => {
+    const relaxar = getVerbKnowledgeNode('relaxar');
+    expect(relaxar?.contexts).toEqual(expect.arrayContaining([
+      expect.objectContaining({ kind: 'scene', id: 'sala', href: '/cenarios?scene=sala' }),
+      expect.objectContaining({ kind: 'emotion', id: 'calma', href: '/cenarios?collection=emotions&mood=calma' }),
+    ]));
+  });
+
+  it('conecta lexico geral às ocorrencias equivalentes nos cenarios', () => {
+    expect(getLexicalKnowledgeOccurrences('o ônibus')).toEqual(expect.arrayContaining([
+      expect.objectContaining({ sceneId: 'transporte', href: expect.stringContaining('scene=transporte') }),
+    ]));
+    expect(getLexicalKnowledgeNode('ônibus')).toMatchObject({
+      pt: 'o ônibus',
+      vocabularyHref: expect.stringContaining('/vocab?item='),
+    });
   });
 });
