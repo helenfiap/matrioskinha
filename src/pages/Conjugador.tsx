@@ -4,6 +4,9 @@ import { CheckCircle2, ChevronDown, Layers3, Search } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { conjPersons, curatedInfinitives, type InfinitiveGroup } from '../data/verbs';
 import type { RussianPastForms } from '../types';
+import { AudioButton } from '../components/AudioButton';
+import { audioAssets } from '../lib/audioAssets';
+import type { RelatedExpressionAudio } from '../data/verbs';
 
 type Tense = 'presente' | 'pretPerf';
 type RuGender = 'masculine' | 'feminine';
@@ -19,6 +22,11 @@ function pastCell(forms: RussianPastForms | undefined, personKey: string, gender
   if (personKey === 'vos') return 'вы ' + forms.plural;
   if (personKey === 'eles') return 'они ' + forms.plural;
   return '';
+}
+
+function relatedAudioSrc(audio: RelatedExpressionAudio): string {
+  if (audio.kind === 'emotion') return audioAssets.emotion(audio.text, audio.voiceRole);
+  return audioAssets.sceneVerb(audio.text);
 }
 
 export function Conjugador() {
@@ -48,7 +56,8 @@ export function Conjugador() {
       const matchesQuery = !q
         || verb.pt.toLowerCase().includes(q)
         || verb.ru.toLowerCase().includes(q)
-        || verb.contexts.some((context) => context.pt.toLowerCase().includes(q) || context.ru.toLowerCase().includes(q));
+        || verb.contexts.some((context) => context.pt.toLowerCase().includes(q) || context.ru.toLowerCase().includes(q))
+        || verb.relatedExpressions.some((expression) => expression.pt.toLowerCase().includes(q) || expression.ru.toLowerCase().includes(q));
       return matchesGroup && matchesQuery;
     });
   }, [query, infinitiveFilter]);
@@ -108,7 +117,7 @@ export function Conjugador() {
       </div>
 
       <nav className="infinitive-groups" aria-label={t('Grupos de infinitivos', 'Группы инфинитивов')}>
-        {infinitiveGroups.map((group) => {
+        {infinitiveGroups.filter((group) => group.id === 'all' || curatedInfinitives.some((verb) => verb.group === group.id)).map((group) => {
           const count = group.id === 'all'
             ? curatedInfinitives.length
             : curatedInfinitives.filter((verb) => verb.group === group.id).length;
@@ -166,6 +175,15 @@ export function Conjugador() {
               </button>
               {open && (
                 <div className="conj-item-body" style={{ display: 'block' }}>
+                  {v.infinitiveAudio && (
+                    <div className="verb-infinitive-audio">
+                      <div>
+                        <strong>{t('Ouvir o infinitivo', 'Прослушать инфинитив')}</strong>
+                        <span>{v.pt}</span>
+                      </div>
+                      <AudioButton src={relatedAudioSrc(v.infinitiveAudio)} label={v.pt} />
+                    </div>
+                  )}
                   {!v.hasFullConjugation && (
                     <div className="indexed-infinitive-panel">
                       <p>{t(
@@ -255,6 +273,25 @@ export function Conjugador() {
                         <span key={`${context.kind}:${context.id}`}>{lang === 'ru' ? context.ru : context.pt}</span>
                       ))}</div>
                     </div>
+                  )}
+                  {v.relatedExpressions.length > 0 && (
+                    <section className="verb-related-expressions">
+                      <h4>{t('Expressões relacionadas', 'Связанные выражения')}</h4>
+                      <div className="verb-related-expression-list">
+                        {v.relatedExpressions.map((expression) => (
+                          <div className="verb-related-expression" key={expression.id}>
+                            <div>
+                              <div className="related-expression-title">
+                                <strong lang={lang === 'ru' ? 'ru' : 'pt-BR'}>{lang === 'ru' ? expression.ru : expression.pt}</strong>
+                                <small>{t('infinitivo', 'инфинитив')}</small>
+                              </div>
+                              <span lang={lang === 'ru' ? 'pt-BR' : 'ru'}>{lang === 'ru' ? expression.pt : expression.ru}</span>
+                            </div>
+                            <AudioButton src={relatedAudioSrc(expression.audio)} label={expression.pt} />
+                          </div>
+                        ))}
+                      </div>
+                    </section>
                   )}
                 </div>
               )}

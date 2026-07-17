@@ -51,7 +51,8 @@ export function Topbar({ onMenuClick }: { onMenuClick: () => void }) {
     });
 
     curatedInfinitives.forEach((v) => {
-      if (v.pt.toLowerCase().includes(q) || v.ru.toLowerCase().includes(q)) {
+      if (v.pt.toLowerCase().includes(q) || v.ru.toLowerCase().includes(q)
+        || v.relatedExpressions.some((expression) => expression.pt.toLowerCase().includes(q) || expression.ru.toLowerCase().includes(q))) {
         out.push({
           key: 'verb-' + v.id,
           labelPt: v.pt, labelRu: v.ru,

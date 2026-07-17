@@ -156,14 +156,26 @@ test('compacta o seletor do Atelie e leva o detalhe ao foco no mobile', async ({
 test('consolida os verbos do produto nas secoes de infinitivo', async ({ page }) => {
   await page.goto('/#/conjugador');
 
-  await expect(page.locator('.infinitive-overview strong').filter({ hasText: '112' })).toBeVisible();
+  await expect(page.locator('.infinitive-overview strong').nth(0)).toHaveText('112');
+  await expect(page.locator('.infinitive-overview strong').nth(1)).toHaveText('112');
   await expect(page.getByRole('button', { name: /Reflexivos/ })).toBeVisible();
-  await expect(page.getByRole('button', { name: /Locuções/ })).toBeVisible();
+  await expect(page.getByRole('button', { name: /terminação -IR/ })).toBeVisible();
 
   await page.getByPlaceholder('Buscar verbo (português ou russo)...').fill('acalmar-se');
   await expect(page.locator('.conj-item')).toHaveCount(1);
   await page.locator('.conj-item-head').click();
-  await expect(page.getByText(/Este infinitivo já faz parte do vocabulário ativo/)).toBeVisible();
+  await expect(page.getByRole('button', { name: /Ouvir: acalmar-se/ })).toBeVisible();
+  await expect(page.locator('.conj-table')).toBeVisible();
+  await expect(page.locator('.conj-table')).toContainText('me acalmo');
   await expect(page.getByText('calma / calmo', { exact: true })).toBeVisible();
   await expect(page.getByText('irritada / irritado', { exact: true })).toBeVisible();
+
+  await page.getByPlaceholder('Buscar verbo (português ou russo)...').fill('sentir saudade');
+  await expect(page.locator('.conj-item')).toHaveCount(1);
+  await expect(page.locator('.conj-item-head')).toContainText('sentir');
+  await page.locator('.conj-item-head').click();
+  await expect(page.getByRole('heading', { name: 'Expressões relacionadas' })).toBeVisible();
+  await expect(page.getByText('sentir saudade', { exact: true })).toBeVisible();
+  await expect(page.getByRole('button', { name: /sentir saudade/ })).toBeVisible();
+  await expect(page.getByText('Sinto muito.', { exact: true })).toHaveCount(0);
 });

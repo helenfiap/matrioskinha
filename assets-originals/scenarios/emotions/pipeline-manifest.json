@@ -95,6 +95,28 @@
       "publicPath": "public/assets/scenarios/emotions/matrioskinha/calma.webp",
       "processedAt": "2026-07-17T11:29:50.028Z"
     },
+    "matrioskinha/confiante": {
+      "character": "matrioskinha",
+      "mood": "confiante",
+      "sourceSha256": "6bad3092f3dffa80e8656d79bb888b296370a360bc3671dee441d2ac749e7986",
+      "outputSha256": "bac32ac31c4b60073ba7e1236d4da35928b0c60e26b75f9bcb214df277247877",
+      "sourceBytes": 2271575,
+      "outputBytes": 91946,
+      "savedPercent": 95.95,
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "outputDimensions": {
+        "width": 768,
+        "height": 1152
+      },
+      "sourceWasOversized": true,
+      "aspectRatio": 0.6667,
+      "archivePath": "assets-originals/scenarios/emotions/matrioskinha/confiante/6bad3092f3dffa80.png",
+      "publicPath": "public/assets/scenarios/emotions/matrioskinha/confiante.webp",
+      "processedAt": "2026-07-17T13:41:06.658Z"
+    },
     "matrioskinha/feliz": {
       "character": "matrioskinha",
       "mood": "feliz",
@@ -138,6 +160,28 @@
       "archivePath": "assets-originals/scenarios/emotions/matrioskinha/irritada/adde1524bfd60d39.png",
       "publicPath": "public/assets/scenarios/emotions/matrioskinha/irritada.webp",
       "processedAt": "2026-07-17T12:22:10.840Z"
+    },
+    "matrioskinha/orgulhosa": {
+      "character": "matrioskinha",
+      "mood": "orgulhosa",
+      "sourceSha256": "c101ca3678685fd905a8150815eb3dd6f29996668a8f9510b2332c02c4725d9d",
+      "outputSha256": "be1e30ebb9f8f9cd9ce922d36fdb4621e2339a5e1e9b59b4b34165f3148ab285",
+      "sourceBytes": 2185231,
+      "outputBytes": 86976,
+      "savedPercent": 96.02,
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "outputDimensions": {
+        "width": 768,
+        "height": 1152
+      },
+      "sourceWasOversized": true,
+      "aspectRatio": 0.6667,
+      "archivePath": "assets-originals/scenarios/emotions/matrioskinha/orgulhosa/c101ca3678685fd9.png",
+      "publicPath": "public/assets/scenarios/emotions/matrioskinha/orgulhosa.webp",
+      "processedAt": "2026-07-17T13:41:06.819Z"
     },
     "matrioskinha/preocupada": {
       "character": "matrioskinha",
@@ -315,6 +359,28 @@
       "publicPath": "public/assets/scenarios/emotions/misha/calma.webp",
       "processedAt": "2026-07-17T11:29:50.376Z"
     },
+    "misha/confiante": {
+      "character": "misha",
+      "mood": "confiante",
+      "sourceSha256": "05f5f3da1ebbc17a5fc20ada9fd6aaecd9783b2ccc6183fb6f430e10dd2b2233",
+      "outputSha256": "1b14c2f0c34b558127f8561887bdf11ccfe9f1144398c465bffc258af88563b8",
+      "sourceBytes": 2253220,
+      "outputBytes": 104394,
+      "savedPercent": 95.37,
+      "sourceDimensions": {
+        "width": 1023,
+        "height": 1537
+      },
+      "outputDimensions": {
+        "width": 767,
+        "height": 1152
+      },
+      "sourceWasOversized": true,
+      "aspectRatio": 0.6656,
+      "archivePath": "assets-originals/scenarios/emotions/misha/confiante/05f5f3da1ebbc17a.png",
+      "publicPath": "public/assets/scenarios/emotions/misha/confiante.webp",
+      "processedAt": "2026-07-17T13:41:06.988Z"
+    },
     "misha/feliz": {
       "character": "misha",
       "mood": "feliz",
@@ -358,6 +424,28 @@
       "archivePath": "assets-originals/scenarios/emotions/misha/irritada/68879adb4dcd151a.png",
       "publicPath": "public/assets/scenarios/emotions/misha/irritada.webp",
       "processedAt": "2026-07-17T12:22:11.833Z"
+    },
+    "misha/orgulhosa": {
+      "character": "misha",
+      "mood": "orgulhosa",
+      "sourceSha256": "40fa8751b36d00118180f4c11a3480a0435fef38ae2319e47c2b548ead0fb71d",
+      "outputSha256": "134f7eb9ca67e49dbcec380cab80d7e75eb4a5d126cc1840165d23163ece5ddc",
+      "sourceBytes": 2409804,
+      "outputBytes": 103336,
+      "savedPercent": 95.71,
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "outputDimensions": {
+        "width": 768,
+        "height": 1152
+      },
+      "sourceWasOversized": true,
+      "aspectRatio": 0.6667,
+      "archivePath": "assets-originals/scenarios/emotions/misha/orgulhosa/40fa8751b36d0011.png",
+      "publicPath": "public/assets/scenarios/emotions/misha/orgulhosa.webp",
+      "processedAt": "2026-07-17T13:41:07.162Z"
     },
     "misha/preocupada": {
       "character": "misha",
