@@ -1,10 +1,11 @@
 import { useEffect, useRef, useState } from 'react';
-import { BookOpen, CheckCircle2, Globe2, Heart, ImageOff, MessageCircle, RotateCcw, Sparkles } from 'lucide-react';
+import { BookOpen, CheckCircle2, Globe2, Heart, ImageOff, ListChecks, MessageCircle, MessagesSquare, RotateCcw, Sparkles } from 'lucide-react';
 import { useLanguage } from '../../context/LanguageContext';
 import { useLearning } from '../../context/LearningContext';
 import { useProgress } from '../../context/ProgressContext';
 import { emotionCharacters, emotionMoods, EMOTION_ATELIER_PROGRESS_ID, type EmotionMood } from '../../data/emotions';
 import { emotionLearningByMoodId } from '../../data/emotionLearning';
+import { emotionVocabularyByMoodId } from '../../data/emotionVocabulary';
 import { STAGE_LABELS } from '../../domain/progress';
 import { AudioButton } from '../../components/AudioButton';
 import { audioAssets } from '../../lib/audioAssets';
@@ -71,6 +72,7 @@ export function AtelieEmocoes() {
 
   const selectedMood = emotionMoods.find((mood) => mood.id === selectedMoodId) ?? emotionMoods[0];
   const selectedContent = emotionLearningByMoodId.get(selectedMood.id)!;
+  const selectedVocabulary = emotionVocabularyByMoodId.get(selectedMood.id)!;
   const selectedStage = getStage(EMOTION_ATELIER_PROGRESS_ID, selectedMood.id);
   const selectedProgress = getStageInfo(EMOTION_ATELIER_PROGRESS_ID, selectedMood.id);
   const selectedCharacter = emotionCharacters[gender];
@@ -237,6 +239,29 @@ export function AtelieEmocoes() {
           <div className="emotion-info-block self-expression">
             <h4><Heart size={16} /> {t('Para falar de si', 'Как сказать о себе')}</h4>
             <BilingualLine pt={selfExpressionPt} ru={selectedContent.selfExpression.ru} primaryLang={lang} audioVoice={voiceRole} />
+          </div>
+
+          <div className="emotion-language-tools">
+            <section className="emotion-related-block verbs">
+              <h4><ListChecks size={16} /> {t('Verbos relacionados', 'Связанные глаголы')}</h4>
+              <div className="emotion-related-list">
+                {selectedVocabulary.verbs.map((verb) => (
+                  <div className="emotion-related-item" key={verb.id}>
+                    <BilingualLine pt={verb.pt} ru={verb.ru} primaryLang={lang} audioVoice="female" />
+                  </div>
+                ))}
+              </div>
+            </section>
+            <section className="emotion-related-block expressions">
+              <h4><MessagesSquare size={16} /> {t('Expressões relacionadas', 'Связанные выражения')}</h4>
+              <div className="emotion-related-list">
+                {selectedVocabulary.expressions.map((expression) => (
+                  <div className="emotion-related-item" key={expression.id}>
+                    <BilingualLine pt={expression.pt} ru={expression.ru} primaryLang={lang} audioVoice="male" />
+                  </div>
+                ))}
+              </div>
+            </section>
           </div>
 
           <div className="emotion-info-grid">

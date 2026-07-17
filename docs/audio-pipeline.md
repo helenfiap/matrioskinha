@@ -3,7 +3,8 @@
 O pacote de áudio é derivado automaticamente do Knowledge Core e do catálogo
 pedagógico do Ateliê. Palavras e frases gerais são lidas de
 `lexical-items.json` e `phrases.json`; as 16 emoções são lidas de
-`emotions.ts` e `emotionLearning.ts`. Não existe uma segunda planilha manual.
+`emotions.ts`, `emotionLearning.ts` e `emotionVocabulary.ts`. Não existe uma
+segunda planilha manual.
 
 ## Instalação do Edge TTS no venv da raiz
 
@@ -71,8 +72,10 @@ Lotes disponíveis:
 - `emotion-context`: 16 perguntas para uso contextual;
 - `emotion-usage`: 16 notas de uso;
 - `emotion-culture`: 16 curiosidades culturais;
-- `emotions`: grupo com os nove lotes do Ateliê, totalizando 144 novos áudios;
-- `all`: pacote completo, com os 223 áudios aprovados mais os 144 do Ateliê.
+- `emotion-verbs`: 48 referências de verbos, consolidadas em 46 MP3 únicos;
+- `emotion-expressions`: 48 expressões relacionadas;
+- `emotions`: grupo com os onze lotes do Ateliê, totalizando 237 MP3 únicos;
+- `all`: pacote completo com 460 MP3 únicos após gerar todos os incrementos.
 
 Para gerar apenas um lote:
 
@@ -82,22 +85,22 @@ npm run audio:generate -- --batch scene-phrases
 
 ## Roteiro do Ateliê
 
-O caminho mais curto e seguro é gerar somente o incremento. O primeiro comando
-não usa internet e deve mostrar `223 atuais`, `144 ausentes` e nenhum item
-desatualizado ou inválido:
+O caminho mais curto e seguro é gerar somente o incremento. Depois do primeiro
+pacote do Ateliê, o comando abaixo não usa internet e deve mostrar `144 atuais`,
+`93 ausentes` e nenhum item desatualizado ou inválido:
 
 ```powershell
 npm run audio:plan -- --batch emotions
 ```
 
-Faça uma amostra de cada personagem:
+Faça uma amostra dos dois lotes novos:
 
 ```powershell
-npm run audio:generate -- --batch emotion-lexicon-f --limit 2
-npm run audio:generate -- --batch emotion-lexicon-m --limit 2
+npm run audio:generate -- --batch emotion-verbs --limit 2
+npm run audio:generate -- --batch emotion-expressions --limit 2
 ```
 
-Se as vozes estiverem aprovadas, gere os 144 pendentes de uma vez. Os quatro
+Se as vozes estiverem aprovadas, gere os 93 pendentes de uma vez. Os quatro
 arquivos da amostra serão reconhecidos pelo lock e ignorados:
 
 ```powershell
@@ -118,6 +121,8 @@ npm run audio:generate -- --batch emotion-self-m
 npm run audio:generate -- --batch emotion-context
 npm run audio:generate -- --batch emotion-usage
 npm run audio:generate -- --batch emotion-culture
+npm run audio:generate -- --batch emotion-verbs
+npm run audio:generate -- --batch emotion-expressions
 ```
 
 ## Configuração
@@ -126,8 +131,8 @@ Por padrão, as vozes são alternadas de forma estável por lote:
 
 - `words` e `scene-verbs`: `pt-BR-FranciscaNeural`;
 - `examples` e `scene-phrases`: `pt-BR-AntonioNeural`.
-- Matrioskinha, exemplos femininos, contexto e cultura: `pt-BR-FranciscaNeural`;
-- Misha, exemplos masculinos e notas de uso: `pt-BR-AntonioNeural`.
+- Matrioskinha, exemplos femininos, contexto, cultura e verbos: `pt-BR-FranciscaNeural`;
+- Misha, exemplos masculinos, notas de uso e expressões: `pt-BR-AntonioNeural`.
 
 Para forçar uma única voz em todos os lotes:
 

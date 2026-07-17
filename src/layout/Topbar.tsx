@@ -4,7 +4,7 @@ import { Search, Menu } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { vocabItems } from '../data/vocab';
 import { scenes } from '../data/scenarios';
-import { conjugatorVerbs } from '../data/verbs';
+import { curatedInfinitives } from '../data/verbs';
 
 interface SearchResult {
   key: string;
@@ -50,7 +50,7 @@ export function Topbar({ onMenuClick }: { onMenuClick: () => void }) {
       });
     });
 
-    conjugatorVerbs.forEach((v) => {
+    curatedInfinitives.forEach((v) => {
       if (v.pt.toLowerCase().includes(q) || v.ru.toLowerCase().includes(q)) {
         out.push({
           key: 'verb-' + v.id,

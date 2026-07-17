@@ -4,6 +4,7 @@ import { spawn, spawnSync } from 'node:child_process';
 import { dirname, join, relative, resolve } from 'node:path';
 import { emotionLearningContent } from '../src/data/emotionLearning.ts';
 import { emotionMoods } from '../src/data/emotions.ts';
+import { emotionVocabularyContent } from '../src/data/emotionVocabulary.ts';
 import {
   audioSlug,
   emotionAudioKey,
@@ -19,7 +20,8 @@ type AudioBatch =
   | 'emotion-lexicon-f' | 'emotion-lexicon-m'
   | 'emotion-examples-f' | 'emotion-examples-m'
   | 'emotion-self-f' | 'emotion-self-m'
-  | 'emotion-context' | 'emotion-usage' | 'emotion-culture';
+  | 'emotion-context' | 'emotion-usage' | 'emotion-culture'
+  | 'emotion-verbs' | 'emotion-expressions';
 type Command = 'plan' | 'generate' | 'verify';
 type BatchSelection = AudioBatch | 'emotions';
 type LexicalItem = { id: string; lemmaPt: string; displayPt?: string | null };
@@ -56,6 +58,7 @@ const validBatches: AudioBatch[] = [
   'emotion-examples-f', 'emotion-examples-m',
   'emotion-self-f', 'emotion-self-m',
   'emotion-context', 'emotion-usage', 'emotion-culture',
+  'emotion-verbs', 'emotion-expressions',
 ];
 
 function voiceFor(item: AudioItem, override?: string): string {
@@ -98,6 +101,7 @@ function buildAudioItems(): AudioItem[] {
 
 function buildEmotionAudioItems(): AudioItem[] {
   const learningByMood = new Map(emotionLearningContent.map((content) => [content.moodId, content]));
+  const vocabularyByMood = new Map(emotionVocabularyContent.map((content) => [content.moodId, content]));
   const requests: EmotionAudioRequest[] = [];
 
   const add = (batch: AudioBatch, text: string, voiceRole: AudioVoiceRole, sourceRef: string) => {
@@ -106,7 +110,9 @@ function buildEmotionAudioItems(): AudioItem[] {
 
   for (const mood of emotionMoods) {
     const content = learningByMood.get(mood.id);
+    const vocabulary = vocabularyByMood.get(mood.id);
     if (!content) throw new Error(`Conteúdo pedagógico ausente para a emoção: ${mood.id}`);
+    if (!vocabulary) throw new Error(`Vocabulário relacionado ausente para a emoção: ${mood.id}`);
     add('emotion-lexicon-f', mood.pt.feminine, 'female', `emotion:${mood.id}:lexicon:feminine`);
     add('emotion-lexicon-m', mood.pt.masculine, 'male', `emotion:${mood.id}:lexicon:masculine`);
     add('emotion-examples-f', content.feminineExample.pt, 'female', `emotion:${mood.id}:example:feminine`);
@@ -116,6 +122,12 @@ function buildEmotionAudioItems(): AudioItem[] {
     add('emotion-context', content.contextPrompt.pt, 'female', `emotion:${mood.id}:context`);
     add('emotion-usage', content.usageNote.pt, 'male', `emotion:${mood.id}:usage`);
     add('emotion-culture', content.cultureNote.pt, 'female', `emotion:${mood.id}:culture`);
+    for (const verb of vocabulary.verbs) {
+      add('emotion-verbs', verb.pt, 'female', `emotion:${mood.id}:verb:${verb.id}`);
+    }
+    for (const expression of vocabulary.expressions) {
+      add('emotion-expressions', expression.pt, 'male', `emotion:${mood.id}:expression:${expression.id}`);
+    }
   }
 
   const unique = new Map<string, AudioItem>();

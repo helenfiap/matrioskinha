@@ -2596,6 +2596,96 @@
       "src": "/assets/audio/pt-BR/emotions/female/no-brasil-que-bom-e-uma-reacao-muito-comum-1d1zytx.mp3"
     },
     {
+      "id": "emotion:female:alegrar-se-1ohom2c",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "alegrar-se",
+      "relativePath": "emotions/female/alegrar-se-1ohom2c.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:feliz:verb:alegrar-se"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/alegrar-se-1ohom2c.mp3"
+    },
+    {
+      "id": "emotion:female:sorrir-0zkw5w8",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "sorrir",
+      "relativePath": "emotions/female/sorrir-0zkw5w8.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:feliz:verb:sorrir"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/sorrir-0zkw5w8.mp3"
+    },
+    {
+      "id": "emotion:female:comemorar-1z02ne6",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "comemorar",
+      "relativePath": "emotions/female/comemorar-1z02ne6.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:feliz:verb:comemorar"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/comemorar-1z02ne6.mp3"
+    },
+    {
+      "id": "emotion:male:que-bom-0hd249r",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Que bom!",
+      "relativePath": "emotions/male/que-bom-0hd249r.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:feliz:expression:que-bom"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/que-bom-0hd249r.mp3"
+    },
+    {
+      "id": "emotion:male:estou-muito-feliz-por-voce-1e4mrbm",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Estou muito feliz por você.",
+      "relativePath": "emotions/male/estou-muito-feliz-por-voce-1e4mrbm.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:feliz:expression:feliz-por-voce"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/estou-muito-feliz-por-voce-1e4mrbm.mp3"
+    },
+    {
+      "id": "emotion:male:isso-fez-meu-dia-1p45b3h",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Isso fez meu dia.",
+      "relativePath": "emotions/male/isso-fez-meu-dia-1p45b3h.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:feliz:expression:fez-meu-dia"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/isso-fez-meu-dia-1p45b3h.mp3"
+    },
+    {
       "id": "emotion:female:triste-0psh6b8",
       "batch": "emotion-lexicon-f",
       "batches": [
@@ -2729,6 +2819,96 @@
       ],
       "voice": "pt-BR-FranciscaNeural",
       "src": "/assets/audio/pt-BR/emotions/female/saudade-pode-misturar-tristeza-e-afeto-nem-18kuyoo.mp3"
+    },
+    {
+      "id": "emotion:female:entristecer-se-1hjcvq6",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "entristecer-se",
+      "relativePath": "emotions/female/entristecer-se-1hjcvq6.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:triste:verb:entristecer-se"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/entristecer-se-1hjcvq6.mp3"
+    },
+    {
+      "id": "emotion:female:chorar-1q39s98",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "chorar",
+      "relativePath": "emotions/female/chorar-1q39s98.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:triste:verb:chorar"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/chorar-1q39s98.mp3"
+    },
+    {
+      "id": "emotion:female:sentir-saudade-1uiol8z",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "sentir saudade",
+      "relativePath": "emotions/female/sentir-saudade-1uiol8z.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:triste:verb:sentir-saudade"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/sentir-saudade-1uiol8z.mp3"
+    },
+    {
+      "id": "emotion:male:estou-aqui-com-voce-1663xs8",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Estou aqui com você.",
+      "relativePath": "emotions/male/estou-aqui-com-voce-1663xs8.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:triste:expression:estou-aqui"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/estou-aqui-com-voce-1663xs8.mp3"
+    },
+    {
+      "id": "emotion:male:sinto-muito-11a9muq",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Sinto muito.",
+      "relativePath": "emotions/male/sinto-muito-11a9muq.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:triste:expression:sinto-muito"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/sinto-muito-11a9muq.mp3"
+    },
+    {
+      "id": "emotion:male:hoje-nao-estou-bem-1ycp0vd",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Hoje não estou bem.",
+      "relativePath": "emotions/male/hoje-nao-estou-bem-1ycp0vd.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:triste:expression:nao-estou-bem"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/hoje-nao-estou-bem-1ycp0vd.mp3"
     },
     {
       "id": "emotion:female:apaixonada-0lazubt",
@@ -2866,6 +3046,96 @@
       "src": "/assets/audio/pt-BR/emotions/female/gostar-de-pode-expressar-afeto-de-modo-mai-1h5hgft.mp3"
     },
     {
+      "id": "emotion:female:apaixonar-se-081hpff",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "apaixonar-se",
+      "relativePath": "emotions/female/apaixonar-se-081hpff.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:apaixonada:verb:apaixonar-se"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/apaixonar-se-081hpff.mp3"
+    },
+    {
+      "id": "emotion:female:amar-0jk2xsc",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "amar",
+      "relativePath": "emotions/female/amar-0jk2xsc.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:apaixonada:verb:amar"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/amar-0jk2xsc.mp3"
+    },
+    {
+      "id": "emotion:female:admirar-025fnir",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "admirar",
+      "relativePath": "emotions/female/admirar-025fnir.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:apaixonada:verb:admirar"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/admirar-025fnir.mp3"
+    },
+    {
+      "id": "emotion:male:meu-coracao-bate-mais-forte-06h2f8y",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Meu coração bate mais forte.",
+      "relativePath": "emotions/male/meu-coracao-bate-mais-forte-06h2f8y.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:apaixonada:expression:coracao-bate"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/meu-coracao-bate-mais-forte-06h2f8y.mp3"
+    },
+    {
+      "id": "emotion:male:gosto-muito-de-voce-19syo20",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Gosto muito de você.",
+      "relativePath": "emotions/male/gosto-muito-de-voce-19syo20.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:apaixonada:expression:gosto-de-voce"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/gosto-muito-de-voce-19syo20.mp3"
+    },
+    {
+      "id": "emotion:male:nao-consigo-parar-de-sorrir-18a84sx",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Não consigo parar de sorrir.",
+      "relativePath": "emotions/male/nao-consigo-parar-de-sorrir-18a84sx.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:apaixonada:expression:parar-de-sorrir"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/nao-consigo-parar-de-sorrir-18a84sx.mp3"
+    },
+    {
       "id": "emotion:female:preocupada-021dp7f",
       "batch": "emotion-lexicon-f",
       "batches": [
@@ -2999,6 +3269,96 @@
       ],
       "voice": "pt-BR-FranciscaNeural",
       "src": "/assets/audio/pt-BR/emotions/female/perguntar-esta-tudo-bem-e-uma-forma-brasil-0n5q2qb.mp3"
+    },
+    {
+      "id": "emotion:female:preocupar-se-1qj1dqt",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "preocupar-se",
+      "relativePath": "emotions/female/preocupar-se-1qj1dqt.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:preocupada:verb:preocupar-se"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/preocupar-se-1qj1dqt.mp3"
+    },
+    {
+      "id": "emotion:female:pensar-1hmn8um",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "pensar",
+      "relativePath": "emotions/female/pensar-1hmn8um.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:preocupada:verb:pensar"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/pensar-1hmn8um.mp3"
+    },
+    {
+      "id": "emotion:female:cuidar-067qa1f",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "cuidar",
+      "relativePath": "emotions/female/cuidar-067qa1f.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:preocupada:verb:cuidar"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/cuidar-067qa1f.mp3"
+    },
+    {
+      "id": "emotion:male:vai-ficar-tudo-bem-1iau1ld",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Vai ficar tudo bem?",
+      "relativePath": "emotions/male/vai-ficar-tudo-bem-1iau1ld.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:preocupada:expression:vai-ficar-bem"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/vai-ficar-tudo-bem-1iau1ld.mp3"
+    },
+    {
+      "id": "emotion:male:isso-esta-me-preocupando-045znp2",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Isso está me preocupando.",
+      "relativePath": "emotions/male/isso-esta-me-preocupando-045znp2.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:preocupada:expression:esta-preocupando"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/isso-esta-me-preocupando-045znp2.mp3"
+    },
+    {
+      "id": "emotion:male:vamos-pensar-com-calma-0p5zp2j",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Vamos pensar com calma.",
+      "relativePath": "emotions/male/vamos-pensar-com-calma-0p5zp2j.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:preocupada:expression:pensar-com-calma"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/vamos-pensar-com-calma-0p5zp2j.mp3"
     },
     {
       "id": "emotion:female:assustada-076607u",
@@ -3136,6 +3496,96 @@
       "src": "/assets/audio/pt-BR/emotions/female/nossa-pode-expressar-susto-surpresa-ou-adm-0m1ysfd.mp3"
     },
     {
+      "id": "emotion:female:assustar-se-1kw3f2w",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "assustar-se",
+      "relativePath": "emotions/female/assustar-se-1kw3f2w.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:assustada:verb:assustar-se"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/assustar-se-1kw3f2w.mp3"
+    },
+    {
+      "id": "emotion:female:temer-0aodata",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "temer",
+      "relativePath": "emotions/female/temer-0aodata.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:assustada:verb:temer"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/temer-0aodata.mp3"
+    },
+    {
+      "id": "emotion:female:proteger-se-0n2d4f6",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "proteger-se",
+      "relativePath": "emotions/female/proteger-se-0n2d4f6.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:assustada:verb:proteger-se"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/proteger-se-0n2d4f6.mp3"
+    },
+    {
+      "id": "emotion:male:que-susto-07za60h",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Que susto!",
+      "relativePath": "emotions/male/que-susto-07za60h.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:assustada:expression:que-susto"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/que-susto-07za60h.mp3"
+    },
+    {
+      "id": "emotion:male:fiquei-com-medo-0l4qira",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Fiquei com medo.",
+      "relativePath": "emotions/male/fiquei-com-medo-0l4qira.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:assustada:expression:fiquei-com-medo"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/fiquei-com-medo-0l4qira.mp3"
+    },
+    {
+      "id": "emotion:male:meu-coracao-disparou-11lxny7",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Meu coração disparou.",
+      "relativePath": "emotions/male/meu-coracao-disparou-11lxny7.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:assustada:expression:coracao-disparou"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/meu-coracao-disparou-11lxny7.mp3"
+    },
+    {
       "id": "emotion:female:calma-0bfhis5",
       "batch": "emotion-lexicon-f",
       "batches": [
@@ -3269,6 +3719,98 @@
       ],
       "voice": "pt-BR-FranciscaNeural",
       "src": "/assets/audio/pt-BR/emotions/female/fica-tranquilo-pode-significar-tanto-acalm-12t5xby.mp3"
+    },
+    {
+      "id": "emotion:female:acalmar-se-04ma89v",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "acalmar-se",
+      "relativePath": "emotions/female/acalmar-se-04ma89v.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:calma:verb:acalmar-se",
+        "emotion:irritada:verb:acalmar-se"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/acalmar-se-04ma89v.mp3"
+    },
+    {
+      "id": "emotion:female:respirar-0opfshb",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "respirar",
+      "relativePath": "emotions/female/respirar-0opfshb.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:calma:verb:respirar",
+        "emotion:aliviada:verb:respirar"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/respirar-0opfshb.mp3"
+    },
+    {
+      "id": "emotion:female:relaxar-0m6spuy",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "relaxar",
+      "relativePath": "emotions/female/relaxar-0m6spuy.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:calma:verb:relaxar"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/relaxar-0m6spuy.mp3"
+    },
+    {
+      "id": "emotion:male:esta-tudo-bem-1ndt40e",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Está tudo bem.",
+      "relativePath": "emotions/male/esta-tudo-bem-1ndt40e.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:calma:expression:tudo-bem"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/esta-tudo-bem-1ndt40e.mp3"
+    },
+    {
+      "id": "emotion:male:vamos-respirar-1ffdba1",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Vamos respirar.",
+      "relativePath": "emotions/male/vamos-respirar-1ffdba1.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:calma:expression:vamos-respirar"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/vamos-respirar-1ffdba1.mp3"
+    },
+    {
+      "id": "emotion:male:uma-coisa-de-cada-vez-0n7wac2",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Uma coisa de cada vez.",
+      "relativePath": "emotions/male/uma-coisa-de-cada-vez-0n7wac2.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:calma:expression:uma-coisa-vez"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/uma-coisa-de-cada-vez-0n7wac2.mp3"
     },
     {
       "id": "emotion:female:irritada-0a38jgj",
@@ -3406,6 +3948,81 @@
       "src": "/assets/audio/pt-BR/emotions/female/preciso-de-um-minuto-ajuda-a-estabelecer-u-0c0rxtv.mp3"
     },
     {
+      "id": "emotion:female:irritar-se-0q6cv59",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "irritar-se",
+      "relativePath": "emotions/female/irritar-se-0q6cv59.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:irritada:verb:irritar-se"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/irritar-se-0q6cv59.mp3"
+    },
+    {
+      "id": "emotion:female:reclamar-19ixzka",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "reclamar",
+      "relativePath": "emotions/female/reclamar-19ixzka.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:irritada:verb:reclamar"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/reclamar-19ixzka.mp3"
+    },
+    {
+      "id": "emotion:male:preciso-de-um-minuto-0q6eqz3",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Preciso de um minuto.",
+      "relativePath": "emotions/male/preciso-de-um-minuto-0q6eqz3.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:irritada:expression:preciso-minuto"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/preciso-de-um-minuto-0q6eqz3.mp3"
+    },
+    {
+      "id": "emotion:male:isso-me-incomodou-0w8fe66",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Isso me incomodou.",
+      "relativePath": "emotions/male/isso-me-incomodou-0w8fe66.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:irritada:expression:isso-incomodou"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/isso-me-incomodou-0w8fe66.mp3"
+    },
+    {
+      "id": "emotion:male:vamos-conversar-depois-1k5ikqw",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Vamos conversar depois.",
+      "relativePath": "emotions/male/vamos-conversar-depois-1k5ikqw.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:irritada:expression:conversar-depois"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/vamos-conversar-depois-1k5ikqw.mp3"
+    },
+    {
       "id": "emotion:female:surpresa-168dwei",
       "batch": "emotion-lexicon-f",
       "batches": [
@@ -3484,13 +4101,15 @@
       "id": "emotion:male:eu-nao-esperava-por-isso-1bd1pgm",
       "batch": "emotion-self-m",
       "batches": [
-        "emotion-self-m"
+        "emotion-self-m",
+        "emotion-expressions"
       ],
       "text": "Eu não esperava por isso!",
       "relativePath": "emotions/male/eu-nao-esperava-por-isso-1bd1pgm.mp3",
       "voiceRole": "male",
       "sourceRefs": [
-        "emotion:surpresa:self:masculine"
+        "emotion:surpresa:self:masculine",
+        "emotion:surpresa:expression:nao-esperava"
       ],
       "voice": "pt-BR-AntonioNeural",
       "src": "/assets/audio/pt-BR/emotions/male/eu-nao-esperava-por-isso-1bd1pgm.mp3"
@@ -3539,6 +4158,81 @@
       ],
       "voice": "pt-BR-FranciscaNeural",
       "src": "/assets/audio/pt-BR/emotions/female/nossa-e-serio-sao-reacoes-comuns-em-russo--1bfpywy.mp3"
+    },
+    {
+      "id": "emotion:female:surpreender-se-1ees2y3",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "surpreender-se",
+      "relativePath": "emotions/female/surpreender-se-1ees2y3.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:surpresa:verb:surpreender-se"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/surpreender-se-1ees2y3.mp3"
+    },
+    {
+      "id": "emotion:female:descobrir-1u7ijzu",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "descobrir",
+      "relativePath": "emotions/female/descobrir-1u7ijzu.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:surpresa:verb:descobrir"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/descobrir-1u7ijzu.mp3"
+    },
+    {
+      "id": "emotion:female:reagir-1xrudiv",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "reagir",
+      "relativePath": "emotions/female/reagir-1xrudiv.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:surpresa:verb:reagir"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/reagir-1xrudiv.mp3"
+    },
+    {
+      "id": "emotion:male:nossa-0y5mvha",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Nossa!",
+      "relativePath": "emotions/male/nossa-0y5mvha.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:surpresa:expression:nossa"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/nossa-0y5mvha.mp3"
+    },
+    {
+      "id": "emotion:male:serio-1cncf7a",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Sério?",
+      "relativePath": "emotions/male/serio-1cncf7a.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:surpresa:expression:serio"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/serio-1cncf7a.mp3"
     },
     {
       "id": "emotion:female:cansada-1mnkx82",
@@ -3676,6 +4370,96 @@
       "src": "/assets/audio/pt-BR/emotions/female/estou-so-o-po-e-uma-expressao-brasileira-i-0ag1hbo.mp3"
     },
     {
+      "id": "emotion:female:cansar-se-11fm3xc",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "cansar-se",
+      "relativePath": "emotions/female/cansar-se-11fm3xc.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:cansada:verb:cansar-se"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/cansar-se-11fm3xc.mp3"
+    },
+    {
+      "id": "emotion:female:descansar-1k2y3qn",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "descansar",
+      "relativePath": "emotions/female/descansar-1k2y3qn.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:cansada:verb:descansar"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/descansar-1k2y3qn.mp3"
+    },
+    {
+      "id": "emotion:female:dormir-1m8r5i2",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "dormir",
+      "relativePath": "emotions/female/dormir-1m8r5i2.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:cansada:verb:dormir"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/dormir-1m8r5i2.mp3"
+    },
+    {
+      "id": "emotion:male:preciso-descansar-1g7vod6",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Preciso descansar.",
+      "relativePath": "emotions/male/preciso-descansar-1g7vod6.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:cansada:expression:preciso-descansar"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/preciso-descansar-1g7vod6.mp3"
+    },
+    {
+      "id": "emotion:male:estou-sem-energia-0829lwr",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Estou sem energia.",
+      "relativePath": "emotions/male/estou-sem-energia-0829lwr.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:cansada:expression:sem-energia"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/estou-sem-energia-0829lwr.mp3"
+    },
+    {
+      "id": "emotion:male:hoje-foi-um-dia-longo-1jmoeyo",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Hoje foi um dia longo.",
+      "relativePath": "emotions/male/hoje-foi-um-dia-longo-1jmoeyo.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:cansada:expression:dia-longo"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/hoje-foi-um-dia-longo-1jmoeyo.mp3"
+    },
+    {
       "id": "emotion:female:animada-1kga5nw",
       "batch": "emotion-lexicon-f",
       "batches": [
@@ -3809,6 +4593,96 @@
       ],
       "voice": "pt-BR-FranciscaNeural",
       "src": "/assets/audio/pt-BR/emotions/female/bora-e-um-convite-informal-brasileiro-que--1rufgnj.mp3"
+    },
+    {
+      "id": "emotion:female:animar-se-1mdpgka",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "animar-se",
+      "relativePath": "emotions/female/animar-se-1mdpgka.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:animada:verb:animar-se"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/animar-se-1mdpgka.mp3"
+    },
+    {
+      "id": "emotion:female:participar-0vb6nv6",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "participar",
+      "relativePath": "emotions/female/participar-0vb6nv6.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:animada:verb:participar"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/participar-0vb6nv6.mp3"
+    },
+    {
+      "id": "emotion:female:comecar-0jxl7cx",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "começar",
+      "relativePath": "emotions/female/comecar-0jxl7cx.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:animada:verb:comecar"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/comecar-0jxl7cx.mp3"
+    },
+    {
+      "id": "emotion:male:bora-1hgjb16",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Bora!",
+      "relativePath": "emotions/male/bora-1hgjb16.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:animada:expression:bora"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/bora-1hgjb16.mp3"
+    },
+    {
+      "id": "emotion:male:mal-posso-esperar-0qwlvww",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Mal posso esperar!",
+      "relativePath": "emotions/male/mal-posso-esperar-0qwlvww.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:animada:expression:mal-posso-esperar"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/mal-posso-esperar-0qwlvww.mp3"
+    },
+    {
+      "id": "emotion:male:vai-ser-muito-legal-19u1yhb",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Vai ser muito legal!",
+      "relativePath": "emotions/male/vai-ser-muito-legal-19u1yhb.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:animada:expression:muito-legal"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/vai-ser-muito-legal-19u1yhb.mp3"
     },
     {
       "id": "emotion:female:timida-01xt5tf",
@@ -3946,6 +4820,96 @@
       "src": "/assets/audio/pt-BR/emotions/female/no-uso-cotidiano-sem-graca-tambem-pode-des-0gm2r8i.mp3"
     },
     {
+      "id": "emotion:female:acanhar-se-1juzihc",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "acanhar-se",
+      "relativePath": "emotions/female/acanhar-se-1juzihc.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:timida:verb:acanhar-se"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/acanhar-se-1juzihc.mp3"
+    },
+    {
+      "id": "emotion:female:evitar-1gb7il4",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "evitar",
+      "relativePath": "emotions/female/evitar-1gb7il4.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:timida:verb:evitar"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/evitar-1gb7il4.mp3"
+    },
+    {
+      "id": "emotion:female:aproximar-se-1g6zjxb",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "aproximar-se",
+      "relativePath": "emotions/female/aproximar-se-1g6zjxb.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:timida:verb:aproximar-se"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/aproximar-se-1g6zjxb.mp3"
+    },
+    {
+      "id": "emotion:male:posso-ficar-mais-na-minha-05ek4lr",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Posso ficar mais na minha?",
+      "relativePath": "emotions/male/posso-ficar-mais-na-minha-05ek4lr.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:timida:expression:ficar-na-minha"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/posso-ficar-mais-na-minha-05ek4lr.mp3"
+    },
+    {
+      "id": "emotion:male:ainda-estou-me-acostumando-0kvc16q",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Ainda estou me acostumando.",
+      "relativePath": "emotions/male/ainda-estou-me-acostumando-0kvc16q.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:timida:expression:me-acostumando"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/ainda-estou-me-acostumando-0kvc16q.mp3"
+    },
+    {
+      "id": "emotion:male:preciso-de-um-tempo-para-me-soltar-0pu5p85",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Preciso de um tempo para me soltar.",
+      "relativePath": "emotions/male/preciso-de-um-tempo-para-me-soltar-0pu5p85.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:timida:expression:tempo-para-soltar"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/preciso-de-um-tempo-para-me-soltar-0pu5p85.mp3"
+    },
+    {
       "id": "emotion:female:confiante-00au3vu",
       "batch": "emotion-lexicon-f",
       "batches": [
@@ -4079,6 +5043,96 @@
       ],
       "voice": "pt-BR-FranciscaNeural",
       "src": "/assets/audio/pt-BR/emotions/female/vai-dar-certo-e-uma-frase-brasileira-frequ-0kro4tz.mp3"
+    },
+    {
+      "id": "emotion:female:confiar-0ofeip5",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "confiar",
+      "relativePath": "emotions/female/confiar-0ofeip5.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:confiante:verb:confiar"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/confiar-0ofeip5.mp3"
+    },
+    {
+      "id": "emotion:female:acreditar-0s4gdm6",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "acreditar",
+      "relativePath": "emotions/female/acreditar-0s4gdm6.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:confiante:verb:acreditar"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/acreditar-0s4gdm6.mp3"
+    },
+    {
+      "id": "emotion:female:tentar-01eyf5f",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "tentar",
+      "relativePath": "emotions/female/tentar-01eyf5f.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:confiante:verb:tentar"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/tentar-01eyf5f.mp3"
+    },
+    {
+      "id": "emotion:male:vai-dar-certo-035cx4b",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Vai dar certo.",
+      "relativePath": "emotions/male/vai-dar-certo-035cx4b.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:confiante:expression:vai-dar-certo"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/vai-dar-certo-035cx4b.mp3"
+    },
+    {
+      "id": "emotion:male:eu-consigo-1kcga4t",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Eu consigo.",
+      "relativePath": "emotions/male/eu-consigo-1kcga4t.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:confiante:expression:eu-consigo"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/eu-consigo-1kcga4t.mp3"
+    },
+    {
+      "id": "emotion:male:posso-tentar-1go5l7f",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Posso tentar.",
+      "relativePath": "emotions/male/posso-tentar-1go5l7f.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:confiante:expression:posso-tentar"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/posso-tentar-1go5l7f.mp3"
     },
     {
       "id": "emotion:female:orgulhosa-1dkbroh",
@@ -4216,6 +5270,96 @@
       "src": "/assets/audio/pt-BR/emotions/female/tenho-orgulho-de-voce-costuma-celebrar-esf-1d6x9f2.mp3"
     },
     {
+      "id": "emotion:female:orgulhar-se-1ypygze",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "orgulhar-se",
+      "relativePath": "emotions/female/orgulhar-se-1ypygze.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:orgulhosa:verb:orgulhar-se"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/orgulhar-se-1ypygze.mp3"
+    },
+    {
+      "id": "emotion:female:conquistar-19oqzso",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "conquistar",
+      "relativePath": "emotions/female/conquistar-19oqzso.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:orgulhosa:verb:conquistar"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/conquistar-19oqzso.mp3"
+    },
+    {
+      "id": "emotion:female:reconhecer-1qz6prr",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "reconhecer",
+      "relativePath": "emotions/female/reconhecer-1qz6prr.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:orgulhosa:verb:reconhecer"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/reconhecer-1qz6prr.mp3"
+    },
+    {
+      "id": "emotion:male:tenho-orgulho-de-voce-0p068bm",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Tenho orgulho de você.",
+      "relativePath": "emotions/male/tenho-orgulho-de-voce-0p068bm.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:orgulhosa:expression:orgulho-voce"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/tenho-orgulho-de-voce-0p068bm.mp3"
+    },
+    {
+      "id": "emotion:male:valeu-a-pena-0a7mgrx",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Valeu a pena.",
+      "relativePath": "emotions/male/valeu-a-pena-0a7mgrx.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:orgulhosa:expression:valeu-pena"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/valeu-a-pena-0a7mgrx.mp3"
+    },
+    {
+      "id": "emotion:male:eu-consegui-17qtdg1",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Eu consegui!",
+      "relativePath": "emotions/male/eu-consegui-17qtdg1.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:orgulhosa:expression:eu-consegui"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/eu-consegui-17qtdg1.mp3"
+    },
+    {
       "id": "emotion:female:envergonhada-0s2u8ih",
       "batch": "emotion-lexicon-f",
       "batches": [
@@ -4349,6 +5493,96 @@
       ],
       "voice": "pt-BR-FranciscaNeural",
       "src": "/assets/audio/pt-BR/emotions/female/em-russo-e-constrangido-expressa-vergonha--03kqnwf.mp3"
+    },
+    {
+      "id": "emotion:female:envergonhar-se-1c8q5xn",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "envergonhar-se",
+      "relativePath": "emotions/female/envergonhar-se-1c8q5xn.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:envergonhada:verb:envergonhar-se"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/envergonhar-se-1c8q5xn.mp3"
+    },
+    {
+      "id": "emotion:female:corar-0zen548",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "corar",
+      "relativePath": "emotions/female/corar-0zen548.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:envergonhada:verb:corar"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/corar-0zen548.mp3"
+    },
+    {
+      "id": "emotion:female:desculpar-se-07jxurb",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "desculpar-se",
+      "relativePath": "emotions/female/desculpar-se-07jxurb.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:envergonhada:verb:desculpar-se"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/desculpar-se-07jxurb.mp3"
+    },
+    {
+      "id": "emotion:male:que-vergonha-1t7a3m5",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Que vergonha!",
+      "relativePath": "emotions/male/que-vergonha-1t7a3m5.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:envergonhada:expression:que-vergonha"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/que-vergonha-1t7a3m5.mp3"
+    },
+    {
+      "id": "emotion:male:foi-sem-querer-1otoc6y",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Foi sem querer.",
+      "relativePath": "emotions/male/foi-sem-querer-1otoc6y.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:envergonhada:expression:sem-querer"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/foi-sem-querer-1otoc6y.mp3"
+    },
+    {
+      "id": "emotion:male:desculpe-pelo-engano-12gkxei",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Desculpe pelo engano.",
+      "relativePath": "emotions/male/desculpe-pelo-engano-12gkxei.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:envergonhada:expression:desculpe-engano"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/desculpe-pelo-engano-12gkxei.mp3"
     },
     {
       "id": "emotion:female:confusa-0xa2d3e",
@@ -4486,6 +5720,96 @@
       "src": "/assets/audio/pt-BR/emotions/female/pode-explicar-de-outro-jeito-e-uma-estrate-1tq7h0w.mp3"
     },
     {
+      "id": "emotion:female:confundir-se-0s7bee6",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "confundir-se",
+      "relativePath": "emotions/female/confundir-se-0s7bee6.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:confusa:verb:confundir-se"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/confundir-se-0s7bee6.mp3"
+    },
+    {
+      "id": "emotion:female:perguntar-1kwxzjh",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "perguntar",
+      "relativePath": "emotions/female/perguntar-1kwxzjh.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:confusa:verb:perguntar"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/perguntar-1kwxzjh.mp3"
+    },
+    {
+      "id": "emotion:female:esclarecer-1hn0tpu",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "esclarecer",
+      "relativePath": "emotions/female/esclarecer-1hn0tpu.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:confusa:verb:esclarecer"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/esclarecer-1hn0tpu.mp3"
+    },
+    {
+      "id": "emotion:male:nao-entendi-0bmdjs0",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Não entendi.",
+      "relativePath": "emotions/male/nao-entendi-0bmdjs0.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:confusa:expression:nao-entendi"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/nao-entendi-0bmdjs0.mp3"
+    },
+    {
+      "id": "emotion:male:pode-explicar-de-outro-jeito-1q6so8t",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Pode explicar de outro jeito?",
+      "relativePath": "emotions/male/pode-explicar-de-outro-jeito-1q6so8t.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:confusa:expression:explicar-outro-jeito"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/pode-explicar-de-outro-jeito-1q6so8t.mp3"
+    },
+    {
+      "id": "emotion:male:deixe-me-ver-se-entendi-1bd50aj",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Deixe-me ver se entendi.",
+      "relativePath": "emotions/male/deixe-me-ver-se-entendi-1bd50aj.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:confusa:expression:ver-se-entendi"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/deixe-me-ver-se-entendi-1bd50aj.mp3"
+    },
+    {
       "id": "emotion:female:aliviada-1gvgccq",
       "batch": "emotion-lexicon-f",
       "batches": [
@@ -4619,6 +5943,81 @@
       ],
       "voice": "pt-BR-FranciscaNeural",
       "src": "/assets/audio/pt-BR/emotions/female/em-russo-e-comum-expressar-a-ideia-com-lit-0cock6z.mp3"
+    },
+    {
+      "id": "emotion:female:aliviar-0byjgyh",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "aliviar",
+      "relativePath": "emotions/female/aliviar-0byjgyh.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:aliviada:verb:aliviar"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/aliviar-0byjgyh.mp3"
+    },
+    {
+      "id": "emotion:female:resolver-0xrpdc3",
+      "batch": "emotion-verbs",
+      "batches": [
+        "emotion-verbs"
+      ],
+      "text": "resolver",
+      "relativePath": "emotions/female/resolver-0xrpdc3.mp3",
+      "voiceRole": "female",
+      "sourceRefs": [
+        "emotion:aliviada:verb:resolver"
+      ],
+      "voice": "pt-BR-FranciscaNeural",
+      "src": "/assets/audio/pt-BR/emotions/female/resolver-0xrpdc3.mp3"
+    },
+    {
+      "id": "emotion:male:que-alivio-1m8aekr",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Que alívio!",
+      "relativePath": "emotions/male/que-alivio-1m8aekr.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:aliviada:expression:que-alivio"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/que-alivio-1m8aekr.mp3"
+    },
+    {
+      "id": "emotion:male:ainda-bem-04d393f",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Ainda bem!",
+      "relativePath": "emotions/male/ainda-bem-04d393f.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:aliviada:expression:ainda-bem"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/ainda-bem-04d393f.mp3"
+    },
+    {
+      "id": "emotion:male:agora-posso-respirar-melhor-1mxfvfo",
+      "batch": "emotion-expressions",
+      "batches": [
+        "emotion-expressions"
+      ],
+      "text": "Agora posso respirar melhor.",
+      "relativePath": "emotions/male/agora-posso-respirar-melhor-1mxfvfo.mp3",
+      "voiceRole": "male",
+      "sourceRefs": [
+        "emotion:aliviada:expression:respirar-melhor"
+      ],
+      "voice": "pt-BR-AntonioNeural",
+      "src": "/assets/audio/pt-BR/emotions/male/agora-posso-respirar-melhor-1mxfvfo.mp3"
     }
   ]
 }

@@ -7,6 +7,28 @@
     "webpQuality": 82
   },
   "entries": {
+    "matrioskinha/animada": {
+      "character": "matrioskinha",
+      "mood": "animada",
+      "sourceSha256": "3b042678c535d8c092ef5ab9f5e482dda64f5bfb96357753a2881ef08b2e6f61",
+      "outputSha256": "64798f8d10b85839b6f09cc4ae593349cf67c7ad9b01c23fc3eb20ef99d09a01",
+      "sourceBytes": 2319009,
+      "outputBytes": 93160,
+      "savedPercent": 95.98,
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "outputDimensions": {
+        "width": 768,
+        "height": 1152
+      },
+      "sourceWasOversized": true,
+      "aspectRatio": 0.6667,
+      "archivePath": "assets-originals/scenarios/emotions/matrioskinha/animada/3b042678c535d8c0.png",
+      "publicPath": "public/assets/scenarios/emotions/matrioskinha/animada.webp",
+      "processedAt": "2026-07-17T12:22:10.440Z"
+    },
     "matrioskinha/apaixonada": {
       "character": "matrioskinha",
       "mood": "apaixonada",
@@ -95,6 +117,28 @@
       "publicPath": "public/assets/scenarios/emotions/matrioskinha/feliz.webp",
       "processedAt": "2026-07-17T03:06:42.707Z"
     },
+    "matrioskinha/irritada": {
+      "character": "matrioskinha",
+      "mood": "irritada",
+      "sourceSha256": "adde1524bfd60d397b80fc3efb0663f07a8d7cb034db00bbbec6e493b3e5b9de",
+      "outputSha256": "f4e3e3c195e38fe8348e476a1791b39194572c607edbc7956b1db77c931528f0",
+      "sourceBytes": 2291848,
+      "outputBytes": 88236,
+      "savedPercent": 96.15,
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "outputDimensions": {
+        "width": 768,
+        "height": 1152
+      },
+      "sourceWasOversized": true,
+      "aspectRatio": 0.6667,
+      "archivePath": "assets-originals/scenarios/emotions/matrioskinha/irritada/adde1524bfd60d39.png",
+      "publicPath": "public/assets/scenarios/emotions/matrioskinha/irritada.webp",
+      "processedAt": "2026-07-17T12:22:10.840Z"
+    },
     "matrioskinha/preocupada": {
       "character": "matrioskinha",
       "mood": "preocupada",
@@ -117,6 +161,50 @@
       "publicPath": "public/assets/scenarios/emotions/matrioskinha/preocupada.webp",
       "processedAt": "2026-07-17T11:29:50.187Z"
     },
+    "matrioskinha/surpresa": {
+      "character": "matrioskinha",
+      "mood": "surpresa",
+      "sourceSha256": "6240a75b3a54cb382b0c73f74a09b796fedbecc1b73fde070ec2e2b757679917",
+      "outputSha256": "14bf2d52856d0afe1601862ef941af3b69d997b039f50f4a4cb5d0776966d63e",
+      "sourceBytes": 2204205,
+      "outputBytes": 88292,
+      "savedPercent": 95.99,
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "outputDimensions": {
+        "width": 768,
+        "height": 1152
+      },
+      "sourceWasOversized": true,
+      "aspectRatio": 0.6667,
+      "archivePath": "assets-originals/scenarios/emotions/matrioskinha/surpresa/6240a75b3a54cb38.png",
+      "publicPath": "public/assets/scenarios/emotions/matrioskinha/surpresa.webp",
+      "processedAt": "2026-07-17T12:22:11.134Z"
+    },
+    "matrioskinha/timida": {
+      "character": "matrioskinha",
+      "mood": "timida",
+      "sourceSha256": "c3fa1d4a3fe59e3d2c2b77c87a395bb7ceffd77bf44bbf3d7d83611be8667404",
+      "outputSha256": "727fc545c48a59e14dc04a6905b0cf2d937a4a987e03761e5346e0e635e40384",
+      "sourceBytes": 2240409,
+      "outputBytes": 86578,
+      "savedPercent": 96.14,
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "outputDimensions": {
+        "width": 768,
+        "height": 1152
+      },
+      "sourceWasOversized": true,
+      "aspectRatio": 0.6667,
+      "archivePath": "assets-originals/scenarios/emotions/matrioskinha/timida/c3fa1d4a3fe59e3d.png",
+      "publicPath": "public/assets/scenarios/emotions/matrioskinha/timida.webp",
+      "processedAt": "2026-07-17T12:22:11.372Z"
+    },
     "matrioskinha/triste": {
       "character": "matrioskinha",
       "mood": "triste",
@@ -138,6 +226,28 @@
       "archivePath": "assets-originals/scenarios/emotions/matrioskinha/triste/9090d2fcc14cd7b2.png",
       "publicPath": "public/assets/scenarios/emotions/matrioskinha/triste.webp",
       "processedAt": "2026-07-17T03:06:42.869Z"
+    },
+    "misha/animada": {
+      "character": "misha",
+      "mood": "animada",
+      "sourceSha256": "61528dadf43db22f81827d99f04c5ddd0b333c9382cbabd45c4e17cb9dda1a28",
+      "outputSha256": "ad5585b44839df05763accee1b604187ba4a86e6171986fd9d8297eb9138a571",
+      "sourceBytes": 2324103,
+      "outputBytes": 106812,
+      "savedPercent": 95.4,
+      "sourceDimensions": {
+        "width": 1023,
+        "height": 1537
+      },
+      "outputDimensions": {
+        "width": 767,
+        "height": 1152
+      },
+      "sourceWasOversized": true,
+      "aspectRatio": 0.6656,
+      "archivePath": "assets-originals/scenarios/emotions/misha/animada/61528dadf43db22f.png",
+      "publicPath": "public/assets/scenarios/emotions/misha/animada.webp",
+      "processedAt": "2026-07-17T12:22:11.608Z"
     },
     "misha/apaixonada": {
       "character": "misha",
@@ -227,6 +337,28 @@
       "publicPath": "public/assets/scenarios/emotions/misha/feliz.webp",
       "processedAt": "2026-07-17T03:06:43.056Z"
     },
+    "misha/irritada": {
+      "character": "misha",
+      "mood": "irritada",
+      "sourceSha256": "68879adb4dcd151ad31454f8f172d040b7beb5eec6ee2e5ca3094e15aca84374",
+      "outputSha256": "f9bb2367c472814b54febb428c0dc6628a972e72561bafc77ba58721e6703bed",
+      "sourceBytes": 2246191,
+      "outputBytes": 100408,
+      "savedPercent": 95.53,
+      "sourceDimensions": {
+        "width": 1023,
+        "height": 1537
+      },
+      "outputDimensions": {
+        "width": 767,
+        "height": 1152
+      },
+      "sourceWasOversized": true,
+      "aspectRatio": 0.6656,
+      "archivePath": "assets-originals/scenarios/emotions/misha/irritada/68879adb4dcd151a.png",
+      "publicPath": "public/assets/scenarios/emotions/misha/irritada.webp",
+      "processedAt": "2026-07-17T12:22:11.833Z"
+    },
     "misha/preocupada": {
       "character": "misha",
       "mood": "preocupada",
@@ -248,6 +380,50 @@
       "archivePath": "assets-originals/scenarios/emotions/misha/preocupada/36b30d6d16c83164.png",
       "publicPath": "public/assets/scenarios/emotions/misha/preocupada.webp",
       "processedAt": "2026-07-17T11:29:50.541Z"
+    },
+    "misha/surpresa": {
+      "character": "misha",
+      "mood": "surpresa",
+      "sourceSha256": "a5167e9e6e8e994a459559fa163b369f0b7f7b99c690cdc936ccd1efafcfdf5d",
+      "outputSha256": "697be8fedc68590d93499985482027aa0a4fae9de01dd9ef083cea70bd1f730b",
+      "sourceBytes": 2393168,
+      "outputBytes": 99136,
+      "savedPercent": 95.86,
+      "sourceDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "outputDimensions": {
+        "width": 768,
+        "height": 1152
+      },
+      "sourceWasOversized": true,
+      "aspectRatio": 0.6667,
+      "archivePath": "assets-originals/scenarios/emotions/misha/surpresa/a5167e9e6e8e994a.png",
+      "publicPath": "public/assets/scenarios/emotions/misha/surpresa.webp",
+      "processedAt": "2026-07-17T12:22:12.030Z"
+    },
+    "misha/timida": {
+      "character": "misha",
+      "mood": "timida",
+      "sourceSha256": "6f46898fb0de370834f961f36f1499582b4705f9bba5c9daf529248954bf5c43",
+      "outputSha256": "faf91a8db90fd236abea7bbf69afd7504582ee65e75113ee24d1375de6904716",
+      "sourceBytes": 2214684,
+      "outputBytes": 96616,
+      "savedPercent": 95.64,
+      "sourceDimensions": {
+        "width": 1023,
+        "height": 1537
+      },
+      "outputDimensions": {
+        "width": 767,
+        "height": 1152
+      },
+      "sourceWasOversized": true,
+      "aspectRatio": 0.6656,
+      "archivePath": "assets-originals/scenarios/emotions/misha/timida/6f46898fb0de3708.png",
+      "publicPath": "public/assets/scenarios/emotions/misha/timida.webp",
+      "processedAt": "2026-07-17T12:22:12.215Z"
     },
     "misha/triste": {
       "character": "misha",

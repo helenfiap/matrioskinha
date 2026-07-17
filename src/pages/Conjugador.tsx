@@ -1,12 +1,13 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { ChevronDown, Search } from 'lucide-react';
+import { CheckCircle2, ChevronDown, Layers3, Search } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
-import { conjPersons, conjugatorVerbs } from '../data/verbs';
+import { conjPersons, curatedInfinitives, type InfinitiveGroup } from '../data/verbs';
 import type { RussianPastForms } from '../types';
 
 type Tense = 'presente' | 'pretPerf';
 type RuGender = 'masculine' | 'feminine';
+type InfinitiveFilter = 'all' | InfinitiveGroup;
 
 function pastCell(forms: RussianPastForms | undefined, personKey: string, gender: RuGender): string {
   if (!forms) return '';
@@ -27,12 +28,13 @@ export function Conjugador() {
   const [openId, setOpenId] = useState<string | null>(searchParams.get('q') ? null : null);
   const [tense, setTense] = useState<Tense>('presente');
   const [ruGender, setRuGender] = useState<RuGender>('masculine');
+  const [infinitiveFilter, setInfinitiveFilter] = useState<InfinitiveFilter>('all');
 
   useEffect(() => {
     const q = searchParams.get('q');
     if (q) {
       setQuery(q);
-      const match = conjugatorVerbs.find((v) => v.pt.toLowerCase() === q.toLowerCase());
+      const match = curatedInfinitives.find((v) => v.pt.toLowerCase() === q.toLowerCase());
       if (match) setOpenId(match.id);
       setSearchParams({}, { replace: true });
     }
@@ -41,9 +43,25 @@ export function Conjugador() {
 
   const list = useMemo(() => {
     const q = query.trim().toLowerCase();
-    if (!q) return conjugatorVerbs;
-    return conjugatorVerbs.filter((v) => v.pt.toLowerCase().includes(q) || v.ru.toLowerCase().includes(q));
-  }, [query]);
+    return curatedInfinitives.filter((verb) => {
+      const matchesGroup = infinitiveFilter === 'all' || verb.group === infinitiveFilter;
+      const matchesQuery = !q
+        || verb.pt.toLowerCase().includes(q)
+        || verb.ru.toLowerCase().includes(q)
+        || verb.contexts.some((context) => context.pt.toLowerCase().includes(q) || context.ru.toLowerCase().includes(q));
+      return matchesGroup && matchesQuery;
+    });
+  }, [query, infinitiveFilter]);
+
+  const infinitiveGroups: Array<{ id: InfinitiveFilter; pt: string; ru: string }> = [
+    { id: 'all', pt: 'Todos', ru: 'Все' },
+    { id: 'ar', pt: 'terminação -AR', ru: 'окончание -AR' },
+    { id: 'er', pt: 'terminação -ER', ru: 'окончание -ER' },
+    { id: 'ir', pt: 'terminação -IR', ru: 'окончание -IR' },
+    { id: 'reflexive', pt: 'Reflexivos', ru: 'Возвратные' },
+    { id: 'locution', pt: 'Locuções', ru: 'Сочетания' },
+    { id: 'other', pt: 'Outros', ru: 'Другие' },
+  ];
 
   return (
     <section className="section">
@@ -80,7 +98,34 @@ export function Conjugador() {
         />
       </label>
 
-      <div className="scene-tabs" style={{ marginBottom: 16 }}>
+      <div className="infinitive-overview">
+        <div><Layers3 size={18} /><span><strong>{curatedInfinitives.length}</strong>{t('infinitivos catalogados', 'инфинитивов в каталоге')}</span></div>
+        <div><CheckCircle2 size={18} /><span><strong>{curatedInfinitives.filter((verb) => verb.hasFullConjugation).length}</strong>{t('quadros completos', 'полных таблиц')}</span></div>
+        <p>{t(
+          'O índice reúne verbos do Knowledge Core, dos cenários e do Ateliê sem duplicação.',
+          'Указатель объединяет без повторов глаголы из базы знаний, сцен и Ателье.'
+        )}</p>
+      </div>
+
+      <nav className="infinitive-groups" aria-label={t('Grupos de infinitivos', 'Группы инфинитивов')}>
+        {infinitiveGroups.map((group) => {
+          const count = group.id === 'all'
+            ? curatedInfinitives.length
+            : curatedInfinitives.filter((verb) => verb.group === group.id).length;
+          return (
+            <button
+              type="button"
+              key={group.id}
+              className={infinitiveFilter === group.id ? 'active' : ''}
+              onClick={() => setInfinitiveFilter(group.id)}
+            >
+              {t(group.pt, group.ru)} <span>{count}</span>
+            </button>
+          );
+        })}
+      </nav>
+
+      <div className="conj-tense-tabs">
         <button className={tense === 'presente' ? 'active' : ''} onClick={() => setTense('presente')}>
           {t('Presente', 'Настоящее время')}
         </button>
@@ -110,13 +155,26 @@ export function Conjugador() {
           const invariant = v.pretPeritoRu?.invariant;
           return (
             <div className={'conj-item' + (open ? ' open' : '')} key={v.id}>
-              <div className="conj-item-head" onClick={() => setOpenId(open ? null : v.id)}>
-                <div><strong>{v.pt}</strong><span className="ru-inf">{v.ru}</span></div>
+              <button type="button" className="conj-item-head" onClick={() => setOpenId(open ? null : v.id)} aria-expanded={open}>
+                <div className="conj-infinitive-title">
+                  <div><strong>{v.pt}</strong><span className="ru-inf">{v.ru}</span></div>
+                  <span className={`conj-status ${v.hasFullConjugation ? 'complete' : 'indexed'}`}>
+                    {v.hasFullConjugation ? t('conjugação completa', 'полное спряжение') : t('infinitivo catalogado', 'инфинитив в каталоге')}
+                  </span>
+                </div>
                 <span className="chevron"><ChevronDown size={16} /></span>
-              </div>
+              </button>
               {open && (
                 <div className="conj-item-body" style={{ display: 'block' }}>
-                  {tense === 'pretPerf' && !hasPret && (
+                  {!v.hasFullConjugation && (
+                    <div className="indexed-infinitive-panel">
+                      <p>{t(
+                        'Este infinitivo já faz parte do vocabulário ativo do produto. A tabela completa português–russo está sinalizada para a próxima rodada de curadoria verbal.',
+                        'Этот инфинитив уже входит в активную лексику продукта. Полная португальско-русская таблица отмечена для следующего этапа глагольной редакции.'
+                      )}</p>
+                    </div>
+                  )}
+                  {v.hasFullConjugation && tense === 'pretPerf' && !hasPret && (
                     <div className="conj-note">
                       {t('Pretérito perfeito ainda não cadastrado para este verbo.', 'Прошедшее время для этого глагола пока не добавлено.')}
                     </div>
@@ -153,7 +211,7 @@ export function Conjugador() {
                       </tbody>
                     </table>
                   )}
-                  {!showingPret && tense === 'presente' && (
+                  {v.hasFullConjugation && !showingPret && tense === 'presente' && (
                     <table className="conj-table">
                       <thead>
                         <tr>
@@ -173,7 +231,7 @@ export function Conjugador() {
                       </tbody>
                     </table>
                   )}
-                  {tense === 'presente' && v.note && <div className="conj-note">{lang === 'ru' && v.noteRu ? v.noteRu : v.note}</div>}
+                  {v.hasFullConjugation && tense === 'presente' && v.note && <div className="conj-note">{lang === 'ru' && v.noteRu ? v.noteRu : v.note}</div>}
                   {showingPret && !invariant && (
                     <div className="conj-note">
                       {t(
@@ -188,6 +246,14 @@ export function Conjugador() {
                         'Este verbo tem construção de sujeito invertido em russo: a forma concorda com a coisa que agrada (aqui, neutro), não com a pessoa — por isso não muda com o seletor de gênero.',
                         'У этого глагола в русском обратная конструкция: форма согласуется с тем, что нравится (здесь — средний род), а не с человеком, поэтому она не меняется в зависимости от переключателя рода.'
                       )}
+                    </div>
+                  )}
+                  {v.contexts.length > 0 && (
+                    <div className="verb-contexts">
+                      <strong>{t('Onde este verbo aparece', 'Где встречается этот глагол')}</strong>
+                      <div>{v.contexts.map((context) => (
+                        <span key={`${context.kind}:${context.id}`}>{lang === 'ru' ? context.ru : context.pt}</span>
+                      ))}</div>
                     </div>
                   )}
                 </div>

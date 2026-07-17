@@ -54,6 +54,9 @@ npm run audio:verify
 Consulte [docs/audio-pipeline.md](docs/audio-pipeline.md) para os lotes, vozes e
 opções de regeneração.
 
+O Conjugador consolida os verbos do Knowledge Core, cenários e Ateliê em um
+índice único de infinitivos. Consulte [docs/verb-curation.md](docs/verb-curation.md).
+
 ## Imagens do Ateliê
 
 Moods em PNG/JPG podem ser sincronizados e comprimidos automaticamente:

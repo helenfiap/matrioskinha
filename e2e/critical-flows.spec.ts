@@ -103,6 +103,10 @@ test('organiza cenarios por colecao e apresenta o Atelie das Emocoes', async ({ 
   await expect(page.locator('.mood-learning-card').first().locator('img')).toHaveAttribute('src', /matrioskinha\/feliz\.webp$/);
   await expect(page.getByText('feliz', { exact: true }).first()).toBeVisible();
   await expect(page.getByText('счастливая', { exact: true }).first()).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Verbos relacionados' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Expressões relacionadas' })).toBeVisible();
+  await expect(page.locator('.emotion-related-block.verbs .emotion-related-item')).toHaveCount(3);
+  await expect(page.locator('.emotion-related-block.expressions .emotion-related-item')).toHaveCount(3);
   await expect(page.locator('.emotion-artwork.large img')).toHaveCSS('object-fit', 'contain');
   expect(await page.locator('.emotion-artwork.large').evaluate((element) => {
     const rect = element.getBoundingClientRect();
@@ -130,6 +134,8 @@ test('organiza cenarios por colecao e apresenta o Atelie das Emocoes', async ({ 
   await expect(page.locator('.mood-card-copy span').first()).toHaveText('feliz');
   await expect(page.getByRole('heading', { name: 'счастливый' })).toBeVisible();
   await expect(page.getByRole('heading', { name: 'Пример в контексте' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Связанные глаголы' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Связанные выражения' })).toBeVisible();
   await expect(page.getByRole('button', { name: /Путешествие по Бразилии/ })).toBeDisabled();
 });
 
@@ -145,4 +151,19 @@ test('compacta o seletor do Atelie e leva o detalhe ao foco no mobile', async ({
     const rect = element.getBoundingClientRect();
     return rect.top >= 0 && rect.top < window.innerHeight * 0.35;
   })).toBe(true);
+});
+
+test('consolida os verbos do produto nas secoes de infinitivo', async ({ page }) => {
+  await page.goto('/#/conjugador');
+
+  await expect(page.locator('.infinitive-overview strong').filter({ hasText: '112' })).toBeVisible();
+  await expect(page.getByRole('button', { name: /Reflexivos/ })).toBeVisible();
+  await expect(page.getByRole('button', { name: /Locuções/ })).toBeVisible();
+
+  await page.getByPlaceholder('Buscar verbo (português ou russo)...').fill('acalmar-se');
+  await expect(page.locator('.conj-item')).toHaveCount(1);
+  await page.locator('.conj-item-head').click();
+  await expect(page.getByText(/Este infinitivo já faz parte do vocabulário ativo/)).toBeVisible();
+  await expect(page.getByText('calma / calmo', { exact: true })).toBeVisible();
+  await expect(page.getByText('irritada / irritado', { exact: true })).toBeVisible();
 });

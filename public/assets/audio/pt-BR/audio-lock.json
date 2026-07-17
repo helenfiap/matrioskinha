@@ -2203,6 +2203,564 @@
       "voice": "pt-BR-FranciscaNeural",
       "relativePath": "emotions/female/em-russo-e-comum-expressar-a-ideia-com-lit-0cock6z.mp3",
       "generatedAt": "2026-07-17T03:30:04.328Z"
+    },
+    "emotion:female:alegrar-se-1ohom2c": {
+      "hash": "cbb7e87490d1b053fe8729d34ee6d7d9bc0c4ff902e8e8e28f277d594554bf4a",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/alegrar-se-1ohom2c.mp3",
+      "generatedAt": "2026-07-17T12:14:45.843Z"
+    },
+    "emotion:female:sorrir-0zkw5w8": {
+      "hash": "80091d52610946ea367fcbf20859ae31b84d195a4a8c8750d68a35ad988ef65f",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/sorrir-0zkw5w8.mp3",
+      "generatedAt": "2026-07-17T12:14:48.616Z"
+    },
+    "emotion:female:comemorar-1z02ne6": {
+      "hash": "fadfaf1758541055e855e971e554159b05e0b0d5f4b6e1d26b6e9b8ac5a3144d",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/comemorar-1z02ne6.mp3",
+      "generatedAt": "2026-07-17T12:14:51.281Z"
+    },
+    "emotion:male:que-bom-0hd249r": {
+      "hash": "8267c9d43cc1b5621c2a0a4f9758ebab33a0c5fcc414cd1e2a607e0b132f0e23",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/que-bom-0hd249r.mp3",
+      "generatedAt": "2026-07-17T12:14:53.874Z"
+    },
+    "emotion:male:estou-muito-feliz-por-voce-1e4mrbm": {
+      "hash": "b817abed7003289e16e0b6d32453ca847162e31665f504bcda4aca7be9e48242",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/estou-muito-feliz-por-voce-1e4mrbm.mp3",
+      "generatedAt": "2026-07-17T12:14:56.900Z"
+    },
+    "emotion:male:isso-fez-meu-dia-1p45b3h": {
+      "hash": "c4b35d27789b82dbdeb3fe799715b8c3e3bc6938b14a0fc8484822926dc6dd83",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/isso-fez-meu-dia-1p45b3h.mp3",
+      "generatedAt": "2026-07-17T12:14:59.943Z"
+    },
+    "emotion:female:entristecer-se-1hjcvq6": {
+      "hash": "03ac823d1bc0abfae0e594079831aad1ba3635a9d0e0b34c8831157dc25a2cef",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/entristecer-se-1hjcvq6.mp3",
+      "generatedAt": "2026-07-17T12:15:02.082Z"
+    },
+    "emotion:female:chorar-1q39s98": {
+      "hash": "caf88dd8027c24bdd48a447fa3650d836af45cdbcc012f0f810029ef586fe82c",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/chorar-1q39s98.mp3",
+      "generatedAt": "2026-07-17T12:15:04.287Z"
+    },
+    "emotion:female:sentir-saudade-1uiol8z": {
+      "hash": "3b72eb9203737a2514d8d73e68c65cd46f29e3dd3518a8bd65e5ff659ee653c6",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/sentir-saudade-1uiol8z.mp3",
+      "generatedAt": "2026-07-17T12:15:06.549Z"
+    },
+    "emotion:male:estou-aqui-com-voce-1663xs8": {
+      "hash": "e2ab6fe7dd01b18c40b0ad901e759e48c89ea9ffd67e5b292c28f4fd4441adbc",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/estou-aqui-com-voce-1663xs8.mp3",
+      "generatedAt": "2026-07-17T12:15:08.697Z"
+    },
+    "emotion:male:sinto-muito-11a9muq": {
+      "hash": "43a5213a7ded396f945205b453236700cda834b38541dd173059e18d20460c48",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/sinto-muito-11a9muq.mp3",
+      "generatedAt": "2026-07-17T12:15:10.893Z"
+    },
+    "emotion:male:hoje-nao-estou-bem-1ycp0vd": {
+      "hash": "a6366994a0a753a61c7adf38c5caa89ff850b7dbf047b6e8787a59adc6dd6dda",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/hoje-nao-estou-bem-1ycp0vd.mp3",
+      "generatedAt": "2026-07-17T12:15:12.965Z"
+    },
+    "emotion:female:apaixonar-se-081hpff": {
+      "hash": "ab0cb43cea984c28bbf15e2498651cef459bfe727bae867cd04b06e0e525289a",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/apaixonar-se-081hpff.mp3",
+      "generatedAt": "2026-07-17T12:15:15.593Z"
+    },
+    "emotion:female:amar-0jk2xsc": {
+      "hash": "dac207e6afc576eb857a25ca8cb93e941de52f21de31c9fab3b1722e857e2d42",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/amar-0jk2xsc.mp3",
+      "generatedAt": "2026-07-17T12:15:17.723Z"
+    },
+    "emotion:female:admirar-025fnir": {
+      "hash": "9ed623b5cb142e5faa50e2cc1a05ac846b8de069a98ab304477da00d9f7f6971",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/admirar-025fnir.mp3",
+      "generatedAt": "2026-07-17T12:15:19.795Z"
+    },
+    "emotion:male:meu-coracao-bate-mais-forte-06h2f8y": {
+      "hash": "2814d409bfcb1ff4470f579d89e39978e46bf2f5cc77eb2063e685677c6a3165",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/meu-coracao-bate-mais-forte-06h2f8y.mp3",
+      "generatedAt": "2026-07-17T12:15:22.158Z"
+    },
+    "emotion:male:gosto-muito-de-voce-19syo20": {
+      "hash": "e54d4c46e58ef031fb520715815602c5412d98f8779b0989f1aa63d96510f47d",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/gosto-muito-de-voce-19syo20.mp3",
+      "generatedAt": "2026-07-17T12:15:24.642Z"
+    },
+    "emotion:male:nao-consigo-parar-de-sorrir-18a84sx": {
+      "hash": "18261424ab3c898e5fb26c60aab322bca4c3873a189214d42b55df8ad149593c",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/nao-consigo-parar-de-sorrir-18a84sx.mp3",
+      "generatedAt": "2026-07-17T12:15:27.068Z"
+    },
+    "emotion:female:preocupar-se-1qj1dqt": {
+      "hash": "06ffb48104e09657ead25f882bf7751a342e007ee3a4c07e9b4ab7d1985ca9b3",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/preocupar-se-1qj1dqt.mp3",
+      "generatedAt": "2026-07-17T12:15:29.166Z"
+    },
+    "emotion:female:pensar-1hmn8um": {
+      "hash": "65cc11007a8441dfe1b785d7aa10e3633b29602e1d68b42bfe982aa85876b82e",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/pensar-1hmn8um.mp3",
+      "generatedAt": "2026-07-17T12:15:31.107Z"
+    },
+    "emotion:female:cuidar-067qa1f": {
+      "hash": "31f5b3a788f34a19dd8457f5b327edd952af2d175beefb9a4384ac3633f4f9d6",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/cuidar-067qa1f.mp3",
+      "generatedAt": "2026-07-17T12:15:33.251Z"
+    },
+    "emotion:male:vai-ficar-tudo-bem-1iau1ld": {
+      "hash": "0894502309509458637a35f4f84879d2081a9399f3c235fd70c48f7bcc23645c",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/vai-ficar-tudo-bem-1iau1ld.mp3",
+      "generatedAt": "2026-07-17T12:15:35.457Z"
+    },
+    "emotion:male:isso-esta-me-preocupando-045znp2": {
+      "hash": "55e4cbf4e2c65f5333b50d69d494f05fcc96c5d5c5c342abf7b351f38563b7a3",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/isso-esta-me-preocupando-045znp2.mp3",
+      "generatedAt": "2026-07-17T12:15:37.819Z"
+    },
+    "emotion:male:vamos-pensar-com-calma-0p5zp2j": {
+      "hash": "8cdf1d25946ffa67eb88a8e6afd9e65f91fbb8171ca0010b642cdbd6fd32d24a",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/vamos-pensar-com-calma-0p5zp2j.mp3",
+      "generatedAt": "2026-07-17T12:15:40.457Z"
+    },
+    "emotion:female:assustar-se-1kw3f2w": {
+      "hash": "907cb37ca1995ed313fb8749e16ea4648e8c52bf18b5f14f83432a1761c433a9",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/assustar-se-1kw3f2w.mp3",
+      "generatedAt": "2026-07-17T12:15:42.627Z"
+    },
+    "emotion:female:temer-0aodata": {
+      "hash": "f0bcddbb957d661bd526b508024d55cd70a5dc5877684c73a8e5cb8397c67af7",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/temer-0aodata.mp3",
+      "generatedAt": "2026-07-17T12:15:44.815Z"
+    },
+    "emotion:female:proteger-se-0n2d4f6": {
+      "hash": "8fc6a7322da2791d975b70a304ac5d54fbecabccb4107259c65af92b0b0b7457",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/proteger-se-0n2d4f6.mp3",
+      "generatedAt": "2026-07-17T12:15:46.897Z"
+    },
+    "emotion:male:que-susto-07za60h": {
+      "hash": "cc71c63c0c0b45808a171e9b3b79deda0bae91aeffb9aca8e0e1b60773cae1c7",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/que-susto-07za60h.mp3",
+      "generatedAt": "2026-07-17T12:15:48.953Z"
+    },
+    "emotion:male:fiquei-com-medo-0l4qira": {
+      "hash": "cec4f71fcea3caba6aea2b355329c36773670a13d576e9f9eea7f24a1faba34d",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/fiquei-com-medo-0l4qira.mp3",
+      "generatedAt": "2026-07-17T12:15:51.261Z"
+    },
+    "emotion:male:meu-coracao-disparou-11lxny7": {
+      "hash": "f0bb8cda0d84ff41e2ac5e2392f3247963db8cc708ff729d20e6efa3a64d101d",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/meu-coracao-disparou-11lxny7.mp3",
+      "generatedAt": "2026-07-17T12:15:53.671Z"
+    },
+    "emotion:female:acalmar-se-04ma89v": {
+      "hash": "f49f1c944b3cd35697704f15b8b34b5c732def48baee0155c7540d6598511238",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/acalmar-se-04ma89v.mp3",
+      "generatedAt": "2026-07-17T12:15:55.947Z"
+    },
+    "emotion:female:respirar-0opfshb": {
+      "hash": "3ed48d7400243b81caa184add235e566ecca82c2ac7f64217f3f16450f0fd920",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/respirar-0opfshb.mp3",
+      "generatedAt": "2026-07-17T12:15:58.100Z"
+    },
+    "emotion:female:relaxar-0m6spuy": {
+      "hash": "f5637957367076ab237e0c7fe87399efd06c5816f5ad84031c49744d0695ec80",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/relaxar-0m6spuy.mp3",
+      "generatedAt": "2026-07-17T12:15:59.999Z"
+    },
+    "emotion:male:esta-tudo-bem-1ndt40e": {
+      "hash": "f4dc3fcc2418ea8a59b691b2daed8f3ebcafece0fc45fbaec11684cd8f005299",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/esta-tudo-bem-1ndt40e.mp3",
+      "generatedAt": "2026-07-17T12:16:01.980Z"
+    },
+    "emotion:male:vamos-respirar-1ffdba1": {
+      "hash": "87e9fc3d7bb211d19fca750fbb76d0bd079c8aed2702922c493b0103e6e9df41",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/vamos-respirar-1ffdba1.mp3",
+      "generatedAt": "2026-07-17T12:16:04.063Z"
+    },
+    "emotion:male:uma-coisa-de-cada-vez-0n7wac2": {
+      "hash": "83bcabf4b138b32b587e5e83555fd3ba581b3b7f9372b2e4833e71318fa65800",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/uma-coisa-de-cada-vez-0n7wac2.mp3",
+      "generatedAt": "2026-07-17T12:16:06.419Z"
+    },
+    "emotion:female:irritar-se-0q6cv59": {
+      "hash": "ea4c455bc1448498e659a49988f637d5efd8121129289f4038c59a0caeb0e0a8",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/irritar-se-0q6cv59.mp3",
+      "generatedAt": "2026-07-17T12:16:08.713Z"
+    },
+    "emotion:female:reclamar-19ixzka": {
+      "hash": "1539c0fce06989448ffd068f851ac1d7c383b47f8ac766c4e36938ca77e80919",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/reclamar-19ixzka.mp3",
+      "generatedAt": "2026-07-17T12:16:10.773Z"
+    },
+    "emotion:male:preciso-de-um-minuto-0q6eqz3": {
+      "hash": "5fbc8b663d6d1bd500b52443a2799d0ae66a3734c2f9f8c62e7159ec0683af09",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/preciso-de-um-minuto-0q6eqz3.mp3",
+      "generatedAt": "2026-07-17T12:16:12.899Z"
+    },
+    "emotion:male:isso-me-incomodou-0w8fe66": {
+      "hash": "f06214e082289c691261055e574528c74c36c40748d2b64b79ee6847c7bbb016",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/isso-me-incomodou-0w8fe66.mp3",
+      "generatedAt": "2026-07-17T12:16:15.020Z"
+    },
+    "emotion:male:vamos-conversar-depois-1k5ikqw": {
+      "hash": "0bce0d82aed4517905130a61be32b35c50934aef2c1591fb46dfaf5787dbcaa9",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/vamos-conversar-depois-1k5ikqw.mp3",
+      "generatedAt": "2026-07-17T12:16:17.189Z"
+    },
+    "emotion:female:surpreender-se-1ees2y3": {
+      "hash": "fb2d379953a980480fcde5acf8ade8927c486754816cb9b90695807f775af869",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/surpreender-se-1ees2y3.mp3",
+      "generatedAt": "2026-07-17T12:16:19.689Z"
+    },
+    "emotion:female:descobrir-1u7ijzu": {
+      "hash": "5f40c8f17ff7b32f2922e5ea490c43cd1e046ccfca34d1d252c9d6d38e8922cf",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/descobrir-1u7ijzu.mp3",
+      "generatedAt": "2026-07-17T12:16:21.668Z"
+    },
+    "emotion:female:reagir-1xrudiv": {
+      "hash": "431495d6a7a68a43756b95f002bb6c474c9828a7fa11b87066e880bcccbc0a53",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/reagir-1xrudiv.mp3",
+      "generatedAt": "2026-07-17T12:16:23.777Z"
+    },
+    "emotion:male:nossa-0y5mvha": {
+      "hash": "cbef0dd4e1888ba8552bba01cb5abad442092ddddb95ae06a04ea470b16c19b5",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/nossa-0y5mvha.mp3",
+      "generatedAt": "2026-07-17T12:16:25.791Z"
+    },
+    "emotion:male:serio-1cncf7a": {
+      "hash": "76aeec65568a13f9911fa43edacd3d1dc8db52e5be1b561112192e456b44db62",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/serio-1cncf7a.mp3",
+      "generatedAt": "2026-07-17T12:16:27.880Z"
+    },
+    "emotion:female:cansar-se-11fm3xc": {
+      "hash": "3e24d9b05efc56be0d74f283e13cb87016405826bb3bd3691d4a91cdbf3175b9",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/cansar-se-11fm3xc.mp3",
+      "generatedAt": "2026-07-17T12:16:29.973Z"
+    },
+    "emotion:female:descansar-1k2y3qn": {
+      "hash": "b04c07cc9f0a6f22cecfebb5b5762dde57a7a1da0d7df40e16a1dde1ce98ff57",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/descansar-1k2y3qn.mp3",
+      "generatedAt": "2026-07-17T12:16:31.996Z"
+    },
+    "emotion:female:dormir-1m8r5i2": {
+      "hash": "e022b25590c83648da69d044e395dbc356162563bcf3f560419f5fcffae69d89",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/dormir-1m8r5i2.mp3",
+      "generatedAt": "2026-07-17T12:16:33.941Z"
+    },
+    "emotion:male:preciso-descansar-1g7vod6": {
+      "hash": "ab0a078c48fdf34aedb9e0b1b620cf0ef1deb146f73ec23e552e8482419af085",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/preciso-descansar-1g7vod6.mp3",
+      "generatedAt": "2026-07-17T12:16:36.112Z"
+    },
+    "emotion:male:estou-sem-energia-0829lwr": {
+      "hash": "077720d8a1a8538ac93c07a39917d5d358bf209d472500e6e6e3192143814ff4",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/estou-sem-energia-0829lwr.mp3",
+      "generatedAt": "2026-07-17T12:16:38.489Z"
+    },
+    "emotion:male:hoje-foi-um-dia-longo-1jmoeyo": {
+      "hash": "ef48e6351d4db816446179c8c1f058f03ea92a322dde9a3794393658ad90af82",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/hoje-foi-um-dia-longo-1jmoeyo.mp3",
+      "generatedAt": "2026-07-17T12:16:40.671Z"
+    },
+    "emotion:female:animar-se-1mdpgka": {
+      "hash": "7a178a2567ebc0983f7d7ba0a7528e0065b0edf615f70b4b537725260d5b8ba3",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/animar-se-1mdpgka.mp3",
+      "generatedAt": "2026-07-17T12:16:42.866Z"
+    },
+    "emotion:female:participar-0vb6nv6": {
+      "hash": "437d2378f5b03afea95891ddcfa48b42b50702af6a6f02058a276a81c03e977b",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/participar-0vb6nv6.mp3",
+      "generatedAt": "2026-07-17T12:16:45.163Z"
+    },
+    "emotion:female:comecar-0jxl7cx": {
+      "hash": "579cdb2b65e0149e007cb3eefdf28190aa58789ca2282c3c998bf092e5c6c24b",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/comecar-0jxl7cx.mp3",
+      "generatedAt": "2026-07-17T12:16:47.153Z"
+    },
+    "emotion:male:bora-1hgjb16": {
+      "hash": "ca78f268a94aa735b8a27beb6168d7fd967d1c9ba8883a3597c12f52bab69d24",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/bora-1hgjb16.mp3",
+      "generatedAt": "2026-07-17T12:16:49.251Z"
+    },
+    "emotion:male:mal-posso-esperar-0qwlvww": {
+      "hash": "9978be05757926d5c828f01eb3ba0f172904e02fbf7bfd60761a81e0d80b54cf",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/mal-posso-esperar-0qwlvww.mp3",
+      "generatedAt": "2026-07-17T12:16:51.341Z"
+    },
+    "emotion:male:vai-ser-muito-legal-19u1yhb": {
+      "hash": "2f9033da1601e7cb465e8a51906b8681686048a8b736d5c555242e27e29b54aa",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/vai-ser-muito-legal-19u1yhb.mp3",
+      "generatedAt": "2026-07-17T12:16:53.565Z"
+    },
+    "emotion:female:acanhar-se-1juzihc": {
+      "hash": "6e78df28cdb11b3aea85c465b49c338c7bfa0117068e84022ddc64bf8c686b47",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/acanhar-se-1juzihc.mp3",
+      "generatedAt": "2026-07-17T12:16:55.793Z"
+    },
+    "emotion:female:evitar-1gb7il4": {
+      "hash": "dc5af750f5cb749616ab23ac3b845f0c845883d8f1a1a49e56abca48a1fa518b",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/evitar-1gb7il4.mp3",
+      "generatedAt": "2026-07-17T12:16:57.881Z"
+    },
+    "emotion:female:aproximar-se-1g6zjxb": {
+      "hash": "c933f93873fbae27f56e33c5eb42bc9b52356266e89e688f63fd2b181aa3408c",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/aproximar-se-1g6zjxb.mp3",
+      "generatedAt": "2026-07-17T12:17:00.324Z"
+    },
+    "emotion:male:posso-ficar-mais-na-minha-05ek4lr": {
+      "hash": "2682cfba5e3f13f045d8ca7faab7bdd2289a16c5ad6bee45977cdbe3886f5e34",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/posso-ficar-mais-na-minha-05ek4lr.mp3",
+      "generatedAt": "2026-07-17T12:17:02.549Z"
+    },
+    "emotion:male:ainda-estou-me-acostumando-0kvc16q": {
+      "hash": "4ec7cb6e294eec9d6d0c3f56d7e5401bdf43a780ab7854ec2bf438ec0703f46b",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/ainda-estou-me-acostumando-0kvc16q.mp3",
+      "generatedAt": "2026-07-17T12:17:04.745Z"
+    },
+    "emotion:male:preciso-de-um-tempo-para-me-soltar-0pu5p85": {
+      "hash": "fc62d2e8c11bd58990a712f1319fb90f83f1686f24b3e764aab463469ec139aa",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/preciso-de-um-tempo-para-me-soltar-0pu5p85.mp3",
+      "generatedAt": "2026-07-17T12:17:07.226Z"
+    },
+    "emotion:female:confiar-0ofeip5": {
+      "hash": "5587825bd692a7188e5a6a17bde7933e0dca1f31af42fddaaed669b9fe8cd3c5",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/confiar-0ofeip5.mp3",
+      "generatedAt": "2026-07-17T12:17:09.430Z"
+    },
+    "emotion:female:acreditar-0s4gdm6": {
+      "hash": "dbbd716b26ac8b05f4331b28fc97bc52de1b5c5ba02be1f57de7dd0acd38a8f0",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/acreditar-0s4gdm6.mp3",
+      "generatedAt": "2026-07-17T12:17:12.125Z"
+    },
+    "emotion:female:tentar-01eyf5f": {
+      "hash": "82f6152aa931360905ffb7428835d75122c21f14e7968a610699b4a4fcbec0af",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/tentar-01eyf5f.mp3",
+      "generatedAt": "2026-07-17T12:17:14.150Z"
+    },
+    "emotion:male:vai-dar-certo-035cx4b": {
+      "hash": "3052c7fd26ce2bb94ee62231830551ddbcf104e30c1365ce8aa16beb75d70741",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/vai-dar-certo-035cx4b.mp3",
+      "generatedAt": "2026-07-17T12:17:16.467Z"
+    },
+    "emotion:male:eu-consigo-1kcga4t": {
+      "hash": "c3aeafed75749530765f65742cd8e5ef0720ddbc016713e04ccaf222f352c244",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/eu-consigo-1kcga4t.mp3",
+      "generatedAt": "2026-07-17T12:17:18.551Z"
+    },
+    "emotion:male:posso-tentar-1go5l7f": {
+      "hash": "e4c05a35af460df26091c561daf8aa6d4fe61e830e68c673aa0fff39f415260c",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/posso-tentar-1go5l7f.mp3",
+      "generatedAt": "2026-07-17T12:17:20.769Z"
+    },
+    "emotion:female:orgulhar-se-1ypygze": {
+      "hash": "b3cd7a99d9cb10cca0c0d2c8e036434b4e832a56c12f6a8fc32902d2346565f0",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/orgulhar-se-1ypygze.mp3",
+      "generatedAt": "2026-07-17T12:17:22.901Z"
+    },
+    "emotion:female:conquistar-19oqzso": {
+      "hash": "74ad69fd14472dcd346f3d1f2db0faa75e3e682eccedf4be1786b85a7005507c",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/conquistar-19oqzso.mp3",
+      "generatedAt": "2026-07-17T12:17:25.127Z"
+    },
+    "emotion:female:reconhecer-1qz6prr": {
+      "hash": "bca9224ff0be8c3305f89cd88af48b199e97f54f21cce23eec0981637ca59411",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/reconhecer-1qz6prr.mp3",
+      "generatedAt": "2026-07-17T12:17:27.498Z"
+    },
+    "emotion:male:tenho-orgulho-de-voce-0p068bm": {
+      "hash": "429ce15eededa05eb088fe4e83c8b214657301513abdca8b3d15ca051acfd09e",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/tenho-orgulho-de-voce-0p068bm.mp3",
+      "generatedAt": "2026-07-17T12:17:29.809Z"
+    },
+    "emotion:male:valeu-a-pena-0a7mgrx": {
+      "hash": "3927c33df9d7771c809adefb64e7603c47fa3160bf2c118ebd71e2762b420999",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/valeu-a-pena-0a7mgrx.mp3",
+      "generatedAt": "2026-07-17T12:17:32.078Z"
+    },
+    "emotion:male:eu-consegui-17qtdg1": {
+      "hash": "840e328151d59bdd1ad51d0fadf598554dfac0445b3eb2d73781214c89674a9c",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/eu-consegui-17qtdg1.mp3",
+      "generatedAt": "2026-07-17T12:17:34.380Z"
+    },
+    "emotion:female:envergonhar-se-1c8q5xn": {
+      "hash": "b46fb3c69aac5a2f30ab44e8782d9425ac84616c8e43e19f51714f8784ccf6a9",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/envergonhar-se-1c8q5xn.mp3",
+      "generatedAt": "2026-07-17T12:17:36.574Z"
+    },
+    "emotion:female:corar-0zen548": {
+      "hash": "9b3d7eba6b1e44f2dc53639fda86482dd25b86620a880456ecc790ba0d5f5934",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/corar-0zen548.mp3",
+      "generatedAt": "2026-07-17T12:17:38.745Z"
+    },
+    "emotion:female:desculpar-se-07jxurb": {
+      "hash": "b49843d4fbd9f4ef0195fed75a1840a3b2d48099eae717d6c789ce3a71050392",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/desculpar-se-07jxurb.mp3",
+      "generatedAt": "2026-07-17T12:17:41.041Z"
+    },
+    "emotion:male:que-vergonha-1t7a3m5": {
+      "hash": "920f3932b23fd123b0cd2aeac5bb11a8c8115c4a2e404e47dba4540bd3c05b1e",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/que-vergonha-1t7a3m5.mp3",
+      "generatedAt": "2026-07-17T12:17:43.107Z"
+    },
+    "emotion:male:foi-sem-querer-1otoc6y": {
+      "hash": "911fdd55f8209687a26dc409e686243d7c8a9ab057e9e396fbc66bc3a029f24f",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/foi-sem-querer-1otoc6y.mp3",
+      "generatedAt": "2026-07-17T12:17:45.342Z"
+    },
+    "emotion:male:desculpe-pelo-engano-12gkxei": {
+      "hash": "ca66e8ed054a2fdfccedd2dc55b50be6adb2b2ccc2e94057ec16ad4eb29afafe",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/desculpe-pelo-engano-12gkxei.mp3",
+      "generatedAt": "2026-07-17T12:17:47.601Z"
+    },
+    "emotion:female:confundir-se-0s7bee6": {
+      "hash": "7fa12dd831ec4b46a6d29f131519142aa6b7fb63c4977936a51ebf43fc97e3e0",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/confundir-se-0s7bee6.mp3",
+      "generatedAt": "2026-07-17T12:17:49.706Z"
+    },
+    "emotion:female:perguntar-1kwxzjh": {
+      "hash": "3101f08765d52be3a5943c2cb28bfc212ccc575ac390888b9076ccd28d40474f",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/perguntar-1kwxzjh.mp3",
+      "generatedAt": "2026-07-17T12:17:51.615Z"
+    },
+    "emotion:female:esclarecer-1hn0tpu": {
+      "hash": "09dbffe14ffc6aa62c9d853e3c0a2c880cbbe883643aa4f6e6ff4485e8ac8fc5",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/esclarecer-1hn0tpu.mp3",
+      "generatedAt": "2026-07-17T12:17:53.765Z"
+    },
+    "emotion:male:nao-entendi-0bmdjs0": {
+      "hash": "297af5da6bc502fa4bb934acf787e5ed6154e9d26422d45e0bfd2a82674ef5d2",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/nao-entendi-0bmdjs0.mp3",
+      "generatedAt": "2026-07-17T12:17:55.892Z"
+    },
+    "emotion:male:pode-explicar-de-outro-jeito-1q6so8t": {
+      "hash": "2edcc4ef76b43034b6db7996c7f4d6c21eeff5c938bcdf7ca8ef7436ea59bba7",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/pode-explicar-de-outro-jeito-1q6so8t.mp3",
+      "generatedAt": "2026-07-17T12:17:58.325Z"
+    },
+    "emotion:male:deixe-me-ver-se-entendi-1bd50aj": {
+      "hash": "e0769fc71a108f159cc46b2c1e9fd2f643109d4c435bba84e2de338471d9d400",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/deixe-me-ver-se-entendi-1bd50aj.mp3",
+      "generatedAt": "2026-07-17T12:18:00.698Z"
+    },
+    "emotion:female:aliviar-0byjgyh": {
+      "hash": "f3634e703f3311c074a4002d55f989a0d23ef31f665de48d70685584fa6f8a10",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/aliviar-0byjgyh.mp3",
+      "generatedAt": "2026-07-17T12:18:03.505Z"
+    },
+    "emotion:female:resolver-0xrpdc3": {
+      "hash": "67975281b18032ce8cfbdcd659458ef47f19f2bb09e1097b30a5987dd747c226",
+      "voice": "pt-BR-FranciscaNeural",
+      "relativePath": "emotions/female/resolver-0xrpdc3.mp3",
+      "generatedAt": "2026-07-17T12:18:06.424Z"
+    },
+    "emotion:male:que-alivio-1m8aekr": {
+      "hash": "99b2bd0463c3840de34c9a5e178e610b6c2f914fa98b96a92e4b29fe0a48b4a1",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/que-alivio-1m8aekr.mp3",
+      "generatedAt": "2026-07-17T12:18:09.163Z"
+    },
+    "emotion:male:ainda-bem-04d393f": {
+      "hash": "fac213111003f937b16226faab2693c35e2225cf1df32c98defd87af63a6975f",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/ainda-bem-04d393f.mp3",
+      "generatedAt": "2026-07-17T12:18:11.983Z"
+    },
+    "emotion:male:agora-posso-respirar-melhor-1mxfvfo": {
+      "hash": "eb262a7243d3b80591445826fdcba5f22055a6364238294e76fce73320db8512",
+      "voice": "pt-BR-AntonioNeural",
+      "relativePath": "emotions/male/agora-posso-respirar-melhor-1mxfvfo.mp3",
+      "generatedAt": "2026-07-17T12:18:15.018Z"
     }
   }
 }
