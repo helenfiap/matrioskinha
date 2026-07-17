@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import type { ComponentType } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { Sofa, ChefHat, BedDouble, Bath, WashingMachine, ShoppingCart, Pill, Bus, Star, Flag, ArrowRight, X, PartyPopper, CheckCircle2 } from 'lucide-react';
+import { Sofa, ChefHat, BedDouble, Bath, WashingMachine, ShoppingCart, Pill, Bus, Star, Flag, ArrowRight, X, PartyPopper, CheckCircle2, House, Store, Heart, Map, Clock3 } from 'lucide-react';
 import { useLanguage } from '../../context/LanguageContext';
 import { useProgress } from '../../context/ProgressContext';
 import { scenes } from '../../data/scenarios';
@@ -13,6 +13,8 @@ import { InfoPanel } from './InfoPanel';
 import { PracticeModal } from './PracticeModal';
 import { useLearning } from '../../context/LearningContext';
 import { contentRepository } from '../../repositories/contentRepository';
+import { getCollectionForScene, scenarioCollections } from '../../data/scenarioCollections';
+import { AtelieEmocoes } from './AtelieEmocoes';
 
 const sceneIcons: Record<string, ComponentType<{ size?: number }>> = {
   sala: Sofa,
@@ -25,6 +27,14 @@ const sceneIcons: Record<string, ComponentType<{ size?: number }>> = {
   transporte: Bus,
 };
 
+const collectionIcons: Record<string, ComponentType<{ size?: number }>> = {
+  house: House,
+  'city-services': Store,
+  mobility: Bus,
+  emotions: Heart,
+  brazil: Map,
+};
+
 export function Cenarios() {
   const { t, lang } = useLanguage();
   const [searchParams, setSearchParams] = useSearchParams();
@@ -32,6 +42,7 @@ export function Cenarios() {
     ? (searchParams.get('scene') as string)
     : scenes[0].id;
   const [currentSceneId, setCurrentSceneId] = useState(initialSceneId);
+  const [activeCollectionId, setActiveCollectionId] = useState(getCollectionForScene(initialSceneId).id);
   const [selectedHotspot, setSelectedHotspot] = useState<Hotspot | null>(null);
   const [activeTab, setActiveTab] = useState<'detalhe' | 'progresso' | 'cultura'>('detalhe');
   const [practiceOpen, setPracticeOpen] = useState(false);
@@ -49,6 +60,9 @@ export function Cenarios() {
 
   const scene = scenes.find((s) => s.id === currentSceneId)!;
   const mission = getMission(scene.id);
+  const activeCollection = scenarioCollections.find((collection) => collection.id === activeCollectionId) ?? scenarioCollections[0];
+  const visibleScenes = scenes.filter((candidate) => activeCollection.sceneIds.includes(candidate.id));
+  const isEmotionAtelier = activeCollection.kind === 'emotion-atelier';
 
   useEffect(() => {
     const sceneParam = searchParams.get('scene');
@@ -57,6 +71,7 @@ export function Cenarios() {
       const targetScene = scenes.find((s) => s.id === sceneParam);
       const targetHotspot = targetScene?.hotspots.find((h) => h.id === hotspotParam);
       if (targetHotspot) {
+        setActiveCollectionId(getCollectionForScene(sceneParam).id);
         markReviewed(sceneParam, hotspotParam);
         setSelectedHotspot(targetHotspot);
       }
@@ -66,12 +81,25 @@ export function Cenarios() {
   }, []);
 
   const selectScene = (id: string) => {
+    setActiveCollectionId(getCollectionForScene(id).id);
     setCurrentSceneId(id);
     setSelectedHotspot(null);
     setActiveTab('detalhe');
     setPracticeOpen(false);
     setMissionActive(false);
     setMissionDone(false);
+  };
+
+  const selectCollection = (collectionId: string) => {
+    const collection = scenarioCollections.find((candidate) => candidate.id === collectionId);
+    if (!collection || collection.status === 'planned') return;
+    setActiveCollectionId(collection.id);
+    setSelectedHotspot(null);
+    setActiveTab('detalhe');
+    setPracticeOpen(false);
+    setMissionActive(false);
+    setMissionDone(false);
+    if (collection.sceneIds[0]) setCurrentSceneId(collection.sceneIds[0]);
   };
 
   const selectHotspot = (h: Hotspot) => {
@@ -132,24 +160,43 @@ export function Cenarios() {
     <section className="section">
       <div className="section-head">
         <div>
-          <h2>{t('Cenários da casa', 'Сцены дома')}</h2>
-          <p>{t(
-            'Explore o vocabulário clicando nos itens de cada ambiente. Bilíngue: português e russo.',
-            'Изучай лексику, нажимая на предметы в каждой комнате. Двуязычно: португальский и русский.'
-          )}</p>
+          <h2>{t(activeCollection.titlePt, activeCollection.titleRu)}</h2>
+          <p>{t(activeCollection.descriptionPt, activeCollection.descriptionRu)}</p>
         </div>
-        <div className="scene-level-badge">
+        {!isEmotionAtelier && <div className="scene-level-badge">
           <span className="level-tag">{scene.level}</span>
           <span className="stars">
             {Array.from({ length: 3 }).map((_, i) => (
               <Star key={i} size={13} fill={i < scene.difficulty ? 'currentColor' : 'none'} />
             ))}
           </span>
-        </div>
+        </div>}
       </div>
 
-      <div className="scene-tabs">
-        {scenes.map((s) => {
+      <nav className="scenario-collections" aria-label={t('Coleções de cenários', 'Коллекции сцен')}>
+        {scenarioCollections.map((collection) => {
+          const Icon = collectionIcons[collection.id] ?? House;
+          const planned = collection.status === 'planned';
+          return (
+            <button
+              key={collection.id}
+              type="button"
+              className={collection.id === activeCollection.id ? 'active' : ''}
+              onClick={() => selectCollection(collection.id)}
+              disabled={planned}
+              title={planned ? t('Coleção planejada', 'Коллекция запланирована') : undefined}
+            >
+              <Icon size={16} />
+              <span>{t(collection.titlePt, collection.titleRu)}</span>
+              {collection.status === 'in-production' && <span className="collection-status"><Clock3 size={11} /> beta</span>}
+              {planned && <span className="collection-status">{t('em breve', 'скоро')}</span>}
+            </button>
+          );
+        })}
+      </nav>
+
+      {!isEmotionAtelier && <div className="scene-tabs">
+        {visibleScenes.map((s) => {
           const Icon = sceneIcons[s.id] ?? Sofa;
           return (
             <button
@@ -163,16 +210,16 @@ export function Cenarios() {
             </button>
           );
         })}
-      </div>
+      </div>}
 
-      {mission && !missionActive && !missionDone && (
+      {!isEmotionAtelier && mission && !missionActive && !missionDone && (
         <button className="mission-start-btn" onClick={startMission}>
           <Flag size={14} /> {t('Iniciar missão: ', 'Начать миссию: ')}{lang === 'ru' ? mission.titleRu : mission.titlePt}
           {missionAlreadyDone && <span className="mission-done-chip"><CheckCircle2 size={12} /> {t('concluída', 'выполнено')}</span>}
         </button>
       )}
 
-      {missionActive && mission && (
+      {!isEmotionAtelier && missionActive && mission && (
         <div className="mission-bar">
           <div className="mission-bar-head">
             <span className="mission-bar-title"><Flag size={13} /> {lang === 'ru' ? mission.titleRu : mission.titlePt}</span>
@@ -190,14 +237,14 @@ export function Cenarios() {
         </div>
       )}
 
-      {missionDone && (
+      {!isEmotionAtelier && missionDone && (
         <div className="mission-complete">
           <PartyPopper size={18} />
           {t('Missão concluída! Você encontrou todos os itens desta situação.', 'Миссия выполнена! Вы нашли все предметы этой ситуации.')}
         </div>
       )}
 
-      <div className="scenario-wrap">
+      {isEmotionAtelier ? <AtelieEmocoes /> : <div className="scenario-wrap">
         <SceneStage
           scene={scene}
           getStage={getStage}
@@ -244,7 +291,7 @@ export function Cenarios() {
             onClose={() => setPracticeOpen(false)}
           />
         )}
-      </div>
+      </div>}
     </section>
   );
 }

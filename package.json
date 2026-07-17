@@ -14,6 +14,7 @@
     "audio:plan": "tsx scripts/audio-batch.ts plan",
     "audio:generate": "tsx scripts/audio-batch.ts generate",
     "audio:verify": "tsx scripts/audio-batch.ts verify",
+    "art:moods": "powershell -ExecutionPolicy Bypass -File scripts/generate-emotion-moods.ps1",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",

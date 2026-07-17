@@ -89,3 +89,15 @@ test('oferece navegacao funcional em viewport mobile', async ({ page }) => {
   await page.getByRole('link', { name: /Cenários/ }).click();
   await expect(page.getByRole('heading', { name: 'Cenários da casa' })).toBeVisible();
 });
+
+test('organiza cenarios por colecao e apresenta o Atelie das Emocoes', async ({ page }) => {
+  await page.goto('/#/cenarios');
+
+  await expect(page.getByRole('navigation', { name: 'Coleções de cenários' })).toBeVisible();
+  await page.getByRole('button', { name: /Ateliê das Emoções/ }).click();
+
+  await expect(page.getByRole('heading', { name: 'Ateliê das Emoções' })).toBeVisible();
+  await expect(page.getByText('Misha Matriôshkin', { exact: true })).toBeVisible();
+  await expect(page.locator('.mood-card')).toHaveCount(16);
+  await expect(page.getByRole('button', { name: /Viagem pelo Brasil/ })).toBeDisabled();
+});
